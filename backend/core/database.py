@@ -1,3 +1,4 @@
+from urllib.parse import urlsplit
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.orm import declarative_base
 from core.config import settings
@@ -6,6 +7,10 @@ import core.turso_dialect  # noqa: F401 - Đăng ký dialect sqlite+tursohttp ch
 db_url = settings.resolved_database_url if hasattr(settings, "resolved_database_url") else settings.DATABASE_URL
 is_turso = db_url.startswith("sqlite+tursohttp://")
 is_sqlite = db_url.startswith("sqlite")
+
+# Log chẩn đoán loại DB (ẩn toàn bộ credential/token)
+_parsed = urlsplit(db_url)
+print(f"[DB] Dialect={_parsed.scheme} Host={_parsed.hostname or 'local'}")
 
 # Khởi tạo Async Engine cho SQLAlchemy (echo điều khiển qua biến ECHO trong .env)
 if is_turso:

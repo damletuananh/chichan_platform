@@ -20,27 +20,55 @@ class Settings(BaseSettings):
     @staticmethod
     def _normalize_turso_url(raw_url: str) -> str:
         raw = raw_url.strip()
-        secure_default = not raw.startswith(("http://", "ws://"))
+        explicit_insecure = raw.startswith(("http://", "ws://")) and "libsql://" not in raw and ".turso.io" not in raw
+        prefixes = (
+            "sqlite+tursohttp://",
+            "sqlite+aioturso://",
+            "sqlite+libsql://",
+            "tursohttp://",
+            "libsql://",
+            "wss://",
+            "ws://",
+            "https://",
+            "http://",
+        )
         stripped = raw
-        for prefix in ("sqlite+tursohttp://", "libsql://", "wss://", "ws://", "https://", "http://"):
-            if stripped.startswith(prefix):
-                stripped = stripped[len(prefix):]
-                break
+        changed = True
+        while changed:
+            changed = False
+            for prefix in prefixes:
+                if stripped.startswith(prefix):
+                    stripped = stripped[len(prefix):]
+                    changed = True
+                    break
         host_and_path, _, query = stripped.partition("?")
-        host = host_and_path.rstrip("/")
+        host = host_and_path.split("/")[0].strip()
+        # Turso Cloud (*.turso.io) bắt buộc HTTPS ngay cả khi env bị dán nhầm http://
+        is_secure = (".turso.io" in host) or (not explicit_insecure)
         if not query:
-            query = "secure=true" if secure_default else "secure=false"
+            query = "secure=true" if is_secure else "secure=false"
         return f"sqlite+tursohttp://{host}?{query}"
 
     @property
     def resolved_database_url(self) -> str:
         """Chuẩn hóa URL kết nối Database theo thứ tự ưu tiên:
-        1. DATABASE_URL (hỗ trợ postgresql+asyncpg://, sqlite+aiosqlite:///, sqlite+tursohttp://, libsql://)
+        1. DATABASE_URL (hỗ trợ postgresql+asyncpg://, sqlite+aiosqlite:///, sqlite+tursohttp://, libsql://, https://, http://)
         2. TURSO_DATABASE_URL (tự động chuyển sang sqlite+tursohttp://)
         3. Mặc định fallback về database/chichan.db cục bộ."""
+        turso_prefixes = (
+            "libsql://",
+            "sqlite+tursohttp://",
+            "sqlite+aioturso://",
+            "sqlite+libsql://",
+            "tursohttp://",
+            "https://",
+            "http://",
+            "wss://",
+            "ws://",
+        )
         url = self.DATABASE_URL.strip()
         if url:
-            if url.startswith(("libsql://", "sqlite+tursohttp://")):
+            if url.startswith(turso_prefixes) or ".turso.io" in url:
                 return self._normalize_turso_url(url)
             if url.startswith("sqlite+aiosqlite:///"):
                 raw_path = url[len("sqlite+aiosqlite:///"):]
