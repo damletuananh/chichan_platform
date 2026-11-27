@@ -213,7 +213,7 @@ export default function AboutPage() {
 
           {/* 4 Thẻ Grid: Tóm tắt dự án */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
-            <div className="bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
+            <div className="card-lift bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
               <div className="flex items-center gap-2 text-primary">
                 <Lightbulb size={22} weight="duotone" />
                 <h2 className="text-sm font-bold uppercase tracking-wider text-on-surface">1. Tính Mới</h2>
@@ -223,7 +223,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
+            <div className="card-lift bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
               <div className="flex items-center gap-2 text-primary">
                 <Brain size={22} weight="duotone" />
                 <h2 className="text-sm font-bold uppercase tracking-wider text-on-surface">2. Tính Khoa Học</h2>
@@ -233,7 +233,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
+            <div className="card-lift bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
               <div className="flex items-center gap-2 text-primary">
                 <Target size={22} weight="duotone" />
                 <h2 className="text-sm font-bold uppercase tracking-wider text-on-surface">3. Tính Thực Tiễn</h2>
@@ -243,7 +243,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
+            <div className="card-lift bg-white p-5 rounded-none border-l-4 border-primary border-y border-r border-outline-variant/40 shadow-xs space-y-2">
               <div className="flex items-center gap-2 text-primary">
                 <HandHeart size={22} weight="duotone" />
                 <h2 className="text-sm font-bold uppercase tracking-wider text-on-surface">4. Tính Cộng Đồng</h2>
@@ -274,7 +274,7 @@ export default function AboutPage() {
               {AUTHORS.map((author, index) => (
                 <div
                   key={index}
-                  className="bg-white p-5 rounded-none border border-outline-variant/40 shadow-xs hover:border-primary/50 transition-all duration-200 flex flex-col justify-between group hover:-translate-y-1"
+                  className={`card-lift bg-white p-5 rounded-none border border-outline-variant/40 shadow-xs hover:border-primary/50 transition-all duration-200 flex flex-col justify-between group animate-page-appear stagger-${index + 1}`}
                 >
                   <div>
                     {/* Khung tranh minh họa trừu tượng phóng khoáng (Không gò bó avatar) */}
@@ -864,7 +864,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Giải pháp 1 */}
-            <div className="bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
+            <div className="card-lift bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-primary/10 text-primary flex items-center justify-center rounded-none border border-primary/20">
                   <GameController size={26} weight="duotone" />
@@ -894,7 +894,7 @@ export default function AboutPage() {
             </div>
 
             {/* Giải pháp 2 */}
-            <div className="bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
+            <div className="card-lift bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-primary/10 text-primary flex items-center justify-center rounded-none border border-primary/20">
                   <Bookmarks size={26} weight="duotone" />
@@ -923,7 +923,7 @@ export default function AboutPage() {
             </div>
 
             {/* Giải pháp 3 */}
-            <div className="bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
+            <div className="card-lift bg-white p-7 rounded-none border border-outline-variant/40 shadow-xs flex flex-col justify-between space-y-5">
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-primary/10 text-primary flex items-center justify-center rounded-none border border-primary/20">
                   <ChatsCircle size={26} weight="duotone" />
@@ -1148,7 +1148,7 @@ export default function AboutPage() {
 
               <button
                 type="submit"
-                className="w-full bg-primary text-white py-3.5 rounded-none font-bold text-xs uppercase tracking-wider transition-colors shadow-depth-1 hover:shadow-depth-2 hover:opacity-95 cursor-pointer"
+                className="w-full bg-primary text-white py-3.5 rounded-none font-bold text-xs uppercase tracking-wider transition-colors shadow-depth-1 hover:shadow-depth-2 hover:opacity-95 cursor-pointer btn-press"
               >
                 Gửi Đóng Góp Học Thuật
               </button>

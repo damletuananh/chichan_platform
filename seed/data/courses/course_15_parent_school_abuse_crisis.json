@@ -1,0 +1,1039 @@
+{
+  "title": "Ứng Phó Khi Con Bị Quấy Rối & Xâm Hại: Bản Lĩnh Phụ Huynh",
+  "slug": "ung-pho-khi-con-bi-quay-roi-va-xam-hai-ban-linh-phu-huynh",
+  "short_description": "Cẩm nang sống còn cho cha mẹ: Nhận diện tín hiệu bất thường ở con, phản xạ vàng khi con thú nhận, bảo tồn chứng cứ ADN pháp y trong 72 giờ, làm việc cương quyết với nhà trường/công an và liệu trình trị liệu sang chấn PTSD.",
+  "description": "**Đối tượng:** Phụ huynh có con từ 6 - 18 tuổi.\n\nKhi cơn ác mộng quấy rối hoặc xâm hại tình dục xảy ra với con cái, sự hoảng loạn của cha mẹ có thể đẩy đứa trẻ vào chấn thương kép. Khóa học được biên soạn bởi các chuyên gia tâm lý học đường, bác sĩ pháp y và luật sư hình sự, trang bị cho phụ huynh 'bản lĩnh thép': Nhận diện sớm các biểu hiện câm lặng, kỹ năng phản hồi không phán xét, quy trình bảo tồn chứng cứ pháp y sinh học trong 72 giờ vàng, làm việc chuẩn mực với cơ quan điều tra và phác đồ đồng hành chữa lành sang chấn tâm lý PTSD giúp con tái sinh tương lai.",
+  "learning_objectives": "- Nhận diện các dấu hiệu bất thường về cơ thể và hành vi cảnh báo nguy cơ con bị xâm hại.\n- Nắm vững phản xạ vàng khi con thú nhận: Khẳng định con vô tội và là bến đỗ bình an.\n- Thực hiện đúng quy trình bảo tồn chứng cứ pháp y ADN trong túi giấy và mốc 72 giờ vàng.\n- Kỹ năng làm việc văn minh, cương quyết với Ban Giám hiệu nhà trường và Cơ quan Cảnh sát Điều tra.\n- Đồng hành cùng chuyên gia tâm lý lâm sàng áp dụng phác đồ trị liệu sang chấn PTSD.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "PARENT",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Nhận diện tín hiệu bất thường: Con không nói nhưng cơ thể lên tiếng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Trẻ bị quấy rối hoặc xâm hại thường rơi vào trạng thái câm lặng vì sợ hãi, xấu hổ hoặc bị đe dọa. Cha mẹ cần tinh tế nhận diện các dấu hiệu cơ thể và hành vi: Sợ đi học đột ngột, ác mộng la hét ban đêm, vết bầm tím/trầy xước ở vùng đùi trong hoặc bộ phận sinh dục, tụt dốc học lực không rõ nguyên nhân, giặt đồ lót lén lút.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Nhận diện tín hiệu bất thường: Con không nói nhưng cơ thể lên tiếng",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Dấu hiệu hành vi nào sau đây cảnh báo nguy cơ trẻ đang bị quấy rối hoặc xâm hại?",
+            "explanation": "Đột ngột sợ hãi tột độ khi phải gặp một người quen hoặc đến một địa điểm cụ thể.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Con thích ăn kem hơn bình thường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thay đổi tính nết đột ngột, sợ hãi né tránh một người cụ thể, ác mộng và khóc thét ban đêm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Con thích đọc truyện tranh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Con thích chơi bóng đá",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Dấu hiệu thể chất quan trọng nào cha mẹ cần lưu ý nghi ngờ xâm hại?",
+            "explanation": "Tổn thương, đau rát hoặc chảy máu, tiết dịch bất thường ở vùng kín, vùng hậu môn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Con mọc răng khôn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vết bầm tím, trầy xước hoặc than đau rát, chảy dịch bất thường ở vùng sinh dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Con bị rụng tóc nhẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Con bị muỗi đốt ở tay",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao nạn nhân bị xâm hại tình dục thường có xu hướng giấu kín sự việc với cha mẹ?",
+            "explanation": "Vì bị kẻ thủ ác đe dọa giết/làm hại người thân, kèm theo mặc cảm tội lỗi do bị thao túng tâm lý.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì con cảm thấy vui thích",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì bị kẻ xấu đe dọa, thao túng tâm lý và nỗi sợ bị cha mẹ trách mắng, kỳ thị",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì con quên mất sự việc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do bận học thi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi thấy con có biểu hiện bất thường, cách tiếp cận nào của cha mẹ là ĐÚNG ĐẮN?",
+            "explanation": "Ôm con vào lòng, tạo không gian riêng tư và mở lời nhẹ nhàng: 'Mẹ thấy dạo này con có nhiều âu lo, mẹ luôn ở đây lắng nghe con'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tra khảo dồn dập: 'Mày giấu cái gì khai mau!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tạo không gian an toàn, ấm áp, kiên nhẫn khẳng định tình yêu thương và khuyến khích con giãi bày",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đánh đòn để ép con khai",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lờ đi coi như con đang tuổi dở ương",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Kẻ xâm hại trẻ em trong hơn 80% các vụ việc thực tế là ai?",
+            "explanation": "Người quen biết, hàng xóm, họ hàng hoặc người thân cận trong gia đình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ là người lạ mặt bịt khẩu trang ngoài đường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Người quen biết, hàng xóm, người thân hoặc người có uy tín trong cộng đồng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người ngoài hành tinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ là bạn học cùng lớp",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Phản xạ vàng khi con thú nhận: Khẳng định vô tội & Bảo vệ tâm lý",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khoảnh khắc con dũng cảm cất lời thú nhận là thử thách bản lĩnh lớn nhất của cha mẹ. Nguyên tắc sống còn: Tuyệt đối không la hét, không ngất xỉu hoảng loạn, không chất vấn 'Tại sao con lại để người ta làm thế?'. Hãy ôm chặt con và nói câu đầu tiên: 'Cảm ơn con đã kể cho mẹ. Đó hoàn toàn KHÔNG PHẢI lỗi của con. Bố mẹ sẽ bảo vệ con!'.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Phản xạ vàng khi con thú nhận: Khẳng định vô tội & Bảo vệ tâm lý",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Câu nói đầu tiên cha mẹ NÊN nói ngay khi con kể về việc bị người khác xâm hại là gì?",
+            "explanation": "'Đó hoàn toàn không phải lỗi của con, con luôn an toàn và bố mẹ sẽ bảo vệ con'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Tại sao lúc đó mày không cắn chết nó?'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Đó hoàn toàn không phải lỗi của con, cảm ơn con đã dũng cảm nói ra, bố mẹ sẽ bảo vệ con'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Mày làm nhục nhã dòng họ này rồi!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Đừng nói cho ai biết kẻo ế chồng con ơi'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Phản ứng hoảng loạn, ngất xỉu hoặc gào khóc thảm thiết của cha mẹ sẽ tác động thế nào đến đứa trẻ?",
+            "explanation": "Khiến con hoảng sợ tột cùng, cảm thấy mình là gánh nặng tội lỗi và lập tức đóng chặt miệng lại.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con cảm thấy được an ủi hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gia tăng sang chấn tâm lý, khiến con mặc cảm tội lỗi rằng chính mình đã làm khổ cha mẹ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm kẻ thủ ác sợ hãi đầu thú",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ảnh hưởng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi chất vấn nạn nhân: 'Tại sao con lại đi vào phòng chú ấy?' được gọi là gì?",
+            "explanation": "Đổ lỗi cho nạn nhân (Victim Blaming), gây chấn thương tâm lý thứ phát nghiêm trọng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Kỹ năng điều tra khoa học",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi đổ lỗi cho nạn nhân (Victim Blaming), gây thêm tổn thương sâu sắc cho con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sự quan tâm sâu sắc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Biện pháp răn đe cần thiết",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Để giúp con cảm thấy an toàn sau khi thú nhận, cha mẹ nên làm gì trong những ngày đầu?",
+            "explanation": "Ở bên cạnh con nhiều hơn, không để con ở một mình hoặc đối mặt với kẻ xâm hại.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gửi con về quê cách ly",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Luôn đồng hành, hiện diện ấm áp, đảm bảo an toàn tuyệt đối và tôn trọng nhịp hồi phục của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con đến gặp kẻ xâm hại để đối chất một mình",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khóa cửa nhốt con trong phòng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tổng đài khẩn cấp có cán bộ chuyên môn hỗ trợ can thiệp khủng hoảng xâm hại trẻ em tại Việt Nam là gì?",
+            "explanation": "Tổng đài 111 (miễn phí 24/7).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "111",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "113",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "115",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "1080",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Quy trình giám định pháp y & Bảo tồn chứng cứ sinh học",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Bảo vệ con bằng pháp luật đòi hỏi bằng chứng vững chắc. Cha mẹ cần nắm rõ: Tuyệt đối KHÔNG tắm rửa, không thụt rửa, không thay quần áo của con sau sự việc. Cho quần áo con đang mặc vào túi giấy sạch (không dùng túi nilon vì gây ẩm mốc hủy hoại vết tinh dịch/ADN) và đưa con đến bệnh viện phụ sản/công an ngay lập tức để giám định trong 72 giờ đầu.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Quy trình giám định pháp y & Bảo tồn chứng cứ sinh học",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành động nào sau đây là NGUYÊN TẮC VÀNG để bảo tồn dấu vết pháp y sau vụ xâm hại?",
+            "explanation": "Không tắm rửa, không thay quần áo ngay và bảo quản trang phục trong túi giấy sạch.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tắm nước nóng và dùng xà phòng tẩy rửa thật sạch",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không tắm rửa, giữ nguyên hiện trạng và cất trang phục của con vào túi giấy sạch niêm phong",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đốt bỏ quần áo bị bẩn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giặt quần áo bằng thuốc tẩy",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tại sao không nên dùng túi nilon kín để đựng trang phục dính dấu vết tinh dịch của nạn nhân?",
+            "explanation": "Túi nilon giữ ẩm làm vi khuẩn phát triển, phá hủy mẫu sinh học ADN phục vụ giám định.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì túi nilon quá đắt tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Túi nilon gây ẩm mốc, phân hủy mẫu sinh học và làm hỏng mẫu ADN của kẻ phạm tội",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì túi nilon không thời trang",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Pháp luật bắt buộc phải dùng túi da",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Thời gian vàng tốt nhất để đưa nạn nhân đi giám định pháp y sinh học là trong vòng bao lâu?",
+            "explanation": "Càng sớm càng tốt, lý tưởng nhất là trong vòng 72 giờ đầu tiên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sau 1 năm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trong vòng 72 giờ đầu kể từ khi xảy ra sự việc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau khi vết thương đã lành hẳn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sau 6 tháng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cơ quan nào có thẩm quyền trưng cầu và thực hiện giám định pháp y xâm hại tình dục?",
+            "explanation": "Trung tâm Giám định Pháp y tỉnh/thành phố hoặc Viện Khoa học Hình sự theo quyết định của Cơ quan Điều tra.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trạm y tế xã phường tự phát",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trung tâm Pháp y cấp tỉnh/thành phố hoặc cơ quan chuyên môn theo trưng cầu của công an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Các thẩm mỹ viện tư nhân",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tiệm thuốc tây",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi đưa con đi khám giám định, vai trò của cha mẹ là gì?",
+            "explanation": "Luôn ở bên cạnh nắm tay trấn an con, yêu cầu bác sĩ giải thích nhẹ nhàng và bảo vệ lòng tự trọng của con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đứng ngoài mắng mỏ con",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đồng hành ấm áp, yêu cầu cán bộ y tế thao tác cẩn trọng, tôn trọng và giảm thiểu đau đớn cho con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ép con phải chịu đau không được khóc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ về để con ở lại một mình",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Làm việc với Nhà trường & Cơ quan Công an: Cương quyết và chuẩn mực",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khi thủ phạm là giáo viên, bạn học hoặc nhân sự trong trường: Cha mẹ cần giữ thái độ bình tĩnh nhưng cương quyết. Yêu cầu cuộc họp kín với Ban Giám hiệu, lập biên bản làm việc có chữ ký các bên, yêu cầu đình chỉ công tác/tạm cách ly đối tượng nghi vấn để bảo vệ học sinh, và gửi đơn tố giác tội phạm tới Cơ quan Cảnh sát Điều tra cấp quận/huyện.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Làm việc với Nhà trường & Cơ quan Công an: Cương quyết và chuẩn mực",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi gửi đơn tố giác hành vi xâm hại tình dục trẻ em, cha mẹ gửi đến cơ quan nào?",
+            "explanation": "Cơ quan Cảnh sát Điều tra Công an cấp quận/huyện nơi xảy ra vụ việc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ủy ban Mặt trận Tổ quốc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cơ quan Cảnh sát Điều tra Công an cấp quận/huyện nơi xảy ra hành vi vi phạm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hội khuyến học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bảo hiểm xã hội",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi làm việc với Ban Giám hiệu nhà trường, phụ huynh nên yêu cầu điều gì đầu tiên để bảo vệ con?",
+            "explanation": "Yêu cầu bảo mật tuyệt đối danh tính của con và cách ly ngay lập tức đối tượng nghi vấn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Yêu cầu thông báo cho toàn trường trong giờ chào cờ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Yêu cầu bảo mật thông tin, cách ly ngay đối tượng nghi vấn để đảm bảo an toàn tuyệt đối cho con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Yêu cầu nhà trường bồi thường 1 tỷ đồng tiền mặt ngay lập tức",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không cần yêu cầu gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao phụ huynh KHÔNG NÊN đăng bài đấu tố, bêu rếu sự việc lên mạng xã hội khi cơ quan công an đang điều tra?",
+            "explanation": "Vì có thể làm lộ danh tính của con, vi phạm bí mật điều tra và tạo cơ hội cho kẻ xấu tẩu tán bằng chứng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì pháp luật cấm dùng mạng xã hội",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tránh làm lộ hình ảnh danh tính của con, không làm hại tâm lý con và tránh vi phạm quy định điều tra",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì đăng bài sẽ bị phạt tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì mạng xã hội không có ai đọc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Người tố giác tội phạm xâm hại trẻ em có được pháp luật bảo vệ an toàn tính mạng không?",
+            "explanation": "CÓ; Bộ luật Tố tụng Hình sự quy định các biện pháp bảo vệ người tố giác và nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không được bảo vệ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "CÓ; Cơ quan điều tra có trách nhiệm áp dụng các biện pháp bảo vệ tính mạng, sức khỏe của nạn nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ bảo vệ nếu nộp phí",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự chịu trách nhiệm",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Nếu gia đình kẻ phạm tội đến xin hòa giải bằng tiền để bãi nại, cha mẹ nên xử lý thế nào?",
+            "explanation": "Hành vi xâm hại trẻ em thuộc nhóm tội khởi tố không phụ thuộc vào đơn bãi nại; kiên quyết thượng tôn pháp luật để kẻ xấu không tiếp tục hại đứa trẻ khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nhận tiền và coi như chưa có chuyện gì xảy ra",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kiên định từ chối thỏa hiệp ngầm, yêu cầu xử lý nghiêm minh theo quy định pháp luật để bảo vệ công lý",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đòi gấp đôi số tiền rồi bỏ qua",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đánh gia đình kẻ phạm tội",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Liệu trình chữa lành tâm lý sang chấn (PTSD) & Tái hòa nhập cuộc sống",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Chấn thương thể xác có thể lành sau vài tuần, nhưng vết thương tâm lý (Rối loạn căng thẳng sau sang chấn - PTSD) có thể đeo bám cả đời nếu không được trị liệu. Cha mẹ cần kiên nhẫn đồng hành cùng chuyên gia tâm lý lâm sàng, không nhắc lại sự việc như một 'vết nhơ', giúp con tìm lại niềm tin vào bản thân và cuộc sống.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Liệu trình chữa lành tâm lý sang chấn (PTSD) & Tái hòa nhập cuộc sống",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hội chứng PTSD (Rối loạn căng thẳng sau sang chấn) ở nạn nhân xâm hại thường có biểu hiện gì?",
+            "explanation": "Ký ức ùa về bất thình lình (Flashbacks), giật mình hoảng loạn, sợ bóng tối và né tránh mọi thứ liên quan đến sự cố.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thích ăn đồ ngọt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hồi tưởng ám ảnh (Flashbacks), rối loạn giấc ngủ, ác mộng và luôn trong trạng thái đề phòng căng thẳng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cảm thấy tràn đầy năng lượng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Học thuộc bài nhanh hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Sai lầm nghiêm trọng nhất của cha mẹ trong quá trình đồng hành hồi phục cùng con là gì?",
+            "explanation": "Thường xuyên nhắc lại vụ việc hoặc thở dài than vãn: 'Đời con coi như tàn phế rồi!'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đưa con đi công viên dạo mát",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhắc lại sự việc với thái độ bi kịch hóa, than thở coi con như một 'kẻ hỏng hóc' làm hủy hoại tương lai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cùng con tập yoga",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nấu những món ăn con thích",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Liệu pháp trị liệu tâm lý chuyên sâu nào thường được áp dụng cho trẻ bị sang chấn tình dục?",
+            "explanation": "Liệu pháp Nhận thức - Hành vi tập trung vào sang chấn (TF-CBT) và liệu pháp EMDR.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống thuốc ngủ liều cao",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Liệu pháp Nhận thức - Hành vi tập trung vào sang chấn (TF-CBT) dưới sự hướng dẫn của chuyên gia",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhốt trong phòng tối 1 tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đi xem bói giải hạn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Dấu hiệu nào cho thấy đứa trẻ đang dần phục hồi tâm lý tích cực?",
+            "explanation": "Con bắt đầu cười đùa tự nhiên, ăn ngủ ổn định trở lại, hào hứng với sở thích cũ và mở lòng kết nối bạn bè.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Con ngồi im một góc không nói gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Con ăn ngủ ngon hơn, tìm lại niềm vui với sở thích, tự tin giao tiếp và cảm thấy an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Con thức trắng đêm chơi game",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Con đập phá đồ đạc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thông điệp mạnh mẽ nhất cha mẹ cần khắc sâu vào tâm trí con để con tái sinh tương lai là gì?",
+            "explanation": "'Con là người sống sót kiên cường (Survivor), không phải là nạn nhân bất lực; tương lai tươi sáng vẫn thuộc về con!'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Con phải giấu chuyện này suốt đời kẻo không lấy được chồng'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Con là một chiến binh dũng cảm, sự việc đó không định nghĩa giá trị con người con, con xứng đáng được yêu thương'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Lỗi tại con không nghe lời bố mẹ'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Cả nhà này vì con mà mang nhục'",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Bản lĩnh & Năng lực Ứng phó Xâm hại của Phụ huynh",
+    "description": "10 câu hỏi tổng hợp tình huống pháp lý và tâm lý giúp cha mẹ trở thành tấm khiên bảo vệ con.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Đa số các vụ xâm hại tình dục trẻ em do đối tượng nào thực hiện?",
+        "explanation": "Người quen biết, họ hàng, hàng xóm hoặc người thân cận.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Người hoàn toàn xa lạ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Người quen biết, họ hàng, người có mối quan hệ thân tín với gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Người nước ngoài",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Kẻ trộm đột nhập",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Câu nói đầu tiên cha mẹ cần khẳng định khi con kể về việc bị xâm hại là gì?",
+        "explanation": "Đó hoàn toàn không phải lỗi của con.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "'Tại sao con hư hỏng thế?'",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "'Đó hoàn toàn KHÔNG PHẢI lỗi của con, bố mẹ sẽ bảo vệ con an toàn'",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "'Im đi đừng kể với ai'",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "'Mẹ thất vọng về con'",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Hành vi tắm rửa sạch sẽ ngay sau vụ xâm hại có tác hại gì đối với việc điều tra?",
+        "explanation": "Phá hủy toàn bộ dấu vết sinh học và ADN của kẻ phạm tội.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp vết thương nhanh lành hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Phá hủy các mẫu chứng cứ sinh học và dấu vết ADN quan trọng để kết tội kẻ thủ ác",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Không có tác hại gì",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Giúp công an điều tra nhanh hơn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Thời gian vàng tối ưu để đưa nạn nhân đi khám giám định pháp y là bao lâu?",
+        "explanation": "Trong vòng 72 giờ đầu tiên.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Sau 1 tháng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Trong vòng 72 giờ đầu kể từ khi xảy ra sự việc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sau khi thi tốt nghiệp xong",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Sau 1 năm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Cơ quan tiếp nhận đơn tố giác tội phạm xâm hại trẻ em là cơ quan nào?",
+        "explanation": "Cơ quan Cảnh sát Điều tra Công an cấp quận/huyện.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ủy ban Dân số Kế hoạch hóa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cơ quan Cảnh sát Điều tra Công an cấp quận/huyện nơi xảy ra vụ việc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Phòng văn hóa thông tin",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Hội người cao tuổi",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Số điện thoại của Tổng đài Quốc gia Bảo vệ Trẻ em tại Việt Nam là gì?",
+        "explanation": "111",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "111",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "115",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "113",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "114",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Trang phục nạn nhân mặc khi bị xâm hại nên được bảo quản trong vật dụng nào?",
+        "explanation": "Túi giấy sạch niêm phong.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Túi nilon kín",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Túi giấy sạch khô ráo để tránh ẩm mốc mẫu ADN",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Thùng nước xà phòng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bao tải ẩm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Thái độ đúng đắn của phụ huynh khi làm việc với nhà trường về vụ việc là gì?",
+        "explanation": "Bình tĩnh, cương quyết, yêu cầu bảo mật thông tin và cách ly ngay đối tượng tình nghi.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Lao vào đập phá đồ đạc trường học",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bình tĩnh nhưng cương quyết, lập biên bản làm việc và yêu cầu cách ly đối tượng để bảo vệ con",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đăng bài chửi bới lên Facebook",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bỏ qua cho xong chuyện",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Hội chứng PTSD sau sang chấn cần được can thiệp bằng biện pháp nào?",
+        "explanation": "Trị liệu tâm lý chuyên sâu cùng chuyên gia kết hợp môi trường gia đình yêu thương.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bắt con đi làm việc nặng để quên đi",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Trị liệu tâm lý chuyên môn cùng chuyên gia (như TF-CBT) kết hợp sự đồng hành kiên nhẫn của gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Uống thuốc giảm đau liên tục",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Khóa con trong phòng kín",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Điều gì là quan trọng nhất để giúp đứa trẻ vượt qua nghịch cảnh xâm hại?",
+        "explanation": "Tình yêu thương vô điều kiện, sự tin tưởng tuyệt đối và sự bảo vệ kiên định của cha mẹ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cho con thật nhiều tiền bạc",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tình yêu thương vô điều kiện, sự thấu hiểu và cam kết đồng hành không phán xét của cha mẹ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bắt con phải đổi họ tên",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chuyển nhà đi nơi khác trốn tránh",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

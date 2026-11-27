@@ -377,7 +377,7 @@ export default function CourseLearnPage() {
         <div className="flex items-center justify-between px-3 sm:px-6 h-12 sm:h-14 w-full max-w-screen-2xl mx-auto gap-2">
           <button
             onClick={() => router.push(`/courses/${courseId}/intro`)}
-            className="flex items-center gap-1.5 text-primary hover:text-primary-container transition-colors group p-1.5 sm:p-2 -ml-1 sm:-ml-2 rounded-full hover:bg-surface-container-low cursor-pointer shrink-0"
+            className="btn-press flex items-center gap-1.5 text-primary hover:text-primary-container transition-colors group p-1.5 sm:p-2 -ml-1 sm:-ml-2 rounded-none hover:bg-surface-container-low cursor-pointer shrink-0"
             title="Quay lại"
           >
             <ArrowLeft
@@ -397,7 +397,7 @@ export default function CourseLearnPage() {
             {/* Mobile Lesson Outline Drawer Trigger */}
             <button
               onClick={() => setMobileDrawerOpen(true)}
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-all text-xs font-bold cursor-pointer lg:hidden"
+              className="btn-press flex items-center gap-1 px-2.5 py-1.5 rounded-none bg-primary/10 text-primary hover:bg-primary/20 transition-all text-xs font-bold cursor-pointer lg:hidden"
               aria-label="Danh sách bài học"
             >
               <List size={18} weight="bold" />
@@ -410,7 +410,7 @@ export default function CourseLearnPage() {
         {/* Global Progress Bar */}
         <div className="w-full h-1 bg-surface-container-high overflow-hidden">
           <div
-            className="h-full bg-primary transition-all duration-500 ease-in-out"
+            className="h-full bg-gradient-to-r from-primary to-emerald-500 transition-all duration-700 ease-out"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
@@ -494,7 +494,7 @@ export default function CourseLearnPage() {
                   <div className="flex items-center gap-2 w-full sm:w-auto">
                     <button
                       onClick={() => setLessonTab("content")}
-                      className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer rounded-lg whitespace-nowrap shrink-0 ${
+                      className={`btn-press flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer rounded-none whitespace-nowrap shrink-0 ${
                         lessonTab === "content"
                           ? "bg-primary text-white shadow-xs"
                           : "bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container"
@@ -518,7 +518,7 @@ export default function CourseLearnPage() {
                     </button>
                     <button
                       onClick={() => setLessonTab("quiz")}
-                      className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer rounded-lg whitespace-nowrap shrink-0 ${
+                      className={`btn-press flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer rounded-none whitespace-nowrap shrink-0 ${
                         lessonTab === "quiz"
                           ? "bg-primary text-white shadow-xs"
                           : "bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container"
@@ -528,11 +528,11 @@ export default function CourseLearnPage() {
                       <span className="hidden sm:inline">Trắc nghiệm (10 câu)</span>
                       <span className="sm:hidden">Trắc nghiệm</span>
                       {currentLesson.is_quiz_passed ? (
-                        <span className="text-[10px] px-1.5 py-0.5 rounded bg-green-100 text-green-700 font-bold whitespace-nowrap shrink-0 ml-0.5">
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-none bg-green-100 text-green-700 font-bold whitespace-nowrap shrink-0 ml-0.5">
                           ✓ Đạt
                         </span>
                       ) : (
-                        <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 font-bold whitespace-nowrap shrink-0 ml-0.5">
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-none bg-amber-100 text-amber-900 font-bold whitespace-nowrap shrink-0 ml-0.5">
                           Cần làm
                         </span>
                       )}
@@ -621,7 +621,7 @@ export default function CourseLearnPage() {
                         {currentLesson.content_body && (
                           <button
                             onClick={() => setShowNotes(!showNotes)}
-                            className="text-xs font-bold text-primary hover:opacity-80 flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary/10 transition-all cursor-pointer shrink-0 ml-2"
+                            className="btn-press text-xs font-bold text-primary hover:opacity-80 flex items-center gap-1.5 px-3 py-1.5 rounded-none bg-primary/10 transition-all cursor-pointer shrink-0 ml-2"
                           >
                             <Article size={14} weight="bold" />
                             <span>
@@ -658,7 +658,7 @@ export default function CourseLearnPage() {
                                 </h3>
                                 <button
                                   onClick={() => setShowNotes(false)}
-                                  className="px-3 py-1.5 rounded-lg bg-surface-container text-xs font-bold text-on-surface hover:bg-surface-container-high cursor-pointer flex items-center gap-1"
+                                  className="btn-press px-3 py-1.5 rounded-none bg-surface-container text-xs font-bold text-on-surface hover:bg-surface-container-high cursor-pointer flex items-center gap-1"
                                 >
                                   <X size={14} weight="bold" />
                                   <span>Đóng</span>
@@ -698,7 +698,7 @@ export default function CourseLearnPage() {
                                 : "Video bài giảng"}
                             </Badge>
                             {currentLesson.is_completed && (
-                              <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">
+                              <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-none">
                                 <CheckCircle size={12} weight="fill" />
                                 Đã học
                               </span>
@@ -712,7 +712,7 @@ export default function CourseLearnPage() {
 
                         {/* Quick Quiz Banner if available and not passed */}
                         {currentLesson.has_quiz && !currentLesson.is_quiz_passed && (
-                          <div className="bg-purple-50/80 border border-purple-200/80 p-3.5 rounded-xl flex items-center justify-between gap-3">
+                          <div className="bg-purple-50/80 border border-purple-200/80 p-3.5 rounded-none flex items-center justify-between gap-3 shadow-depth-1">
                             <div className="space-y-0.5">
                               <p className="text-xs font-bold text-purple-900 flex items-center gap-1.5">
                                 <Question size={14} weight="bold" className="text-purple-600" />
@@ -724,7 +724,7 @@ export default function CourseLearnPage() {
                             </div>
                             <button
                               onClick={() => setLessonTab("quiz")}
-                              className="px-3 py-1.5 bg-purple-600 text-white text-xs font-bold rounded-lg shadow-xs hover:bg-purple-700 shrink-0 cursor-pointer"
+                              className="btn-press px-3 py-1.5 bg-purple-600 text-white text-xs font-bold rounded-none shadow-xs hover:bg-purple-700 shrink-0 cursor-pointer"
                             >
                               Làm bài
                             </button>
@@ -738,12 +738,12 @@ export default function CourseLearnPage() {
                               <Article size={16} weight="bold" className="text-primary" />
                               <span>Tài liệu & Ghi chú bài học</span>
                             </div>
-                            <div className="bg-white p-4 rounded-xl border border-outline-variant/20 shadow-xs prose prose-sm max-w-none text-xs leading-relaxed text-on-surface-variant">
+                            <div className="bg-white p-4 rounded-none border border-outline-variant/20 shadow-depth-1 prose prose-sm max-w-none text-xs leading-relaxed text-on-surface-variant">
                               <MarkdownRenderer content={currentLesson.content_body} />
                             </div>
                           </div>
                         ) : (
-                          <div className="bg-white p-4 rounded-xl border border-outline-variant/20 shadow-xs flex items-start gap-3">
+                          <div className="bg-white p-4 rounded-none border border-outline-variant/20 shadow-depth-1 flex items-start gap-3">
                             <Info size={20} weight="duotone" className="text-primary shrink-0 mt-0.5" />
                             <p className="text-xs text-on-surface-variant leading-relaxed font-light">
                               Theo dõi kỹ video bài giảng trên để nắm vững kiến thức. Bạn có thể mở danh sách bài học ở góc trên bên phải để chuyển bài bất cứ lúc nào.
@@ -822,7 +822,7 @@ export default function CourseLearnPage() {
               <button
                 onClick={() => handleSelectLesson(activeIdx - 1)}
                 disabled={activeIdx === 0}
-                className="flex items-center gap-1.5 text-primary hover:bg-surface-container-low px-3 sm:px-4 py-2 rounded-xl transition-colors text-xs font-bold disabled:opacity-30 cursor-pointer shrink-0 border border-outline-variant/30 whitespace-nowrap"
+                className="btn-press flex items-center gap-1.5 text-primary hover:bg-surface-container-low px-3 sm:px-4 py-2 rounded-none transition-colors text-xs font-bold disabled:opacity-30 cursor-pointer shrink-0 border border-outline-variant/30 whitespace-nowrap"
               >
                 <ArrowLeft size={16} weight="bold" />
                 <span>Trước</span>
@@ -835,7 +835,7 @@ export default function CourseLearnPage() {
                   lessonTab === "content" && (
                     <button
                       onClick={() => setLessonTab("quiz")}
-                      className="flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-xl transition-all text-xs font-bold border border-primary text-primary hover:bg-primary/10 cursor-pointer shrink-0 whitespace-nowrap"
+                      className="btn-press flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-none transition-all text-xs font-bold border border-primary text-primary hover:bg-primary/10 cursor-pointer shrink-0 whitespace-nowrap"
                     >
                       <Question size={16} weight="bold" />
                       <span>Làm Quiz</span>
@@ -845,7 +845,7 @@ export default function CourseLearnPage() {
                 <button
                   onClick={handleNextOrComplete}
                   disabled={completing}
-                  className={`flex items-center gap-1.5 px-4 sm:px-6 py-2 rounded-xl transition-all text-xs font-bold shadow-xs cursor-pointer disabled:opacity-50 shrink-0 whitespace-nowrap ${
+                  className={`btn-press flex items-center gap-1.5 px-4 sm:px-6 py-2 rounded-none transition-all text-xs font-bold shadow-xs cursor-pointer disabled:opacity-50 shrink-0 whitespace-nowrap ${
                     activeIdx === learnData.lessons.length - 1
                       ? "bg-gradient-to-r from-secondary-container to-secondary text-white hover:opacity-95 shadow-md"
                       : "bg-primary text-white hover:opacity-90"
@@ -874,7 +874,7 @@ export default function CourseLearnPage() {
             <h3 className="text-base font-extrabold text-on-surface mb-2">
               Nội dung khóa học
             </h3>
-            <div className="flex items-center gap-2 text-on-surface-variant font-bold bg-surface-container-lowest/50 py-1.5 px-3 rounded-full inline-flex border border-white/60">
+            <div className="flex items-center gap-2 text-on-surface-variant font-bold bg-surface-container-lowest/50 py-1.5 px-3 rounded-none inline-flex border border-white/60">
               <GraduationCap
                 size={16}
                 weight="duotone"
@@ -902,7 +902,7 @@ export default function CourseLearnPage() {
                       : "border-transparent hover:bg-white/40"
                   }`}
                 >
-                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center">
+                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-none flex items-center justify-center">
                     {lesson.is_completed ? (
                       <CheckCircle
                         size={18}
@@ -911,14 +911,14 @@ export default function CourseLearnPage() {
                       />
                     ) : isActive ? (
                       <span
-                        className={`w-2.5 h-2.5 rounded-full ring-2 ring-offset-2 ring-offset-white ${
+                        className={`w-2.5 h-2.5 rounded-none ring-2 ring-offset-2 ring-offset-white animate-pulse ${
                           isQuiz
                             ? "bg-purple-600 ring-purple-600"
                             : "bg-primary ring-primary"
                         }`}
                       ></span>
                     ) : (
-                      <span className="w-4 h-4 rounded-full border border-outline-variant"></span>
+                      <span className="w-4 h-4 rounded-none border border-outline-variant"></span>
                     )}
                   </div>
                   <div className="flex-1">
@@ -992,7 +992,7 @@ export default function CourseLearnPage() {
                         : "border-transparent hover:bg-white/50 cursor-pointer"
                   }`}
                 >
-                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center">
+                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-none flex items-center justify-center">
                     {learnData.is_final_quiz_passed ? (
                       <CheckCircle
                         size={18}
@@ -1056,7 +1056,7 @@ export default function CourseLearnPage() {
               </div>
               <button
                 onClick={() => setMobileDrawerOpen(false)}
-                className="p-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container cursor-pointer transition-colors"
+                className="btn-press p-2 rounded-none text-on-surface-variant hover:text-on-surface hover:bg-surface-container cursor-pointer transition-colors"
                 aria-label="Đóng danh sách"
               >
                 <X size={20} weight="bold" />
@@ -1064,9 +1064,9 @@ export default function CourseLearnPage() {
             </div>
 
             {/* Drawer Progress Bar */}
-            <div className="w-full h-1 bg-surface-container-high">
+            <div className="w-full h-1 bg-surface-container-high overflow-hidden">
               <div
-                className="h-full bg-primary transition-all duration-300"
+                className="h-full bg-gradient-to-r from-primary to-emerald-500 transition-all duration-700 ease-out"
                 style={{ width: `${progress}%` }}
               />
             </div>
@@ -1092,7 +1092,7 @@ export default function CourseLearnPage() {
                         : "border-transparent bg-white/60 hover:bg-white"
                     }`}
                   >
-                    <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center">
+                    <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-none flex items-center justify-center">
                       {lesson.is_completed ? (
                         <CheckCircle
                           size={18}
@@ -1101,14 +1101,14 @@ export default function CourseLearnPage() {
                         />
                       ) : isActive ? (
                         <span
-                          className={`w-2.5 h-2.5 rounded-full ring-2 ring-offset-2 ring-offset-white ${
+                          className={`w-2.5 h-2.5 rounded-none ring-2 ring-offset-2 ring-offset-white ${
                             isQuiz
                               ? "bg-purple-600 ring-purple-600"
                               : "bg-primary ring-primary"
                           }`}
                         />
                       ) : (
-                        <span className="w-3.5 h-3.5 rounded-full border border-outline-variant" />
+                        <span className="w-3.5 h-3.5 rounded-none border border-outline-variant" />
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
@@ -1179,7 +1179,7 @@ export default function CourseLearnPage() {
                           : "border-transparent bg-white/60 hover:bg-white cursor-pointer"
                     }`}
                   >
-                    <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center">
+                    <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-none flex items-center justify-center">
                       {learnData.is_final_quiz_passed ? (
                         <CheckCircle size={18} weight="fill" className="text-emerald-600" />
                       ) : completedCount >= learnData.lessons.length ? (

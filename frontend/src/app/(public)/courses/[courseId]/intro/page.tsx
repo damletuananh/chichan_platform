@@ -203,28 +203,28 @@ export default function CourseIntroPage() {
               {/* Badges Bar */}
               <div className="flex flex-wrap items-center gap-2.5">
                 {isParent ? (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-none text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
                     <HouseLine size={15} weight="duotone" />
                     <span>Dành cho Phụ huynh</span>
                   </span>
                 ) : isChild ? (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-primary/15 text-primary border border-primary/30">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-none text-xs font-bold bg-primary/15 text-primary border border-primary/30">
                     <Backpack size={15} weight="duotone" />
                     <span>Dành cho Học sinh (12-18 tuổi)</span>
                   </span>
                 ) : (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-teal-100 text-teal-900 border border-teal-300">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-none text-xs font-bold bg-teal-100 text-teal-900 border border-teal-300">
                     <UsersThree size={15} weight="duotone" />
                     <span>Mọi đối tượng</span>
                   </span>
                 )}
 
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-none text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
                   <ShieldCheck size={15} weight="fill" className="text-emerald-600" />
                   <span>Chuẩn Y khoa Thẩm định</span>
                 </span>
 
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-purple-50 text-purple-800 border border-purple-200">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-none text-xs font-semibold bg-purple-50 text-purple-800 border border-purple-200">
                   <Certificate size={15} weight="duotone" className="text-purple-600" />
                   <span>Chứng nhận tốt nghiệp</span>
                 </span>
@@ -246,7 +246,7 @@ export default function CourseIntroPage() {
                 {/* Instructor Snapshot */}
                 <div className="flex items-center gap-2.5">
                   <img
-                    className="w-9 h-9 rounded-full object-cover border border-outline-variant/30 shadow-xs bg-surface-container"
+                    className="w-9 h-9 rounded-none object-cover border border-outline-variant/30 shadow-xs bg-surface-container"
                     alt={courseData.instructor.full_name}
                     src={
                       courseData.instructor.avatar_url ||
@@ -284,7 +284,7 @@ export default function CourseIntroPage() {
 
             {/* Right 4-cols on Desktop: Floating Video Preview Hero Card */}
             <div className="lg:col-span-4 hidden lg:block">
-              <div className="glass-panel bg-white/95 rounded-2xl border border-outline-variant/40 shadow-xl overflow-hidden sticky top-24 transition-all">
+              <div className="card-lift bg-white rounded-none border border-outline-variant/40 shadow-depth-2 overflow-hidden sticky top-24 transition-all">
                 {/* Thumbnail Preview Stage */}
                 <div
                   onClick={handleAction}
@@ -299,11 +299,11 @@ export default function CourseIntroPage() {
                     }
                   />
                   <div className="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-white/95 text-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                    <div className="w-14 h-14 rounded-none bg-white text-primary flex items-center justify-center shadow-depth-2 group-hover:scale-110 transition-transform">
                       <Play size={24} weight="fill" className="ml-0.5" />
                     </div>
                   </div>
-                  <div className="absolute bottom-3 left-3 bg-black/70 backdrop-blur-xs text-white px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1.5">
+                  <div className="absolute bottom-3 left-3 bg-black/70 backdrop-blur-xs text-white px-2.5 py-1 rounded-none text-[11px] font-semibold flex items-center gap-1.5">
                     <Video size={13} weight="bold" />
                     <span>Xem lộ trình phòng học</span>
                   </div>
@@ -315,7 +315,7 @@ export default function CourseIntroPage() {
                     <button
                       onClick={handleAction}
                       disabled={enrolling}
-                      className="w-full bg-primary hover:bg-primary-container text-white text-sm font-extrabold py-3.5 px-6 rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                      className="w-full bg-primary hover:bg-primary-container text-white text-sm font-extrabold py-3.5 px-6 rounded-none transition-all shadow-depth-1 hover:shadow-depth-2 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 btn-press"
                     >
                       <span>
                         {enrolling
@@ -329,7 +329,7 @@ export default function CourseIntroPage() {
 
                     <button
                       onClick={handleShare}
-                      className="w-full bg-surface-container-low hover:bg-surface-container text-on-surface text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors flex items-center justify-center gap-2 cursor-pointer border border-outline-variant/30"
+                      className="w-full bg-surface-container-low hover:bg-surface-container text-on-surface text-xs font-semibold py-2.5 px-4 rounded-none transition-colors flex items-center justify-center gap-2 cursor-pointer border border-outline-variant/30 btn-press"
                     >
                       <ShareNetwork size={16} weight="bold" className="text-primary" />
                       <span>{copiedLink ? "Đã sao chép liên kết!" : "Chia sẻ khóa học"}</span>
@@ -366,7 +366,7 @@ export default function CourseIntroPage() {
                   </div>
 
                   {/* Trust Footer */}
-                  <div className="p-3 rounded-xl bg-primary/5 border border-primary/15 text-[11px] text-primary leading-relaxed flex items-center gap-2">
+                  <div className="p-3 rounded-none bg-primary/5 border border-primary/15 text-[11px] text-primary leading-relaxed flex items-center gap-2">
                     <ShieldCheck size={20} weight="fill" className="shrink-0" />
                     <span>Miễn phí 100% • Không yêu cầu thẻ tín dụng • Bảo mật thông tin học viên</span>
                   </div>
@@ -383,7 +383,7 @@ export default function CourseIntroPage() {
           {/* Left Column: Course Details, Objectives, Syllabus, Instructor */}
           <div className="lg:col-span-8 space-y-12">
             {/* Mobile Hero Media Card (Visible only on mobile/tablet) */}
-            <div className="lg:hidden glass-panel bg-white rounded-2xl border border-outline-variant/30 overflow-hidden shadow-sm">
+            <div className="lg:hidden bg-white rounded-none border border-outline-variant/30 overflow-hidden shadow-xs">
               <div
                 onClick={handleAction}
                 className="relative w-full h-48 sm:h-64 bg-surface-container overflow-hidden group cursor-pointer"
@@ -397,7 +397,7 @@ export default function CourseIntroPage() {
                   }
                 />
                 <div className="absolute inset-0 bg-black/25 flex items-center justify-center">
-                  <div className="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center shadow-md">
+                  <div className="w-12 h-12 rounded-none bg-white text-primary flex items-center justify-center shadow-depth-2">
                     <Play size={22} weight="fill" className="ml-0.5" />
                   </div>
                 </div>
@@ -406,7 +406,7 @@ export default function CourseIntroPage() {
                 <button
                   onClick={handleAction}
                   disabled={enrolling}
-                  className="w-full bg-primary hover:bg-primary-container text-white text-sm font-extrabold py-3.5 px-6 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                  className="w-full bg-primary hover:bg-primary-container text-white text-sm font-extrabold py-3.5 px-6 rounded-none transition-all shadow-depth-1 hover:shadow-depth-2 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 btn-press"
                 >
                   <span>
                     {enrolling
@@ -421,9 +421,9 @@ export default function CourseIntroPage() {
             </div>
 
             {/* SECTION 1: Learning Objectives */}
-            <section className="bg-white rounded-2xl sm:rounded-3xl border border-outline-variant/30 p-6 sm:p-8 shadow-xs space-y-6">
+            <section className="bg-white rounded-none border border-outline-variant/30 p-6 sm:p-8 shadow-xs space-y-6">
               <div className="flex items-center gap-2.5 pb-2 border-b border-outline-variant/20">
-                <div className="w-9 h-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                <div className="w-9 h-9 rounded-none bg-primary/10 text-primary flex items-center justify-center shrink-0">
                   <Sparkle size={20} weight="fill" />
                 </div>
                 <div>
@@ -440,7 +440,7 @@ export default function CourseIntroPage() {
                 {learningObjectivesList.map((obj: string, idx: number) => (
                   <div
                     key={idx}
-                    className="flex items-start gap-3 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/20 hover:border-primary/40 transition-colors"
+                    className="card-lift flex items-start gap-3 p-4 rounded-none bg-surface-container-lowest border border-outline-variant/20 hover:border-primary/40 transition-colors"
                   >
                     <CheckCircle
                       size={20}
@@ -461,7 +461,7 @@ export default function CourseIntroPage() {
                 <span>Về khóa học này</span>
               </h2>
 
-              <div className="prose prose-sm sm:prose-base max-w-none text-on-surface-variant font-light leading-relaxed bg-white rounded-2xl sm:rounded-3xl border border-outline-variant/30 p-6 sm:p-8 shadow-xs">
+              <div className="prose prose-sm sm:prose-base max-w-none text-on-surface-variant font-light leading-relaxed bg-white rounded-none border border-outline-variant/30 p-6 sm:p-8 shadow-xs">
                 {courseData.description ? (
                   <MarkdownRenderer content={courseData.description} />
                 ) : (
@@ -491,7 +491,7 @@ export default function CourseIntroPage() {
 
                 <button
                   onClick={() => setExpandedSyllabus(!expandedSyllabus)}
-                  className="text-xs font-bold text-primary hover:text-primary-container px-3 py-1.5 rounded-lg hover:bg-primary/10 transition-colors flex items-center gap-1.5 cursor-pointer"
+                  className="text-xs font-bold text-primary hover:text-primary-container px-3 py-1.5 rounded-none hover:bg-primary/10 transition-colors flex items-center gap-1.5 cursor-pointer btn-press"
                 >
                   <span>{expandedSyllabus ? "Thu gọn" : "Mở rộng tất cả"}</span>
                   <CaretDown
@@ -507,7 +507,7 @@ export default function CourseIntroPage() {
               {expandedSyllabus && (
                 <div className="space-y-3 animate-fade-in">
                   {courseData.syllabus.length === 0 ? (
-                    <div className="p-8 text-center bg-white rounded-2xl border border-outline-variant/20 text-xs text-on-surface-variant">
+                    <div className="p-8 text-center bg-white rounded-none border border-outline-variant/20 text-xs text-on-surface-variant">
                       Chương trình học đang được cập nhật. Vui lòng quay lại sau!
                     </div>
                   ) : (
@@ -520,11 +520,11 @@ export default function CourseIntroPage() {
                       return (
                         <div
                           key={lesson.id}
-                          className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 border border-outline-variant/30 flex items-center justify-between gap-4 transition-all hover:border-primary/50 hover:shadow-xs group"
+                          className="card-lift bg-white rounded-none p-4 sm:p-5 border border-outline-variant/30 flex items-center justify-between gap-4 transition-all hover:border-primary/50 shadow-xs group"
                         >
                           <div className="flex items-center gap-3.5 min-w-0">
                             {/* Order Number Badge */}
-                            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-primary/10 text-primary font-extrabold text-xs sm:text-sm flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors">
+                            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-none bg-primary/10 text-primary font-extrabold text-xs sm:text-sm flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors">
                               {lesson.order_index}
                             </div>
 
@@ -564,7 +564,7 @@ export default function CourseIntroPage() {
                                 )}
 
                                 {lesson.has_quiz && (
-                                  <span className="px-1.5 py-0.5 rounded bg-purple-100 text-purple-800 text-[10px] font-bold">
+                                  <span className="px-1.5 py-0.5 rounded-none bg-purple-100 text-purple-800 text-[10px] font-bold">
                                     + Trắc nghiệm 10 câu
                                   </span>
                                 )}
@@ -584,9 +584,9 @@ export default function CourseIntroPage() {
                   )}
 
                   {/* Graduation Milestone Card */}
-                  <div className="p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-primary/5 border border-purple-200/80 flex items-center justify-between gap-4">
+                  <div className="card-lift p-5 rounded-none bg-gradient-to-r from-purple-50 to-primary/5 border border-purple-200/80 flex items-center justify-between gap-4">
                     <div className="flex items-center gap-3.5">
-                      <div className="w-10 h-10 rounded-2xl bg-purple-600 text-white flex items-center justify-center shrink-0 shadow-xs">
+                      <div className="w-10 h-10 rounded-none bg-purple-600 text-white flex items-center justify-center shrink-0 shadow-xs">
                         <Certificate size={22} weight="fill" />
                       </div>
                       <div>
@@ -598,7 +598,7 @@ export default function CourseIntroPage() {
                         </p>
                       </div>
                     </div>
-                    <span className="text-[11px] px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 font-bold shrink-0">
+                    <span className="text-[11px] px-2.5 py-1 rounded-none bg-purple-100 text-purple-800 font-bold shrink-0">
                       Đích đến
                     </span>
                   </div>
@@ -607,14 +607,14 @@ export default function CourseIntroPage() {
             </section>
 
             {/* SECTION 4: Instructor Profile */}
-            <section className="bg-white rounded-2xl sm:rounded-3xl border border-outline-variant/30 p-6 sm:p-8 shadow-xs space-y-6">
+            <section className="bg-white rounded-none border border-outline-variant/30 p-6 sm:p-8 shadow-xs space-y-6">
               <h2 className="text-xl font-extrabold text-on-surface flex items-center gap-2">
                 <span>Chuyên gia & Giảng viên</span>
               </h2>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <img
-                  className="w-24 h-24 rounded-2xl object-cover border-2 border-primary/20 bg-surface-container shrink-0 shadow-sm"
+                  className="w-24 h-24 rounded-none object-cover border-2 border-primary/20 bg-surface-container shrink-0 shadow-xs"
                   alt={courseData.instructor.full_name}
                   src={
                     courseData.instructor.avatar_url ||
@@ -626,7 +626,7 @@ export default function CourseIntroPage() {
                     <h3 className="text-base sm:text-lg font-extrabold text-on-surface">
                       {courseData.instructor.full_name}
                     </h3>
-                    <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-full">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-none">
                       <SealCheck size={14} weight="fill" />
                       <span>Đã xác minh chuyên môn</span>
                     </span>
@@ -653,8 +653,8 @@ export default function CourseIntroPage() {
             </section>
 
             {/* SECTION 5: Medical Safety & Non-Judgmental Pledge */}
-            <section className="p-6 sm:p-7 rounded-2xl sm:rounded-3xl bg-surface-container-low border border-outline-variant/30 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
-              <div className="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+            <section className="p-6 sm:p-7 rounded-none bg-surface-container-low border border-outline-variant/30 flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left">
+              <div className="w-12 h-12 rounded-none bg-primary/10 text-primary flex items-center justify-center shrink-0">
                 <Heart size={26} weight="duotone" />
               </div>
               <div className="space-y-1">
@@ -687,7 +687,7 @@ export default function CourseIntroPage() {
         <button
           onClick={handleAction}
           disabled={enrolling}
-          className="bg-primary hover:bg-primary-container text-white text-xs font-bold py-3 px-5 rounded-xl transition-all shadow-md flex items-center gap-1.5 shrink-0 cursor-pointer disabled:opacity-50"
+          className="bg-primary hover:bg-primary-container text-white text-xs font-bold py-3 px-5 rounded-none transition-all shadow-depth-1 flex items-center gap-1.5 shrink-0 cursor-pointer disabled:opacity-50 btn-press"
         >
           <span>
             {enrolling

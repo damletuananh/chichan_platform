@@ -1,0 +1,1039 @@
+{
+  "title": "Tình Yêu Học Trò & Quản Trị Cảm Xúc Tuổi Mới Lớn",
+  "slug": "tinh-yeu-hoc-tro-va-quan-tri-cam-xuc-tuoi-moi-lon",
+  "short_description": "Khám phá khoa học đằng sau những rung động đầu đời, giải mã bẫy chiếm hữu ghen tuông, văn hóa chia tay văn minh và bí quyết cùng nhau tiến bộ trong học tập.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (12 - 18 tuổi).\n\nNhững rung động đầu đời là trải nghiệm cảm xúc đẹp đẽ nhưng cũng đầy bão giông của tuổi mới lớn. Khóa học giúp các bạn trẻ giải mã cơ chế sinh học của 'Crush', phân biệt say nắng và tình yêu chân chính, học cách kiểm soát ghen tuông, chia tay văn minh không thù hận, chữa lành vết thương lòng và biến tình yêu thành đòn bẩy cùng nhau thi đỗ nguyện vọng mơ ước.",
+  "learning_objectives": "- Phân biệt rõ ràng giữa say nắng (Crush) và tình yêu trưởng thành dựa trên cơ chế Dopamine.\n- Nhận diện và loại bỏ hành vi kiểm soát, ghen tuông độc hại trên mạng xã hội.\n- Nắm vững văn hóa chia tay văn minh, tuyệt đối không bóc phốt hay phát tán hình ảnh riêng tư.\n- Thực hành quy tắc 'No Contact' và các bước tự chữa lành sang chấn sau thất tình.\n- Xây dựng mô hình 'Cặp đôi cùng tiến' cân bằng hoàn hảo giữa tình cảm và mục tiêu thi cử.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Giải mã rung động đầu đời: Phân biệt 'Say nắng' (Crush) và Tình yêu đích thực",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Cơn sốt tim đập chân run của Hoàng Minh\nHoàng Minh (15 tuổi) bỗng thấy tim đập loạn xạ mỗi khi nhìn thấy bạn lớp phó học tập bước qua. Cậu thức thâu đêm lướt từng bài đăng Facebook của bạn, soi từng chiếc icon, không tập trung học được bài và tin rằng đây là 'định mệnh duy nhất của cuộc đời mình'...\n\n### 1. Cơ chế sinh học của 'Crush' (Sự say nắng)\n- Khi bạn say nắng một ai đó, não bộ giải phóng một lượng lớn **Dopamine** (tạo cảm giác hưng phấn tột độ) và **Phenylethylamine (PEA)**. Chúng ta thường có xu hướng 'thần thánh hóa' đối phương, chỉ nhìn thấy mặt hoàn hảo và tự vẽ nên một hình mẫu lý tưởng.\n- **Crush thường diễn ra nhanh chóng, mãnh liệt nhưng cũng dễ nguội tàn** khi bạn nhận ra đối phương có những khuyết điểm đời thường.\n\n### 2. Tình yêu đích thực (Mature Love) khác biệt như thế nào?\n- **Thời gian & Thấu hiểu:** Không phải là cảm xúc bốc đồng nhất thời, mà là sự gắn kết dựa trên việc thấu hiểu cả điểm mạnh lẫn điểm yếu của nhau.\n- **Tôn trọng & Độc lập:** Hai bạn không kiểm soát, không ép buộc nhau phải thay đổi bản thân; tình yêu lành mạnh giúp cả hai cùng tiến bộ trong học tập và cuộc sống.",
+      "quiz": {
+        "title": "Kiểm tra Bài 1: Phân biệt say nắng và tình yêu",
+        "description": "5 câu hỏi giúp nhận diện đúng cảm xúc lãng mạn tuổi học trò.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Chất dẫn truyền thần kinh nào tạo ra cảm giác tim đập nhanh, bồn chồn hưng phấn khi 'Crush' một ai đó?",
+            "explanation": "Dopamine và Phenylethylamine (PEA) kích thích hệ thống tưởng thưởng của não bộ tạo cảm giác hưng phấn mãnh liệt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Insulin",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dopamine và Phenylethylamine (PEA)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Melatonin",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hemoglobin",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Đặc điểm điển hình của hiện tượng 'Say nắng' (Crush) là gì?",
+            "explanation": "Xuất hiện đột ngột, có xu hướng lý tưởng hóa đối phương và dễ phai nhạt theo thời gian.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Luôn kéo dài suốt 50 năm không đổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thường bùng nổ nhanh, dễ lý tưởng hóa người ấy và có thể nguội dần khi hiểu thực tế",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ xảy ra khi hai người đã kết hôn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không liên quan gì đến cảm xúc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu nào sau đây chứng tỏ một tình yêu tuổi học trò đang phát triển LÀNH MẠNH?",
+            "explanation": "Cùng nhau học tập tiến bộ, vui vẻ và tôn trọng không gian cá nhân của nhau.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt đối phương phải báo cáo vị trí mỗi 10 phút một lần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hai bạn cùng nhắc nhau học bài, tôn trọng bạn bè của nhau và tinh thần luôn lạc quan",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bỏ bê thi cử để đi chơi thâu đêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm đối phương không được nói chuyện với bất kỳ ai khác giới",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi nhận ra mình đang 'say nắng' một bạn cùng lớp, bạn nên làm gì?",
+            "explanation": "Bình tĩnh đón nhận cảm xúc tự nhiên, giữ thái độ thân thiện và không để ảnh hưởng việc học.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tự trách mắng bản thân là hư hỏng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chấp nhận đó là tâm sinh lý tự nhiên của tuổi dậy thì, tiếp tục tập trung học tập và làm bạn chân thành",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tỏ tình dồn dập ép bạn phải trả lời ngay trong 1 tiếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhờ cả lớp đến bao vây bạn để ép bạn đồng ý",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tình yêu tuổi học trò có nhất thiết phải dẫn đến cam kết trọn đời hay không?",
+            "explanation": "Đó là trải nghiệm đẹp giúp hoàn thiện kỹ năng cảm xúc, chia sẻ và trưởng thành nhân cách.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt buộc phải cưới nhau nếu không là có tội",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không nhất thiết; đó là bước đệm quý giá để rèn luyện sự thấu cảm, tôn trọng và trưởng thành",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tình yêu học trò hoàn toàn vô nghĩa và lãng phí thời gian",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ có hại chứ không bao giờ có ích",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Kiểm soát cơn ghen tuông & Bẫy chiếm hữu trên mạng xã hội",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Ảo tưởng 'Ghen mới là yêu nhiều'\nNhiều bạn trẻ ngộ nhận rằng việc kiểm soát mật khẩu Facebook, bắt người yêu xóa bạn bè khác giới hay giận dữ khi người yêu thả tim ảnh người khác là minh chứng cho tình yêu say đắm.\n- **Thực tế:** Ghen tuông mù quáng bắt nguồn từ **sự bất an và tính sở hữu độc hại (Insecurity & Possessiveness)**, chứ không phải tình yêu.\n- Hành vi kiểm soát sẽ bóp nghẹt đối phương, biến mối quan hệ thành ngục tù và dẫn đến rạn nứt tất yếu.\n\n### 2. Kỹ năng 'Hạ hỏa' khi xuất hiện cảm xúc bất an\n- Đừng nhắn tin chất vấn ngay trong lúc tức giận.\n- Đặt câu hỏi cho chính mình: *'Cảm xúc này đến từ sự thật hay từ suy diễn trong đầu mình?'*.\n- Trò chuyện cởi mở dựa trên cảm xúc cá nhân (I-statements): *'Khi thấy bạn nói chuyện thân mật với bạn kia mà không giới thiệu mình, mình cảm thấy hơi chạnh lòng'*, thay vì tấn công quy chụp *'Cậu là đồ lăng nhăng'*. ",
+      "quiz": {
+        "title": "Kiểm tra Bài 2: Quản trị ghen tuông và tôn trọng tự do",
+        "description": "5 câu hỏi kiểm tra kỹ năng giao tiếp khi có xung đột tình cảm.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành vi đòi hỏi người yêu phải cung cấp mật khẩu mạng xã hội thể hiện điều gì?",
+            "explanation": "Sự thiếu tin tưởng, tính kiểm soát và xâm phạm quyền riêng tư cá nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Minh chứng tình yêu vĩ đại không có bí mật",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi kiểm soát độc hại, thiếu tin tưởng và vi phạm quyền riêng tư của đối phương",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quy tắc bắt buộc của tất cả các cặp đôi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp người yêu học giỏi hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi cảm thấy ghen vì người yêu tương tác với bạn khác trên mạng, cách xử lý VĂN MINH là gì?",
+            "explanation": "Bình tĩnh trò chuyện riêng tư bằng thông điệp 'Tôi cảm thấy...', tránh mắng mỏ xúc phạm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đăng đàn lên Threads/Facebook để cộng đồng mạng vào chửi bới",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chờ khi bình tĩnh, chia sẻ chân thành về cảm xúc của mình và lắng nghe đối phương giải thích",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lập nick ảo đi chửi bạn kia",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đòi chia tay ngay lập tức để người yêu phải van xin",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nền tảng quan trọng nhất để duy trì một mối quan hệ tình cảm bền vững là gì?",
+            "explanation": "Niềm tin, sự tôn trọng và đối thoại cởi mở.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sự kiểm soát 24/7",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự tin tưởng, tôn trọng lẫn nhau và biết chia sẻ chân thành",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phải tặng thật nhiều quà đắt tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cùng nhau nghỉ học đi chơi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Câu nói nào sau đây là ví dụ của 'Thông điệp Tôi' (I-statement) chuẩn mực?",
+            "explanation": "Bày tỏ cảm xúc của bản thân mà không phán xét, chụp mũ người nghe.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Cậu lúc nào cũng làm tôi phát điên lên!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Mình cảm thấy hơi lo lắng khi bạn về muộn mà không nhắn tin trước'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Cậu là kẻ dối trá trắng trợn nhất tôi từng gặp!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Biến đi cho khuất mắt tôi!'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi người yêu đe dọa 'Nếu chia tay tôi sẽ tự tử', bạn nên làm gì?",
+            "explanation": "Đó là hành vi thao túng tâm lý nguy hiểm; cần báo ngay cho gia đình, thầy cô của bạn đó và không thỏa hiệp một mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nhượng bộ và tiếp tục chịu đựng mối quan hệ độc hại",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhận diện đây là bẫy thao túng tâm lý, báo ngay cho người thân/thầy cô của bạn đó để can thiệp hỗ trợ y tế",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thách thức bạn đó làm thật",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khóa máy trốn tránh một mình",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Văn hóa chia tay văn minh: Không bóc phốt, không hận thù",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Trào lưu 'Bóc phốt' người yêu cũ độc hại trên mạng xã hội\nNgày nay, không ít bạn trẻ sau khi chia tay đã chụp màn hình tin nhắn riêng tư, đăng video 'kể tội' hoặc xúc phạm người yêu cũ lên TikTok, Threads.\n- **Hậu quả:** \n  + Làm tổn thương nặng nề danh dự người khác và chính bản thân mình.\n  + Dấu chân kỹ thuật số (Digital Footprint) độc hại sẽ tồn tại mãi mãi, ảnh hưởng đến việc xét tuyển du học, đại học hay xin việc sau này.\n  + Vi phạm Điều 155 Bộ luật Hình sự về tội làm nhục người khác.\n\n### 2. Nguyên tắc chia tay có trách nhiệm\n- **Nói chuyện trực tiếp, tôn trọng:** Chọn một không gian công cộng yên tĩnh, nói rõ lý do không còn phù hợp, cảm ơn những kỷ niệm đẹp đã qua.\n- **Xóa hoặc bảo mật tuyệt đối các hình ảnh riêng tư:** Tuyệt đối không giữ lại hay chia sẻ hình ảnh nhạy cảm của nhau cho bên thứ ba.\n- **Tôn trọng ranh giới hậu chia tay:** Không làm phiền, không theo dõi (Stalking) hay quấy rối cuộc sống mới của đối phương.",
+      "quiz": {
+        "title": "Kiểm tra Bài 3: Chia tay văn minh và bảo vệ danh dự",
+        "description": "5 câu hỏi rèn luyện kỹ năng kết thúc mối quan hệ trưởng thành.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành vi đăng bài 'bóc phốt' tin nhắn riêng tư của người yêu cũ lên mạng xã hội là hành vi như thế nào?",
+            "explanation": "Hành vi thiếu văn minh, gây tổn hại danh dự và vi phạm pháp luật về đời tư cá nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hành động dũng cảm xứng đáng được khen ngợi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi bốc đồng, vi phạm quyền riêng tư và có thể bị xử lý pháp lý về tội xúc phạm danh dự nhân phẩm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cách tốt nhất để giải tỏa nỗi buồn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp bạn nổi tiếng nhanh chóng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Cách tốt nhất để thông báo kết thúc một mối tình học trò là gì?",
+            "explanation": "Trò chuyện trực tiếp, lịch sự, chân thành và tôn trọng đối phương.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đột ngột chặn mọi liên lạc (Ghosting) không một lời giải thích",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gặp mặt nói chuyện trực tiếp, lịch sự giải thích lý do không phù hợp và chúc nhau điều tốt đẹp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhờ bạn thân nhắn tin chia tay hộ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đăng trạng thái 'Độc thân' lên mạng trước rồi mới nói",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi chia tay, cả hai cần làm gì đối với các hình ảnh hoặc thông tin cá nhân của nhau?",
+            "explanation": "Bảo mật hoặc xóa bỏ hoàn toàn, tuyệt đối không phát tán hay đem ra đe dọa.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gửi cho nhóm bạn thân xem để cùng bình luận",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng bảo mật hoặc xóa bỏ hoàn toàn, không bao giờ dùng làm công cụ đe dọa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bán cho các trang tin lá cải",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đăng lên làm ảnh đại diện để dằn mặt",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khái niệm 'Ghosting' (biến mất đột ngột không lời giải thích) gây ra tổn thương gì cho đối phương?",
+            "explanation": "Gây cảm giác hoang mang, tự dằn vặt, nghi ngờ giá trị bản thân và sang chấn tâm lý kéo dài.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp đối phương cảm thấy nhẹ nhõm và vui vẻ hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gây cảm giác hoang mang tột độ, tổn thương lòng tự trọng và nghi ngờ giá trị bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp tiết kiệm tiền cước điện thoại",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Là biểu hiện của người có trí tuệ cảm xúc cao",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Điều gì là quan trọng nhất sau khi bước ra khỏi một cuộc chia tay?",
+            "explanation": "Tập trung chăm sóc bản thân, phát triển kỹ năng mới và mở lòng đón nhận tương lai tích cực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tìm ngay người yêu mới sau 24 giờ để trả thù",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dành thời gian chăm sóc sức khỏe, học tập, tìm kiếm niềm vui mới và hoàn thiện bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ngồi rình rập trang cá nhân của người cũ mỗi ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thề sẽ không bao giờ tin tưởng bất kỳ ai trên đời nữa",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Vượt qua nỗi đau thất tình & Chữa lành cảm xúc",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Nỗi đau thất tình dưới góc nhìn khoa học\nKhi thất tình, vùng não cảm nhận nỗi đau thể xác (Anterior Cingulate Cortex) cũng bị kích hoạt. Đó là lý do bạn cảm thấy đau nhói ở lồng ngực, mệt mỏi rã rời và chán ăn.\n- Quá trình đau buồn thường trải qua 5 giai đoạn: Chối bỏ (Denial) -> Tức giận (Anger) -> Thương lượng (Bargaining) -> Trầm buồn (Depression) -> Chấp nhận (Acceptance).\n\n### 2. Liều thuốc chữa lành lành mạnh\n- **Cho phép mình được buồn:** Khóc là cơ chế xả độc cortisol tự nhiên của cơ thể. Đừng cố gượng ép mình phải vui vẻ ngay.\n- **Quy tắc 'Không liên lạc' (No Contact Rule):** Hạn chế tối đa việc nhắn tin, gọi điện hay vào xem story của người cũ trong ít nhất 30 ngày để não bộ tái thiết lập mức dopamine bình thường.\n- **Tìm kiếm sự nâng đỡ:** Tâm sự với bạn thân, cha mẹ hoặc tham gia các hoạt động thiện nguyện, thể thao ngoài trời.",
+      "quiz": {
+        "title": "Kiểm tra Bài 4: Phục hồi tâm lý sau chia tay",
+        "description": "5 câu hỏi giúp định hướng vượt qua nỗi buồn tích cực.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Dưới góc độ khoa học thần kinh, tại sao thất tình lại mang lại cảm giác đau đớn như bị thương thể xác?",
+            "explanation": "Vùng vỏ não Anterior Cingulate Cortex xử lý cảm giác đau thể xác cũng được kích hoạt khi bị từ chối xã hội.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do tim thực sự bị rách ra làm đôi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do vùng não xử lý đau đớn thể xác cũng được kích hoạt trước sự mất mát gắn kết xã hội",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do bị thiếu máu não tạm thời",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ là do tưởng tượng chứ não bộ không phản ứng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Quy tắc 'Không liên lạc' (No Contact Rule) mang lại lợi ích gì?",
+            "explanation": "Giúp hệ thống dopamine của não bộ bình ổn lại, cắt đứt sự phụ thuộc cảm xúc vào người cũ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để chọc tức người cũ cho họ phát điên",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tạo khoảng không gian yên tĩnh giúp não bộ chữa lành và cắt đứt cơn nghiện cảm xúc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để không phải trả nợ tiền ăn uống",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để người cũ tự tìm đến xin lỗi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi bạn của bạn đang khóc vì thất tình, hành động nào sau đây là TỬ TẾ nhất?",
+            "explanation": "Lắng nghe thấu cảm, đưa khăn giấy và ở bên cạnh mà không đưa ra những lời phán xét vô nghĩa.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bảo bạn: 'Có thế mà cũng khóc, người yêu thôi mà đầy ngoài đường'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lắng nghe kiên nhẫn, công nhận cảm xúc đau buồn của bạn và đồng hành cùng bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cười nhạo bạn là đồ yếu đuối",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Kể chuyện cười để ép bạn phải cười ngay lập tức",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cách nào sau đây là giải pháp LÀNH MẠNH để giải tỏa căng thẳng sau chia tay?",
+            "explanation": "Tập luyện thể thao, viết nhật ký, vẽ tranh hoặc tham gia hoạt động cộng đồng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hút thuốc lá điện tử và uống rượu bia để quên sầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vận động thể thao, chạy bộ, viết nhật ký giải tỏa cảm xúc và gặp gỡ bạn bè lành mạnh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhịn ăn 3 ngày liền để hành hạ cơ thể",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đập phá đồ đạc trong nhà",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Giai đoạn cuối cùng trong tiến trình chữa lành vết thương lòng là gì?",
+            "explanation": "Giai đoạn Chấp nhận (Acceptance): Bình thản đón nhận thực tại và biết ơn bài học đã qua.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tức giận và căm thù",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chấp nhận thực tại với tâm thế bình an và hướng về tương lai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chối bỏ sự thật",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thương lượng van xin",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Cân bằng giữa tình yêu và mục tiêu học tập, thi chuyển cấp",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Thách thức lớn nhất: Bẫy xao nhãng kỳ thi quan trọng\nTuổi học trò (lớp 9 lên 10, hoặc lớp 12 đại học) là giai đoạn bước ngoặt của đời người. \n- Nhiều bạn vì đắm chìm trong tình cảm, thức đêm nhắn tin, cãi vã ghen tuông mà sa sút học lực nghiêm trọng, trượt nguyện vọng mong muốn.\n- Tình yêu thực sự không bao giờ là vật cản của tương lai. Tình yêu đích thực phải là **động lực (Catalyst)** để cả hai cùng đỗ vào ngôi trường mơ ước.\n\n### 2. Thỏa thuận học tập của 'Cặp đôi cùng tiến'\n- **Thiết lập giờ học chung nghiêm túc:** Học bài tại thư viện hoặc quán cà phê sách, quy định không dùng điện thoại trong 90 phút tập trung (Pomodoro).\n- **Cùng nhau đặt mục tiêu:** Cùng giải các đề thi khó, bổ trợ môn học cho nhau (bạn giỏi Toán hỗ trợ bạn giỏi Văn).\n- **Hẹn hò văn minh:** Dành thời gian cuối tuần ăn uống nhẹ nhàng, trao nhau lời động viên trước mỗi kỳ thi cử căng thẳng.",
+      "quiz": {
+        "title": "Kiểm tra Bài 5: Cân bằng tình cảm và học tập",
+        "description": "5 câu hỏi rèn luyện kỹ năng quản lý thời gian và giữ vững mục tiêu.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Mô hình 'Cặp đôi cùng tiến' trong tình yêu tuổi học trò có nghĩa là gì?",
+            "explanation": "Cùng nhau hỗ trợ học tập, nhắc nhở nhau tiến bộ và chinh phục các mục tiêu thi cử.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cùng nhau trốn tiết đi chơi net",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cùng nhau học bài, động viên nhau vượt qua các kỳ thi và hướng tới tương lai tốt đẹp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ làm bài tập hộ nhau để qua môn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngồi cạnh nhau trong giờ thi để chép bài",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Phương pháp nào giúp hạn chế việc nhắn tin thâu đêm làm ảnh hưởng đến sức khỏe và kết quả thi cử?",
+            "explanation": "Thỏa thuận giờ tắt máy đi ngủ trước 22h30 và tập trung ôn thi nghiêm túc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thức đến 4h sáng nhắn tin rồi ngủ bù trong giờ học",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thỏa thuận giờ chúc ngủ ngon rõ ràng (ví dụ 22h30) và để điện thoại xa giường ngủ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống 5 lon nước tăng lực để thức vừa học vừa nhắn tin",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ thi để dành thời gian cho tình yêu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nếu người yêu giận dỗi vì bạn từ chối đi chơi để ở nhà ôn thi học kỳ, điều này cho thấy điều gì?",
+            "explanation": "Đối phương đang thiếu sự thấu hiểu và ích kỷ, chưa thực sự trân trọng tương lai của bạn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cho thấy đối phương quá yêu bạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cho thấy đối phương đang ích kỷ, chưa biết tôn trọng mục tiêu tương lai quan trọng của bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bạn hoàn toàn có lỗi và phải đi chơi ngay",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thi cử không quan trọng bằng một buổi đi chơi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Kỹ thuật Pomodoro giúp ích gì cho các bạn trẻ khi cùng nhau học tập?",
+            "explanation": "Chia nhỏ thời gian thành các khoảng 25-30 phút tập trung cao độ, xen kẽ 5 phút nghỉ ngơi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Học liên tục 12 tiếng không ăn không uống",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tập trung học sâu trong khoảng 25-30 phút, sau đó nghỉ ngắn 5 phút giúp tăng năng suất trí nhớ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vừa học vừa xem livestream bán hàng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ăn cà chua khi làm bài kiểm tra",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi cả hai cùng đỗ vào trường cấp 3 hoặc trường đại học mơ ước, điều đó mang lại giá trị gì?",
+            "explanation": "Khẳng định bản lĩnh của một tình yêu trưởng thành, làm tiền đề vững chắc cho tương lai.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chứng minh tình yêu học trò có thể là động lực to lớn giúp cả hai cùng phát triển tốt đẹp",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chỉ là sự may mắn ngẫu nhiên",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khiến bố mẹ hai bên bắt cưới ngay",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có ý nghĩa gì đối với cuộc sống",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Quản trị Cảm xúc & Tình yêu Tuổi Học trò",
+    "description": "10 câu hỏi tổng hợp tình huống kiểm tra sự trưởng thành cảm xúc của bạn trẻ.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Sự khác biệt cốt lõi giữa 'Say nắng' (Crush) và 'Tình yêu trưởng thành' là gì?",
+        "explanation": "Crush bộc phát nhanh và lý tưởng hóa đối phương; tình yêu trưởng thành dựa trên sự thấu hiểu thực tế và đồng hành.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Crush chỉ có ở học sinh, tình yêu chỉ có ở người già",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Crush là cảm xúc hưng phấn nhất thời; tình yêu dựa trên sự thấu hiểu, tôn trọng và cùng nhau tiến bộ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Hai trạng thái này hoàn toàn không có gì khác nhau",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Crush thì không bao giờ tỏ tình được",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Hành vi đòi hỏi kiểm tra điện thoại và đọc trộm tin nhắn của người yêu xuất phát từ đâu?",
+        "explanation": "Từ sự thiếu tự tin, bất an nội tâm và tính sở hữu kiểm soát độc hại.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tình yêu chân chính không thể thiếu kiểm soát",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Sự bất an, thiếu tin tưởng và tâm lý kiểm soát độc hại",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sự quan tâm chăm sóc chu đáo",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Quy định của pháp luật hôn nhân gia đình",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Nếu người yêu đe dọa tung ảnh riêng tư khi bạn đề nghị chia tay, bạn cần làm gì?",
+        "explanation": "Bình tĩnh không thỏa hiệp, lưu bằng chứng và báo ngay cho cơ quan công an / cha mẹ vì đây là tội hình sự.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Quay lại và tiếp tục phục tùng đối phương",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lưu toàn bộ bằng chứng đe dọa, báo ngay cho cha mẹ và cơ quan công an theo Điều 170/155 BLHS",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chuyển tiền theo yêu cầu để chuộc lại ảnh",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cố gắng tự giải quyết bằng cách đánh nhau",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Quy tắc 'No Contact' (Không liên lạc) hậu chia tay nên duy trì trong bao lâu để não bộ cân bằng?",
+        "explanation": "Ít nhất 30 ngày để cắt đứt cơn nghiện dopamine và phục hồi cảm xúc độc lập.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "10 phút",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ít nhất 30 ngày",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "3 tiếng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không cần thiết, cứ gọi điện mỗi giờ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Hành vi 'bóc phốt' người yêu cũ trên mạng xã hội để lại hậu quả gì lâu dài?",
+        "explanation": "Tạo dấu chân số độc hại, hủy hoại uy tín bản thân và có nguy cơ bị khởi tố hình sự.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp bản thân nhanh chóng có người yêu mới tốt hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tạo dấu chân kỹ thuật số xấu, hủy hoại danh dự của cả hai và có thể vi phạm pháp luật hình sự",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Được nhà trường tuyên dương",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có hậu quả gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Tại sao việc duy trì vòng tròn bạn bè riêng khi đang yêu lại rất quan trọng?",
+        "explanation": "Giúp giữ vững cuộc sống độc lập, đa dạng nguồn hỗ trợ tinh thần và tránh lệ thuộc cảm xúc.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Để có chỗ đi nói xấu người yêu",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giữ vững sự độc lập cá nhân, đa dạng góc nhìn và tránh bị cô lập phụ thuộc cảm xúc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để tìm người yêu dự phòng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Để người yêu cảm thấy ghen tức",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Cảm giác đau đớn khi thất tình là biểu hiện của điều gì?",
+        "explanation": "Là phản ứng sinh lý và tâm lý bình thường khi mất đi một gắn kết quan trọng, cần thời gian để hồi phục.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Là một căn bệnh nan y không thể chữa khỏi",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Là phản ứng sinh học và cảm xúc tự nhiên của não bộ, sẽ giảm dần theo thời gian và sự chăm sóc bản thân",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Là dấu hiệu bạn sẽ cô độc cả đời",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Là do bạn bị trúng bùa ngải",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Yếu tố nào giúp một cặp đôi học sinh vừa yêu vừa giữ vững kết quả thi đua trong lớp?",
+        "explanation": "Sự kỷ luật cá nhân, tôn trọng giờ học và đồng lòng vì mục tiêu tương lai.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cùng nhau thức đêm nhắn tin",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Thỏa thuận rõ ràng về thời gian biểu học tập, tôn trọng giờ tự học và nhắc nhở nhau kỷ luật",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ quan tâm đến nhau, không cần thi cử",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Học bài trong lúc xem phim hẹn hò",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khi chia tay, câu nào sau đây thể hiện thái độ VĂN MINH và TRƯỞNG THÀNH nhất?",
+        "explanation": "Tôn trọng quyết định, nhìn nhận sự không phù hợp và cảm ơn trải nghiệm đã qua.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "'Mày sẽ phải trả giá đắt vì dám bỏ tao!'",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "'Cảm ơn bạn vì khoảng thời gian ý nghĩa vừa qua. Mình nhận thấy chúng mình không còn phù hợp để đi tiếp, chúc bạn luôn hạnh phúc'",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "'Tao nguyền rủa mày suốt đời không ai yêu!'",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "'Đòi lại hết quà đã tặng rồi mới được chia tay!'",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Một tình yêu đẹp tuổi học trò để lại giá trị lớn nhất là gì cho mỗi con người?",
+        "explanation": "Bài học trưởng thành về sự thấu cảm, lòng vị tha, trách nhiệm và ký ức thanh xuân trong sáng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Những bức ảnh sống ảo nhiều like",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Sự trưởng thành về trí tuệ cảm xúc, biết yêu thương, tôn trọng và hoàn thiện nhân cách bản thân",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Khoe khoang chiến tích với bạn bè",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không để lại giá trị gì ngoài sự hối hận",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

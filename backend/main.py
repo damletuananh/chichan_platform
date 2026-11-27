@@ -70,6 +70,19 @@ async def lifespan(app: FastAPI):
     # Tác vụ nền: dọn dẹp user_sessions hết hạn mỗi 6 giờ + quét nội dung thô tục mỗi 12 giờ
     cleanup_task = asyncio.create_task(expired_sessions_cleanup_loop())
     profanity_task = asyncio.create_task(profane_forum_content_cleanup_loop())
+
+    # Khởi động trước (pre-warm) kết nối database và bộ nhớ cache trang chủ
+    async def warm_up_cache():
+        try:
+            from services import settings_service, course_service
+            async with AsyncSessionLocal() as db:
+                await settings_service.get_home_page_data(db)
+                await course_service.get_public_courses(db)
+            logger.info("Database connection and initial caches successfully pre-warmed.")
+        except Exception:
+            logger.exception("Cache pre-warm warning:")
+
+    asyncio.create_task(warm_up_cache())
     yield
     # Logic chạy khi tắt server
     logger.info("Shutting down API...")

@@ -13,7 +13,51 @@ load_dotenv(BASE_DIR / ".env")
 
 class Settings(BaseSettings):
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/postgres"
+    DATABASE_URL: str = ""
+    TURSO_DATABASE_URL: str = ""
+    TURSO_AUTH_TOKEN: str = ""
+
+    @staticmethod
+    def _normalize_turso_url(raw_url: str) -> str:
+        raw = raw_url.strip()
+        secure_default = not raw.startswith(("http://", "ws://"))
+        stripped = raw
+        for prefix in ("sqlite+tursohttp://", "libsql://", "wss://", "ws://", "https://", "http://"):
+            if stripped.startswith(prefix):
+                stripped = stripped[len(prefix):]
+                break
+        host_and_path, _, query = stripped.partition("?")
+        host = host_and_path.rstrip("/")
+        if not query:
+            query = "secure=true" if secure_default else "secure=false"
+        return f"sqlite+tursohttp://{host}?{query}"
+
+    @property
+    def resolved_database_url(self) -> str:
+        """Chuẩn hóa URL kết nối Database theo thứ tự ưu tiên:
+        1. DATABASE_URL (hỗ trợ postgresql+asyncpg://, sqlite+aiosqlite:///, sqlite+tursohttp://, libsql://)
+        2. TURSO_DATABASE_URL (tự động chuyển sang sqlite+tursohttp://)
+        3. Mặc định fallback về database/chichan.db cục bộ."""
+        url = self.DATABASE_URL.strip()
+        if url:
+            if url.startswith(("libsql://", "sqlite+tursohttp://")):
+                return self._normalize_turso_url(url)
+            if url.startswith("sqlite+aiosqlite:///"):
+                raw_path = url[len("sqlite+aiosqlite:///"):]
+                if raw_path != ":memory:" and not Path(raw_path).is_absolute():
+                    repo_root = BASE_DIR.parent
+                    if raw_path.startswith("../"):
+                        target_path = (BASE_DIR / raw_path).resolve()
+                    else:
+                        target_path = (repo_root / raw_path).resolve()
+                    return f"sqlite+aiosqlite:///{target_path.as_posix()}"
+            return url
+
+        if self.TURSO_DATABASE_URL.strip():
+            return self._normalize_turso_url(self.TURSO_DATABASE_URL)
+
+        default_path = (BASE_DIR.parent / "database" / "chichan.db").resolve()
+        return f"sqlite+aiosqlite:///{default_path.as_posix()}"
 
     # Security
     # Chấp nhận cả JWT_SECRET_KEY (tên cũ trong docs deploy Render) như một alias.
@@ -69,11 +113,18 @@ def validate_settings() -> list[tuple[str, str]]:
             "Hãy đặt SECRET_KEY (hoặc tên cũ JWT_SECRET_KEY) trên môi trường deploy.",
         ))
 
-    if not settings.DATABASE_URL.startswith("postgresql+asyncpg://"):
+    valid_schemes = ("postgresql+asyncpg://", "sqlite+aiosqlite://", "sqlite+tursohttp://")
+    resolved_url = settings.resolved_database_url
+    if not any(resolved_url.startswith(s) for s in valid_schemes):
         problems.append((
             "critical",
-            "DATABASE_URL phải dùng scheme postgresql+asyncpg:// (driver async) — "
+            "DATABASE_URL hoặc TURSO_DATABASE_URL phải dùng scheme hợp lệ (sqlite+aiosqlite://, sqlite+tursohttp://, libsql://, postgresql+asyncpg://) — "
             "scheme khác sẽ lỗi khi mở kết nối.",
+        ))
+    elif resolved_url.startswith("sqlite+tursohttp://") and not settings.TURSO_AUTH_TOKEN and "authToken=" not in resolved_url and "auth_token=" not in resolved_url:
+        problems.append((
+            "critical",
+            "TURSO_AUTH_TOKEN chưa được đặt khi kết nối Turso Cloud — truy vấn tới Turso sẽ bị từ chối xác thực.",
         ))
 
     if not settings.AI_API_KEY:

@@ -1,0 +1,379 @@
+{
+  "enrollments": [
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "status": "COMPLETED",
+      "enrolled_at": "2026-11-07T08:04:46.023518+00:00",
+      "completed_at": "2026-11-17T08:04:46.023518+00:00"
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "ranh-gioi-an-toan-dong-thuan-va-phong-chong-xam-hai",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-18T08:04:46.023518+00:00",
+      "completed_at": null
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-22T08:04:46.023518+00:00",
+      "completed_at": null
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "status": "COMPLETED",
+      "enrolled_at": "2026-11-12T08:04:46.023518+00:00",
+      "completed_at": "2026-11-24T08:04:46.023518+00:00"
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "tinh-yeu-hoc-tro-va-quan-tri-cam-xuc-tuoi-moi-lon",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-24T08:04:46.023518+00:00",
+      "completed_at": null
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "status": "COMPLETED",
+      "enrolled_at": "2026-11-09T08:04:46.023518+00:00",
+      "completed_at": "2026-11-21T08:04:46.023518+00:00"
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "cam-bay-pod-vape-va-chat-kich-thich-bao-ve-ban-than-noi-tiec-tung",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-22T08:04:46.023518+00:00",
+      "completed_at": null
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000003",
+      "course_slug": "nghe-thuat-dong-hanh-va-tro-chuyen-cung-con-tuoi-day-thi",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-15T08:04:46.023518+00:00",
+      "completed_at": null
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "status": "COMPLETED",
+      "enrolled_at": "2026-11-13T08:04:46.023518+00:00",
+      "completed_at": "2026-11-25T08:04:46.023518+00:00"
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000008",
+      "course_slug": "giao-duc-gioi-tinh-cho-tre-tien-day-thi-6-10-tuoi",
+      "status": "IN_PROGRESS",
+      "enrolled_at": "2026-11-19T08:04:46.023518+00:00",
+      "completed_at": null
+    }
+  ],
+  "completed_lessons": [
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 3
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 4
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 5
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 6
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 7
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "ranh-gioi-an-toan-dong-thuan-va-phong-chong-xam-hai",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "ranh-gioi-an-toan-dong-thuan-va-phong-chong-xam-hai",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 3
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 4
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 5
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "tinh-yeu-hoc-tro-va-quan-tri-cam-xuc-tuoi-moi-lon",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "tinh-yeu-hoc-tro-va-quan-tri-cam-xuc-tuoi-moi-lon",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 3
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 4
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 5
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 6
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 7
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "cam-bay-pod-vape-va-chat-kich-thich-bao-ve-ban-than-noi-tiec-tung",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "cam-bay-pod-vape-va-chat-kich-thich-bao-ve-ban-than-noi-tiec-tung",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000003",
+      "course_slug": "nghe-thuat-dong-hanh-va-tro-chuyen-cung-con-tuoi-day-thi",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000003",
+      "course_slug": "nghe-thuat-dong-hanh-va-tro-chuyen-cung-con-tuoi-day-thi",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000003",
+      "course_slug": "nghe-thuat-dong-hanh-va-tro-chuyen-cung-con-tuoi-day-thi",
+      "lesson_order_index": 3
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 2
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 3
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 4
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 5
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000008",
+      "course_slug": "giao-duc-gioi-tinh-cho-tre-tien-day-thi-6-10-tuoi",
+      "lesson_order_index": 1
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000008",
+      "course_slug": "giao-duc-gioi-tinh-cho-tre-tien-day-thi-6-10-tuoi",
+      "lesson_order_index": 2
+    }
+  ],
+  "quiz_submissions": [
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 1,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 2,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 3,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 4,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 5,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 6,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "lesson_order_index": 7,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000004",
+      "course_slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+      "is_final_quiz": true,
+      "score": 90,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 1,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 2,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 3,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 4,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "lesson_order_index": 5,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000009",
+      "course_slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+      "is_final_quiz": true,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "lesson_order_index": 1,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "d0000000-0000-0000-0000-000000000010",
+      "course_slug": "ky-nang-tu-ve-so-phong-chong-tong-tien-va-bao-luc-mang",
+      "is_final_quiz": true,
+      "score": 90,
+      "passed": true
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "lesson_order_index": 1,
+      "score": 100,
+      "passed": true
+    },
+    {
+      "user_id": "c0000000-0000-0000-0000-000000000007",
+      "course_slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+      "is_final_quiz": true,
+      "score": 100,
+      "passed": true
+    }
+  ]
+}

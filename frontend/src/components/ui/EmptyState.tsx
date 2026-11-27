@@ -38,7 +38,7 @@ export function EmptyState({
     <div className={isError ? "space-y-5" : "space-y-3"}>
       {isError ? (
         // Tile icon đỏ giống block lỗi ở intro/learn/certificate
-        <div className="w-16 h-16 mx-auto bg-red-50 text-red-600 rounded-2xl flex items-center justify-center shadow-sm">
+        <div className="w-16 h-16 mx-auto bg-red-50 text-red-600 rounded-none flex items-center justify-center shadow-depth-1">
           {icon}
         </div>
       ) : (
@@ -76,7 +76,7 @@ export function EmptyState({
     <div className={`text-center py-12 ${className}`}>
       {glass ? (
         // Bọc glass card như trang certificate
-        <div className="bg-white p-8 rounded-xl border border-outline-variant/30 text-center max-w-md mx-auto">
+        <div className="bg-white p-8 rounded-none border border-outline-variant/30 text-center max-w-md mx-auto shadow-depth-2">
           {content}
         </div>
       ) : (

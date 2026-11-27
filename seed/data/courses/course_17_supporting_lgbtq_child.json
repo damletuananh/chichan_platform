@@ -1,0 +1,1039 @@
+{
+  "title": "Khi Con Thuộc Cộng Đồng LGBT+: Thấu Hiểu, Yêu Thương & Đồng Hành",
+  "slug": "khi-con-thuoc-cong-dong-lgbt-thau-hieu-yeu-thuong-va-dong-hanh",
+  "short_description": "Vượt qua cú sốc Come Out, hiểu rõ cơ sở khoa học y tế của WHO & Bộ Y tế (LGBT không phải là bệnh), bản lĩnh bảo vệ con trước búa rìu dư luận, đồng hành y tế an toàn cùng con chuyển giới và kiến tạo tổ ấm hạnh phúc.",
+  "description": "**Đối tượng:** Phụ huynh có con thuộc cộng đồng LGBT+ hoặc đang băn khoăn về giới tính.\n\nKhi con công khai mình là người đồng tính, song tính hay chuyển giới, nhiều cha mẹ rơi vào khủng hoảng, tự trách và hoang mang trước định kiến họ hàng. Khóa học mang đến tri thức y khoa chuẩn mực của WHO và Bộ Y tế Việt Nam (Công văn 4145), hướng dẫn cha mẹ vượt qua 5 giai đoạn tâm lý sốc, vạch trần sự nguy hiểm của các liệu pháp 'bẻ thẳng' ép buộc, trang bị kỹ năng bảo vệ con trước dư luận độc hại, đồng hành y tế an toàn (hormone chuyển giới) và biến gia đình thành bến đỗ bình yên nâng bước con thành công.",
+  "learning_objectives": "- Giải mã tâm lý sốc của cha mẹ và các bước tiến tới sự chấp nhận yêu thương con trọn vẹn.\n- Hiểu rõ khẳng định y khoa của WHO và Bộ Y tế: LGBT không phải là bệnh, cấm liệu pháp chuyển đổi.\n- Rèn luyện bản lĩnh phụ huynh: Bảo vệ con trước định kiến họ hàng và bạo lực học đường.\n- Nắm vững kiến thức y tế và pháp lý (Điều 37 BLDS) khi đồng hành cùng con chuyển giới.\n- Kết nối mạng lưới phụ huynh PFLAG và xây dựng gia đình hạnh phúc tôn trọng bản ngã của con.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "PARENT",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Cú sốc 'Come Out' của con: Giải mã tâm lý cha mẹ và sự chấp nhận",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khi con cất lời công khai mình là người đồng tính, song tính hoặc chuyển giới, hầu hết cha mẹ đều trải qua 5 giai đoạn cảm xúc: Bàng hoàng -> Phủ nhận ('Nó chỉ đú trend') -> Tức giận / Dằn vặt ('Tại mình nuôi dạy sai') -> Đau buồn -> Chấp nhận. Hiểu được tiến trình này giúp cha mẹ không bộc phát những phản ứng tổn thương con.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Cú sốc 'Come Out' của con: Giải mã tâm lý cha mẹ và sự chấp nhận",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Phản ứng tâm lý ban đầu phổ biến của cha mẹ khi con Come Out là gì?",
+            "explanation": "Sốc, hoang mang, phủ nhận và tự dằn vặt bản thân nuôi dạy sai cách.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mở tiệc ăn mừng ngay lập tức",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bàng hoàng, phủ nhận, lo lắng cho tương lai của con và tự trách bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không quan tâm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đuổi con đi ngay",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Quan niệm: 'Con bị đồng tính là do cha mẹ chiều chuộng hoặc nuông chiều sai cách' là ĐÚNG hay SAI?",
+            "explanation": "Hoàn toàn SAI; xu hướng tính dục là yếu tố bẩm sinh tự nhiên, không do cách nuôi dạy quyết định.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rất đúng, do lỗi của mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn SAI; khoa học y khoa chứng minh xu hướng tính dục là bẩm sinh tự nhiên, không phải do nuôi dạy",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do con xem phim hoạt hình nhiều",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do ăn nhiều đồ ngọt",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao việc phủ nhận: 'Mày chỉ a dua theo phong trào rồi sẽ khỏi' lại làm tổn thương con sâu sắc?",
+            "explanation": "Vì phủ nhận cảm nhận tự thân của con, khiến con cảm thấy mình không được cha mẹ tin tưởng và thấu hiểu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì làm con nổi giận",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì phủ nhận bản ngã chân thật của con, đẩy con vào trạng thái cô độc và khủng hoảng tinh thần",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì con muốn làm theo phong trào thật",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có tổn thương gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Bước đầu tiên cha mẹ cần làm để ổn định cảm xúc của chính mình là gì?",
+            "explanation": "Hít thở sâu, chấp nhận cảm xúc hoang mang của mình và tìm kiếm thông tin khoa học chính thống thay vì tin đồn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đưa con đi thầy cúng trừ tà",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cho phép mình thời gian thích ứng, tìm hiểu kiến thức y khoa chuẩn xác và kiên nhẫn đối thoại cùng con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhốt con trong phòng kín",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tuyên bố từ mặt con",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tổ chức hỗ trợ phụ huynh có con em LGBT tại Việt Nam là gì?",
+            "explanation": "PFLAG Việt Nam (Hội Phụ huynh và Người thân của người LGBT).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "PFLAG Việt Nam",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hội phụ nữ phường",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hội chữ thập đỏ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hội người cao tuổi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Khoa học y tế chính thống: LGBT không phải là bệnh lý",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Tổ chức Y tế Thế giới (WHO), Hiệp hội Tâm thần học Hoa Kỳ (APA) và Bộ Y tế Việt Nam (Công văn 4145/BYT-KCB năm 2022) đều khẳng định: Đồng tính, song tính, chuyển giới hoàn toàn không phải là bệnh, không thể chữa và không được can thiệp ép buộc chữa trị. Mọi liệu pháp 'chuyển đổi' (Conversion Therapy) đều bị nghiêm cấm vì gây tàn phá tâm lý nặng nề.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Khoa học y tế chính thống: LGBT không phải là bệnh lý",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Văn bản chính thức năm 2022 của Bộ Y tế Việt Nam quy định điều gì về xu hướng tính dục?",
+            "explanation": "Khẳng định đồng tính, song tính, chuyển giới không phải là bệnh, cấm mọi hành vi ép buộc chữa trị.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt buộc người LGBT phải đi điều trị nội tiết",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khẳng định LGBT không phải là bệnh, không can thiệp chữa trị và nghiêm cấm kỳ thị trong y tế",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Yêu cầu cách ly người LGBT",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Phạt tiền người công khai giới tính",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Các 'Liệu pháp chuyển đổi' (bẻ thẳng ép con đổi giới tính) gây ra hậu quả gì cho trẻ?",
+            "explanation": "Gây trầm cảm nặng nề, rối loạn lo âu và tăng gấp 8 lần nguy cơ tự sát ở thanh thiếu niên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con trở nên ngoan ngoãn hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tàn phá nghiêm trọng sức khỏe tâm thần, gây trầm cảm sâu sắc và gia tăng nguy cơ tự tử",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp con học giỏi hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chữa khỏi hoàn toàn sau 1 tuần",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi có người khuyên: 'Đưa con đi tiêm hormone nam để nó nam tính lại', cha mẹ nên hiểu điều gì?",
+            "explanation": "Tiêm hormone bừa bãi không làm thay đổi xu hướng tính dục mà còn gây suy gan thận, ung thư và vô sinh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nên làm ngay vì rất tốt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cực kỳ nguy hiểm; hormone không đổi được xu hướng tính dục mà phá hủy gan, thận và hệ nội tiết của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần uống thuốc bắc là được",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hormone giúp con thông minh hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Sự chấp nhận và ủng hộ của gia đình giúp giảm bao nhiêu % nguy cơ tự tử ở thanh thiếu niên LGBT?",
+            "explanation": "Giảm hơn 80% nguy cơ tự sát và trầm cảm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ giảm 5%",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giảm hơn 80% nguy cơ tự tử, giúp con tự tin phát triển sự nghiệp rạng rỡ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không có tác dụng gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Làm tăng nguy cơ tự tử",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thế nào là thái độ của một bậc cha mẹ tiến bộ và thương con thực sự?",
+            "explanation": "Yêu thương con vì chính con người của con, không áp đặt định kiến xã hội lên hạnh phúc của con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt con phải sống theo kỳ vọng của họ hàng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng bản ngã tự nhiên của con, đồng hành và bảo vệ quyền được hạnh phúc của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ép con phải lấy người khác giới để làm vừa lòng làng xóm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Coi con là nỗi ô nhục",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Bảo vệ con trước búa rìu dư luận họ hàng & Kỳ thị học đường",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nỗi sợ lớn nhất của cha mẹ thường là: 'Miệng lưỡi thế gian', 'Họ hàng chê cười'. Bài học hướng dẫn kỹ năng giao tiếp bản lĩnh: Thiết lập ranh giới bảo vệ tổ ấm, sẵn sàng lên tiếng bảo vệ con trước những lời ác ý của người ngoài, làm việc với nhà trường để chống bắt nạt kỳ thị giới tính.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Bảo vệ con trước búa rìu dư luận họ hàng & Kỳ thị học đường",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi họ hàng hoặc hàng xóm bàn tán, mỉa mai về giới tính của con, cha mẹ nên ứng xử thế nào?",
+            "explanation": "Bản lĩnh bảo vệ con: 'Con tôi sống tử tế, học tập tốt và gia đình tôi luôn tự hào về cháu'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Về nhà trút giận đánh đập con",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Điềm tĩnh nhưng cương quyết khẳng định niềm tự hào về nhân cách của con và bảo vệ ranh giới gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đồng tình hùa theo chê bai con trước mặt họ hàng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt con quỳ gối xin lỗi cả họ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tại sao sự lên tiếng bênh vực của cha mẹ lại có ý nghĩa sinh tử đối với con cái LGBT?",
+            "explanation": "Vì gia đình là pháo đài cuối cùng; nếu cha mẹ quay lưng, đứa trẻ sẽ hoàn toàn bơ vơ và sụp đổ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì giúp gia đình nổi tiếng hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì gia đình là điểm tựa an toàn duy nhất; sự bảo vệ của cha mẹ là chiếc phao cứu sinh giữ con ở lại với cuộc đời",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì cha mẹ thích tranh cãi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có ý nghĩa gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi con bị bạn bè trong trường trêu chọc, kỳ thị giới tính, phụ huynh cần làm gì?",
+            "explanation": "Đồng hành cùng con, gặp trực tiếp Ban Giám hiệu và giáo viên chủ nhiệm yêu cầu xử lý nghiêm hành vi bắt nạt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bảo con: 'Tại mày ẻo lả quá người ta mới trêu'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm việc chính thức với nhà trường yêu cầu thực thi quy định chống bắt nạt và bảo đảm môi trường an toàn cho con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con nghỉ học luôn ở nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đến trường đánh các bạn học sinh đó",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Học sinh thuộc cộng đồng LGBT có quyền được học tập bình đẳng trong nhà trường không?",
+            "explanation": "CÓ; Hiến pháp và Luật Giáo dục Việt Nam bảo đảm quyền học tập bình đẳng, không bị phân biệt đối xử.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không, phải học trường riêng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "CÓ; được pháp luật bảo vệ đầy đủ quyền học tập bình đẳng trong môi trường an toàn, không kỳ thị",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ được học hết cấp 2",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có quyền gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Cha mẹ có thể tìm thấy sự đồng cảm và kinh nghiệm từ đâu khi gặp khó khăn?",
+            "explanation": "Từ cộng đồng các phụ huynh có con LGBT (PFLAG) và các chuyên gia tâm lý học đường.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Từ các trang bói toán trên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Từ mạng lưới phụ huynh PFLAG và các chuyên gia tâm lý uy tín có chuyên môn về đa dạng giới",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Từ các quán nhậu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giữ kín một mình gặm nhấm nỗi đau",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Đồng hành cùng con chuyển giới (Transgender): Y tế, Pháp lý & Đời sống",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nếu con bạn là người chuyển giới (bản dạng giới không trùng khớp với giới tính sinh học): Con trải qua nỗi đau giày vò cơ thể (Gender Dysphoria). Cha mẹ cần tìm hiểu kiến thức y khoa về lộ trình chuyển giới an toàn: Tư vấn tâm lý khẳng định giới, sử dụng hormone theo chỉ định bác sĩ nội tiết, và quyền đổi tên/giới tính theo Bộ luật Dân sự 2015 (Điều 37).",
+      "quiz": {
+        "title": "Củng cố Bài 4: Đồng hành cùng con chuyển giới (Transgender): Y tế, Pháp lý & Đời sống",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Chứng phiền muộn giới' (Gender Dysphoria) ở người chuyển giới là gì?",
+            "explanation": "Sự đau khổ, dằn vặt sâu sắc do sự xung đột giữa bản dạng giới bên trong và cơ thể sinh học bên ngoài.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bệnh đau đầu thông thường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự đau khổ tâm lý sâu sắc do mâu thuẫn giữa giới tính sinh học và bản dạng giới tự thân của cá nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sự lười biếng học tập",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thói quen ăn mặc theo mốt",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Theo Điều 37 Bộ luật Dân sự Việt Nam 2015, quyền chuyển đổi giới tính được quy định như thế nào?",
+            "explanation": "Cá nhân có quyền chuyển đổi giới tính theo quy định của luật và được thay đổi hộ tịch, nhân thân tương ứng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bị nghiêm cấm tuyệt đối",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Được pháp luật công nhận quyền chuyển đổi giới tính và quyền thay đổi thông tin hộ tịch sau chuyển giới",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ áp dụng cho người nước ngoài",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có quy định nào",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi tự ý mua hormone trôi nổi trên mạng để con tiêm/uống mà không có chỉ định bác sĩ có nguy cơ gì?",
+            "explanation": "Nguy cơ thuyên tắc mạch máu, suy gan cấp, đột quỵ và tử vong.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con đẹp hơn trong 24 giờ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cực kỳ nguy hiểm; nguy cơ thuyên tắc phổi, đột quỵ, suy gan và tử vong do sốc thuốc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không có nguy cơ gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tiết kiệm chi phí y tế",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cha mẹ có thể hỗ trợ con chuyển giới trong sinh hoạt hàng ngày bằng hành động đơn giản nào?",
+            "explanation": "Tôn trọng cách ăn mặc, kiểu tóc và gọi con bằng tên gọi, đại từ xưng hô mà con mong muốn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ép con mặc trang phục truyền thống mà con đau khổ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng thể hiện giới, trang phục và gọi con bằng tên gọi/đại từ con cảm thấy hạnh phúc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vứt hết quần áo của con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cắt tóc con trọc lốc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Quy trình chuyển giới y khoa chuẩn mực bao gồm những bước nào?",
+            "explanation": "Đánh giá tâm lý khẳng định giới -> Liệu pháp hormone thay thế có bác sĩ theo dõi -> Phẫu thuật (nếu có nhu cầu).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đi phẫu thuật ngay không cần khám",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tham vấn tâm lý khẳng định giới -> Liệu pháp hormone an toàn dưới giám sát bác sĩ -> Can thiệp ngoại khoa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần uống thuốc bổ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có quy trình nào",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Kiến tạo tổ ấm hạnh phúc: Nơi con luôn được là chính mình",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Thành công lớn nhất của người làm cha mẹ không phải là uốn nắn con thành một bản sao hoàn hảo theo ý mình, mà là nuôi dưỡng một đứa trẻ khỏe mạnh, hạnh phúc và sống tử tế. Một mái ấm nơi con được chấp nhận vô điều kiện chính là chiếc chìa khóa vàng giúp con tỏa sáng và thành công rực rỡ ngoài xã hội.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Kiến tạo tổ ấm hạnh phúc: Nơi con luôn được là chính mình",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Mục tiêu tối thượng của việc nuôi dạy con cái trong gia đình là gì?",
+            "explanation": "Giúp con trở thành một con người khỏe mạnh, lương thiện, tự tin và có một cuộc đời hạnh phúc trọn vẹn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt con phải làm rạng danh dòng họ bằng mọi giá",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nuôi dưỡng một đứa con khỏe mạnh, nhân ái, tự tin và sống hạnh phúc với chính bản thân mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ép con phải kiếm thật nhiều tiền để nuôi cha mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt con phải kết hôn theo ý cha mẹ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Một đứa trẻ LGBT được gia đình yêu thương và ủng hộ thường có tương lai như thế nào?",
+            "explanation": "Tự tin, kiên cường, có sức khỏe tinh thần vững vàng và đạt nhiều thành tựu trong học tập, sự nghiệp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sẽ bị xã hội đào thải",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tự tin, giàu lòng trắc ẩn, tâm lý vững vàng và dễ dàng gặt hái thành công trong cuộc sống",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sẽ không bao giờ tìm được việc làm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sẽ trở thành người xấu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành động nào sau đây thể hiện tình yêu thương vô điều kiện của cha mẹ?",
+            "explanation": "Dù con là ai, giới tính nào, bố mẹ vẫn luôn yêu thương, tự hào và đồng hành cùng con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ yêu con khi con có điểm 10 và nghe lời 100%",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chấp nhận con trọn vẹn, tôn trọng bản ngã của con và luôn là điểm tựa bình yên cho con quay về",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Từ mặt con nếu con không làm theo ý mình",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "So sánh con với con nhà người ta",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi cha mẹ dám vượt qua định kiến để bảo vệ con, cha mẹ đã để lại cho con bài học gì?",
+            "explanation": "Bài học vĩ đại về lòng dũng cảm, sự bao dung và tình phụ tử/mẫu tử thiêng liêng cao đẹp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bài học về sự bướng bỉnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bài học sâu sắc về lòng dũng cảm, sự chính trực và giá trị bất diệt của tình yêu thương gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bài học về sự coi thường pháp luật",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không để lại bài học gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Lời nhắn nhủ ý nghĩa nhất của Hội phụ huynh PFLAG gửi tới các bậc cha mẹ là gì?",
+            "explanation": "'Đừng để định kiến của người ngoài cướp mất đứa con quý giá mà bạn đã dứt ruột đẻ ra'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Hãy nghe lời hàng xóm mắng con'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Con cái là món quà quý giá nhất; hãy chọn tình yêu thương thay vì chọn định kiến xã hội'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Hãy giấu kín con trong nhà suốt đời'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Con cái là tài sản của riêng cha mẹ'",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Nhận thức & Năng lực Đồng hành Cùng Con LGBT+",
+    "description": "10 câu hỏi tổng hợp tình huống kiểm tra sự thấu hiểu và kỹ năng làm cha mẹ tiến bộ.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Tổ chức Y tế Thế giới (WHO) đã loại bỏ đồng tính luyến ái khỏi danh mục bệnh tâm thần vào năm nào?",
+        "explanation": "Năm 1990.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Năm 2024",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Năm 1990",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Năm 1800",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chưa bao giờ loại bỏ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Công văn 4145 của Bộ Y tế Việt Nam năm 2022 quy định điều gì?",
+        "explanation": "Khẳng định LGBT không phải là bệnh và cấm mọi hành vi ép buộc chữa trị.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bắt buộc chuyển giới",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Khẳng định không coi LGBT là bệnh và nghiêm cấm can thiệp ép chuyển đổi xu hướng tính dục",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cấm người LGBT kết hôn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Phạt tiền người đồng tính",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Liệu pháp chuyển đổi (Conversion Therapy) gây ra tác hại gì cho thanh thiếu niên?",
+        "explanation": "Làm tăng gấp 8 lần nguy cơ tự sát và gây trầm cảm sâu sắc.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp con học giỏi hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tàn phá nghiêm trọng sức khỏe tâm thần và làm tăng nguy cơ tự tử lên gấp nhiều lần",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Giúp con đổi giọng nói",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có tác hại gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Hội chứng phiền muộn giới (Gender Dysphoria) xảy ra ở nhóm đối tượng nào?",
+        "explanation": "Người chuyển giới (khi bản dạng giới mâu thuẫn với giới tính sinh học).",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Người dị tính",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Người chuyển giới khi cơ thể sinh học không trùng khớp với cảm nhận giới tính bên trong",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Người cao tuổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ xảy ra ở trẻ sơ sinh",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Điều 37 Bộ luật Dân sự Việt Nam 2015 công nhận quyền gì?",
+        "explanation": "Quyền chuyển đổi giới tính.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Quyền khiếu nại tố cáo",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Quyền chuyển đổi giới tính và thay đổi hộ tịch tương ứng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Quyền mua bán vũ khí",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Quyền không đội nón bảo hiểm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Tổ chức PFLAG tại Việt Nam là tổ chức của ai?",
+        "explanation": "Hội phụ huynh và người thân của người LGBT.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hội các bác sĩ thẩm mỹ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hội phụ huynh và người thân của người LGBT đồng hành hỗ trợ gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Hội thanh niên tình nguyện",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Hiệp hội người tiêu dùng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Khi con Come Out, hành động nào của cha mẹ là VĂN MINH và ĐÚNG ĐẮN nhất?",
+        "explanation": "Lắng nghe chân thành, ôm con và cùng con tìm hiểu kiến thức y khoa chính thống.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Đánh đòn và nhốt con trong phòng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lắng nghe thấu cảm, khẳng định tình yêu thương và cùng con tìm hiểu kiến thức khoa học",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Mời thầy bói về cúng bái",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tuyên bố từ mặt con trên báo chí",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Hành vi tự ý mua hormone trôi nổi về sử dụng có thể dẫn đến nguy hiểm gì?",
+        "explanation": "Suy gan, thuyên tắc mạch máu, đột quỵ và tử vong.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp tăng chiều cao 20cm",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Thuyên tắc phổi, đột quỵ, suy gan cấp và nguy cơ tử vong cao",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm sáng mắt",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có nguy hiểm gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Sự ủng hộ của cha mẹ có tác động thế nào đến tỷ lệ tự sát của trẻ LGBT?",
+        "explanation": "Làm giảm hơn 80% nguy cơ tự tử và trầm cảm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm tăng tỷ lệ tự tử",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giảm hơn 80% nguy cơ tự sát và giúp con phát triển khỏe mạnh, tự tin",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Không có tác động gì",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ giảm 1%",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Tình yêu thương đích thực của cha mẹ dành cho con được thể hiện qua điều gì?",
+        "explanation": "Chấp nhận con trọn vẹn, tôn trọng bản ngã của con và là chỗ dựa bình yên vô điều kiện.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ép con sống theo khuôn mẫu của xã hội",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chấp nhận con như chính con người của con, đồng hành và bảo vệ hạnh phúc của con",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cắt đứt liên lạc nếu con không nghe lời",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "So sánh con với người khác",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

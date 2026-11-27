@@ -199,7 +199,7 @@ const MessageList = React.memo(function MessageList({
       {messages.map((m) => (
         <div
           key={m.id ?? m.clientId}
-          className={`flex gap-3 items-end ${
+          className={`flex gap-3 items-end animate-message-bubble ${
             m.sender === "USER" ? "justify-end" : "justify-start"
           }`}
         >
@@ -213,7 +213,7 @@ const MessageList = React.memo(function MessageList({
               alt={npcName}
               onError={(e) => {
                 e.currentTarget.src =
-                  "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100";
+                    "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100";
               }}
               className="w-8 h-8 rounded-none object-cover border border-white shadow-xs flex-shrink-0 mb-1"
             />
@@ -239,7 +239,7 @@ const MessageList = React.memo(function MessageList({
             {/* Score Delta Badge */}
             {m.sender === "NPC" && m.score_change !== 0 && (
               <span
-                className={`text-[10px] font-extrabold mt-1 px-2.5 py-0.5 rounded-none ${
+                className={`text-[10px] font-extrabold mt-1 px-2.5 py-0.5 rounded-none animate-pop-in ${
                   m.score_change! > 0
                     ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                     : "bg-rose-50 text-rose-700 border border-rose-200"
@@ -266,13 +266,13 @@ const MessageList = React.memo(function MessageList({
               e.currentTarget.src =
                 "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100";
             }}
-            className="w-8 h-8 rounded-full object-cover border border-white shadow-xs flex-shrink-0 mb-1"
+            className="w-8 h-8 rounded-none object-cover border border-white shadow-xs flex-shrink-0 mb-1"
           />
           <div className="flex flex-col items-start max-w-[85%] sm:max-w-[78%]">
             <div className="text-[10px] text-on-surface-variant/80 mb-1 px-1 font-semibold">
               {npcName}
             </div>
-            <div className="rounded-3xl rounded-bl-xs p-4 text-sm leading-relaxed bg-surface-container-low text-on-surface border border-outline-variant/30 shadow-xs">
+            <div className="message-bubble rounded-none p-4 text-sm leading-relaxed bg-surface-container-low text-on-surface border border-outline-variant/30 shadow-xs">
               <p className="font-normal whitespace-pre-line">
                 {streamingText}
                 <span className="inline-block w-1.5 h-3.5 bg-primary/70 ml-1 animate-pulse align-middle" />
@@ -284,7 +284,7 @@ const MessageList = React.memo(function MessageList({
 
       {/* Natural Chat Typing Indicator (Zalo / Messenger / iMessage style) */}
       {thinking && !streamingText && (
-        <div className="flex gap-3 items-end justify-start">
+        <div className="flex gap-3 items-end justify-start animate-fade-in">
           <img
             src={
               npcAvatarUrl ||
@@ -295,16 +295,16 @@ const MessageList = React.memo(function MessageList({
               e.currentTarget.src =
                 "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100";
             }}
-            className="w-8 h-8 rounded-full object-cover border border-white shadow-xs flex-shrink-0 mb-1"
+            className="w-8 h-8 rounded-none object-cover border border-white shadow-xs flex-shrink-0 mb-1"
           />
           <div className="flex flex-col items-start max-w-[85%] sm:max-w-[78%]">
             <div className="text-[10px] text-on-surface-variant/80 mb-1 px-1 font-semibold">
               {npcName}
             </div>
-            <div className="bg-surface-container-low text-on-surface rounded-3xl rounded-bl-xs px-4 py-3 border border-outline-variant/30 flex items-center gap-1.5 shadow-xs">
-              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-full animate-bounce" />
-              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-full animate-bounce [animation-delay:0.2s]" />
-              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-full animate-bounce [animation-delay:0.4s]" />
+            <div className="bg-surface-container-low text-on-surface rounded-none px-4 py-3 border border-outline-variant/30 flex items-center gap-1.5 shadow-xs">
+              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-none animate-bounce" />
+              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-none animate-bounce [animation-delay:0.2s]" />
+              <span className="w-2 h-2 bg-on-surface-variant/50 rounded-none animate-bounce [animation-delay:0.4s]" />
             </div>
           </div>
         </div>
@@ -828,6 +828,19 @@ export default function GamePlayPage() {
 
               // Kiểm tra nếu màn chơi kết thúc
               if (data.status === "WON" || data.status === "LOST") {
+                if (data.status === "WON") {
+                  try {
+                    import("canvas-confetti").then((mod) => {
+                      const confetti = mod.default;
+                      confetti({
+                        particleCount: 90,
+                        spread: 75,
+                        origin: { y: 0.6 },
+                        zIndex: 9999,
+                      });
+                    });
+                  } catch {}
+                }
                 setTimeout(() => {
                   fetchEvaluation();
                 }, 1200);
@@ -942,7 +955,7 @@ export default function GamePlayPage() {
         <div className="flex items-center gap-3 min-w-0">
           <button
             onClick={handleRequestExit}
-            className="w-9 h-9 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant transition-colors cursor-pointer flex-shrink-0"
+            className="btn-press w-9 h-9 rounded-none bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant transition-colors cursor-pointer flex-shrink-0"
             title="Quay lại danh sách"
           >
             <ArrowLeft size={18} weight="bold" />
@@ -954,8 +967,8 @@ export default function GamePlayPage() {
                 {scenario?.title}
               </h1>
               {session?.status === "ACTIVE" && (
-                <span className="hidden sm:inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full text-[10px] font-bold">
-                  <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-ping" />
+                <span className="hidden sm:inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-none text-[10px] font-bold">
+                  <span className="w-1.5 h-1.5 bg-emerald-500 rounded-none animate-ping" />
                   Đang diễn ra
                 </span>
               )}
@@ -965,7 +978,7 @@ export default function GamePlayPage() {
                 </Badge>
               )}
               {session?.status === "LOST" && (
-                <span className="inline-flex items-center gap-1 bg-rose-50 text-rose-800 border border-rose-200 px-2.5 py-0.5 rounded-full text-[10px] font-bold">
+                <span className="inline-flex items-center gap-1 bg-rose-50 text-rose-800 border border-rose-200 px-2.5 py-0.5 rounded-none text-[10px] font-bold">
                   ⚠️ Chưa an toàn
                 </span>
               )}
@@ -982,7 +995,7 @@ export default function GamePlayPage() {
             <button
               type="button"
               onClick={() => setShowGuideModal(true)}
-              className="text-xs font-black text-amber-800 bg-amber-100 hover:bg-amber-200 border border-amber-300/80 px-3.5 py-2 rounded-full flex items-center gap-1.5 transition-all cursor-pointer shadow-xs"
+              className="btn-press text-xs font-black text-amber-800 bg-amber-100 hover:bg-amber-200 border border-amber-300/80 px-3.5 py-2 rounded-none flex items-center gap-1.5 transition-all cursor-pointer shadow-xs"
             >
               <Lightning size={16} weight="fill" className="text-amber-600" />
               <span className="hidden md:inline">Bí kíp 3s</span>
@@ -1126,7 +1139,7 @@ export default function GamePlayPage() {
 
           {/* Error Alert Bar with Retry */}
           {error && session && (
-            <div className="mx-4 sm:mx-6 mb-2 p-3 rounded-2xl bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-center justify-between gap-3 shadow-xs">
+            <div className="mx-4 sm:mx-6 mb-2 p-3 rounded-none bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-center justify-between gap-3 shadow-xs">
               <div className="flex items-center gap-2 min-w-0">
                 <WarningCircle
                   size={18}
@@ -1138,7 +1151,7 @@ export default function GamePlayPage() {
               {error.includes("đăng nhập") ? (
                 <Link
                   href="/login"
-                  className="px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-bold text-[11px] shrink-0 transition-all cursor-pointer shadow-xs inline-block"
+                  className="btn-press px-3 py-1 rounded-none bg-rose-600 hover:bg-rose-700 text-white font-bold text-[11px] shrink-0 transition-all cursor-pointer shadow-xs inline-block"
                 >
                   Đăng nhập lại
                 </Link>
@@ -1146,7 +1159,7 @@ export default function GamePlayPage() {
                 <button
                   type="button"
                   onClick={() => handleSendMessage(lastFailedMessage)}
-                  className="px-3 py-1 rounded-full bg-rose-600 hover:bg-rose-700 text-white font-bold text-[11px] shrink-0 transition-all cursor-pointer shadow-xs"
+                  className="btn-press px-3 py-1 rounded-none bg-rose-600 hover:bg-rose-700 text-white font-bold text-[11px] shrink-0 transition-all cursor-pointer shadow-xs"
                 >
                   Thử lại
                 </button>

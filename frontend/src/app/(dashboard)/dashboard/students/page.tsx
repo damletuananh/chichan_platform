@@ -92,10 +92,10 @@ export default function DashboardStudentsPage() {
                 <div className="flex items-center gap-3 w-full sm:w-auto">
                     <Funnel size={20} weight="bold" className="text-on-surface-variant" />
                     {coursesLoading ? (
-                        <SkeletonBlock rounded="full" className="h-9 w-full sm:w-40" />
+                        <SkeletonBlock rounded="none" className="h-9 w-full sm:w-40" />
                     ) : (
                         <select
-                            className="w-full sm:w-64 bg-white/80 border border-outline-variant/30 rounded-full px-5 py-2.5 text-xs text-on-surface font-semibold focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                            className="btn-press w-full sm:w-64 bg-white border border-outline-variant/40 rounded-none px-4 py-2.5 text-xs text-on-surface font-semibold focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1 cursor-pointer"
                             value={selectedCourseId}
                             onChange={(e) => {
                                 setSelectedCourseId(e.target.value);
@@ -115,7 +115,7 @@ export default function DashboardStudentsPage() {
             </div>
 
             {/* Students Progress Table Wrapper */}
-            <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-sm space-y-6">
+            <div className="bg-white p-8 rounded-none border border-outline-variant/30 shadow-depth-2 space-y-6">
                 {studentsLoading ? (
                     <SkeletonText lines={3} className="max-w-sm mx-auto py-12" />
                 ) : !selectedCourseId ? (
@@ -146,7 +146,7 @@ export default function DashboardStudentsPage() {
                                     const isCompleted = student.status === 'COMPLETED';
                                     
                                     return (
-                                        <tr key={student.student_id} className="hover:bg-white/40 transition-colors">
+                                        <tr key={student.student_id} className="hover:bg-surface-container-lowest transition-colors">
                                             <td className="py-4 px-4">
                                                 <div className="flex items-center gap-3">
                                                     <div className="h-8 w-8 rounded-none bg-primary/10 flex items-center justify-center font-bold text-primary text-xs">
@@ -204,20 +204,20 @@ export default function DashboardStudentsPage() {
                                 <button
                                     onClick={() => setPage((p) => Math.max(1, p - 1))}
                                     disabled={page <= 1 || studentsLoading}
-                                    className="p-1.5 rounded-lg border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+                                    className="btn-press p-1.5 rounded-none border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-depth-1"
                                     title="Trang trước"
                                 >
                                     <CaretLeft size={16} weight="bold" />
                                 </button>
 
-                                <span className="px-3 py-1 font-bold text-on-surface bg-surface-container-low rounded-lg border border-outline-variant/20">
+                                <span className="px-3 py-1 font-bold text-on-surface bg-surface-container-low rounded-none border border-outline-variant/20 shadow-depth-1">
                                     Trang {page} / {totalPages || 1}
                                 </span>
 
                                 <button
                                     onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                                     disabled={page >= totalPages || studentsLoading}
-                                    className="p-1.5 rounded-lg border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+                                    className="btn-press p-1.5 rounded-none border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-depth-1"
                                     title="Trang kế tiếp"
                                 >
                                     <CaretRight size={16} weight="bold" />

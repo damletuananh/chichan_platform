@@ -7,6 +7,7 @@ import {
   AiSimulationIllustration,
   AssessmentGrowthIllustration,
 } from "@/components/illustrations/StepIllustrations";
+import { ScrollReveal, ScrollRevealGroup } from "@/components/common/ScrollReveal";
 
 export function ThreeStepJourney() {
   const steps = [
@@ -58,21 +59,25 @@ export function ThreeStepJourney() {
     <section className="relative py-20 md:py-28 px-4 md:px-16 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col gap-14">
         {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto space-y-3">
+        <ScrollReveal animation="fade-up" className="text-center max-w-2xl mx-auto space-y-3">
           <h2 className="text-2xl md:text-4xl font-extrabold text-on-surface tracking-tight">
             Phương Pháp Học Tập &amp; Thực Hành Toàn Diện
           </h2>
           <p className="text-sm md:text-base text-on-surface-variant font-light leading-relaxed">
             Mô hình 3 bước giúp học sinh tiếp thu bài giảng từ giáo viên, rèn luyện kỹ năng phản xạ cùng AI và gắn kết đối thoại cởi mở cùng phụ huynh và nhà trường.
           </p>
-        </div>
+        </ScrollReveal>
 
         {/* 3 Step Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+        <ScrollRevealGroup
+          animation="fade-up"
+          staggerInterval={120}
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 relative"
+        >
           {steps.map((item, idx) => (
             <div
               key={idx}
-              className="relative bg-white rounded-none p-8 border border-outline-variant/40 shadow-depth-2 hover:shadow-depth-3 hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group overflow-hidden"
+              className="relative bg-white rounded-none p-8 border border-outline-variant/40 shadow-depth-2 card-lift flex flex-col justify-between group overflow-hidden h-full"
             >
               {/* Step number watermark */}
               <span className="absolute top-5 right-7 text-7xl sm:text-8xl font-black text-outline-variant/25 select-none font-mono tracking-tighter group-hover:text-primary/25 group-hover:scale-105 transition-all duration-300 pointer-events-none">
@@ -113,7 +118,7 @@ export function ThreeStepJourney() {
               </div>
             </div>
           ))}
-        </div>
+        </ScrollRevealGroup>
       </div>
     </section>
   );

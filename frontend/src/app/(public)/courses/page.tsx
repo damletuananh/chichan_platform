@@ -130,10 +130,10 @@ export default function CoursesPage() {
 
         {/* Filters - Only displayed for Guests / Admins / Instructors */}
         {!isParent && !isChild && (
-          <div className="flex gap-1 p-1 rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-x-auto no-scrollbar w-full sm:w-auto">
+          <div className="flex gap-1 p-1 rounded-none bg-surface-container-low border border-outline-variant/40 shadow-depth-1 overflow-x-auto no-scrollbar w-full sm:w-auto">
             <button
               onClick={() => setFilter("ALL")}
-              className={`flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-lg text-xs font-bold transition-all cursor-pointer whitespace-nowrap text-center ${
+              className={`btn-press flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-none text-xs font-bold transition-all duration-200 cursor-pointer whitespace-nowrap text-center ${
                 filter === "ALL"
                   ? "bg-primary text-white shadow-depth-1"
                   : "text-on-surface-variant hover:text-primary hover:bg-white/50"
@@ -144,7 +144,7 @@ export default function CoursesPage() {
 
             <button
               onClick={() => setFilter("CHILD")}
-              className={`flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-lg text-xs font-bold transition-all cursor-pointer whitespace-nowrap text-center ${
+              className={`btn-press flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-none text-xs font-bold transition-all duration-200 cursor-pointer whitespace-nowrap text-center ${
                 filter === "CHILD"
                   ? "bg-primary text-white shadow-depth-1"
                   : "text-on-surface-variant hover:text-primary hover:bg-white/50"
@@ -155,7 +155,7 @@ export default function CoursesPage() {
 
             <button
               onClick={() => setFilter("PARENT")}
-              className={`flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-lg text-xs font-bold transition-all cursor-pointer whitespace-nowrap text-center ${
+              className={`btn-press flex-1 sm:flex-initial px-4 sm:px-5 py-2 rounded-none text-xs font-bold transition-all duration-200 cursor-pointer whitespace-nowrap text-center ${
                 filter === "PARENT"
                   ? "bg-primary text-white shadow-depth-1"
                   : "text-on-surface-variant hover:text-primary hover:bg-white/50"
@@ -186,17 +186,22 @@ export default function CoursesPage() {
             ))}
           </div>
         ) : error ? (
-          <div className="text-center text-red-400 py-12 border border-red-500/10 rounded-xl bg-red-950/10 max-w-md mx-auto">
+          <div className="text-center text-red-700 py-12 border border-red-200 bg-red-50 rounded-none max-w-md mx-auto">
             {error}
           </div>
         ) : courses.length === 0 ? (
-          <div className="text-center text-slate-500 py-24 bg-surface-container-lowest rounded-3xl border border-outline-variant/20">
+          <div className="text-center text-slate-500 py-24 bg-white rounded-none border border-outline-variant/30 shadow-depth-1">
             Không tìm thấy bài học nào phù hợp trong góc học tập.
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {courses.map((course) => (
-              <CourseCard key={course.id} course={course} />
+            {courses.map((course, idx) => (
+              <div
+                key={course.id}
+                className={`animate-page-appear stagger-${Math.min(idx + 1, 6)}`}
+              >
+                <CourseCard course={course} />
+              </div>
             ))}
           </div>
         )}
@@ -217,15 +222,15 @@ export default function CoursesPage() {
 
         {/* Reference Articles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {referenceArticles.map((art) => (
+          {referenceArticles.map((art, idx) => (
             <div
               key={art.id}
-              className="bg-white/90 backdrop-blur-md rounded-3xl p-6 sm:p-7 border border-outline-variant/30 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group hover:-translate-y-0.5"
+              className={`bg-white rounded-none p-6 sm:p-7 border border-outline-variant/40 shadow-depth-1 card-lift flex flex-col justify-between group animate-page-appear stagger-${Math.min(idx + 1, 6)}`}
             >
               <div className="space-y-3.5">
                 <div className="flex items-center justify-between gap-2">
                   <span
-                    className={`px-3 py-1 rounded-full text-[10px] font-extrabold uppercase tracking-wider border ${art.badgeColor}`}
+                    className={`px-3 py-1 rounded-none text-[10px] font-extrabold uppercase tracking-wider border ${art.badgeColor}`}
                   >
                     {art.badge}
                   </span>
@@ -235,7 +240,7 @@ export default function CoursesPage() {
                   </span>
                 </div>
 
-                <h3 className="text-base sm:text-lg font-bold text-on-surface group-hover:text-primary transition-colors leading-snug">
+                <h3 className="text-base sm:text-lg font-bold text-on-surface group-hover:text-primary transition-colors duration-200 leading-snug">
                   {art.title}
                 </h3>
 
@@ -249,10 +254,10 @@ export default function CoursesPage() {
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-1.5 pt-1">
-                  {art.tags.map((t, idx) => (
+                  {art.tags.map((t, tidx) => (
                     <span
-                      key={idx}
-                      className="px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant text-[10px] font-medium"
+                      key={tidx}
+                      className="px-2 py-0.5 rounded-none bg-surface-container text-on-surface-variant text-[10px] font-medium border border-outline-variant/20"
                     >
                       #{t}
                     </span>
@@ -266,7 +271,7 @@ export default function CoursesPage() {
                 </span>
                 <button
                   onClick={() => setSelectedArticle(art)}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-primary hover:text-primary-container transition-colors cursor-pointer"
+                  className="btn-press inline-flex items-center gap-1.5 text-xs font-bold text-primary hover:text-primary-container transition-colors cursor-pointer"
                 >
                   <span>Đọc chi tiết</span>
                   <ArrowSquareOut size={14} weight="bold" />
@@ -280,16 +285,16 @@ export default function CoursesPage() {
       {/* Modal chi tiết bài báo */}
       {selectedArticle && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs">
-          <div className="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-outline-variant/30 space-y-5 animate-in fade-in zoom-in duration-200">
+          <div className="bg-white rounded-none max-w-2xl w-full p-6 sm:p-8 shadow-depth-4 border border-outline-variant/40 space-y-5 animate-page-appear">
             <div className="flex items-center justify-between gap-3 border-b border-outline-variant/20 pb-4">
               <span
-                className={`px-3 py-1 rounded-full text-[10px] font-extrabold uppercase tracking-wider border ${selectedArticle.badgeColor}`}
+                className={`px-3 py-1 rounded-none text-[10px] font-extrabold uppercase tracking-wider border ${selectedArticle.badgeColor}`}
               >
                 {selectedArticle.badge}
               </span>
               <button
                 onClick={() => setSelectedArticle(null)}
-                className="text-on-surface-variant hover:text-on-surface p-1.5 rounded-full hover:bg-surface-container transition-colors cursor-pointer text-sm font-bold"
+                className="btn-press text-on-surface-variant hover:text-on-surface px-2.5 py-1 rounded-none hover:bg-surface-container transition-colors cursor-pointer text-xs font-bold border border-transparent hover:border-outline-variant/30"
               >
                 ✕ Đóng
               </button>
@@ -304,7 +309,7 @@ export default function CoursesPage() {
               </p>
             </div>
 
-            <div className="p-4 rounded-2xl bg-surface-container-low/70 border border-outline-variant/20 text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+            <div className="p-4 rounded-none bg-surface-container-low/70 border border-outline-variant/30 text-xs sm:text-sm text-on-surface-variant leading-relaxed">
               <p className="font-semibold text-on-surface mb-1.5">Tóm lược cốt lõi:</p>
               <p>{selectedArticle.summary}</p>
             </div>
@@ -317,7 +322,7 @@ export default function CoursesPage() {
             <div className="pt-3 border-t border-outline-variant/20 flex justify-end">
               <button
                 onClick={() => setSelectedArticle(null)}
-                className="px-6 py-2.5 rounded-full bg-primary text-white text-xs font-bold hover:opacity-90 transition-all cursor-pointer"
+                className="btn-press px-6 py-2.5 rounded-none bg-primary text-white text-xs font-bold hover:bg-primary-container transition-all cursor-pointer shadow-depth-1"
               >
                 Đã hiểu
               </button>

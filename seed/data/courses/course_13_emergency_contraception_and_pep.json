@@ -1,0 +1,1039 @@
+{
+  "title": "Giao Thức Khẩn Cấp: Xử Lý Sau Quan Hệ Tình Dục Không An Toàn",
+  "slug": "giao-thuc-khan-cap-xu-ly-sau-quan-he-tinh-duc-khong-an-toan",
+  "short_description": "Cẩm nang y tế khẩn cấp: 3 bước phản xạ trong 60 phút đầu khi rách bao, cửa sổ vàng 72 giờ dùng PEP chống phơi nhiễm HIV, cách dùng thuốc tránh thai khẩn cấp, các mốc xét nghiệm STI và tránh bẫy phòng khám chui.",
+  "description": "**Đối tượng:** Học sinh THPT & Sinh viên (15 - 20 tuổi).\n\nSự cố rách bao cao su, tuột bao, quan hệ do bốc đồng hoặc bị ép buộc tình dục là những tình huống khủng hoảng có thể xảy ra. Khóa học cung cấp phác đồ y tế khẩn cấp chuẩn mực của Bộ Y tế và WHO: Cửa sổ vàng 72 giờ dùng thuốc kháng virus PEP chống phơi nhiễm HIV, sử dụng thuốc tránh thai khẩn cấp đúng cách, hiểu rõ các mốc thời kỳ cửa sổ xét nghiệm STI (lậu, giang mai, viêm gan B) và lựa chọn bệnh viện chuyên khoa bảo mật, nhân văn.",
+  "learning_objectives": "- Nắm vững phản xạ xử lý trong 60 phút đầu khi bao cao su rách: Tuyệt đối không thụt rửa hóa chất.\n- Tuân thủ phác đồ cửa sổ vàng 72 giờ của thuốc PEP dự phòng phơi nhiễm HIV và liệu trình 28 ngày.\n- Sử dụng thuốc tránh thai khẩn cấp đúng thời điểm và cảnh báo an toàn nội tiết tố.\n- Hiểu rõ các mốc thời kỳ cửa sổ (Window Periods) để làm xét nghiệm tầm soát STI chuẩn xác.\n- Nhận diện bẫy lừa đảo của các phòng khám chui và ổn định tâm lý phục hồi sau sang chấn.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Sự cố rách bao cao su hoặc bị ép quan hệ: Phản xạ y tế 60 phút đầu",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khi phát hiện bao cao su bị rách, bị tuột hoặc bị xâm hại tình dục ngoài ý muốn: Hãy giữ bình tĩnh tối đa. Tuyệt đối không thụt rửa sâu âm đạo/hậu môn bằng xà phòng hoặc hóa chất vì sẽ gây trầy xước niêm mạc làm virus xâm nhập nhanh hơn. Đi tiểu ngay để đào thải bớt vi khuẩn ngoài niệu đạo và rửa nhẹ nhàng bằng nước sạch.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Sự cố rách bao cao su hoặc bị ép quan hệ: Phản xạ y tế 60 phút đầu",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành động nào sau đây là SAI LẦM TAI HẠI khi phát hiện bao cao su bị rách trong lúc quan hệ?",
+            "explanation": "Thụt rửa sâu âm đạo/hậu môn bằng xà phòng, cồn hoặc dung dịch vệ sinh đậm đặc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rửa nhẹ nhàng bên ngoài bằng nước sạch",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dùng vòi xịt thụt rửa sâu bên trong âm đạo/hậu môn bằng xà phòng hoặc hóa chất tẩy rửa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đi tiểu để làm sạch niệu đạo",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bình tĩnh kiểm tra thời gian sự cố",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tại sao việc thụt rửa sâu bằng hóa chất lại làm tăng nguy cơ nhiễm trùng và lây nhiễm HIV?",
+            "explanation": "Vì hóa chất làm tổn thương và xước lớp niêm mạc mỏng manh, tạo cửa ngõ cho virus và vi khuẩn xâm nhập vào máu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì xà phòng làm tăng cân",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì làm tổn thương niêm mạc tự nhiên, tạo vết trầy xước giúp virus và vi khuẩn dễ dàng thâm nhập vào máu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì làm mất ngủ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì làm hỏng da tay",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành động y tế đúng đắn cần thực hiện trong 60 phút đầu sau sự cố rách bao là gì?",
+            "explanation": "Rửa nhẹ bên ngoài bằng nước sạch, ghi nhớ chính xác mốc thời gian xảy ra sự cố và chuẩn bị đến cơ sở y tế.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống 10 cốc nước cam để giải độc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rửa nhẹ bên ngoài, ghi nhớ mốc thời gian chính xác và liên hệ cơ sở y tế để dùng thuốc khẩn cấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhảy dây 500 cái để trứng rụng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nằm khóc một mình không làm gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nếu sự việc là do bị cưỡng bức hoặc xâm hại tình dục, bạn cần lưu ý gì trước khi đi khám y tế?",
+            "explanation": "Không tắm rửa thay quần áo ngay để giữ nguyên bằng chứng pháp y ADN phục vụ điều tra.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tắm rửa xà phòng 10 lần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giữ nguyên trang phục, không tắm rửa ngay để bảo tồn dấu vết pháp y ADN cho cơ quan điều tra",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đốt hết quần áo",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chạy bộ 10km",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thời gian có vai trò như thế nào trong hiệu quả của các biện pháp y tế khẩn cấp?",
+            "explanation": "Thời gian là vàng; can thiệp càng sớm thì hiệu quả ngừa thai và chống phơi nhiễm HIV càng cao.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thời gian không quan trọng, sau 1 tháng cũng được",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thời gian là yếu tố quyết định; xử lý càng sớm trong những giờ đầu thì hiệu quả bảo vệ càng cao",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đợi có triệu chứng sốt mới cần xử lý",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Càng muộn càng tốt",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Cửa sổ vàng 72 giờ: Thuốc PEP dự phòng sau phơi nhiễm HIV",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "PEP (Post-Exposure Prophylaxis) là điều trị dự phòng sau phơi nhiễm HIV bằng thuốc kháng virus (ARV). Thuốc bắt buộc phải uống LIỀU ĐẦU TIÊN CÀNG SỚM CÀNG TỐT và KHÔNG ĐƯỢC QUÁ 72 GIỜ kể từ thời điểm có nguy cơ. Liệu trình uống kéo dài liên tục 28 ngày đúng giờ mỗi ngày.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Cửa sổ vàng 72 giờ: Thuốc PEP dự phòng sau phơi nhiễm HIV",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thuốc PEP dự phòng sau phơi nhiễm HIV phải được bắt đầu uống trong khoảng thời gian tối đa là bao lâu?",
+            "explanation": "Càng sớm càng tốt và tuyệt đối không được quá 72 giờ (3 ngày) sau sự cố.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trong vòng 1 năm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Càng sớm càng tốt và không được quá 72 giờ (cửa sổ vàng) kể từ thời điểm phơi nhiễm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau 1 tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sau 2 tuần",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Thời gian uống thuốc PEP theo phác đồ chuẩn y khoa kéo dài liên tục trong bao nhiêu ngày?",
+            "explanation": "Liên tục 28 ngày không được bỏ sót liều nào.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống 1 ngày duy nhất",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Liên tục 28 ngày, uống đúng giờ cố định mỗi ngày",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống 3 ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Uống 6 tháng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hiệu quả bảo vệ ngăn ngừa lây nhiễm HIV của thuốc PEP có thể đạt tới mức nào nếu uống đúng cách?",
+            "explanation": "Có thể đạt hiệu quả bảo vệ trên 90 - 95%.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ đạt 10%",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đạt trên 90 - 95% nếu được uống sớm trong những giờ đầu và tuân thủ đúng 28 ngày",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hoàn toàn không có tác dụng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ đạt 50%",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tác dụng phụ thường gặp trong vài ngày đầu khi uống thuốc PEP là gì?",
+            "explanation": "Buồn nôn, mệt mỏi, chóng mặt, đau đầu hoặc tiêu chảy nhẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rụng hết răng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Buồn nôn, mệt mỏi, chóng mặt nhẹ hoặc tiêu chảy, thường giảm dần sau vài ngày",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mù mắt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gãy xương",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tại Việt Nam, bạn có thể tiếp cận thuốc PEP uy tín ở đâu?",
+            "explanation": "Tại các Trung tâm Kiểm soát Bệnh tật (CDC), Bệnh viện Bệnh Nhiệt Đới hoặc các phòng khám chuyên khoa truyền nhiễm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mua ở tiệm tạp hóa ngoài chợ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tại Trung tâm Kiểm soát Bệnh tật (CDC), Bệnh viện Bệnh Nhiệt đới hoặc phòng khám chuyên khoa HIV/AIDS uy tín",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mua trên livestream TikTok không rõ nhãn mác",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự hái lá cây về sắc uống",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Thuốc tránh thai khẩn cấp (ECP): Cơ chế, liều dùng & Giới hạn an toàn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Thuốc tránh thai khẩn cấp (loại Levonorgestrel 1 viên/2 viên hoặc Mifepristone 10mg) có tác dụng trì hoãn rụng trứng hoặc ngăn cản sự làm tổ của phôi. Hiệu quả cao nhất trong 24 giờ đầu (đạt 95%) và giảm dần theo thời gian. Cảnh báo y khoa: Không dùng quá 2 lần trong 1 tháng vì gây rối loạn nội tiết tố nghiêm trọng.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Thuốc tránh thai khẩn cấp (ECP): Cơ chế, liều dùng & Giới hạn an toàn",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Cơ chế hoạt động chính của thuốc tránh thai khẩn cấp (Emergency Contraceptive Pill) là gì?",
+            "explanation": "Ức chế hoặc trì hoãn quá trình rụng trứng của buồng trứng và ngăn cản thụ tinh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phá thai khi thai nhi đã hình thành nhiều tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ức chế hoặc làm chậm quá trình rụng trứng và ngăn tinh trùng gặp trứng thụ tinh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tiêu diệt toàn bộ buồng trứng vĩnh viễn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Làm thay đổi nhóm máu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Thuốc tránh thai khẩn cấp đạt hiệu quả ngừa thai cao nhất khi được uống trong khoảng thời gian nào?",
+            "explanation": "Trong vòng 24 giờ đầu sau khi quan hệ không an toàn (đạt hiệu quả tới 95%).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sau khi quan hệ 1 tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trong vòng 24 giờ đầu sau khi quan hệ không an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau khi đã chậm kinh 2 tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thời điểm nào cũng như nhau",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tần suất sử dụng thuốc tránh thai khẩn cấp an toàn tối đa được các bác sĩ sản phụ khoa khuyến cáo là gì?",
+            "explanation": "Không nên dùng quá 2 lần trong một tháng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống mỗi ngày 1 viên thay kẹo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không nên dùng quá 2 lần trong một tháng vì nguy cơ gây rối loạn kinh nguyệt và rong huyết",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống 10 lần một tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Uống trước mỗi bữa ăn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thuốc tránh thai khẩn cấp có tác dụng phòng ngừa các bệnh lây truyền qua đường tình dục (STI/HIV) không?",
+            "explanation": "Hoàn toàn KHÔNG; thuốc chỉ có tác dụng ngừa thai, không có tác dụng bảo vệ trước bất kỳ bệnh lây truyền nào.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, tiêu diệt được mọi loại virus",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG; chỉ có tác dụng tránh thai, không ngăn ngừa được HIV hay các bệnh STI",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ ngừa được bệnh lậu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ ngừa được sùi mào gà",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tác dụng phụ phổ biến nhất sau khi uống thuốc tránh thai khẩn cấp là gì?",
+            "explanation": "Rối loạn chu kỳ kinh nguyệt (kinh đến sớm hoặc muộn), buồn nôn, đau tức ngực và mệt mỏi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mọc râu dài 1 mét",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rối loạn chu kỳ kinh nguyệt, ra máu thấm giọt bất thường, buồn nôn và căng ngực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Rụng hết tóc sau 1 đêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đổi màu da sang xanh",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Xét nghiệm tầm soát STI & Các mốc thời gian 'Cửa sổ sinh học'",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Mỗi loại mầm bệnh lây qua đường tình dục có 'thời kỳ ủ bệnh' và 'thời kỳ cửa sổ' (Window Period) khác nhau. Xét nghiệm quá sớm có thể cho kết quả âm tính giả. Mốc chuẩn: Lậu/Chlamydia (sau 1-2 tuần), HIV Combo Ag/Ab (sau 28 ngày), Giang mai & Viêm gan B (sau 4-12 tuần).",
+      "quiz": {
+        "title": "Củng cố Bài 4: Xét nghiệm tầm soát STI & Các mốc thời gian 'Cửa sổ sinh học'",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Thời kỳ cửa sổ' (Window Period) trong xét nghiệm y khoa có nghĩa là gì?",
+            "explanation": "Khoảng thời gian từ khi nhiễm mầm bệnh đến khi xét nghiệm có thể phát hiện được kháng thể hoặc kháng nguyên trong máu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thời gian mở cửa phòng khám",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khoảng thời gian từ lúc nhiễm bệnh đến khi cơ thể sản sinh đủ kháng nguyên/kháng thể để xét nghiệm phát hiện được",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thời gian chờ lấy kết quả xét nghiệm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thời gian thuốc phát huy tác dụng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Nếu đi xét nghiệm HIV chỉ sau 2 ngày kể từ khi quan hệ không an toàn, kết quả âm tính có khẳng định chắc chắn không nhiễm bệnh không?",
+            "explanation": "KHÔNG; vì đang trong thời kỳ cửa sổ, virus chưa nhân bản đủ số lượng để phát hiện.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, khẳng định chắc chắn 100% khỏe mạnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "KHÔNG; vì đang trong thời kỳ cửa sổ sinh học, kết quả có thể là âm tính giả, cần xét nghiệm lại ở mốc 28 ngày và 3 tháng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chắc chắn nhiễm bệnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bao giờ cần xét nghiệm lại",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu nghi ngờ nhiễm bệnh Lậu hoặc Chlamydia ở nam và nữ giới thường xuất hiện sau bao lâu?",
+            "explanation": "Thường xuất hiện sau 2 đến 7 ngày (tiểu buốt, tiểu rắt, chảy mủ niệu đạo hoặc khí hư bất thường).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sau 10 năm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khoảng 2 đến 7 ngày sau khi quan hệ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau 1 phút",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bao giờ xuất hiện triệu chứng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Vết loét cứng, không đau ở bộ phận sinh dục xuất hiện sau vài tuần quan hệ là dấu hiệu đặc trưng của bệnh gì?",
+            "explanation": "Bệnh Giang mai (giai đoạn 1 - săng giang mai).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bệnh sâu răng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bệnh Giang mai (giai đoạn 1)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bệnh thủy đậu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vết côn trùng cắn thông thường",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Sau một sự cố quan hệ không an toàn, thời điểm vàng để làm xét nghiệm tổng quát STI khẳng định là khi nào?",
+            "explanation": "Mốc 1 tháng (4 tuần) và xét nghiệm lại khẳng định ở mốc 3 tháng (12 tuần).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sau 10 năm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mốc 4 tuần (28 ngày) và mốc 12 tuần (3 tháng) sau sự cố",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ngay sau 1 tiếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ cần xét nghiệm khi có vết loét lở",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Vượt qua khủng hoảng tâm lý & Lựa chọn cơ sở y tế bảo mật, uy tín",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Sau một sự cố quan hệ tình dục ngoài ý muốn, sự hoảng loạn, cảm giác tội lỗi và xấu hổ dễ đẩy bạn trẻ vào bẫy của các phòng khám 'chui' lừa đảo vẽ bệnh moi tiền. Bài học hướng dẫn cách nhận diện phòng khám uy tín của nhà nước, bảo vệ quyền riêng tư và ổn định tâm lý.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Vượt qua khủng hoảng tâm lý & Lựa chọn cơ sở y tế bảo mật, uy tín",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Dấu hiệu nhận biết các phòng khám 'chui', lừa đảo vẽ bệnh lộng hành trên mạng xã hội là gì?",
+            "explanation": "Quảng cáo chữa dứt điểm bệnh lậu/giang mai trong 1 ngày, dọa nạt bệnh nhân nguy kịch để ép phẫu thuật giá cắt cổ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có bảng hiệu bệnh viện công lập rõ ràng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Quảng cáo chữa khỏi ngay lập tức, đe dọa bệnh nhân trên bàn mổ và thu phí mập mờ hàng chục triệu đồng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bác sĩ khám nhẹ nhàng đúng quy trình",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chi phí niêm yết công khai theo quy định Bộ Y tế",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Học sinh dưới 18 tuổi khi đi khám sức khỏe sinh sản tại các bệnh viện phụ sản công lập có bị thông báo cho trường học không?",
+            "explanation": "Hoàn toàn KHÔNG; ngành y tế tuân thủ nguyên tắc bảo mật thông tin bệnh án tuyệt đối của bệnh nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bệnh viện sẽ gửi giấy báo về cho cô giáo chủ nhiệm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tuyệt đối KHÔNG; thông tin khám chữa bệnh được bảo mật theo Luật Khám bệnh, chữa bệnh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bệnh viện sẽ đăng lên Facebook",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt buộc phải công khai trên loa phát thanh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tâm lý hoang mang, tự căm ghét bản thân sau khi gặp sự cố tình dục cần được giải tỏa như thế nào?",
+            "explanation": "Hiểu rằng sai lầm y tế cần được giải quyết bằng khoa học, bình tâm xử lý từng bước và tha thứ cho bản thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tự giam mình trong phòng khóc lóc tuyệt thực",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh tập trung xử lý y tế kịp thời, chia sẻ với người đáng tin cậy và hiểu rằng ai cũng có thể vấp ngã",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống thuốc độc tự vẫn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đổ lỗi và hận thù cả thế giới",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cơ sở y tế nào sau đây là địa chỉ tin cậy để khám và điều trị các bệnh lây qua đường tình dục tại Việt Nam?",
+            "explanation": "Bệnh viện Da liễu Trung ương/TP.HCM, Bệnh viện Bệnh Nhiệt Đới, Bệnh viện Phụ sản Từ Dũ / Phụ sản Trung ương.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Các cơ sở spa làm đẹp không phép",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bệnh viện Da liễu, Bệnh viện Bệnh Nhiệt đới và các Bệnh viện Phụ sản công lập tuyến đầu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tiệm cắt tóc gội đầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Các thầy lang bốc thuốc nam gia truyền",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Bài học đắt giá và bền vững nhất rút ra sau một sự cố quan hệ không an toàn là gì?",
+            "explanation": "Hiểu rõ giá trị của sự an toàn, tôn trọng nguyên tắc đồng thuận và luôn có sẵn biện pháp bảo vệ dự phòng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tuyệt đối không bao giờ bước chân ra khỏi nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Luôn chuẩn bị kiến thức, kiên định với ranh giới an toàn và không bao giờ đánh đổi sức khỏe vì sự bốc đồng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không bao giờ tin tưởng bất kỳ bác sĩ nào",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Coi đó là chuyện bình thường không cần rút kinh nghiệm",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Xử lý Khủng hoảng & Giao thức Y tế Khẩn cấp",
+    "description": "10 câu hỏi tổng hợp tình huống kiểm tra kiến thức xử lý sau quan hệ tình dục không an toàn.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Thuốc PEP dự phòng lây nhiễm HIV đạt hiệu quả khi được bắt đầu trong bao lâu?",
+        "explanation": "Càng sớm càng tốt và không được quá 72 giờ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Trong 1 tuần",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Càng sớm càng tốt và không quá 72 giờ sau thời điểm phơi nhiễm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sau 1 tháng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Sau 1 năm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Liệu trình điều trị dự phòng sau phơi nhiễm HIV (PEP) kéo dài bao nhiêu ngày?",
+        "explanation": "28 ngày liên tục.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "7 ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "28 ngày liên tục đúng giờ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "1 ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "90 ngày",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Thuốc tránh thai khẩn cấp loại 72 giờ phát huy hiệu quả cao nhất ở mốc thời gian nào?",
+        "explanation": "Trong 24 giờ đầu tiên.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Sau 70 giờ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Trong vòng 24 giờ đầu tiên sau khi quan hệ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sau 5 ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Sau khi trễ kinh 1 tuần",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Khi phát hiện bao cao su bị rách, hành vi nào sau đây TUYỆT ĐỐI KHÔNG NÊN LÀM?",
+        "explanation": "Thụt rửa sâu bên trong bằng xà phòng hoặc hóa chất tẩy rửa.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Rửa nhẹ bằng nước sạch bên ngoài",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Thụt rửa sâu âm đạo/hậu môn bằng xà phòng hoặc vòi xịt mạnh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ghi lại mốc thời gian sự cố",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tìm đến cơ sở y tế tư vấn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Thuốc tránh thai khẩn cấp có tác dụng ngăn ngừa lây nhiễm HIV và các bệnh STI không?",
+        "explanation": "Hoàn toàn không.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Có, ngăn ngừa được 100%",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hoàn toàn KHÔNG; chỉ có tác dụng tránh thai",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ ngăn ngừa được lậu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ ngăn ngừa được sùi mào gà",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Thời kỳ cửa sổ (Window Period) là gì?",
+        "explanation": "Thời gian từ khi nhiễm bệnh đến khi xét nghiệm có thể phát hiện chính xác mầm bệnh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Thời gian bác sĩ nghỉ trưa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Khoảng thời gian từ lúc nhiễm bệnh đến khi xét nghiệm phát hiện được kháng thể/kháng nguyên",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Thời gian làm thủ tục xuất viện",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Thời gian hết hạn của thuốc",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Dấu hiệu tiểu buốt, tiểu rắt, chảy mủ niệu đạo sau 2-7 ngày quan hệ là biểu hiện điển hình của bệnh gì?",
+        "explanation": "Bệnh Lậu hoặc Chlamydia.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bệnh sâu răng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bệnh Lậu hoặc nhiễm Chlamydia",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bệnh đau dạ dày",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bệnh hen suyễn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Mốc thời gian xét nghiệm máu khẳng định an toàn sau nguy cơ phơi nhiễm HIV là khi nào?",
+        "explanation": "Mốc 28 ngày (Combo Ag/Ab) và khẳng định lại ở mốc 3 tháng (12 tuần).",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Sau 2 ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Mốc 4 tuần (28 ngày) và mốc 12 tuần (3 tháng)",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sau 10 năm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ cần xét nghiệm sau 1 tuần",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Để tránh bị lừa đảo tại các phòng khám tư 'chui', bệnh nhân nên ưu tiên đến đâu?",
+        "explanation": "Bệnh viện Da liễu, Bệnh viện Nhiệt Đới, Bệnh viện Phụ sản công lập.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Các cơ sở spa chui không giấy phép",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Các bệnh viện chuyên khoa công lập tuyến tỉnh/thành phố uy tín",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Các phòng khám quảng cáo chữa dứt điểm trong 1 giờ trên Facebook",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Các thầy cúng trừ tà",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Điều quan trọng nhất để vượt qua khủng hoảng tâm lý sau sự cố y tế là gì?",
+        "explanation": "Bình tĩnh hành động theo giao thức y khoa, không tự dằn vặt và tìm kiếm sự hỗ trợ chuyên môn kịp thời.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Trốn tránh và giấu kín mãi mãi",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bình tĩnh tuân thủ giao thức y tế khoa học, yêu thương bản thân và rút ra bài học tự vệ vững chắc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Từ bỏ việc học tập",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Trút giận lên người khác",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

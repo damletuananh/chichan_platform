@@ -1,0 +1,1039 @@
+{
+  "title": "Cạm Bẫy Pod, Vape & Chất Kích Thích: Bảo Vệ Bản Thân Nơi Tiệc Tùng",
+  "slug": "cam-bay-pod-vape-va-chat-kich-thich-bao-ve-ban-than-noi-tiec-tung",
+  "short_description": "Vạch trần hiểm họa Pod chill tẩm ma túy, kỹ năng phòng chống Drink Spiking (bỏ thuốc vào đồ uống), trách nhiệm pháp lý khi say xỉn và quy trình sơ cứu sốc thuốc sống còn.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (12 - 18 tuổi).\n\nThuốc lá điện tử ngụy trang, Pod chill tẩm cần sa tổng hợp, bóng cười và cạm bẫy bỏ thuốc mê vào đồ uống đang len lỏi vào các buổi tiệc tùng của giới trẻ. Khóa học trang bị cho học sinh kiến thức y khoa chuẩn xác, kỹ năng tự vệ sống còn 'nguyên tắc cốc nước', nhận thức pháp lý nghiêm minh (Điều 13 BLHS) và quy trình sơ cứu hồi sức khẩn cấp giúp bảo vệ chính mình và bạn bè.",
+  "learning_objectives": "- Hiểu rõ cơ chế tàn phá não bộ của Nicotine nồng độ cao và hiểm họa ngộ độc ma túy từ Pod chill.\n- Thực hành kỹ năng phòng chống bỏ thuốc vào đồ uống (Drink Spiking) tại các sự kiện đông người.\n- Nắm vững ranh giới pháp lý: Say rượu bia không phải cái cớ, xâm hại người say là tội hiếp dâm.\n- Thành thạo kỹ thuật sơ cứu tư thế nằm nghiêng an toàn (Recovery Position) và gọi cấp cứu 115.\n- Xây dựng 'Kế hoạch thoát hiểm' (Exit Strategy) và mật mã an toàn cùng gia đình.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Sự thật về Pod Chill, Vape: Ma túy ngụy trang & Bẫy nghiện nicotine",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nhiều bạn trẻ ngộ nhận rằng thuốc lá điện tử chỉ là 'hơi nước có vị trái cây'. Khoa học khẳng định nồng độ nicotine trong pod có thể cao gấp 20 lần điếu thuốc lá truyền thống. Nguy hiểm hơn, các loại Pod Chill tẩm cần sa tổng hợp và ma túy đá ngụy trang đang đầu độc hàng ngàn học sinh.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Sự thật về Pod Chill, Vape: Ma túy ngụy trang & Bẫy nghiện nicotine",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thuốc lá điện tử (Vape/Pod) có chứa chất gây nghiện nguy hiểm nào sau đây?",
+            "explanation": "Nicotine nồng độ cao trong tinh dầu gây nghiện thần kinh cực mạnh và phá hủy não bộ vị thành niên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vitamin C",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nicotine nồng độ cao",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nước khoáng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Canxi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hiện tượng 'Pod chill' trôi nổi trên mạng thực chất chứa chất gì?",
+            "explanation": "Chứa cần sa tổng hợp (cỏ Mỹ) hoặc ma túy thế hệ mới gây ảo giác, sốc thuốc và loạn thần.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trà xanh nguyên chất",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ma túy tổng hợp, cần sa nhân tạo gây ảo giác và ngộ độc cấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nước trái cây cô đặc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sữa tươi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tác hại nghiêm trọng của Nicotine đối với não bộ tuổi dậy thì là gì?",
+            "explanation": "Làm suy giảm trí nhớ, mất khả năng tập trung và gia tăng rối loạn cảm xúc, trầm cảm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm mắt sáng hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tổn thương vùng não trước trán, suy giảm trí nhớ và tăng nguy cơ nghiện các chất khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tăng chiều cao",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp ngủ sâu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hành vi hút Vape/Pod trong khuôn viên trường học bị pháp luật và nội quy xử lý thế nào?",
+            "explanation": "Bị nghiêm cấm tuyệt đối theo Luật Phòng chống tác hại của thuốc lá và nội quy nhà trường.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Được khen thưởng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bị nghiêm cấm, xử lý kỷ luật nặng và vi phạm Luật Phòng chống tác hại thuốc lá",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ bị phạt nếu thổi khói vào thầy cô",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được khuyến khích",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi bạn bè rủ rê 'Hút thử một hơi cho biết, không nghiện đâu', cách đáp trả thông minh là gì?",
+            "explanation": "Từ chối dứt khoát: 'Mình không có nhu cầu, cảm ơn' và giữ vững nguyên tắc cá nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hút thử 5 hơi để chứng tỏ mình chịu chơi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Từ chối dứt khoát, điềm tĩnh và không nhượng bộ trước áp lực đám đông",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cầm lấy cất vào cặp mang về nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khóc lóc van xin",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Kỹ năng phòng chống 'Bỏ thuốc vào đồ uống' (Drink Spiking) nơi tiệc tùng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Drink Spiking là thủ đoạn thả thuốc mê, thuốc kích dục hoặc ketamine vào đồ uống của nạn nhân nhằm thực hiện hành vi xâm hại tình dục hoặc cướp tài sản. Bài học trang bị nguyên tắc bảo vệ đồ uống và phản xạ cấp cứu khi nghi ngờ bị đầu độc.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Kỹ năng phòng chống 'Bỏ thuốc vào đồ uống' (Drink Spiking) nơi tiệc tùng",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Quy tắc 'Cốc nước trên tay' khi tham gia tiệc tùng (party, bar, sinh nhật) là gì?",
+            "explanation": "Luôn giữ đồ uống trong tầm mắt của mình, không uống nước đã rời khỏi tầm mắt dù chỉ 1 phút.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống cạn ly trong 1 giây",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Luôn cầm cốc nước trên tay hoặc chỉ uống đồ tự mở nắp, không uống ly nước đã rời mắt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống nước của bất kỳ ai đưa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đổ nước vào túi áo",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Thuốc mê 'bẫy hẹn hò' (Date Rape Drugs như Rohypnol, GHB) thường có đặc điểm gì?",
+            "explanation": "Không màu, không mùi, không vị hoặc hơi mặn nhẹ, làm nạn nhân mất trí nhớ và mất khả năng kháng cự.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có màu xanh lè phát sáng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không màu, không mùi, dễ hòa tan vào đồ uống làm nạn nhân bất tỉnh và mất trí nhớ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Có mùi sô-cô-la nồng nặc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Làm nạn nhân tỉnh táo gấp đôi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Mối liên hệ giữa việc sử dụng chất kích thích/rượu bia và hành vi quan hệ tình dục không an toàn là gì?",
+            "explanation": "Làm tê liệt thùy trán, mất khả năng kiểm soát lý trí, dẫn đến quan hệ không đồng thuận hoặc không dùng bao cao su.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con người suy nghĩ thông minh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm mất khả năng phán đoán, tê liệt phản xạ tự vệ và tăng nguy cơ bị xâm hại tình dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không có liên quan gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp tránh thai tự nhiên",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi cảm thấy cơ thể bỗng nhiên choáng váng, buồn nôn bất thường sau khi uống một ngụm nước tại quán bar, bạn cần làm gì NGAY LẬP TỨC?",
+            "explanation": "Báo ngay cho bạn thân tin cậy đi cùng, tìm nhân viên an ninh hoặc gọi người thân đến đón, không đi vào nhà vệ sinh một mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đi vào nhà vệ sinh một mình để nôn và ngủ một giấc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Báo ngay cho bạn bè tin cậy, di chuyển ra khu vực đông người có ánh sáng và gọi người thân đón",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống thêm 2 ly rượu nữa để giải độc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đi theo người lạ vừa mời nước để nhờ họ giúp",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Số điện thoại cấp cứu y tế khẩn cấp tại Việt Nam là gì?",
+            "explanation": "115 là số tổng đài cấp cứu y tế toàn quốc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "115",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "114",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "113",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "111",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Rượu bia & Ranh giới đồng thuận: Trách nhiệm pháp lý Điều 13 BLHS",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khoa học pháp lý và y tế phân tích rõ ràng: Rượu bia làm mất khả năng đưa ra sự đồng thuận tỉnh táo. Mọi hành vi lợi dụng đối phương say xỉn để quan hệ đều cấu thành tội Hiếp dâm. Người say phạm tội vẫn phải chịu trách nhiệm hình sự 100%.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Rượu bia & Ranh giới đồng thuận: Trách nhiệm pháp lý Điều 13 BLHS",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Tại sao 'Say rượu/Ngáo đá' không bao giờ là cái cớ để bào chữa cho hành vi xâm hại tình dục?",
+            "explanation": "Bộ luật Hình sự quy định người phạm tội trong tình trạng say rượu hoặc chất kích thích vẫn phải chịu trách nhiệm hình sự đầy đủ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì say xỉn thì được miễn trách nhiệm hình sự",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Theo Điều 13 Bộ luật Hình sự, người phạm tội do dùng rượu bia/chất kích thích vẫn phải chịu trách nhiệm hình sự đầy đủ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì chỉ cần xin lỗi là xong",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì lỗi thuộc về người nấu rượu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi ép bạn bè uống rượu bia đến mức say xỉn có vi phạm pháp luật không?",
+            "explanation": "Vi phạm Luật Phòng chống tác hại của rượu bia, có thể bị xử phạt hành chính nghiêm khắc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không, đó là nét văn hóa hiếu khách",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vi phạm pháp luật, bị nghiêm cấm ép buộc người khác uống rượu bia",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ vi phạm nếu uống sau 12h đêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được khuyến khích trong tiệc sinh nhật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi một người trong trạng thái say mềm mất ý thức, việc quan hệ tình dục với họ có được xem là đồng thuận không?",
+            "explanation": "KHÔNG; một người say mềm hoàn toàn mất khả năng nhận thức và đồng thuận, hành vi đó cấu thành tội hiếp dâm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, im lặng là đồng ý",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tuyệt đối KHÔNG; đó là hành vi phạm tội hiếp dâm theo quy định của pháp luật hình sự",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần hai người là bạn bè thì được",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tùy thuộc vào việc ai trả tiền bữa tiệc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Dấu hiệu của một người bạn tốt trong các buổi liên hoan là gì?",
+            "explanation": "Tôn trọng khi bạn từ chối uống rượu bia, chủ động bảo vệ bạn và hỗ trợ nhau về nhà an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bằng mọi giá ép bạn phải uống say nôn mửa",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng quyền từ chối của bạn, hỗ trợ quan sát an toàn và cùng nhau về nhà an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bỏ rơi bạn một mình khi thấy bạn say",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Quay clip bạn say xỉn đăng lên mạng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khái niệm 'Designated Driver' (Người lái xe chỉ định) trong nhóm bạn đi tiệc có ý nghĩa gì?",
+            "explanation": "Một người cam kết hoàn toàn không uống đồ có cồn trong suốt buổi tiệc để lái xe đưa cả nhóm về an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Người uống khỏe nhất",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Người được chỉ định không uống cồn để đảm bảo lái xe đưa cả nhóm về an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người trả tiền hóa đơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người phục vụ quán",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Kỹ năng sơ cứu khẩn cấp khi gặp người sốc thuốc & Ngộ độc cồn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Trang bị quy trình sơ cứu sống còn: Đặt tư thế nằm nghiêng an toàn (Recovery Position), kiểm tra mạch thở, gọi 115 và nhận diện các dấu hiệu nguy kịch để bảo toàn tính mạng cho bạn bè trước khi quá muộn.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Kỹ năng sơ cứu khẩn cấp khi gặp người sốc thuốc & Ngộ độc cồn",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi phát hiện người bên cạnh có dấu hiệu sốc thuốc (co giật, sùi bọt mép, tím tái môi), bạn cần làm gì ĐẦU TIÊN?",
+            "explanation": "Gọi ngay cấp cứu 115, đặt nạn nhân nằm nghiêng an toàn để tránh sặc đường thở.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bỏ chạy vì sợ công an bắt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gọi cấp cứu 115 ngay lập tức, đặt nạn nhân nằm nghiêng thông thoáng đường thở và hô hấp nhân tạo nếu cần",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cho nạn nhân uống nước chanh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tát vào mặt nạn nhân thật mạnh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tư thế nằm nghiêng an toàn (Recovery Position) giúp ích gì cho người bất tỉnh?",
+            "explanation": "Ngăn ngừa lưỡi tụt ra sau chẹn đường thở và tránh hít sặc dịch nôn vào phổi gây ngạt thở tử vong.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp người đó ngủ ngon hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giúp đường thở thông thoáng, tránh sặc chất nôn vào phổi gây ngạt thở",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm đẹp da",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp giải rượu trong 5 phút",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nhiều bạn trẻ tử vong trong các vụ tiệc tùng ma túy do nguyên nhân cấp tính nào?",
+            "explanation": "Suy hô hấp cấp, loạn nhịp tim và ngộ độc đa chất kích thích không được cấp cứu kịp thời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bị muỗi đốt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sốc phản vệ, ngừng tim, phù não và suy hô hấp cấp do độc chất tổng hợp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do đói bụng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do thiếu ngủ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tại sao bạn không nên ngần ngại gọi cấp cứu 115 ngay cả khi sự việc có liên quan đến chất cấm?",
+            "explanation": "Tính mạng con người là trên hết; các y bác sĩ tập trung cứu sống tính mạng nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì gọi cấp cứu sẽ được tặng tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì cứu sống tính mạng con người là ưu tiên cao nhất, mỗi giây trôi qua quyết định sự sống còn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì công an sẽ không bao giờ điều tra",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì 115 có thể chữa bách bệnh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Hành vi tổ chức hoặc lôi kéo người dưới 18 tuổi sử dụng ma túy bị pháp luật phạt tù bao nhiêu năm?",
+            "explanation": "Điều 255 BLHS quy định phạt tù từ 7 năm đến chung thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phạt cảnh cáo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phạt tù từ 7 năm đến tù chung thân theo Điều 255/258 BLHS",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ phạt 500 nghìn đồng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bị xử lý",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng 'Kế hoạch thoát hiểm' (Exit Strategy) & Bản lĩnh tiệc tùng an toàn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Bí quyết tham gia các cuộc vui lành mạnh: Thiết lập ám hiệu khẩn cấp với gia đình, quản lý pin điện thoại, lựa chọn bạn bè tử tế và rèn luyện bản lĩnh từ chối 'ngầu' mà không cần sa đọa.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Xây dựng 'Kế hoạch thoát hiểm' (Exit Strategy) & Bản lĩnh tiệc tùng an toàn",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Chiến lược 'Lối thoát định trước' (Exit Strategy) khi tham gia một buổi tiệc có nghĩa là gì?",
+            "explanation": "Luôn lên kế hoạch trước về cách rời đi an toàn (tiền taxi, điện thoại đầy pin, mật khẩu cầu cứu với cha mẹ).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Luôn tìm cửa thoát hiểm để trốn vé",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lên kế hoạch trước về phương tiện về nhà, pin điện thoại và ám hiệu cầu cứu người thân khi buổi tiệc có dấu hiệu mất an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ tham gia 5 phút rồi về",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bao giờ đi chơi với ai",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Mật mã an toàn (Safe Word) giữa bạn và cha mẹ/bạn thân có tác dụng gì?",
+            "explanation": "Một tin nhắn ngắn chứa từ quy ước giúp báo động bạn đang gặp nguy hiểm và cần đến đón ngay mà không làm kẻ xấu nghi ngờ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để mua sắm trực tuyến",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gửi tín hiệu khẩn cấp ngầm để người thân đến đón hoặc giải cứu ngay lập tức",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để mở khóa két sắt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để chơi game",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi thấy bữa tiệc bắt đầu xuất hiện bóng cười, pod chill hoặc chất bột lạ, bạn nên làm gì?",
+            "explanation": "Rời khỏi bữa tiệc ngay lập tức cùng bạn bè an toàn của mình mà không cần nể nang hay do dự.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ở lại xem cho biết",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhanh chóng tìm lý do lịch sự để rời đi ngay lập tức đến nơi an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Dùng thử một chút xem có ngon không",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngồi im góc phòng quay video",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Lòng tự trọng và giá trị bản thân có bị giảm đi khi bạn từ chối tham gia các cuộc vui sa đọa không?",
+            "explanation": "KHÔNG; từ chối cuộc vui nguy hiểm thể hiện bản lĩnh, trí tuệ và sự tự chủ đáng ngưỡng mộ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, bạn sẽ bị coi là kẻ nhát gan",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG; đó là biểu hiện của người có bản lĩnh, hiểu biết và biết tự bảo vệ tương lai của mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bạn sẽ bị bạn bè khinh bỉ suốt đời",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ người già mới từ chối",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Kỹ năng từ chối tự tin dựa trên nguyên tắc nào?",
+            "explanation": "Nguyên tắc 'Tôi chịu trách nhiệm về cơ thể và sức khỏe của tôi', không cần phải đưa ra lý do giả dối phức tạp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nói dối quanh co",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khẳng định rõ ràng, lịch sự và kiên định với giới hạn an toàn của bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quát tháo mọi người",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ chạy khóc lóc",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Phòng chống Tác hại Chất kích thích & An toàn Tiệc tùng",
+    "description": "10 câu hỏi kiểm tra kỹ năng sống tự vệ trước các cám dỗ và độc chất nguy hiểm.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Nicotine trong thuốc lá điện tử gây ảnh hưởng tiêu cực nhất đến cơ quan nào của trẻ vị thành niên?",
+        "explanation": "Não bộ đang phát triển, đặc biệt là vùng trước trán điều khiển hành vi và cảm xúc.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Móng tay",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Não bộ đang trong giai đoạn hoàn thiện, làm giảm trí nhớ và tăng rối loạn cảm xúc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tóc",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Răng sữa",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Nguy cơ lớn nhất của các sản phẩm 'Pod chill' bán trôi nổi trên mạng là gì?",
+        "explanation": "Bị tẩm ma túy tổng hợp, cần sa nhân tạo gây sốc thuốc, ngưng tim và loạn thần cấp.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tốn tiền mua",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chứa cần sa tổng hợp và ma túy đá gây ảo giác, suy hô hấp và tử vong",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm hỏng sạc điện thoại",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Mùi vị không ngọt",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Hành vi thả chất kích thích vào cốc nước của người khác khi chưa được phép cấu thành tội gì?",
+        "explanation": "Tội cố ý gây thương tích, tội xâm phạm tình dục hoặc các tội danh về ma túy theo Bộ luật Hình sự.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chỉ là trêu đùa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tội phạm hình sự nghiêm trọng theo Bộ luật Hình sự Việt Nam",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Vi phạm luật giao thông",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không bị xử phạt",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Khi ở nơi đông người, cách tốt nhất để bảo vệ đồ uống của mình là gì?",
+        "explanation": "Tự mở nắp đồ uống, giữ cốc trên tay và không uống ly nước đã rời khỏi mắt.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Nhờ người lạ trông hộ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tự bảo quản, giữ trên tay và từ chối uống cốc nước đã rời khỏi tầm quan sát",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để trên bàn rồi đi nhảy 30 phút",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Uống nước thừa của bàn bên cạnh",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Điều 13 Bộ luật Hình sự Việt Nam quy định như thế nào về người phạm tội trong tình trạng say rượu hoặc chất kích thích?",
+        "explanation": "Vẫn phải chịu trách nhiệm hình sự đầy đủ như người bình thường.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Được giảm 50% mức án",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Phải chịu trách nhiệm hình sự đầy đủ, không được coi say xỉn là tình tiết giảm nhẹ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Được miễn hoàn toàn tội",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ bị phạt lao động công ích",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Một người bị say mềm mất tri giác có thể đưa ra sự đồng thuận tình dục hợp pháp không?",
+        "explanation": "Tuyệt đối KHÔNG; mọi hành vi tình dục lúc này đều là tội hiếp dâm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Có thể đồng ý bằng mắt",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tuyệt đối KHÔNG; hành vi xâm phạm người mất khả năng nhận thức là tội hiếp dâm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Được nếu là người yêu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tùy vào hoàn cảnh",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Tư thế nằm nghiêng an toàn (Recovery Position) cần làm cho ai?",
+        "explanation": "Cho người hôn mê, bất tỉnh nhưng vẫn còn thở đều đặn.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cho người đang tỉnh táo",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cho người bất tỉnh nhưng còn mạch và thở để thông thoáng đường hô hấp",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cho người bị gãy xương đùi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cho người đang chạy bộ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Số điện thoại cấp cứu y tế tại Việt Nam là gì?",
+        "explanation": "115",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "115",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "113",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "114",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "111",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khái niệm 'Safe Word' (Mật mã an toàn) với cha mẹ dùng để làm gì?",
+        "explanation": "Gửi thông điệp ngầm cầu cứu khẩn cấp mà không làm kẻ xấu xung quanh phát hiện.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Để xin tiền tiêu vặt",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Báo hiệu khẩn cấp cần được người thân đón ngay lập tức vì gặp nguy hiểm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để chúc ngủ ngon",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Để tải bài tập về nhà",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Điều gì tạo nên sức hút và bản lĩnh thực sự của một thanh thiếu niên hiện đại?",
+        "explanation": "Sự tự chủ, biết bảo vệ bản thân, có trách nhiệm và theo đuổi đam mê lành mạnh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Khả năng hút pod nhả khói hình tròn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bản lĩnh làm chủ bản thân, tôn trọng sức khỏe và kiên định với giá trị sống lành mạnh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Uống được nhiều bia nhất trường",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Biết nhiều quán bar nhất",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

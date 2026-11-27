@@ -7,6 +7,7 @@ from core.config import settings
 from core.database import get_db
 from models.user import User
 from models.role import Role
+import uuid
 
 from sqlalchemy.orm import joinedload
 
@@ -20,9 +21,13 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: AsyncSession
     )
     try:
         payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
-        user_id: str = payload.get("sub")
-        if user_id is None:
+        user_id_raw = payload.get("sub")
+        if user_id_raw is None:
             raise credentials_exception
+        try:
+            user_id = uuid.UUID(str(user_id_raw))
+        except (ValueError, TypeError):
+            user_id = user_id_raw
     except JWTError:
         raise credentials_exception
 
@@ -50,9 +55,13 @@ async def get_optional_user(token: str = Depends(oauth2_scheme_optional), db: As
         return None
     try:
         payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
-        user_id: str = payload.get("sub")
-        if user_id is None:
+        user_id_raw = payload.get("sub")
+        if user_id_raw is None:
             return None
+        try:
+            user_id = uuid.UUID(str(user_id_raw))
+        except (ValueError, TypeError):
+            user_id = user_id_raw
         
         result = await db.execute(
             select(User)

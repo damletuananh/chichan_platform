@@ -218,7 +218,7 @@ export default function ProfilePage() {
                 <div className="lg:col-span-2 space-y-6">
                     {/* Tab 1: Learning Progress */}
                     {activeTab === 'progress' && isStudent && (
-                        <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-white/60 shadow-sm space-y-6">
+                        <div className="bg-white rounded-none p-8 border border-outline-variant/40 shadow-xs space-y-6">
                             <h2 className="text-lg font-bold text-on-surface">Khóa học của tôi</h2>
                             
                             {coursesLoading ? (
@@ -226,14 +226,14 @@ export default function ProfilePage() {
                             ) : myCourses.length === 0 ? (
                                 <div className="text-center py-12 space-y-4">
                                     <p className="text-on-surface-variant text-sm font-light">Bạn chưa đăng ký tham gia khóa học nào.</p>
-                                    <Link href="/courses" className="inline-flex h-10 items-center justify-center rounded-full bg-primary px-6 text-xs font-bold text-white shadow-sm hover:opacity-90 transition-opacity">
+                                    <Link href="/courses" className="inline-flex h-10 items-center justify-center rounded-none bg-primary px-6 text-xs font-bold text-white shadow-depth-1 hover:shadow-depth-2 transition-all btn-press">
                                         Khám phá khóa học ngay
                                     </Link>
                                 </div>
                             ) : (
                                 <div className="space-y-6">
                                     {myCourses.map((c) => (
-                                        <div key={c.course_id} className="bg-white/70 backdrop-blur-md p-6 rounded-2xl border border-white/50 flex flex-col sm:flex-row items-center gap-6 justify-between shadow-sm hover-shadow transition-all duration-300">
+                                        <div key={c.course_id} className="card-lift bg-white p-6 rounded-none border border-outline-variant/30 flex flex-col sm:flex-row items-center gap-6 justify-between shadow-xs">
                                             <div className="flex-1 w-full space-y-4">
                                                 <div className="flex items-center justify-between gap-4">
                                                     <h3 className="font-bold text-on-surface text-sm sm:text-base leading-snug">{c.course_title}</h3>
@@ -250,22 +250,22 @@ export default function ProfilePage() {
                                                         <span>Hoàn thành: {c.completed_lessons}/{c.total_lessons} bài học</span>
                                                         <span>{c.progress_percentage}%</span>
                                                     </div>
-                                                    <div className="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
-                                                        <div className="bg-primary h-full transition-all duration-500 rounded-full" style={{ width: `${c.progress_percentage}%` }} />
+                                                    <div className="w-full bg-surface-container-high h-2.5 rounded-none overflow-hidden">
+                                                        <div className="bg-primary h-full transition-all duration-500 rounded-none" style={{ width: `${c.progress_percentage}%` }} />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="flex sm:flex-col gap-2 w-full sm:w-auto">
                                                 <Link
                                                     href={`/courses/${c.course_id}/learn`}
-                                                    className="flex-1 sm:flex-initial inline-flex h-10 items-center justify-center rounded-full bg-primary px-5 text-xs font-bold text-white shadow-sm hover:opacity-90 transition-opacity"
+                                                    className="flex-1 sm:flex-initial inline-flex h-10 items-center justify-center rounded-none bg-primary px-5 text-xs font-bold text-white shadow-depth-1 hover:shadow-depth-2 transition-all btn-press"
                                                 >
                                                     Vào học
                                                 </Link>
                                                 {c.status === 'COMPLETED' && (
                                                     <Link
                                                         href={`/courses/${c.course_id}/certificate`}
-                                                        className="flex-1 sm:flex-initial inline-flex h-10 items-center justify-center rounded-full border border-primary/30 bg-primary/10 text-primary px-4 text-xs font-bold hover:bg-primary/20 transition-colors gap-1"
+                                                        className="flex-1 sm:flex-initial inline-flex h-10 items-center justify-center rounded-none border border-primary/30 bg-primary/10 text-primary px-4 text-xs font-bold hover:bg-primary/20 transition-colors gap-1 btn-press"
                                                     >
                                                         <Certificate size={16} weight="duotone" />
                                                         Xem chứng chỉ
@@ -278,15 +278,15 @@ export default function ProfilePage() {
                             )}
 
                             {/* Featured AI Roleplay Hub Card */}
-                            <div className="bg-gradient-to-br from-primary-fixed/30 via-secondary-fixed/20 to-tertiary-fixed/30 rounded-3xl p-6 border border-primary/20 flex flex-col sm:flex-row items-center gap-6 justify-between shadow-sm">
+                            <div className="card-lift bg-gradient-to-br from-primary/10 via-surface-container-low to-primary/5 rounded-none p-6 border border-primary/20 flex flex-col sm:flex-row items-center gap-6 justify-between shadow-xs">
                                 <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 rounded-2xl bg-white text-primary flex items-center justify-center shadow-sm flex-shrink-0">
+                                    <div className="w-12 h-12 rounded-none bg-primary/10 text-primary flex items-center justify-center shadow-xs flex-shrink-0">
                                         <Robot size={28} weight="duotone" />
                                     </div>
                                     <div>
                                         <div className="flex items-center gap-2">
                                             <h3 className="font-extrabold text-on-surface text-sm">Phòng Chơi &amp; Mô Phỏng AI</h3>
-                                            <span className="px-2 py-0.5 rounded-full bg-primary text-white text-[9px] font-black uppercase">4 Kịch bản</span>
+                                            <span className="px-2 py-0.5 rounded-none bg-primary text-white text-[9px] font-black uppercase">5 Kịch bản</span>
                                         </div>
                                         <p className="text-xs text-on-surface-variant leading-relaxed font-light mt-0.5">
                                             Rèn luyện phản xạ với AI, nhận điểm an toàn và báo cáo đánh giá khoa học y tế.
@@ -295,7 +295,7 @@ export default function ProfilePage() {
                                 </div>
                                 <Link
                                     href="/game"
-                                    className="w-full sm:w-auto inline-flex h-10 items-center justify-center rounded-full bg-primary px-6 text-xs font-bold text-white shadow-md hover:shadow-lg hover:opacity-95 transition-all flex-shrink-0"
+                                    className="w-full sm:w-auto inline-flex h-10 items-center justify-center rounded-none bg-primary px-6 text-xs font-bold text-white shadow-depth-1 hover:shadow-depth-2 transition-all flex-shrink-0 btn-press"
                                 >
                                     Vào phòng chơi
                                 </Link>
@@ -305,11 +305,11 @@ export default function ProfilePage() {
 
                     {/* Tab 2: Settings Profile Update */}
                     {activeTab === 'settings' && (
-                        <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-white/60 shadow-sm space-y-6">
+                        <div className="bg-white rounded-none p-8 border border-outline-variant/40 shadow-xs space-y-6">
                             <h2 className="text-lg font-bold text-on-surface">Chỉnh sửa hồ sơ cá nhân</h2>
 
                             {msg && (
-                                <div className={`rounded-2xl p-4 text-xs font-semibold border ${
+                                <div className={`rounded-none p-4 text-xs font-semibold border ${
                                     msg.type === 'success'
                                         ? 'bg-primary/10 border-primary/20 text-primary'
                                         : 'bg-red-50 border-red-200/50 text-red-600'
@@ -383,7 +383,7 @@ export default function ProfilePage() {
                                     <button
                                         type="submit"
                                         disabled={updating}
-                                        className="w-full flex h-11 items-center justify-center rounded-none bg-primary text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer disabled:opacity-50"
+                                        className="w-full flex h-11 items-center justify-center rounded-none bg-primary text-xs font-bold text-white shadow-xs hover:opacity-90 transition-all cursor-pointer disabled:opacity-50 btn-press"
                                     >
                                         {updating ? 'Đang lưu...' : 'Lưu thay đổi'}
                                     </button>

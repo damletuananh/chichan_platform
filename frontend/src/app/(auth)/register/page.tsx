@@ -164,7 +164,7 @@ export default function RegisterPage() {
                     <div className="grid grid-cols-2 gap-3">
                         <div
                             onClick={() => setRole('STUDENT_PARENT')}
-                            className={`flex flex-col items-center justify-center p-3 rounded-none border cursor-pointer transition-all select-none ${
+                            className={`flex flex-col items-center justify-center p-3 rounded-none border cursor-pointer transition-all select-none btn-press ${
                                 role === 'STUDENT_PARENT' 
                                     ? 'border-primary bg-primary/10 text-primary font-bold shadow-depth-1' 
                                     : 'border-outline-variant/30 bg-white hover:bg-surface-container-low'
@@ -175,7 +175,7 @@ export default function RegisterPage() {
                         </div>
                         <div
                             onClick={() => setRole('STUDENT_CHILD')}
-                            className={`flex flex-col items-center justify-center p-3 rounded-none border cursor-pointer transition-all select-none ${
+                            className={`flex flex-col items-center justify-center p-3 rounded-none border cursor-pointer transition-all select-none btn-press ${
                                 role === 'STUDENT_CHILD' 
                                     ? 'border-primary bg-primary/10 text-primary font-bold shadow-depth-1' 
                                     : 'border-outline-variant/30 bg-white hover:bg-surface-container-low'
@@ -368,7 +368,7 @@ export default function RegisterPage() {
                 <button
                     type="submit"
                     disabled={loading || success}
-                    className="w-full mt-2 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2"
+                    className="w-full mt-2 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2 btn-press"
                 >
                     {loading ? 'Đang tạo tài khoản...' : 'Đăng ký'}
                 </button>

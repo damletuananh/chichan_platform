@@ -1,0 +1,1039 @@
+{
+  "title": "Đa Dạng Giới & Thấu Hiểu Bản Dạng Xu Hướng Tính Dục",
+  "slug": "da-dang-gioi-va-thau-hieu-ban-dang-xu-huong-tinh-duc",
+  "short_description": "Tiếp cận mô hình khoa học SOGIESC, giải mã rung động đồng giới tuổi mới lớn, kỹ năng Come Out an toàn, tình dục an toàn với PrEP và xây dựng văn hóa học đường tôn trọng sự khác biệt.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (12 - 18 tuổi).\n\nĐa dạng giới và tính dục là một phần tự nhiên của xã hội loài người. Khóa học mang đến góc nhìn y khoa chuẩn mực của WHO và Bộ Y tế Việt Nam, giúp thanh thiếu niên thấu hiểu mô hình SOGIESC, xóa tan hoang mang mặc cảm khi có những rung động khác biệt, trang bị kỹ năng công khai an toàn, bảo vệ sức khỏe tình dục toàn diện (PrEP, bao cao su, vắc xin HPV) và trở thành những đồng minh văn minh xóa bỏ bạo lực học đường.",
+  "learning_objectives": "- Thấu hiểu 4 thành tố cốt lõi của mô hình SOGIESC và khẳng định khoa học: LGBT không phải là bệnh.\n- Vượt qua nỗi hoang mang tâm lý khi có rung động đồng giới và bảo vệ bản thân trước nạn Outing.\n- Lập kế hoạch Come Out thận trọng, đảm bảo an toàn thể chất, tài chính và học tập.\n- Nắm vững kiến thức tình dục an toàn (PrEP, chất bôi trơn gốc nước, vắc-xin HPV 9 chủng).\n- Rèn luyện kỹ năng của một 'Ally' (Người đồng minh) kiến tạo trường học nhân văn, không định kiến.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Khám phá mô hình SOGIESC: Giới tính sinh học, Bản dạng & Xu hướng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Phân biệt 4 yếu tố cốt lõi trong SOGIESC\n- **Giới tính sinh học (Sex assigned at birth):** Dựa trên nhiễm sắc thể (XX, XY), hormone và cơ quan sinh dục ngoài lúc mới sinh (Nam, Nữ, Liên giới tính - Intersex).\n- **Bản dạng giới (Gender Identity):** Cảm nhận sâu sắc bên trong của một người về giới tính của chính mình (Nam, Nữ, Phi nhị nguyên giới - Non-binary, Chuyển giới - Transgender).\n- **Thể hiện giới (Gender Expression):** Cách một người thể hiện ra bên ngoài qua trang phục, đầu tóc, giọng nói, cử chỉ (Nam tính, Nữ tính, Linh hoạt - Androgynous).\n- **Xu hướng tính dục (Sexual Orientation):** Sự hấp dẫn về mặt tình cảm hoặc thể xác đối với người khác (Dị tính, Đồng tính, Song tính, Vô tính).\n\n### 2. Định kiến sai lầm: Đa dạng giới không phải là bệnh lý!\n- Năm 1990, Tổ chức Y tế Thế giới (WHO) đã chính thức loại bỏ đồng tính luyến ái ra khỏi danh mục bệnh tâm thần.\n- Đa dạng giới là một phổ tự nhiên trong sinh học loài người, không thể 'chữa trị' hay 'uốn nắn' bằng roi vọt hay ép buộc.",
+      "quiz": {
+        "title": "Kiểm tra Bài 1: Hiểu đúng về mô hình SOGIESC",
+        "description": "5 câu hỏi khoa học về bản dạng giới và xu hướng tính dục.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Yếu tố nào thể hiện cảm nhận sâu sắc bên trong của một người về giới tính của mình?",
+            "explanation": "Bản dạng giới (Gender Identity) là cảm nhận tự thân của mỗi cá nhân về giới tính của mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giấy khai sinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bản dạng giới (Gender Identity)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Màu sắc quần áo đang mặc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chiều cao cơ thể",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tổ chức Y tế Thế giới (WHO) và Bộ Y tế Việt Nam xác định đồng tính luyến ái là gì?",
+            "explanation": "Là một biến thể tự nhiên của xu hướng tính dục con người, hoàn toàn không phải bệnh lý.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Là một loại bệnh tâm thần lây nhiễm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Là một xu hướng tính dục tự nhiên của con người, không phải là bệnh và không thể chữa trị",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Là do thói quen ăn uống sai cách",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Là một trào lưu nhất thời của mạng xã hội",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Một bạn nam thích mặc trang phục màu hồng và để tóc dài thì điều đó phản ánh yếu tố nào?",
+            "explanation": "Đó là Thể hiện giới (Gender Expression) phong cách cá nhân, không đồng nghĩa với xu hướng tính dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thể hiện giới (Gender Expression)",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bệnh lý về mắt",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt buộc bạn đó phải là người chuyển giới",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sự vi phạm nội quy pháp luật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Người cảm thấy không bị hấp dẫn tình dục với bất kỳ giới nào được gọi là gì?",
+            "explanation": "Vô tính (Asexual) là một xu hướng tính dục bình thường khi một người không trải nghiệm sự hấp dẫn tình dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Người bị lãnh cảm bệnh lý",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Người vô tính (Asexual)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người dị tính",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người ích kỷ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thái độ văn minh nhất khi gặp một người có thể hiện giới khác biệt là gì?",
+            "explanation": "Tôn trọng danh xưng và sự khác biệt của họ, không phán xét hay trêu chọc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ trỏ và cười cợt cùng bạn bè",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng sự đa dạng, đối xử lịch sự bình đẳng và dùng danh xưng họ mong muốn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khuyên họ nên đi khám bệnh tâm thần",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tẩy chay không bao giờ nói chuyện",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Nhận diện cảm xúc rung động đồng giới: Hoang mang tuổi mới lớn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Sự hoang mang khi có cảm xúc khác biệt\nNhiều học sinh rơi vào khủng hoảng tâm lý khi nhận ra mình có cảm tình, hay ghen hoặc muốn ở cạnh một bạn cùng giới. \n- Các em thường tự dằn vặt: *'Mình bị làm sao thế này?', 'Mình có bất hiếu không?'*.\n- **Lời khuyên chuyên gia:** Hãy bình tĩnh cho bản thân thời gian quan sát và trải nghiệm cảm xúc mà không vội vàng dán nhãn (Labeling) quá sớm. Cảm xúc tuổi dậy thì đang trong giai đoạn định hình và hoàn thiện.\n\n### 2. Bảo vệ an toàn tinh thần\n- Tránh việc bị áp lực phải ép mình thích người khác giới chỉ để 'làm hài lòng gia đình'.\n- Tìm kiếm sự sẻ chia từ các tổ chức tâm lý uy tín hoặc bạn bè thực sự cởi mở, tránh chia sẻ bừa bãi trên các diễn đàn mạng mở để không trở thành nạn nhân của bắt nạt mạng.",
+      "quiz": {
+        "title": "Kiểm tra Bài 2: Đối diện cảm xúc rung động",
+        "description": "5 câu hỏi rèn luyện sự bình an nội tâm trước những cảm xúc mới.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi nhận thấy mình có cảm xúc say nắng một bạn cùng giới, bạn nên có thái độ nào?",
+            "explanation": "Bình tĩnh, chấp nhận cảm xúc tự nhiên của bản thân và không hoảng sợ hay tự dằn vặt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cố gắng tự làm đau bản thân để trừng phạt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh lắng nghe cảm xúc của chính mình, hiểu rằng đây là biến chuyển tự nhiên và không có gì sai trái",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống thuốc an thần để quên đi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lập tức nghỉ học",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi nào có thể gây tổn thương nghiêm trọng đến một bạn học sinh đang băn khoăn về giới tính?",
+            "explanation": "Kỳ thị, lăng mạ, đặt biệt danh miệt thị hoặc công khai bí mật của bạn (Outing).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lắng nghe chân thành khi bạn tâm sự",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gán ghép từ ngữ xúc phạm, đem chuyện riêng tư của bạn ra làm trò đùa trước lớp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mời bạn tham gia hoạt động thể thao",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tôn trọng không gian riêng của bạn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Có thể dùng thuốc hay các biện pháp can thiệp tâm lý ép buộc để 'bẻ thẳng' một người đồng tính không?",
+            "explanation": "Khoa học khẳng định liệu pháp chuyển đổi (Conversion therapy) là phản khoa học và bị cấm vì gây hại tâm lý nghiêm trọng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có thể chữa khỏi hoàn toàn nếu uống nhiều vitamin",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG; liệu pháp ép chuyển đổi là phản khoa học, nguy hiểm và bị Bộ Y tế nghiêm cấm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần ép tập võ là sẽ thẳng lại",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đi chùa cúng bái sẽ thay đổi được",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khái niệm 'Outing' trong cộng đồng LGBT có nghĩa là gì?",
+            "explanation": "Hành vi tiết lộ xu hướng tính dục hoặc bản dạng giới của người khác khi chưa được họ cho phép.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rủ bạn đi dã ngoại cuối tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi tự ý công khai bí mật giới tính của người khác mà không có sự đồng thuận của họ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mua quà tặng bạn nhân dịp sinh nhật",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đăng ảnh tập thể lớp lên Facebook",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Hành vi Outing người khác có thể dẫn đến hậu quả gì?",
+            "explanation": "Đẩy nạn nhân vào nguy cơ bị gia đình chối bỏ, bạo lực học đường và khủng hoảng tâm lý nghiêm trọng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp nạn nhân trở nên tự tin hơn ngay lập tức",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đẩy nạn nhân vào khủng hoảng tinh thần, bị bạo lực học đường và xâm phạm nghiêm trọng quyền riêng tư",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Là một trò đùa vô hại không ai bận tâm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp cả lớp đoàn kết hơn",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Kế hoạch 'Come Out' an toàn & Xây dựng mạng lưới hỗ trợ",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Come Out (Công khai) — Quyền lựa chọn của riêng bạn\nBạn không có nghĩa vụ phải công khai với tất cả mọi người nếu cảm thấy môi trường chưa an toàn.\n- **Tiêu chí an toàn khi Come Out:**\n  + Sự an toàn về thể chất và tài chính: Nếu gia đình có xu hướng cực đoan và có thể đuổi bạn ra khỏi nhà hoặc cắt tiền ăn học, hãy ưu tiên tập trung học tập, độc lập kinh tế trước khi công khai.\n  + Sự sẵn sàng về tâm lý: Bạn đã hiểu rõ chính mình và chuẩn bị tinh thần đón nhận phản ứng ban đầu của cha mẹ.\n\n### 2. Các bước mở lời khôn ngoan\n- Thăm dò quan điểm của cha mẹ qua một bộ phim hoặc tin tức thời sự về người đồng tính.\n- Chọn thời điểm gia đình bình yên, chia sẻ chân thành từ tình cảm và sự biết ơn.\n- Cho cha mẹ thời gian: Hãy nhớ bạn mất nhiều năm để chấp nhận chính mình, cha mẹ cũng cần thời gian để thích nghi.",
+      "quiz": {
+        "title": "Kiểm tra Bài 3: Kỹ năng công khai an toàn",
+        "description": "5 câu hỏi giúp lập kế hoạch Come Out thận trọng và có trách nhiệm.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Yếu tố quan trọng hàng đầu cần cân nhắc trước khi quyết định Come Out với gia đình là gì?",
+            "explanation": "Sự an toàn về thể chất, tinh thần và khả năng duy trì việc học tập của bản thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phải công khai ngay để câu like trên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự an toàn thể chất, sự hỗ trợ tài chính để học tập và trạng thái tâm lý vững vàng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chờ đến khi bạn bè thách đố",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ cần làm theo ý thích bốc đồng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Nếu cha mẹ ban đầu có phản ứng sốc, khóc lóc hoặc phủ nhận khi bạn Come Out, bạn nên ứng xử thế nào?",
+            "explanation": "Kiên nhẫn, thấu hiểu rằng cha mẹ cần thời gian để thích nghi và cung cấp thông tin khoa học dần dần.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đập phá đồ đạc và hét vào mặt cha mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh, kiên nhẫn cho cha mẹ thời gian thích ứng và dần dần chia sẻ tài liệu y khoa chính thống",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bỏ nhà đi ngay trong đêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tuyệt thực để ép cha mẹ phải đồng ý",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Cách thăm dò thái độ của cha mẹ về chủ đề LGBT nào là TỰ NHIÊN nhất?",
+            "explanation": "Tận dụng các tin tức, nhân vật nổi tiếng hoặc phim ảnh để hỏi ý kiến cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để lại thư tuyệt mệnh trong phòng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cùng cha mẹ xem một phóng sự hoặc phim có nhân vật LGBT và hỏi suy nghĩ của cha mẹ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đăng bài ẩn ý chửi bới người lớn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhờ người lạ gọi điện tống tiền cha mẹ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Bạn có bắt buộc phải công khai xu hướng tính dục của mình với tất cả bạn bè trong trường không?",
+            "explanation": "Đó là quyền riêng tư cá nhân tuyệt đối; bạn chỉ chia sẻ với những người bạn tin cậy và cảm thấy an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt buộc phải đứng trước sân trường tuyên bố",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG; đó là quyền riêng tư cá nhân và bạn toàn quyền quyết định chia sẻ với ai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phải viết vào sơ yếu lý lịch nộp cho giáo viên",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt buộc phải in lên áo đồng phục",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tổ chức xã hội nào tại Việt Nam hỗ trợ phụ huynh và người thân của cộng đồng LGBT?",
+            "explanation": "Hội Phụ huynh và Người thân của người LGBT (PFLAG Việt Nam).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "PFLAG Việt Nam (Parents, Families and Friends of Lesbians and Gays)",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hội những người thích câu cá",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hiệp hội xe máy điện",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Câu lạc bộ bida",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Tình dục an toàn trong các mối quan hệ đồng giới",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Phá bỏ lầm tưởng tai hại: 'Quan hệ đồng giới không sợ có thai nên không cần bao cao su'\nDù không có rủi ro mang thai ngoài ý muốn, các mối quan hệ đồng giới (nam - nam hoặc nữ - nữ) vẫn đối mặt với nguy cơ lây truyền các bệnh STI (HIV, Giang mai, Lậu, Chlamydia, HPV, Sùi mào gà) nếu quan hệ không an toàn:\n- Quan hệ qua đường hậu môn (Anal Sex) có niêm mạc trực tràng rất mỏng, dễ trầy xước, là con đường lây truyền virus HIV cao nhất nếu không dùng bao cao su và chất bôi trơn.\n- Quan hệ qua đường miệng (Oral Sex) vẫn lây truyền lậu họng, giang mai và virus HPV gây ung thư vòm họng.\n\n### 2. Các biện pháp phòng vệ y khoa hiện đại\n- **Bao cao su & Chất bôi trơn gốc nước (Water-based lube):** Bắt buộc phải dùng chất bôi trơn chuyên dụng để giảm ma sát, tránh rách bao. Tuyệt đối không dùng dầu ăn, vaseline, sữa tắm vì sẽ làm mủn cao su.\n- **PrEP (Điều trị dự phòng trước phơi nhiễm HIV):** Viên uống hàng ngày giúp bảo vệ tới 99% nguy cơ lây nhiễm HIV qua đường tình dục, hiện được cấp miễn phí hoặc hỗ trợ giá tại các trung tâm y tế quận/huyện.\n- **Tiêm phòng Vắc-xin HPV 9 chủng (Gardasil 9):** Cần thiết cho cả nam và nữ để phòng ngừa sùi mào gà và các bệnh ung thư liên quan.",
+      "quiz": {
+        "title": "Kiểm tra Bài 4: An toàn tình dục toàn diện",
+        "description": "5 câu hỏi y khoa bảo vệ sức khỏe cho các mối quan hệ đa dạng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Lầm tưởng nào sau đây cực kỳ NGUY HIỂM trong quan hệ tình dục đồng giới?",
+            "explanation": "Lầm tưởng không thể có thai thì không cần dùng bao cao su khiến tỷ lệ nhiễm HIV và STI tăng vọt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phải đi khám sức khỏe định kỳ mỗi 6 tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Quan hệ đồng giới không thể mang thai nên không cần dùng bất kỳ biện pháp bảo vệ nào'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cần sử dụng bao cao su và chất bôi trơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tiêm vắc xin HPV giúp ngăn ngừa sùi mào gà",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi sử dụng bao cao su trong quan hệ tình dục qua đường hậu môn, loại chất bôi trơn nào là ĐÚNG ĐẮN?",
+            "explanation": "Chỉ dùng chất bôi trơn gốc nước hoặc gốc silicon; dầu khoáng/dầu ăn làm tan rã chất liệu cao su của bao.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Dầu ăn thực vật hoặc dầu dừa trong bếp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chất bôi trơn chuyên dụng gốc nước (Water-based)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Xà phòng tắm hoặc dầu gội đầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sáp dưỡng ẩm Vaseline",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "PrEP là viết tắt của phương pháp dự phòng y tế nào?",
+            "explanation": "Pre-Exposure Prophylaxis: Điều trị dự phòng trước phơi nhiễm HIV bằng thuốc kháng virus uống hàng ngày.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thuốc giảm cân cấp tốc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Điều trị dự phòng trước phơi nhiễm HIV (Pre-Exposure Prophylaxis)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vắc xin phòng cúm mùa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thuốc trị mụn trứng cá",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thuốc PrEP có thể thay thế hoàn toàn cho bao cao su được không?",
+            "explanation": "KHÔNG; PrEP chỉ phòng lây nhiễm HIV, hoàn toàn không phòng được các bệnh STI khác như lậu, giang mai, sùi mào gà.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, uống PrEP rồi thì vĩnh viễn không bao giờ mắc bệnh gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "KHÔNG; PrEP chỉ ngừa HIV, cần dùng bao cao su để phòng ngừa các bệnh lây qua đường tình dục (STI) khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ phụ nữ mới cần dùng bao cao su",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "PrEP là thuốc trị đau đầu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Độ tuổi khuyến nghị tiêm vắc xin ngừa ung thư cổ tử cung, ung thư hậu môn và sùi mào gà (HPV) là bao nhiêu?",
+            "explanation": "Từ 9 đến 26 tuổi (cả nam và nữ) là độ tuổi vàng để tiêm vắc-xin HPV đạt hiệu quả bảo vệ cao nhất.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ người trên 60 tuổi mới tiêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Từ 9 đến 26 tuổi cho cả nam và nữ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ dành riêng cho phụ nữ đã sinh con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ai cần tiêm vắc xin này",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng cộng đồng học đường dung nạp & Tôn trọng sự đa dạng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Trở thành một người đồng minh (Ally) chân chính\nMột trường học văn minh là nơi mọi học sinh, bất kể giới tính, màu da, hoàn cảnh hay xu hướng tính dục, đều cảm thấy mình được an toàn và tôn trọng.\n- **Nguyên tắc của người đồng minh:**\n  + Không dùng tiếng lóng xúc phạm (bê đê, ô môi, xì trum) làm trò đùa.\n  + Lên tiếng khi thấy bạn bè bị kỳ thị hoặc chế giễu giới tính.\n  + Tôn trọng đại từ xưng hô mà bạn mong muốn (Anh/Chị/Bạn).\n\n### 2. Pháp luật Việt Nam về chống phân biệt đối xử\n- Luật Trẻ em 2016 quy định nghiêm cấm mọi hành vi kỳ thị, phân biệt đối xử đối với trẻ em dưới mọi hình thức.\n- Bộ Y tế Việt Nam năm 2022 đã ban hành văn bản chính thức yêu cầu các cơ sở y tế không coi đồng tính, song tính, chuyển giới là bệnh và cấm mọi hành vi ép buộc chữa trị.",
+      "quiz": {
+        "title": "Kiểm tra Bài 5: Xây dựng văn hóa dung nạp học đường",
+        "description": "5 câu hỏi kiểm tra kỹ năng trở thành đồng minh văn minh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Ally' (Người đồng minh) đối với cộng đồng LGBT được hiểu là gì?",
+            "explanation": "Người không thuộc cộng đồng LGBT nhưng ủng hộ, tôn trọng và lên tiếng bảo vệ sự bình đẳng cho người LGBT.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Người phản đối kịch liệt quyền của người LGBT",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Người ủng hộ sự bình đẳng, tôn trọng và đồng hành bảo vệ quyền của cộng đồng LGBT",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người chỉ chơi với bạn cùng giới",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người làm việc tại đại sứ quán",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Văn bản năm 2022 của Bộ Y tế Việt Nam đã khẳng định điều gì về xu hướng tính dục đồng tính?",
+            "explanation": "Khẳng định đồng tính hoàn toàn không phải là bệnh, cấm phân biệt đối xử và cấm chữa trị.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Yêu cầu tất cả người đồng tính phải đi uống thuốc bắt buộc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khẳng định không coi đồng tính là bệnh, không can thiệp chữa trị và nghiêm cấm phân biệt đối xử",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phạt tiền những ai công khai giới tính",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm người LGBT tham gia bảo hiểm y tế",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi nghe bạn cùng lớp dùng từ ngữ xúc phạm miệt thị người chuyển giới, hành động nào là đúng đắn?",
+            "explanation": "Lên tiếng nhắc nhở lịch sự rằng từ ngữ đó là xúc phạm và không phù hợp trong môi trường văn minh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hùa theo cười đùa cho vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lịch sự nhưng kiên quyết nhắc nhở bạn rằng việc dùng từ miệt thị là thiếu tôn trọng và gây tổn thương",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đánh bạn để dạy cho bạn một bài học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chụp ảnh bạn đăng lên mạng bêu rếu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Biểu tượng phổ biến nhất đại diện cho sự đa dạng và quyền của cộng đồng LGBT trên toàn cầu là gì?",
+            "explanation": "Lá cờ cầu vồng 6 màu (Rainbow Flag).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lá cờ màu đen trắng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lá cờ lục sắc (Cầu vồng 6 màu)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lá cờ hình ngôi sao vàng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lá cờ hình đầu lâu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Môi trường học đường lý tưởng nhất cho tất cả học sinh là môi trường như thế nào?",
+            "explanation": "Nơi an toàn, không có bạo lực hay kỳ thị, nơi mỗi cá nhân đều được tự do phát triển tài năng và nhân cách.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nơi ai có tiền thì có quyền bắt nạt người khác",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nơi an toàn, bình đẳng, không kỳ thị và tôn trọng sự phát triển độc bản của mỗi học sinh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nơi chỉ tập trung thi cử không quan tâm đến cảm xúc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nơi học sinh bị phân biệt đối xử theo ngoại hình",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Nhận thức Đa dạng Giới & Quyền Bình đẳng",
+    "description": "10 câu hỏi tổng hợp kiểm tra hiểu biết toàn diện về SOGIESC và kỹ năng hỗ trợ bạn bè.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Bản dạng giới (Gender Identity) khác Giới tính sinh học (Sex assigned at birth) ở điểm nào?",
+        "explanation": "Giới tính sinh học dựa trên giải phẫu cơ thể lúc sinh; Bản dạng giới là cảm nhận tâm lý sâu sắc bên trong của cá nhân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hoàn toàn giống nhau không có gì khác",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giới tính sinh học dựa trên thể chất y khoa lúc sinh; Bản dạng giới là cảm nhận tự thân của mỗi người về giới của mình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bản dạng giới do bố mẹ đặt tên",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Giới tính sinh học có thể thay đổi sau 1 đêm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Quan điểm khoa học chính thức của Tổ chức Y tế Thế giới (WHO) về đồng tính luyến ái là gì?",
+        "explanation": "Là một biến thể tự nhiên lành mạnh của tính dục con người, không phải bệnh lý.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Là bệnh lý tâm thần cần cách ly",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Là một xu hướng tính dục bình thường của con người, không phải là bệnh và không thể chữa trị",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Là hiện tượng đột biến gen nguy hiểm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Là hành vi vi phạm đạo đức bắt buộc phải xử phạt",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Hành vi nào sau đây vi phạm nghiêm trọng đạo đức và quyền riêng tư của người thuộc cộng đồng LGBT?",
+        "explanation": "Hành vi Outing (tự ý công khai giới tính của người khác) mà không có sự cho phép.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Mời bạn tham gia sinh nhật",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tự ý lan truyền bí mật giới tính của bạn (Outing) cho người khác biết",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lắng nghe bạn tâm sự",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tôn trọng đại từ xưng hô của bạn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Thuốc PrEP có tác dụng bảo vệ khỏi loại bệnh nào khi quan hệ tình dục?",
+        "explanation": "PrEP bảo vệ tới 99% nguy cơ lây truyền HIV, nhưng không phòng được các bệnh STI khác.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tất cả mọi loại bệnh trên đời",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ngăn ngừa lây nhiễm virus HIV",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bệnh cảm cúm và viêm họng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bệnh đau dạ dày",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Tại sao trong quan hệ tình dục qua đường hậu môn, bắt buộc phải dùng chất bôi trơn gốc nước?",
+        "explanation": "Vì niêm mạc trực tràng không tự tiết chất bôi trơn; thiếu chất bôi trơn sẽ gây rách niêm mạc và rách bao cao su.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Để bao cao su đổi màu đẹp hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giảm ma sát, tránh gây rách niêm mạc trực tràng và chống rách bao cao su",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để làm ấm cơ thể",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ dùng cho vui chứ không có tác dụng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Khi quyết định Come Out với cha mẹ, điều kiện tiên quyết bạn cần chuẩn bị là gì?",
+        "explanation": "Đảm bảo sự an toàn về thể chất, chỗ ở và duy trì việc học tập của bản thân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chuẩn bị một bài nhảy TikTok",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Đảm bảo an toàn bản thân, tâm lý vững vàng và phương án hỗ trợ học tập ổn định",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Mời truyền thông đến quay phim",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nói dối về kết quả học tập",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Hội phụ huynh PFLAG Việt Nam được thành lập nhằm mục đích gì?",
+        "explanation": "Kết nối, hỗ trợ các bậc cha mẹ thấu hiểu và đồng hành cùng con em thuộc cộng đồng LGBT.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ép con em đi chữa trị tâm lý",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tư vấn, kết nối và hỗ trợ các bậc phụ huynh thấu hiểu, yêu thương con em LGBT",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bán các loại thuốc kích thích",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tổ chức các giải thi đấu cờ vua",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Vắc xin HPV 9 chủng phòng ngừa những căn bệnh nguy hiểm nào?",
+        "explanation": "Phòng ngừa ung thư cổ tử cung, ung thư vòm họng, ung thư hậu môn và bệnh sùi mào gà ở cả nam và nữ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bệnh sốt xuất huyết",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ung thư cổ tử cung, ung thư hậu môn, vòm họng và sùi mào gà",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bệnh thủy đậu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bệnh đau mắt đỏ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Điều gì là quan trọng nhất khi xây dựng tình bạn với người thuộc cộng đồng LGBT?",
+        "explanation": "Sự chân thành, tôn trọng phẩm giá và không coi họ là 'vật thí nghiệm' hay đề tài bàn tán.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Liên tục hỏi sâu về đời sống tình dục riêng tư của họ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tôn trọng phẩm giá, đối xử bình đẳng và đồng hành như mọi người bạn chân chính khác",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Khoe khoang với người khác là mình có bạn LGBT",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cố gắng khuyên bạn thay đổi sở thích",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Theo Luật Trẻ em Việt Nam 2016, hành vi kỳ thị, phân biệt đối xử với trẻ em bị xử lý như thế nào?",
+        "explanation": "Là hành vi bị pháp luật nghiêm cấm tuyệt đối và bị xử phạt theo quy định hiện hành.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Được khuyến khích trong trường học",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bị pháp luật nghiêm cấm và bị xử lý kỷ luật hoặc xử phạt vi phạm hành chính",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ bị nhắc nhở nhẹ nếu là người quen",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có quy định nào cấm",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

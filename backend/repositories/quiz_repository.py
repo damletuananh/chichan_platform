@@ -54,12 +54,20 @@ async def get_user_submissions(db: AsyncSession, user_id: UUID, quiz_id: UUID, l
     return list(result.scalars().all())
 
 async def has_user_passed_quiz(db: AsyncSession, user_id: UUID, quiz_id: UUID) -> bool:
-    """Kiểm tra đã từng đỗ quiz chưa bằng aggregate bool_or phía DB (không nạp toàn bộ lịch sử nộp bài)"""
-    stmt = select(func.bool_or(QuizSubmission.passed)).where(
-        and_(QuizSubmission.user_id == user_id, QuizSubmission.quiz_id == quiz_id)
+    """Kiểm tra đã từng đỗ quiz chưa (chuẩn ANSI SQL, chạy tốt cả trên Postgres và SQLite)"""
+    stmt = (
+        select(QuizSubmission.id)
+        .where(
+            and_(
+                QuizSubmission.user_id == user_id,
+                QuizSubmission.quiz_id == quiz_id,
+                QuizSubmission.passed == True
+            )
+        )
+        .limit(1)
     )
     result = await db.execute(stmt)
-    return bool(result.scalar())
+    return result.scalar() is not None
 
 async def get_passed_quiz_ids(db: AsyncSession, user_id: UUID, quiz_ids: List[UUID]) -> set:
     """Trả về tập các quiz_id mà user đã từng đỗ — 1 truy vấn GROUP BY cho nhiều quiz

@@ -298,7 +298,7 @@ export default function AdminUsersPage() {
 
   if (!user || user.role !== "ADMIN") {
     return (
-      <div className="p-8 text-center bg-white rounded-2xl border border-outline-variant/30 space-y-3 max-w-md mx-auto mt-12">
+      <div className="p-8 text-center bg-white rounded-none border border-outline-variant/30 shadow-depth-2 space-y-3 max-w-md mx-auto mt-12 animate-page-appear">
         <ShieldWarning
           size={40}
           weight="duotone"
@@ -315,7 +315,7 @@ export default function AdminUsersPage() {
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 animate-page-appear">
       {/* Page Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
@@ -330,7 +330,7 @@ export default function AdminUsersPage() {
 
         <button
           onClick={() => fetchUsers(page, search, selectedRole, selectedStatus)}
-          className="inline-flex items-center gap-2 px-3.5 py-2 bg-white hover:bg-surface-container border border-outline-variant/30 rounded-xl text-xs font-bold text-on-surface transition-all shadow-xs self-start sm:self-auto cursor-pointer"
+          className="btn-press inline-flex items-center gap-2 px-3.5 py-2 bg-white hover:bg-surface-container border border-outline-variant/30 rounded-none text-xs font-bold text-on-surface transition-all shadow-depth-1 self-start sm:self-auto cursor-pointer"
           title="Tải lại danh sách"
         >
           <ArrowClockwise
@@ -345,10 +345,10 @@ export default function AdminUsersPage() {
       {/* Overview Stats Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Total Users */}
-        <Card className="space-y-2">
+        <Card className="space-y-2 card-lift">
           <div className="flex items-center justify-between text-on-surface-variant">
             <span className="text-xs font-semibold">Tổng tài khoản</span>
-            <div className="w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+            <div className="w-8 h-8 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center text-primary shadow-depth-1">
               <Users size={16} weight="duotone" />
             </div>
           </div>
@@ -361,10 +361,10 @@ export default function AdminUsersPage() {
         </Card>
 
         {/* Active Users */}
-        <Card className="space-y-2">
+        <Card className="space-y-2 card-lift">
           <div className="flex items-center justify-between text-on-surface-variant">
             <span className="text-xs font-semibold">Đang hoạt động</span>
-            <div className="w-8 h-8 rounded-xl bg-green-500/10 flex items-center justify-center text-green-600">
+            <div className="w-8 h-8 rounded-none bg-green-500/10 border border-green-500/20 flex items-center justify-center text-green-600 shadow-depth-1">
               <UserCheck size={16} weight="duotone" />
             </div>
           </div>
@@ -377,12 +377,12 @@ export default function AdminUsersPage() {
         </Card>
 
         {/* Inactive Users */}
-        <Card className="space-y-2">
+        <Card className="space-y-2 card-lift">
           <div className="flex items-center justify-between text-on-surface-variant">
             <span className="text-xs font-semibold">
               Đã vô hiệu hóa (Inactive)
             </span>
-            <div className="w-8 h-8 rounded-xl bg-red-500/10 flex items-center justify-center text-red-500">
+            <div className="w-8 h-8 rounded-none bg-red-500/10 border border-red-500/20 flex items-center justify-center text-red-500 shadow-depth-1">
               <UserMinus size={16} weight="duotone" />
             </div>
           </div>
@@ -395,10 +395,10 @@ export default function AdminUsersPage() {
         </Card>
 
         {/* Roles Distribution */}
-        <Card className="space-y-2">
+        <Card className="space-y-2 card-lift">
           <div className="flex items-center justify-between text-on-surface-variant">
             <span className="text-xs font-semibold">Phân loại vai trò</span>
-            <div className="w-8 h-8 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-600">
+            <div className="w-8 h-8 rounded-none bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-600 shadow-depth-1">
               <ShieldCheck size={16} weight="duotone" />
             </div>
           </div>
@@ -409,9 +409,9 @@ export default function AdminUsersPage() {
                 setSelectedRole(nextRole);
                 setPage(1);
               }}
-              className={`w-full flex justify-between items-center px-2 py-0.5 rounded-lg transition-colors cursor-pointer ${
+              className={`btn-press w-full flex justify-between items-center px-2 py-0.5 rounded-none transition-colors cursor-pointer ${
                 selectedRole === "ADMIN"
-                  ? "bg-red-50 text-red-600 font-bold"
+                  ? "bg-red-50 text-red-600 font-bold border border-red-200"
                   : "hover:bg-slate-50"
               }`}
               title="Lọc theo Quản trị viên"
@@ -432,9 +432,9 @@ export default function AdminUsersPage() {
                 setSelectedRole(nextRole);
                 setPage(1);
               }}
-              className={`w-full flex justify-between items-center px-2 py-0.5 rounded-lg transition-colors cursor-pointer ${
+              className={`btn-press w-full flex justify-between items-center px-2 py-0.5 rounded-none transition-colors cursor-pointer ${
                 selectedRole === "INSTRUCTOR"
-                  ? "bg-blue-50 text-primary font-bold"
+                  ? "bg-blue-50 text-primary font-bold border border-primary/20"
                   : "hover:bg-slate-50"
               }`}
               title="Lọc theo Chuyên gia"
@@ -455,9 +455,9 @@ export default function AdminUsersPage() {
                 setSelectedRole(nextRole);
                 setPage(1);
               }}
-              className={`w-full flex justify-between items-center px-2 py-0.5 rounded-lg transition-colors cursor-pointer ${
+              className={`btn-press w-full flex justify-between items-center px-2 py-0.5 rounded-none transition-colors cursor-pointer ${
                 selectedRole === "STUDENT_PARENT"
-                  ? "bg-amber-50 text-amber-600 font-bold"
+                  ? "bg-amber-50 text-amber-600 font-bold border border-amber-200"
                   : "hover:bg-slate-50"
               }`}
               title="Lọc theo Phụ huynh"
@@ -478,9 +478,9 @@ export default function AdminUsersPage() {
                 setSelectedRole(nextRole);
                 setPage(1);
               }}
-              className={`w-full flex justify-between items-center px-2 py-0.5 rounded-lg transition-colors cursor-pointer ${
+              className={`btn-press w-full flex justify-between items-center px-2 py-0.5 rounded-none transition-colors cursor-pointer ${
                 selectedRole === "STUDENT_CHILD"
-                  ? "bg-emerald-50 text-emerald-600 font-bold"
+                  ? "bg-emerald-50 text-emerald-600 font-bold border border-emerald-200"
                   : "hover:bg-slate-50"
               }`}
               title="Lọc theo Học sinh"
@@ -517,7 +517,7 @@ export default function AdminUsersPage() {
               setSelectedRole(e.target.value);
               setPage(1);
             }}
-            className="px-3 py-2 text-xs font-semibold bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface cursor-pointer flex-1 md:flex-initial"
+            className="px-3 py-2 text-xs font-semibold bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface cursor-pointer flex-1 md:flex-initial shadow-depth-1"
           >
             <option value="">Tất cả vai trò</option>
             <option value="ADMIN">Quản trị viên</option>
@@ -533,7 +533,7 @@ export default function AdminUsersPage() {
               setSelectedStatus(e.target.value);
               setPage(1);
             }}
-            className="px-3 py-2 text-xs font-semibold bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface cursor-pointer flex-1 md:flex-initial"
+            className="px-3 py-2 text-xs font-semibold bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface cursor-pointer flex-1 md:flex-initial shadow-depth-1"
           >
             <option value="">Tất cả trạng thái</option>
             <option value="ACTIVE">Hoạt động</option>
@@ -578,28 +578,28 @@ export default function AdminUsersPage() {
                   <tr key={i} className="animate-pulse">
                     <td className="py-4 px-4 sm:px-6">
                       <div className="flex items-center gap-3">
-                        <div className="w-9 h-9 rounded-full bg-surface-container-high" />
+                        <div className="w-9 h-9 rounded-none bg-surface-container-high" />
                         <div className="space-y-1.5">
-                          <div className="w-28 h-3.5 bg-surface-container-high rounded" />
-                          <div className="w-16 h-2.5 bg-surface-container rounded" />
+                          <div className="w-28 h-3.5 bg-surface-container-high rounded-none" />
+                          <div className="w-16 h-2.5 bg-surface-container rounded-none" />
                         </div>
                       </div>
                     </td>
                     <td className="py-4 px-4">
-                      <div className="w-36 h-3 bg-surface-container rounded mb-1" />
-                      <div className="w-20 h-2.5 bg-surface-container rounded" />
+                      <div className="w-36 h-3 bg-surface-container rounded-none mb-1" />
+                      <div className="w-20 h-2.5 bg-surface-container rounded-none" />
                     </td>
                     <td className="py-4 px-4">
-                      <div className="w-20 h-5 bg-surface-container rounded-md" />
+                      <div className="w-20 h-5 bg-surface-container rounded-none" />
                     </td>
                     <td className="py-4 px-4">
-                      <div className="w-16 h-5 bg-surface-container rounded-md" />
+                      <div className="w-16 h-5 bg-surface-container rounded-none" />
                     </td>
                     <td className="py-4 px-4">
-                      <div className="w-20 h-3 bg-surface-container rounded" />
+                      <div className="w-20 h-3 bg-surface-container rounded-none" />
                     </td>
                     <td className="py-4 px-4 sm:px-6 text-right">
-                      <div className="w-16 h-7 bg-surface-container rounded-lg ml-auto" />
+                      <div className="w-16 h-7 bg-surface-container rounded-none ml-auto" />
                     </td>
                   </tr>
                 ))
@@ -648,11 +648,11 @@ export default function AdminUsersPage() {
                               src={item.avatar_url}
                               alt={item.full_name}
                               loading="lazy"
-                              className="w-9 h-9 rounded-full object-cover border border-outline-variant/30 shadow-xs"
+                              className="w-9 h-9 rounded-none object-cover border border-outline-variant/30 shadow-depth-1"
                             />
                           ) : (
                             <div
-                              className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs shadow-xs uppercase ${
+                              className={`w-9 h-9 rounded-none flex items-center justify-center font-bold text-xs shadow-depth-1 uppercase ${
                                 isAdminRole
                                   ? "bg-red-500/10 text-red-500 border border-red-500/20"
                                   : isInstructor
@@ -670,7 +670,7 @@ export default function AdminUsersPage() {
                             <div className="font-bold text-on-surface truncate flex items-center gap-1.5">
                               <span>{item.full_name}</span>
                               {isSelf && (
-                                <span className="px-1.5 py-0.2 rounded text-[8px] font-bold bg-primary text-white">
+                                <span className="px-1.5 py-0.2 rounded-none text-[8px] font-bold bg-primary text-white shadow-depth-1">
                                   Bạn
                                 </span>
                               )}
@@ -708,7 +708,7 @@ export default function AdminUsersPage() {
                       {/* Role */}
                       <td className="py-3.5 px-4">
                         <span
-                          className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[10px] font-bold tracking-wider ${
+                          className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-none text-[10px] font-bold tracking-wider ${
                             isAdminRole
                               ? "bg-red-500/10 text-red-500 border border-red-500/20"
                               : isInstructor
@@ -763,7 +763,7 @@ export default function AdminUsersPage() {
                           }
                           icon={
                             <span
-                              className={`w-1.5 h-1.5 rounded-full ${isActive ? "bg-green-500 animate-pulse" : "bg-red-500"}`}
+                              className={`w-1.5 h-1.5 rounded-none ${isActive ? "bg-green-500 animate-pulse" : "bg-red-500"}`}
                             />
                           }
                         >
@@ -783,7 +783,7 @@ export default function AdminUsersPage() {
                           <button
                             disabled={Boolean(isSelf)}
                             onClick={() => setStatusTogglingUser(item)}
-                            className={`p-1.5 rounded-lg border transition-all cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed ${
+                            className={`btn-press p-1.5 rounded-none border transition-all cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed shadow-depth-1 ${
                               isActive
                                 ? "bg-red-50 hover:bg-red-100 text-red-600 border-red-200"
                                 : "bg-green-50 hover:bg-green-100 text-green-600 border-green-200"
@@ -802,7 +802,7 @@ export default function AdminUsersPage() {
                           {/* Edit User Details */}
                           <button
                             onClick={() => openEditModal(item)}
-                            className="p-1.5 rounded-lg bg-surface-container-low hover:bg-primary/10 hover:text-primary text-on-surface-variant border border-outline-variant/30 transition-all cursor-pointer"
+                            className="btn-press p-1.5 rounded-none bg-surface-container-low hover:bg-primary/10 hover:text-primary text-on-surface-variant border border-outline-variant/30 transition-all cursor-pointer shadow-depth-1"
                             title="Chỉnh sửa thông tin"
                           >
                             <PencilSimple size={14} weight="bold" />
@@ -830,20 +830,20 @@ export default function AdminUsersPage() {
             <button
               onClick={() => setPage((p) => Math.max(1, p - 1))}
               disabled={page <= 1 || loading}
-              className="p-1.5 rounded-lg border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+              className="btn-press p-1.5 rounded-none border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-depth-1"
               title="Trang trước"
             >
               <CaretLeft size={16} weight="bold" />
             </button>
 
-            <span className="px-3 py-1 font-bold text-on-surface bg-surface-container-low rounded-lg border border-outline-variant/20">
+            <span className="px-3 py-1 font-bold text-on-surface bg-surface-container-low rounded-none border border-outline-variant/20 shadow-depth-1">
               Trang {page} / {totalPages || 1}
             </span>
 
             <button
               onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
               disabled={page >= totalPages || loading}
-              className="p-1.5 rounded-lg border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+              className="btn-press p-1.5 rounded-none border border-outline-variant/30 hover:bg-surface-container disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-depth-1"
               title="Trang kế tiếp"
             >
               <CaretRight size={16} weight="bold" />
@@ -865,7 +865,7 @@ export default function AdminUsersPage() {
             {/* Modal Header */}
             <div className="p-5 border-b border-outline-variant/20 flex items-center justify-between bg-surface-container-lowest shrink-0">
               <div className="flex items-center gap-2.5">
-                <div className="w-9 h-9 rounded-xl bg-primary/10 flex items-center justify-center text-primary font-bold">
+                <div className="w-9 h-9 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold shadow-depth-1">
                   <PencilSimple size={16} weight="bold" />
                 </div>
                 <div>
@@ -880,7 +880,7 @@ export default function AdminUsersPage() {
 
               <button
                 onClick={() => setEditingUser(null)}
-                className="p-1.5 rounded-lg hover:bg-surface-container text-on-surface-variant cursor-pointer transition-colors"
+                className="btn-press p-1.5 rounded-none hover:bg-surface-container text-on-surface-variant cursor-pointer transition-colors"
               >
                 <X size={16} weight="bold" />
               </button>
@@ -901,7 +901,7 @@ export default function AdminUsersPage() {
                     onChange={(e) =>
                       setEditForm({ ...editForm, full_name: e.target.value })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface shadow-depth-1"
                   />
                 </FormRow>
 
@@ -914,7 +914,7 @@ export default function AdminUsersPage() {
                     onChange={(e) =>
                       setEditForm({ ...editForm, username: e.target.value })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface shadow-depth-1"
                   />
                 </FormRow>
 
@@ -927,7 +927,7 @@ export default function AdminUsersPage() {
                     onChange={(e) =>
                       setEditForm({ ...editForm, email: e.target.value })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface shadow-depth-1"
                   />
                 </FormRow>
 
@@ -941,7 +941,7 @@ export default function AdminUsersPage() {
                         role_id: Number(e.target.value),
                       })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface font-semibold cursor-pointer"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface font-semibold cursor-pointer shadow-depth-1"
                   >
                     {roles.map((r) => {
                       const label =
@@ -973,7 +973,7 @@ export default function AdminUsersPage() {
                         status: e.target.value as any,
                       })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface font-semibold cursor-pointer"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface font-semibold cursor-pointer shadow-depth-1"
                   >
                     <option value="ACTIVE">Hoạt động (ACTIVE)</option>
                     <option value="INACTIVE">Vô hiệu hóa (INACTIVE)</option>
@@ -989,7 +989,7 @@ export default function AdminUsersPage() {
                       setEditForm({ ...editForm, phone_number: e.target.value })
                     }
                     placeholder="09xx..."
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface shadow-depth-1"
                   />
                 </FormRow>
 
@@ -1000,7 +1000,7 @@ export default function AdminUsersPage() {
                     onChange={(e) =>
                       setEditForm({ ...editForm, gender: e.target.value })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface font-medium cursor-pointer"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface font-medium cursor-pointer shadow-depth-1"
                   >
                     <option value="">Chưa chọn</option>
                     <option value="MALE">Nam</option>
@@ -1020,7 +1020,7 @@ export default function AdminUsersPage() {
                         date_of_birth: e.target.value,
                       })
                     }
-                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface font-medium cursor-pointer"
+                    className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface font-medium cursor-pointer shadow-depth-1"
                   />
                 </FormRow>
               </div>
@@ -1034,12 +1034,12 @@ export default function AdminUsersPage() {
                     setEditForm({ ...editForm, bio: e.target.value })
                   }
                   placeholder="Thông tin giới thiệu ngắn về người dùng..."
-                  className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary text-on-surface resize-none"
+                  className="w-full px-3 py-2 bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary text-on-surface resize-none shadow-depth-1"
                 />
               </FormRow>
 
               {/* Reset Password */}
-              <div className="p-3.5 bg-amber-500/5 rounded-xl border border-amber-500/20 space-y-1.5">
+              <div className="p-3.5 bg-amber-500/5 rounded-none border border-amber-500/20 space-y-1.5 shadow-depth-1">
                 <div className="flex items-center gap-1.5 font-bold text-amber-700">
                   <Key size={14} weight="bold" />
                   <span>Đặt lại mật khẩu mới (Tùy chọn)</span>
@@ -1054,7 +1054,7 @@ export default function AdminUsersPage() {
                     setEditForm({ ...editForm, new_password: e.target.value })
                   }
                   placeholder="Nhập mật khẩu mới (tối thiểu 6 ký tự)..."
-                  className="w-full px-3 py-2 bg-white border border-amber-500/30 rounded-lg focus:outline-none focus:border-amber-600 text-on-surface"
+                  className="w-full px-3 py-2 bg-white border border-amber-500/30 rounded-none focus:outline-none focus:border-amber-600 text-on-surface shadow-depth-1"
                 />
               </div>
 
@@ -1063,14 +1063,14 @@ export default function AdminUsersPage() {
                 <button
                   type="button"
                   onClick={() => setEditingUser(null)}
-                  className="px-4 py-2 rounded-xl text-xs font-semibold text-on-surface-variant hover:bg-surface-container transition-colors cursor-pointer"
+                  className="btn-press px-4 py-2 rounded-none text-xs font-semibold text-on-surface-variant hover:bg-surface-container transition-colors cursor-pointer border border-transparent hover:border-outline-variant/30"
                 >
                   Hủy
                 </button>
                 <button
                   type="submit"
                   disabled={savingEdit}
-                  className="px-5 py-2 bg-primary text-white text-xs font-bold rounded-xl hover:bg-primary/90 transition-all shadow-xs flex items-center gap-1.5 disabled:opacity-50 cursor-pointer"
+                  className="btn-press px-5 py-2 bg-primary text-white text-xs font-bold rounded-none hover:bg-primary-hover transition-all shadow-depth-1 flex items-center gap-1.5 disabled:opacity-50 cursor-pointer"
                 >
                   {savingEdit ? (
                     <>
@@ -1101,10 +1101,10 @@ export default function AdminUsersPage() {
           panelClassName="p-6 space-y-4 text-center border border-outline-variant/30"
         >
             <div
-              className={`w-12 h-12 rounded-2xl mx-auto flex items-center justify-center ${
+              className={`w-12 h-12 rounded-none mx-auto flex items-center justify-center border shadow-depth-1 ${
                 statusTogglingUser.status === "ACTIVE"
-                  ? "bg-red-500/10 text-red-500"
-                  : "bg-green-500/10 text-green-600"
+                  ? "bg-red-500/10 text-red-500 border-red-500/20"
+                  : "bg-green-500/10 text-green-600 border-green-500/20"
               }`}
             >
               <Warning size={24} weight="duotone" />
@@ -1133,7 +1133,7 @@ export default function AdminUsersPage() {
               <button
                 type="button"
                 onClick={() => setStatusTogglingUser(null)}
-                className="flex-1 px-4 py-2 rounded-xl text-xs font-semibold text-on-surface-variant hover:bg-surface-container border border-outline-variant/30 transition-colors cursor-pointer"
+                className="btn-press flex-1 px-4 py-2 rounded-none text-xs font-semibold text-on-surface-variant hover:bg-surface-container border border-outline-variant/30 transition-colors cursor-pointer"
               >
                 Hủy
               </button>
@@ -1141,7 +1141,7 @@ export default function AdminUsersPage() {
                 type="button"
                 disabled={togglingStatus}
                 onClick={handleConfirmToggleStatus}
-                className={`flex-1 px-4 py-2 text-white text-xs font-bold rounded-xl transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50 ${
+                className={`btn-press flex-1 px-4 py-2 text-white text-xs font-bold rounded-none transition-all shadow-depth-1 flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50 ${
                   statusTogglingUser.status === "ACTIVE"
                     ? "bg-red-500 hover:bg-red-600"
                     : "bg-green-600 hover:bg-green-700"
@@ -1168,7 +1168,7 @@ const UserSearchBox = React.memo(function UserSearchBox({
 }: {
   onDebouncedChange: (value: string) => void;
   onClear: () => void;
-}) {
+  }) {
   const [value, setValue] = useState("");
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -1197,7 +1197,7 @@ const UserSearchBox = React.memo(function UserSearchBox({
         value={value}
         onChange={handleChange}
         placeholder="Tìm theo họ tên, email, tên đăng nhập..."
-        className="w-full pl-9 pr-9 py-2 text-xs bg-surface-container-lowest border border-outline-variant/30 rounded-xl focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 text-on-surface transition-all placeholder:text-on-surface-variant/50"
+        className="w-full pl-9 pr-9 py-2 text-xs bg-surface-container-lowest border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary text-on-surface transition-all placeholder:text-on-surface-variant/50 shadow-depth-1"
       />
       {value && (
         <button

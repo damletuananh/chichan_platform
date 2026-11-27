@@ -5,7 +5,7 @@ from schemas.user_schema import UserProfileUpdate
 from uuid import UUID
 
 async def get_profile(db: AsyncSession, user_id: UUID):
-    user = await user_repository.get_user_with_profile(db, str(user_id))
+    user = await user_repository.get_user_with_profile(db, user_id)
     if not user:
         raise HTTPException(status_code=404, detail="User not found.")
         
@@ -24,7 +24,7 @@ async def get_profile(db: AsyncSession, user_id: UUID):
     }
 
 async def update_profile(db: AsyncSession, user_id: UUID, profile_data: UserProfileUpdate):
-    user = await user_repository.update_profile_data(db, str(user_id), profile_data)
+    user = await user_repository.update_profile_data(db, user_id, profile_data)
     if not user:
         raise HTTPException(status_code=404, detail="User not found.")
         
@@ -35,7 +35,7 @@ async def update_profile(db: AsyncSession, user_id: UUID, profile_data: UserProf
     }
 
 async def update_avatar(db: AsyncSession, user_id: UUID, avatar_url: str, avatar_data: bytes = None):
-    user = await user_repository.get_user_with_profile(db, str(user_id))
+    user = await user_repository.get_user_with_profile(db, user_id)
     if not user:
         raise HTTPException(status_code=404, detail="User not found.")
     if not user.profile:
@@ -53,7 +53,7 @@ async def update_avatar(db: AsyncSession, user_id: UUID, avatar_url: str, avatar
     }
 
 async def get_avatar_bytes(db: AsyncSession, user_id: UUID):
-    user = await user_repository.get_user_with_profile(db, str(user_id))
+    user = await user_repository.get_user_with_profile(db, user_id)
     if not user or not user.profile:
         return None, None
     return user.profile.avatar_data, user.profile.avatar_url

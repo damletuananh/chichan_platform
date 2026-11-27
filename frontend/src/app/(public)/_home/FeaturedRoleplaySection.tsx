@@ -23,6 +23,7 @@ import {
   MedicalBoundaryIllustration,
   AnonymousSafeIllustration,
 } from "@/components/illustrations/StepIllustrations";
+import { ScrollReveal, ScrollRevealGroup } from "@/components/common/ScrollReveal";
 
 interface ComparisonScenario {
   id: string;
@@ -143,7 +144,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
     <section className="py-24 px-4 md:px-16 relative overflow-hidden bg-surface select-none">
       <div className="max-w-5xl mx-auto flex flex-col gap-10">
         {/* Section Header */}
-        <div className="text-center space-y-3 max-w-2xl mx-auto">
+        <ScrollReveal animation="fade-up" className="text-center space-y-3 max-w-2xl mx-auto">
           <h2 className="text-2xl md:text-4xl font-extrabold text-on-surface tracking-tight">
             Không Chỉ Trả Lời — Đây Là Đối Thoại Có Cảm Xúc
           </h2>
@@ -151,10 +152,10 @@ export const FeaturedRoleplaySection: React.FC = () => {
             Khám phá sự chuyển biến từ một câu trả lời máy móc thông thường
             thành trải nghiệm đồng hành tâm lý và rèn luyện kỹ năng thực chiến.
           </p>
-        </div>
+        </ScrollReveal>
 
         {/* WRAPPER FOR CHAT WINDOW */}
-        <div className="relative max-w-4xl mx-auto w-full px-2 sm:px-4 my-2">
+        <ScrollReveal animation="fade-up" delay={80} className="relative max-w-4xl mx-auto w-full px-2 sm:px-4 my-2">
           {/* SLIDER SHOWCASE CONTAINER */}
           <div
             ref={containerRef}
@@ -173,9 +174,9 @@ export const FeaturedRoleplaySection: React.FC = () => {
             {/* Top Bar with Clean Windows Dots */}
             <div className="px-5 py-3 flex items-center justify-start border-b border-outline-variant/20 bg-white z-30 relative">
               <div className="flex items-center gap-1.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-rose-400"></span>
-                <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                <span className="w-2.5 h-2.5 rounded-none bg-rose-400"></span>
+                <span className="w-2.5 h-2.5 rounded-none bg-amber-400"></span>
+                <span className="w-2.5 h-2.5 rounded-none bg-emerald-400"></span>
               </div>
             </div>
 
@@ -183,14 +184,14 @@ export const FeaturedRoleplaySection: React.FC = () => {
             <div className="p-4 sm:p-5 pb-3 bg-surface-container-lowest/95 border-b border-outline-variant/15">
               <div className="flex items-start justify-end gap-2.5 max-w-xl ml-auto">
                 <div className="space-y-1 text-right">
-                  <div className="inline-block p-3.5 sm:p-4 rounded-2xl rounded-tr-xs bg-primary/10 border border-primary/20 text-on-surface text-xs sm:text-sm font-medium leading-relaxed text-left shadow-2xs">
+                  <div className="inline-block p-3.5 sm:p-4 rounded-none bg-primary/10 border border-primary/20 text-on-surface text-xs sm:text-sm font-medium leading-relaxed text-left shadow-2xs">
                     <p>{featuredScenario.userPrompt}</p>
                   </div>
                   <span className="text-[10px] text-on-surface-variant/60 block pr-1">
                     Học sinh gửi câu hỏi • Vừa xong
                   </span>
                 </div>
-                <div className="w-7 h-7 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center text-primary shrink-0 shadow-xs">
+                <div className="w-7 h-7 rounded-none bg-primary/20 border border-primary/30 flex items-center justify-center text-primary shrink-0 shadow-xs">
                   <User size={15} weight="bold" />
                 </div>
               </div>
@@ -202,7 +203,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
               <div className="w-full p-4 sm:p-6 bg-white text-on-surface space-y-3">
                 {/* Floating Badge (Right Corner) - Fixed h-7 */}
                 <div className="h-7 flex items-center justify-end pb-1 pointer-events-none">
-                  <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 text-[10px] font-extrabold uppercase tracking-wider">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-none bg-primary/10 text-primary border border-primary/20 text-[10px] font-extrabold uppercase tracking-wider">
                     <Sparkle size={12} weight="fill" />
                     ChiChan AI
                   </span>
@@ -212,7 +213,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-start">
                   {/* LEFT 2/3 COLUMN: AI Response in Chat Bubble */}
                   <div className="md:col-span-8 flex items-start gap-3">
-                    <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-primary to-primary-container text-white flex items-center justify-center shrink-0 shadow-md shadow-primary/20 ring-2 ring-primary/20">
+                    <div className="w-9 h-9 rounded-none bg-gradient-to-br from-primary to-primary-container text-white flex items-center justify-center shrink-0 shadow-md shadow-primary/20 ring-2 ring-primary/20">
                       <HeadCircuit size={20} weight="fill" />
                     </div>
 
@@ -222,17 +223,17 @@ export const FeaturedRoleplaySection: React.FC = () => {
                           <span className="text-xs sm:text-sm font-extrabold text-on-surface">
                             {featuredScenario.chichanAi.botName}
                           </span>
-                          <span className="px-1.5 py-0.2 rounded text-[8px] font-extrabold bg-primary text-white uppercase tracking-wider">
+                          <span className="px-1.5 py-0.2 rounded-none text-[8px] font-extrabold bg-primary text-white uppercase tracking-wider">
                             ĐỘT PHÁ
                           </span>
                         </div>
-                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-none bg-emerald-50 text-emerald-700 border border-emerald-200">
                           {featuredScenario.chichanAi.status}
                         </span>
                       </div>
 
                       {/* 2/3 Chat Bubble - fixed min-height */}
-                      <div className="p-3.5 sm:p-4 rounded-2xl rounded-tl-xs bg-emerald-50/40 border border-primary/25 shadow-xs min-h-[145px] flex flex-col justify-center">
+                      <div className="p-3.5 sm:p-4 rounded-none bg-emerald-50/40 border border-primary/25 shadow-xs min-h-[145px] flex flex-col justify-center">
                         <p className="text-xs sm:text-sm text-on-surface leading-relaxed">
                           {featuredScenario.chichanAi.response}
                         </p>
@@ -255,7 +256,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                             Sự khác biệt
                           </span>
                         </div>
-                        <span className="text-[9px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200/70 shrink-0">
+                        <span className="text-[9px] font-bold px-2 py-0.5 rounded-none bg-emerald-50 text-emerald-700 border border-emerald-200/70 shrink-0">
                           {featuredScenario.chichanAi.safetyScore}
                         </span>
                       </div>
@@ -283,7 +284,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                     {/* Fixed h-8 Footer */}
                     <div className="h-8 pt-2 mt-1 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
                       <span>Độ thấu cảm:</span>
-                      <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200/60">
+                      <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-none border border-emerald-200/60">
                         {featuredScenario.chichanAi.emotionScore}
                       </span>
                     </div>
@@ -301,7 +302,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                 <div className="w-full p-4 sm:p-6 bg-white text-slate-700 space-y-3">
                   {/* Floating Badge (Left Corner) - Fixed h-7 */}
                   <div className="h-7 flex items-center justify-start pb-1 pointer-events-none">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 text-[10px] font-bold uppercase tracking-wider">
+                    <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-none bg-slate-100 text-slate-600 border border-slate-200 text-[10px] font-bold uppercase tracking-wider">
                       <Robot size={12} />
                       AI Truyền Thống
                     </span>
@@ -311,7 +312,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-start">
                     {/* LEFT 2/3 COLUMN: Generic AI Response in Chat Bubble */}
                     <div className="md:col-span-8 flex items-start gap-3">
-                      <div className="w-9 h-9 rounded-2xl bg-slate-100 border border-slate-200 text-slate-500 flex items-center justify-center shrink-0 shadow-xs">
+                      <div className="w-9 h-9 rounded-none bg-slate-100 border border-slate-200 text-slate-500 flex items-center justify-center shrink-0 shadow-xs">
                         <HeadCircuit size={20} weight="regular" />
                       </div>
 
@@ -320,17 +321,17 @@ export const FeaturedRoleplaySection: React.FC = () => {
                           <span className="text-xs sm:text-sm font-extrabold text-slate-800">
                             {featuredScenario.genericAi.botName}
                           </span>
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200">
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-none bg-slate-100 text-slate-600 border border-slate-200">
                             Máy móc • Lý thuyết
                           </span>
                         </div>
 
                         {/* 2/3 Chat Bubble - fixed min-height */}
-                        <div className="p-3.5 sm:p-4 rounded-2xl rounded-tl-xs bg-slate-50/70 border border-slate-200/80 shadow-xs min-h-[145px] flex flex-col justify-center space-y-2">
+                        <div className="p-3.5 sm:p-4 rounded-none bg-slate-50/70 border border-slate-200/80 shadow-xs min-h-[145px] flex flex-col justify-center space-y-2">
                           <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                             {featuredScenario.genericAi.response}
                           </p>
-                          <div className="space-y-1 text-xs text-slate-600 font-mono bg-white p-2 rounded-lg border border-slate-200/60">
+                          <div className="space-y-1 text-xs text-slate-600 font-mono bg-white p-2 rounded-none border border-slate-200/60">
                             {featuredScenario.genericAi.bulletPoints.map(
                               (bp, idx) => (
                                 <div key={idx}>{bp}</div>
@@ -356,7 +357,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                               Hạn Chế AI Thường
                             </span>
                           </div>
-                          <span className="text-[9px] font-bold px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200/70 shrink-0">
+                          <span className="text-[9px] font-bold px-2 py-0.5 rounded-none bg-rose-50 text-rose-700 border border-rose-200/70 shrink-0">
                             0% Thực chiến
                           </span>
                         </div>
@@ -384,7 +385,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
                       {/* Fixed h-8 Footer */}
                       <div className="h-8 pt-2 mt-1 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
                         <span>Độ thấu cảm:</span>
-                        <span className="font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded-md border border-rose-200/60">
+                        <span className="font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded-none border border-rose-200/60">
                           Thấu cảm: 20%
                         </span>
                       </div>
@@ -431,10 +432,10 @@ export const FeaturedRoleplaySection: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </ScrollReveal>
 
         {/* BOTTOM ACTION CTA TO GAMEPLAY */}
-        <div className="flex justify-center pt-2 relative z-30">
+        <ScrollReveal animation="fade-up" delay={120} className="flex justify-center pt-2 relative z-30">
           <Link
             href="/game"
             className="inline-flex items-center gap-3 px-7 py-3.5 rounded-none bg-primary text-white text-sm font-bold shadow-depth-2 hover:bg-primary-hover transition-all group cursor-pointer"
@@ -446,10 +447,15 @@ export const FeaturedRoleplaySection: React.FC = () => {
               className="group-hover:translate-x-1.5 transition-transform"
             />
           </Link>
-        </div>
+        </ScrollReveal>
 
         {/* 3 CORE FEATURE PILLARS (RESPONSIVE GRID) */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto w-full pt-2">
+        <ScrollRevealGroup
+          animation="fade-up"
+          staggerInterval={100}
+          baseDelay={160}
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto w-full pt-2"
+        >
           <div className="bg-white rounded-none p-5 border border-outline-variant/40 shadow-depth-1 hover:shadow-depth-2 hover:-translate-y-1 transition-all duration-200 flex flex-col items-center text-center gap-3">
             <RoleplayInteractiveIllustration className="w-28 h-20" />
             <div>
@@ -491,7 +497,7 @@ export const FeaturedRoleplaySection: React.FC = () => {
               </p>
             </div>
           </div>
-        </div>
+        </ScrollRevealGroup>
       </div>
     </section>
   );

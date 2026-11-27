@@ -17,8 +17,8 @@ function InvalidContent() {
       <Card
         tone="glass"
         p="8"
-        shadow="shadow-lg"
-        className="max-w-md w-full rounded-3xl text-center space-y-6"
+        shadow="shadow-depth-3"
+        className="max-w-md w-full rounded-none text-center space-y-6 animate-page-appear"
       >
         <EmptyState
           tone="error"

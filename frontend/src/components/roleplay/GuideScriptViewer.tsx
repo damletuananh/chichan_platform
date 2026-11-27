@@ -289,16 +289,16 @@ export default function GuideScriptViewer({
   return (
     <div className="space-y-6 text-on-surface animate-fade-in">
       {/* 3D Hero Banner: Phù hợp với chủ đề tình huống */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-primary/10 via-teal-500/10 to-amber-500/10 border border-primary/20 p-4 sm:p-6 shadow-xs flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+      <div className="relative overflow-hidden rounded-none bg-gradient-to-r from-primary/10 via-teal-500/10 to-amber-500/10 border border-primary/20 p-4 sm:p-6 shadow-xs flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
         <div className="relative flex-shrink-0">
           <img
             src={data.illustrationUrl}
             alt={data.title}
             width={112}
             height={112}
-            className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover border-2 border-white shadow-md ring-4 ring-primary/20 hover:scale-105 transition-transform duration-300"
+            className="w-24 h-24 sm:w-28 sm:h-28 rounded-none object-cover border-2 border-white shadow-md ring-4 ring-primary/20 hover:scale-105 transition-transform duration-300"
           />
-          <span className="absolute -bottom-2 -right-1 bg-amber-500 text-white font-black text-[9px] px-2 py-0.5 rounded-full shadow-xs flex items-center gap-1">
+          <span className="absolute -bottom-2 -right-1 bg-amber-500 text-white font-black text-[9px] px-2 py-0.5 rounded-none shadow-xs flex items-center gap-1">
             <Lightning size={11} weight="fill" />
             3S SCAN
           </span>
@@ -327,7 +327,7 @@ export default function GuideScriptViewer({
         {data.steps.map((item, idx) => (
           <div
             key={idx}
-            className="relative bg-white/95 backdrop-blur-md rounded-3xl p-5 sm:p-6 border border-outline-variant/30 shadow-xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group overflow-hidden"
+            className="card-lift relative bg-white/95 backdrop-blur-md rounded-none p-5 sm:p-6 border border-outline-variant/30 shadow-xs flex flex-col justify-between group overflow-hidden"
           >
             {/* Step Number Watermark Signature */}
             <span className="absolute top-3 right-5 text-6xl sm:text-7xl font-black text-outline-variant/20 select-none font-mono tracking-tighter group-hover:text-primary/25 group-hover:scale-105 transition-all duration-300 pointer-events-none">
@@ -337,7 +337,7 @@ export default function GuideScriptViewer({
             <div className="space-y-3 relative z-10">
               {/* Tag & Title */}
               <div className="space-y-1">
-                <span className="inline-block text-[10px] font-black uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-md">
+                <span className="inline-block text-[10px] font-black uppercase tracking-wider text-primary bg-primary/10 px-2 py-0.5 rounded-none">
                   {item.tag}
                 </span>
                 <h5 className="text-sm sm:text-base font-black text-on-surface group-hover:text-primary transition-colors pr-10">
@@ -380,8 +380,8 @@ export default function GuideScriptViewer({
       </div>
 
       {/* Điều kiện thắng cuộc (Trophy Banner) */}
-      <div className="rounded-2xl bg-gradient-to-r from-amber-500/15 via-yellow-500/10 to-emerald-500/15 border border-amber-300/80 p-3.5 flex items-center gap-3 shadow-xs">
-        <div className="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center flex-shrink-0 shadow-xs text-xl">
+      <div className="rounded-none bg-gradient-to-r from-amber-500/15 via-yellow-500/10 to-emerald-500/15 border border-amber-300/80 p-3.5 flex items-center gap-3 shadow-xs">
+        <div className="w-10 h-10 rounded-none bg-amber-500 text-white flex items-center justify-center flex-shrink-0 shadow-xs text-xl">
           <Trophy size={22} weight="fill" />
         </div>
         <p className="text-xs sm:text-sm font-black text-amber-950 leading-snug">
@@ -391,11 +391,11 @@ export default function GuideScriptViewer({
 
       {/* Accordion tùy chọn: Chi tiết học thuật cho giáo viên & nghiên cứu */}
       {rawScript && (
-        <div className="border border-outline-variant/25 rounded-2xl overflow-hidden bg-surface-container-lowest">
+        <div className="border border-outline-variant/25 rounded-none overflow-hidden bg-surface-container-lowest">
           <button
             type="button"
             onClick={() => setShowFullDetails(!showFullDetails)}
-            className="w-full px-4 py-2.5 flex items-center justify-between text-xs font-bold text-on-surface-variant hover:bg-surface-container-low transition-colors cursor-pointer"
+            className="btn-press w-full px-4 py-2.5 flex items-center justify-between text-xs font-bold text-on-surface-variant hover:bg-surface-container-low transition-colors cursor-pointer"
           >
             <span className="flex items-center gap-1.5">
               <Info size={14} weight="bold" />

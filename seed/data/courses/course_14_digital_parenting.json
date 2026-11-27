@@ -1,0 +1,1039 @@
+{
+  "title": "Làm Bạn Cùng Con Kỷ Nguyên Số: Quản Trị Màn Hình & Xây Dựng Niềm Tin",
+  "slug": "lam-ban-cung-con-ky-nguyen-so-quan-tri-man-hinh-va-xay-dung-niem-tin",
+  "short_description": "Cẩm nang nuôi dạy con thời đại 4.0: Thấu hiểu thế giới số của Gen Z, thỏa thuận công nghệ gia đình minh bạch, cài đặt bộ lọc mạng thông minh, nhận diện Deepfake lừa đảo và trở thành điểm tựa an toàn cho con.",
+  "description": "**Đối tượng:** Phụ huynh có con từ 10 - 18 tuổi.\n\nTrong kỷ nguyên số, việc cấm đoán hay tịch thu điện thoại của con không còn hiệu quả mà chỉ đào sâu khoảng cách thế hệ. Khóa học hướng dẫn cha mẹ nghệ thuật 'làm bạn cùng con trên mạng': Hiểu rõ thuật toán đề xuất của TikTok, ký kết Thỏa thuận công nghệ gia đình bình đẳng, ứng dụng các công cụ lọc mạng (DNS Family, SafeSearch) minh bạch, dạy con tư duy phản biện chống lừa đảo Deepfake và biến cha mẹ thành người đầu tiên con tìm đến khi gặp sự cố trực tuyến.",
+  "learning_objectives": "- Thấu hiểu tâm lý Gen Z và thế giới mạng xã hội, tránh bẫy cấm đoán đẩy con vào thế giới ngầm.\n- Xây dựng và thực thi hiệu quả Thỏa thuận công nghệ gia đình (Family Media Agreement).\n- Cài đặt các công cụ lọc nội dung số an toàn (Cloudflare DNS 1.1.1.3, SafeSearch) minh bạch.\n- Dạy con kỹ năng kiểm chứng thông tin (Fact-checking) và cảnh giác lừa đảo Deepfake mạo danh.\n- Xây dựng 'Cầu nối an toàn' trong gia đình để con luôn tin tưởng chia sẻ mọi khó khăn.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "PARENT",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Hiểu về thế giới ảo của Gen Z: TikTok, Game & Thuật toán đề xuất",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Thế hệ cha mẹ thường nhìn nhận mạng xã hội như một 'kẻ thù cướp mất con'. Tuy nhiên, với Gen Z, mạng xã hội là không gian sống thứ hai, nơi các con giao lưu, học hỏi và thể hiện cá tính. Việc cấm đoán cực đoan chỉ đẩy con ra xa và học cách dùng tài khoản clone (tài khoản ảo). Cha mẹ cần tìm hiểu về các nền tảng con đang dùng để có tiếng nói chung.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Hiểu về thế giới ảo của Gen Z: TikTok, Game & Thuật toán đề xuất",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thái độ nào của phụ huynh khi tiếp cận thế giới mạng của con tuổi dậy thì là PHÙ HỢP nhất?",
+            "explanation": "Tò mò cởi mở, lắng nghe con chia sẻ về sở thích số thay vì phán xét quy chụp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tịch thu điện thoại vĩnh viễn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tò mò cởi mở, lắng nghe con giới thiệu về các trào lưu và cùng con phân tích mặt lợi hại",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cấm con không được dùng internet",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cài phần mềm gián điệp bí mật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Thuật toán đề xuất nội dung (Algorithm) trên TikTok và YouTube hoạt động theo nguyên lý nào?",
+            "explanation": "Ghi nhận sở thích xem và liên tục phân phối các video tương tự, dễ tạo bẫy 'buồng vang thông tin' (Echo chamber).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phân phối ngẫu nhiên không có quy luật",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ghi nhận thời gian xem và tương tác để liên tục gợi ý nội dung tương tự, giữ chân người dùng tối đa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tự động xóa tài khoản sau 1 ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ hiển thị bài giảng toán học",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao việc cha mẹ cấm con dùng mạng xã hội thường dẫn đến việc con lập 'Tài khoản Clone' (Acc phụ)?",
+            "explanation": "Vì nhu cầu kết nối xã hội của con không được đáp ứng, con sẽ tìm cách hoạt động bí mật trong bóng tối.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì con muốn làm gián điệp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì con muốn có không gian riêng và che giấu hoạt động khi cha mẹ cấm đoán thô bạo",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì điện thoại tự tạo tài khoản phụ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do thầy cô yêu cầu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Biện pháp nào giúp cha mẹ cập nhật xu hướng mạng của con mà không làm con khó chịu?",
+            "explanation": "Thỉnh thoảng nhờ con hướng dẫn cách dùng một tính năng mới hoặc hỏi con về một trào lưu thịnh hành.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt con nộp báo cáo viết tay hàng tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chân thành nhờ con hướng dẫn công nghệ và trò chuyện vui vẻ về các trào lưu đang hot",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thuê thám tử theo dõi con trên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đọc to tin nhắn của con trước mặt họ hàng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Mục tiêu cao nhất của việc giáo dục số (Digital Parenting) là gì?",
+            "explanation": "Giúp con tự xây dựng 'kháng thể số' (Digital Resilience) để biết tự bảo vệ mình trên không gian mạng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Biến con thành lập trình viên",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trang bị tư duy phản biện số để con tự biết phân biệt thật giả và tự bảo vệ an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Kiểm soát 100% mọi tin nhắn của con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm con dùng công nghệ đến năm 30 tuổi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Ký kết 'Thỏa thuận công nghệ gia đình' (Family Media Agreement)",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Thay vì quản lý bằng mệnh lệnh và quát tháo, phương pháp giáo dục hiện đại sử dụng Thỏa thuận công nghệ gia đình. Đây là văn bản quy ước bình đẳng giữa cha mẹ và con cái về: Giờ sạc điện thoại chung tại phòng khách (sau 22h00), quy tắc không màn hình trong bữa ăn (No-Screen Dinner) và sự cam kết tôn trọng quyền riêng tư.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Ký kết 'Thỏa thuận công nghệ gia đình' (Family Media Agreement)",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thỏa thuận công nghệ gia đình (Family Media Agreement) được xây dựng dựa trên nguyên tắc nào?",
+            "explanation": "Nguyên tắc bình đẳng, đối thoại dân chủ và sự đồng thuận tự nguyện của cả cha mẹ và con cái.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cha mẹ ra lệnh và con cái phải tuyệt đối tuân theo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đối thoại dân chủ, cùng nhau thảo luận và thống nhất các quy tắc áp dụng cho cả gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không cần bàn bạc, cứ tịch thu máy khi thích",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Con cái toàn quyền quyết định",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Quy tắc 'Khu vực không màn hình' (No-Screen Zones) trong nhà nên áp dụng ở những không gian nào?",
+            "explanation": "Bàn ăn gia đình và phòng ngủ sau 22h00 đêm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trong nhà vệ sinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bàn ăn bữa cơm gia đình và phòng ngủ sau giờ quy định đi ngủ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trước cổng nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngoài ban công",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Để con tự giác tuân thủ quy định sạc điện thoại ở phòng khách vào ban đêm, cha mẹ NÊN làm gì?",
+            "explanation": "Làm gương: Cha mẹ cũng để điện thoại ở phòng khách và đi ngủ đúng giờ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cha mẹ nằm trên giường lướt TikTok đến 1h sáng nhưng bắt con đi ngủ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm gương mẫu mực: Cha mẹ cũng tuân thủ việc để thiết bị điện tử ra khỏi phòng ngủ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lắp camera trong phòng ngủ của con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cắt mạng internet cả khu phố",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi con lỡ vi phạm thỏa thuận công nghệ, hình thức xử lý nào là mang tính GIÁO DỤC nhất?",
+            "explanation": "Nhắc lại cam kết đã ký, tạm ngừng sử dụng thiết bị trong thời gian ngắn và cùng con nhìn nhận nguyên nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đập vỡ điện thoại trước mặt con",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cùng con rà soát lại thỏa thuận, áp dụng chế tài đã thống nhất từ trước một cách bình tĩnh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đánh đòn và mắng con là kẻ bất hiếu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bêu rếu con lên Facebook cá nhân của bố mẹ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Bản thỏa thuận công nghệ gia đình có nên được điều chỉnh theo độ tuổi lớn lên của con không?",
+            "explanation": "CÓ; cần cập nhật định kỳ mỗi năm theo sự trưởng thành và nhu cầu học tập thực tế của con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không, áp dụng 1 bản từ 5 tuổi đến khi con lấy vợ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "CÓ; cần linh hoạt rà soát và nới rộng ranh giới phù hợp với độ tuổi và trách nhiệm của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ sửa đổi khi có công an yêu cầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bao giờ thay đổi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Cài đặt công cụ bảo vệ cấp mạng (DNS & Parental Controls) minh bạch",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Bảo vệ con trên mạng không đồng nghĩa với việc lén lút đọc trộm tin nhắn. Cha mẹ thông thái sử dụng các công cụ cấp mạng: Cài đặt Cloudflare Family DNS (1.1.1.3) hoặc NextDNS trên modem wifi để tự động chặn web đen và mã độc, bật chế độ Google SafeSearch công khai với sự giải thích rõ ràng cho con.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Cài đặt công cụ bảo vệ cấp mạng (DNS & Parental Controls) minh bạch",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Sự khác biệt giữa 'Bảo vệ kỹ thuật minh bạch' và 'Gián điệp xâm phạm quyền riêng tư' là gì?",
+            "explanation": "Minh bạch là cài bộ lọc web độc hại công khai; gián điệp là lén cài ứng dụng đọc trộm tin nhắn riêng tư.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hai cách này giống hệt nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Minh bạch là giải thích và cài bộ lọc nội dung xấu chung; gián điệp là lén lút đọc trộm tin nhắn riêng tư",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Gián điệp thì tốt cho con hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Minh bạch làm con hư hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Giải pháp kỹ thuật nào sau đây giúp tự động ngăn chặn các trang web người lớn trên mạng wifi gia đình?",
+            "explanation": "Cài đặt DNS chặn nội dung người lớn (như Cloudflare 1.1.1.3 hoặc OpenDNS FamilyShield) trên Router.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tắt nguồn modem vĩnh viễn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thiết lập DNS gia đình an toàn (như 1.1.1.3 hoặc FamilyShield) trực tiếp trên Router mạng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bôi mực đen lên màn hình máy tính",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ dùng mạng 3G",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tính năng 'Google SafeSearch' có tác dụng gì khi con tra cứu thông tin học tập?",
+            "explanation": "Tự động lọc và ẩn các hình ảnh, video khiêu dâm, bạo lực ghê rợn khỏi kết quả tìm kiếm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tìm kiếm bài hát nhanh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tự động lọc bỏ các kết quả tìm kiếm nhạy cảm, đồi trụy hoặc bạo lực nguy hiểm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Xóa toàn bộ bài tập về nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tắt máy tính sau 10 phút",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi con hỏi: 'Tại sao bố mẹ lại cài bộ lọc web này?', câu trả lời chuẩn mực là gì?",
+            "explanation": "'Bố mẹ muốn bảo vệ các thiết bị trong nhà khỏi mã độc và tránh các nội dung xấu độc ngẫu nhiên xuất hiện'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Vì tao không tin tưởng mày'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Bố mẹ muốn bảo vệ không gian mạng gia đình an toàn khỏi virus và nội dung bạo lực độc hại'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Im mồm đi không được hỏi'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Do nhà mạng tự cài bố mẹ không biết'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Công cụ giới hạn thời gian màn hình (Screen Time trên iOS hoặc Family Link trên Android) nên được dùng ra sao?",
+            "explanation": "Dùng như công cụ hỗ trợ con quản lý thời gian tự giác, không biến thành công cụ trừng phạt độc đoán.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Khóa máy bất thình lình khi con đang làm bài thi trực tuyến",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thống nhất khung giờ sử dụng để giúp con hình thành thói quen kỷ luật tự giác điều độ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khóa toàn bộ điện thoại chỉ cho nghe gọi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không bao giờ mở khóa",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Dạy con tư duy phản biện số (Fact-checking) trước tin giả & Lừa đảo",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Không gian mạng tràn ngập tin giả (Fake News), cạm bẫy 'việc nhẹ lương cao', deepfake mạo danh và hội nhóm độc hại. Cha mẹ cần dạy con công thức kiểm chứng 3 bước: Kiểm tra nguồn tin chính thống, đối chiếu đa chiều và không bao giờ chia sẻ khi chưa xác minh.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Dạy con tư duy phản biện số (Fact-checking) trước tin giả & Lừa đảo",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Kỹ năng 'Fact-checking' (Kiểm chứng sự thật) có ý nghĩa như thế nào đối với học sinh trên mạng?",
+            "explanation": "Giúp học sinh có tư duy phản biện, không bị thao túng bởi tin giả, mê tín dị đoan và lừa đảo trực tuyến.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con thuộc lòng bảng cửu chương",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giúp con có tư duy phản biện độc lập, nhận diện tin đồn thất thiệt và tránh các cạm bẫy lừa đảo",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp gõ bàn phím nhanh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có ý nghĩa gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi thấy một thông tin giật gân trên TikTok: 'Uống nước chanh trị khỏi 100% bệnh ung thư', con nên được dạy làm gì?",
+            "explanation": "Tra cứu thông tin trên các cổng y tế chính thống (Bộ Y tế, WHO) và hỏi ý kiến bác sĩ/cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lập tức chia sẻ cho cả nhà cùng uống",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đối chiếu với các nguồn y khoa chính thống của Bộ Y tế, WHO và không vội tin vào tin đồn mạng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mua ngay 100 quả chanh tích trữ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chửi bới người đăng tin",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu nhận biết các cạm bẫy 'Việc nhẹ lương cao' tuyển dụng học sinh làm thêm trên mạng là gì?",
+            "explanation": "Yêu cầu làm nhiệm vụ nạp tiền giật đơn hàng Shopee/Lazada, cam kết lãi 30-50% một ngày.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Được đến công ty ký hợp đồng lao động minh bạch",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hứa hẹn việc nhẹ lương cực cao, yêu cầu nạp tiền đặt cọc hoặc làm nhiệm vụ chuyển khoản qua mạng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lương trả theo giờ làm việc thực tế",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Yêu cầu bằng cấp chuyên môn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Công nghệ Deepfake mạo danh khuôn mặt và giọng nói của người thân thường được kẻ xấu dùng để làm gì?",
+            "explanation": "Gọi video call vài giây giật lag nhằm lừa đảo chuyển tiền khẩn cấp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để hát karaoke tặng bạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thực hiện các cuộc gọi lừa đảo mạo danh người thân đang gặp tai nạn cần tiền gấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để chúc Tết",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để dạy học trực tuyến",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Nguyên tắc '3 giây bình tĩnh' khi nhận được tin nhắn báo người thân gặp nạn đòi chuyển tiền là gì?",
+            "explanation": "Dừng lại 3 giây hít thở, gọi điện thoại trực tiếp cho người thân theo số điện thoại thường dùng để xác minh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lập tức đi vay tiền chuyển ngay trong 1 phút",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dừng lại, tuyệt đối không chuyển tiền và gọi điện thoại thoại trực tiếp cho người thân để xác nhận",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đăng bài lên Facebook khóc lóc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Xóa tài khoản ngân hàng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng 'Cầu nối an toàn': Khi con gặp rắc rối trên mạng, con sẽ tìm ai?",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Hơn 80% học sinh bị tống tiền hoặc quấy rối trên mạng KHÔNG DÁM NÓI với cha mẹ vì sợ bị tịch thu điện thoại và bị mắng chửi. Để trở thành điểm tựa đầu tiên của con, cha mẹ phải gieo vào tâm trí con cam kết: 'Dù con có lỡ làm sai điều gì trên mạng, hãy về nhà nói với bố mẹ, bố mẹ sẽ bảo vệ con trước tiên'.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Xây dựng 'Cầu nối an toàn': Khi con gặp rắc rối trên mạng, con sẽ tìm ai?",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Lý do phổ biến nhất khiến con cái giấu nhẹm các sự cố bị tống tiền hoặc bắt nạt trên mạng với cha mẹ là gì?",
+            "explanation": "Sợ bị cha mẹ mắng chửi, trừng phạt, tịch thu điện thoại và cấm dùng internet.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì con thấy vui khi bị tống tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nỗi sợ hãi bị cha mẹ la mắng, chì chiết, tịch thu thiết bị và tước bỏ quyền riêng tư",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì con muốn tự làm thám tử",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do kẻ tống tiền là bạn thân",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi con dũng cảm thú nhận: 'Bố ơi, con lỡ nhấp vào link bậy bạ và bị người ta dọa', phản ứng VÀNG của cha mẹ là gì?",
+            "explanation": "Ôm con, khẳng định con an toàn và cảm ơn con đã tin tưởng tâm sự với cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tát con một cái và hét: 'Tại sao mày ngu dốt thế!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trấn an con rằng con luôn an toàn, cảm ơn con đã tin tưởng và cùng con giải quyết sự cố",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tịch thu máy và nhốt con trong phòng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gọi điện mắng cả họ hàng bên nội bên ngoại",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi tịch thu điện thoại ngay khi con vừa gặp sự cố trên mạng sẽ để lại hậu quả gì?",
+            "explanation": "Cắt đứt hoàn toàn kênh đối thoại, khiến con không bao giờ dám tâm sự bất cứ rắc rối nào trong tương lai.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con trở nên thông minh và ngoan ngoãn hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phá hủy niềm tin, khiến con che giấu hoàn toàn các nguy cơ nghiêm trọng hơn trong tương lai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp con đạt giải học sinh giỏi quốc gia",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có hậu quả gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Để con xem cha mẹ là 'Nơi an toàn nhất để tìm về', cha mẹ cần làm gì trong cuộc sống hàng ngày?",
+            "explanation": "Lắng nghe không phán xét, tôn trọng cảm xúc và thể hiện tình yêu thương vô điều kiện.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cho con thật nhiều tiền tiêu vặt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lắng nghe thấu cảm, tôn trọng sự độc lập của con và giữ bình tĩnh trước mọi sai lầm của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "So sánh con với bạn bè cùng lứa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Kiểm tra cặp sách mỗi ngày",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thông điệp cốt lõi cha mẹ nên nhắc lại thường xuyên với con tuổi dậy thì là gì?",
+            "explanation": "'Không có rắc rối nào lớn đến mức gia đình không thể cùng nhau vượt qua'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Mày mà làm mất mặt gia đình thì cút ra khỏi nhà'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Dù có chuyện gì xảy ra, bố mẹ luôn yêu thương, đồng hành và là chỗ dựa vững chắc bảo vệ con'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Chỉ cần điểm 10 còn lại không quan tâm'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Lớn rồi tự lo lấy thân'",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Đồng hành Công nghệ Cùng Con Kỷ nguyên Số",
+    "description": "10 câu hỏi tổng hợp tình huống kiểm tra kỹ năng làm cha mẹ thông thái trong thời đại số.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Thỏa thuận công nghệ gia đình (Family Media Agreement) nên được thiết lập bằng hình thức nào?",
+        "explanation": "Đối thoại dân chủ, thảo luận cởi mở và cam kết chung của mọi thành viên gia đình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cha mẹ tự viết và ép con ký",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cùng nhau thảo luận bình đẳng và thống nhất cam kết chung cho cả nhà",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Nhờ công an phường soạn thảo",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ áp dụng cho con, cha mẹ được miễn trừ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Tại sao không nên cài đặt phần mềm gián điệp bí mật để đọc trộm tin nhắn của con?",
+        "explanation": "Phá vỡ lòng tin, đẩy con vào việc lập tài khoản ẩn và vi phạm Điều 21 Luật Trẻ em.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Vì làm tốn tiền mua phần mềm",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Phá hủy lòng tin của con, đẩy con vào thế đối đầu che giấu và vi phạm quyền riêng tư của trẻ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Vì phần mềm chạy chậm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có lý do gì, nên cài càng nhiều càng tốt",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Khu vực nào trong nhà nên được quy định là 'Vùng không màn hình' (No-Screen Zone)?",
+        "explanation": "Bàn ăn gia đình và giường ngủ ban đêm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cầu thang",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bàn ăn cơm gia đình và giường ngủ sau giờ quy định",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ban công",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nhà để xe",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "DNS an toàn (như 1.1.1.3) cài đặt trên modem wifi có tác dụng gì?",
+        "explanation": "Tự động ngăn chặn truy cập vào các trang web khiêu dâm và mã độc hại.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tăng tốc độ wifi lên 100 lần",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tự động lọc và chặn các trang web có nội dung khiêu dâm, độc hại cấp độ mạng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tắt đèn wifi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Xóa lịch sử duyệt web",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Khi con nhận được cuộc gọi video giả mạo người thân (Deepfake), kỹ năng xác minh là gì?",
+        "explanation": "Gọi lại trực tiếp vào số điện thoại thường dùng của người thân để kiểm chứng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chuyển tiền ngay vì sợ người thân chết",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bình tĩnh tắt máy và gọi lại số điện thoại thông thường của người thân để xác thực",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đi vay nóng để chuyển tiền",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Khóc lóc van xin kẻ lừa đảo",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Lý do chính khiến trẻ giấu giếm khi bị quấy rối trên mạng là gì?",
+        "explanation": "Sợ bị cha mẹ mắng mỏ, trừng phạt và tịch thu điện thoại.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Vì con thích kẻ quấy rối",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nỗi sợ bị cha mẹ trách phạt, sỉ nhục và tịch thu thiết bị liên lạc",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Vì con không biết nói chuyện",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Do bận chơi game",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Thế nào là kỹ năng 'Kháng thể số' (Digital Resilience) của trẻ vị thành niên?",
+        "explanation": "Khả năng nhận diện nguy cơ, phản biện trước tin xấu và tự phục hồi sau sự cố trên mạng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Khả năng chơi game 24 tiếng liên tục",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tư duy phản biện số, khả năng tự bảo vệ và ứng phó an toàn trước các rủi ro trực tuyến",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Biết cách hack tài khoản người khác",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không bao giờ lên mạng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Công cụ Google SafeSearch giúp bảo vệ học sinh như thế nào?",
+        "explanation": "Tự động ẩn các hình ảnh và nội dung khiêu dâm, bạo lực khỏi kết quả tìm kiếm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp làm bài tập về nhà hộ học sinh",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tự động loại bỏ nội dung đồi trụy và bạo lực nguy hiểm khỏi kết quả tìm kiếm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tự động dịch tiếng Anh",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chặn hoàn toàn mạng internet",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khi phát hiện con có tài khoản mạng xã hội phụ (clone), cha mẹ nên làm gì?",
+        "explanation": "Bình tĩnh tìm hiểu lý do con cần không gian riêng, tạo môi trường gia đình cởi mở hơn.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Lập tức mắng mỏ và xóa tài khoản của con",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bình tĩnh xem xét lại cách quản lý của mình và trò chuyện lắng nghe nhu cầu riêng tư của con",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đăng bài bêu rếu con lên trang cá nhân",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đánh đòn con",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Giá trị lớn nhất mà cha mẹ có thể mang lại cho con trên không gian mạng là gì?",
+        "explanation": "Sự tin cậy, tôn trọng ranh giới và là bến đỗ an toàn sẵn sàng bảo vệ con vô điều kiện.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Mua cho con chiếc điện thoại đắt nhất",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lòng tin, sự đồng hành tâm lý và cam kết luôn bảo vệ con trước mọi sóng gió cuộc đời",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cấm con tiếp xúc với thế giới bên ngoài",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đọc hết mọi nhật ký của con",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -74,7 +74,7 @@ export default function MobileBottomNav() {
             <Link
               key={item.href}
               href={item.href}
-              className={`relative flex flex-col items-center justify-center h-full py-1 text-center transition-all ${
+              className={`relative flex flex-col items-center justify-center h-full py-1 text-center transition-all active:scale-95 ${
                 item.isActive
                   ? "text-primary font-bold"
                   : "text-on-surface-variant/70 hover:text-on-surface"
@@ -89,7 +89,7 @@ export default function MobileBottomNav() {
                   }`}
                 />
                 {item.badge && (
-                  <span className="absolute -top-1 -right-2 px-1 py-0.2 rounded-full bg-primary text-white text-[8px] font-black leading-none">
+                  <span className="absolute -top-1 -right-2 px-1 py-0.2 rounded-none bg-primary text-white text-[8px] font-black leading-none">
                     {item.badge}
                   </span>
                 )}
@@ -104,7 +104,7 @@ export default function MobileBottomNav() {
 
               {/* Active Indicator Pip */}
               {item.isActive && (
-                <span className="absolute bottom-1 w-1.5 h-1 rounded-full bg-primary" />
+                <span className="absolute bottom-1 w-2 h-0.5 rounded-none bg-primary" />
               )}
             </Link>
           );

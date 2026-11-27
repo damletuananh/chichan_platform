@@ -1,0 +1,1189 @@
+{
+  "title": "Sức Khỏe Sinh Sản & An Toàn Tình Dục Thực Tế",
+  "slug": "suc-khoe-sinh-san-va-an-toan-tinh-duc-thuc-te",
+  "short_description": "Giải mã cơ chế thụ thai khoa học, hướng dẫn sử dụng bao cao su chuẩn xác, cảnh báo nguy cơ vô sinh từ thuốc khẩn cấp và bảo vệ bản thân trước bệnh STI, HPV.",
+  "description": "**Đối tượng:** Học sinh cấp 3, thanh niên (15 - 20 tuổi) & Phụ huynh tham khảo.\n\nSự thiếu hiểu biết và tâm lý e ngại tìm hiểu kiến thức sức khỏe sinh sản là nguyên nhân trực tiếp dẫn đến hàng nghìn ca mang thai ngoài ý muốn và nhiễm bệnh lây truyền tình dục ở tuổi học trò mỗi năm. Khóa học mang lại kiến thức y khoa thực chứng, không né tránh: từ cơ chế thụ thai, cách bảo quản sử dụng bao cao su đúng chuẩn, vạch trần tác hại của việc lạm dụng thuốc tránh thai khẩn cấp, nhận diện các bệnh STI lây âm thầm và ý nghĩa vắc xin ung thư HPV.",
+  "learning_objectives": "- Bác bỏ các ngộ nhận tai hại về cơ chế thụ thai (xuất tinh ngoài, quan hệ lần đầu, thụt rửa).\n- Sử dụng và bảo quản bao cao su đúng kỹ thuật, bảo vệ kép trước thai ngoài ý muốn và STI.\n- Hiểu rõ giới hạn an toàn và tác hại gây vô sinh của việc lạm dụng thuốc tránh thai khẩn cấp.\n- Nhận diện các bệnh lây truyền qua đường tình dục (Lậu, Chlamydia, Giang mai, HPV) và kế hoạch tiêm chủng vắc xin an toàn.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "BOTH",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Cơ chế thụ thai & Những ngộ nhận tai hại tuổi teen",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=BtsSB_A_dSs",
+      "duration_minutes": 15,
+      "content_body": "### Những Ngộ Nhận Phổ Biến Về Thụ Thai Trong Học Sinh:\n- 'Quan hệ lần đầu tiên thì không thể có thai.' -> **SAI HOÀN TOÀN!** Chỉ cần một lần quan hệ xuất tinh vào âm đạo đúng thời điểm rụng trứng là có thể thụ thai ngay.\n- 'Quan hệ đứng hoặc nhảy dây sau quan hệ sẽ làm tinh trùng rơi ra ngoài.' -> **SAI LỆCH!** Tinh trùng di chuyển với vận tốc vài milimet mỗi phút và bơi ngược vào cổ tử cung chỉ trong vài giây sau khi xuất tinh.\n- 'Xuất tinh ngoài âm đạo là an toàn 100%.' -> **CỰC KỲ NGUY HIỂM!** Trong giọt dịch nhờn (tiền tinh dịch) tiết ra trước khi xuất tinh đã có hàng triệu tinh trùng khỏe mạnh, tỷ lệ dính bầu ngoài ý muốn khi dùng biện pháp này lên tới 22%.\n- 'Thụt rửa bằng nước ngọt có ga hoặc nước chanh.' -> **RẤT NGUY HIỂM!** Axit và hóa chất làm bỏng rát, loét niêm mạc âm đạo và gây nhiễm trùng nặng mà không tiêu diệt được tinh trùng đã lọt vào tử cung.\n\n### Cơ Chế Thụ Thai Khoa Học:\nKhi trứng rụng gặp tinh trùng tại vòi trứng tạo thành hợp tử, hợp tử di chuyển về làm tổ tại buồng tử cung. Cách duy nhất để phòng tránh thai hiệu quả 100% ở lứa tuổi học sinh là **KHÔNG quan hệ tình dục sớm** hoặc sử dụng biện pháp rào chắn (bao cao su) đúng cách mỗi lần quan hệ.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Hiểu đúng về cơ chế thụ thai",
+        "description": "5 câu hỏi phá vỡ các ngộ nhận sai lầm về việc mang thai ngoài ý muốn.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Quan niệm 'Quan hệ tình dục lần đầu tiên thì không thể dính bầu' là đúng hay sai?",
+            "explanation": "Sai hoàn toàn, việc thụ thai phụ thuộc vào sự gặp nhau của trứng và tinh trùng, không liên quan đến số lần quan hệ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đúng, cơ thể có cơ chế bảo vệ trong lần đầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sai hoàn toàn, chỉ cần 1 lần quan hệ không an toàn đúng thời điểm rụng trứng là có thể mang thai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ đúng với bạn gái dưới 16 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đúng nếu uống nhiều nước sau đó",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tại sao biện pháp 'Xuất tinh ngoài âm đạo' lại có tỷ lệ mang thai ngoài ý muốn rất cao (khoảng 22%)?",
+            "explanation": "Trong dịch nhờn (tiền tinh dịch) tiết ra trước khi xuất tinh thực tế đã chứa sẵn tinh trùng sống.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do tinh trùng bay qua không khí",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì trong dịch nhờn tiết ra trước khi xuất tinh đã chứa sẵn tinh trùng sống",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do bạn nam không uống đủ nước",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do thời tiết nóng bức",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi thụt rửa âm đạo bằng nước ngọt có ga hoặc nước cốt chanh sau khi quan hệ dẫn đến hậu quả gì?",
+            "explanation": "Làm bỏng rát, viêm loét hoại tử niêm mạc âm đạo và không thể ngăn ngừa mang thai.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tiêu diệt 100% tinh trùng một cách an toàn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gây bỏng rát, tổn thương viêm nhiễm nặng niêm mạc và không hề ngừa thai được",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp cơ thể thơm tho",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được bác sĩ sản khoa khuyên dùng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tinh trùng sau khi xuất vào âm đạo có thể sống sót trong đường sinh dục nữ trong bao lâu?",
+            "explanation": "Tinh trùng có thể sống và chờ trứng rụng từ 3 đến 5 ngày trong môi trường âm đạo/tử cung.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ 10 giây rồi chết ngay",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Từ 3 đến 5 ngày",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "1 tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "1 năm",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Phương pháp phòng tránh thai và phòng chống bệnh lây truyền hiệu quả 100% đối với học sinh là gì?",
+            "explanation": "Trì hoãn quan hệ tình dục sớm (Kiêng quan hệ tình dục) cho đến khi trưởng thành và sẵn sàng về mọi mặt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tính ngày theo lịch mặt trăng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trì hoãn quan hệ tình dục sớm (Kiêng tình dục ở lứa tuổi học sinh)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống kháng sinh hàng ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Quan hệ vào ban ngày",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Bao cao su: Tấm khiên kép phòng thai & Bệnh lây qua đường tình dục",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=0k5G5W8x4gY",
+      "duration_minutes": 15,
+      "content_body": "### Vì Sao Bao Cao Su Được Gọi Là 'Tấm Khiên Kép'?\nTrong tất cả các biện pháp tránh thai, **CHỈ CÓ DUY NHẤT BAO CAO SU** có tác dụng kép:\n1. Ngừa thai hiệu quả tới 98% (khi dùng đúng cách).\n2. Ngăn ngừa lây truyền các bệnh nguy hiểm qua đường tình dục (HIV, Lậu, Giang mai, Chlamydia, Viêm gan B).\n\n### 4 Sai Lầm Ngớ Ngẩn Khiến Bao Cao Su Bị Rách / Mất Tác Dụng:\n- **Để bao cao su trong ví tiền hoặc cốp xe máy:** Nhiệt độ nóng trong cốp xe và ma sát chèn ép trong ví làm cao su bị thoái hóa, giòn và rách toạc ngay khi quan hệ.\n- **Dùng kéo hoặc răng xé gói:** Rất dễ làm rách thủng lỗ nhỏ trên thân bao. Hãy dồn bao về một góc rồi dùng ngón tay xé theo mép răng cưa.\n- **Không bóp xẹp núm bóng khí ở đầu bao:** Khi xuất tinh, nếu đầu bao còn chứa bọt khí, áp lực sẽ làm bung rách đầu bao.\n- **Đeo ngược chiều hoặc đeo 2 bao cùng lúc:** Đeo 2 bao làm tăng ma sát giữa 2 lớp cao su khiến bao dễ rách gấp đôi!",
+      "quiz": {
+        "title": "Củng cố Bài 2: Sử dụng bao cao su đúng chuẩn an toàn",
+        "description": "5 câu hỏi thực hành sử dụng và bảo quản bao cao su.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Bao cao su mang lại tác dụng bảo vệ kép nào sau đây?",
+            "explanation": "Đồng thời vừa ngừa thai vừa phòng tránh các bệnh lây truyền qua đường tình dục (STI/HIV).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tăng cường thị lực và trí nhớ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngừa mang thai ngoài ý muốn và phòng tránh các bệnh lây truyền qua đường tình dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chữa khỏi hoàn toàn bệnh viêm họng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Làm trắng da toàn thân",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi cất bao cao su trong cốp xe máy hoặc bóp ví đút túi quần sau trong thời gian dài có tác hại gì?",
+            "explanation": "Nhiệt độ cao và ma sát chèn ép làm mủ cao su bị lão hóa, giòn và rất dễ bục rách khi sử dụng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp bao cao su bền hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm cao su bị thoái hóa, giảm chất lượng và dễ bục rách khi quan hệ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tăng thêm mùi hương dễ chịu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ảnh hưởng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Đeo cùng lúc 2 chiếc bao cao su chồng lên nhau có tăng gấp đôi độ an toàn không?",
+            "explanation": "Không, ma sát giữa 2 lớp cao su cọ xát vào nhau sẽ khiến bao dễ rách toạc hơn nhiều lần.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đúng, tăng gấp đôi độ an toàn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sai, ma sát giữa 2 lớp bao cao su sẽ khiến bao dễ bị rách toạc hơn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ nên đeo 3 bao cùng lúc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tùy thuộc vào nhãn hiệu bao",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Bước bóp xẹp núm nhỏ ở đầu bao cao su trước khi tròng vào nhằm mục đích gì?",
+            "explanation": "Đuổi hết không khí ra ngoài tạo không gian chứa tinh dịch khi xuất tinh mà không bị nổ rách bao.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để kiểm tra xem bao có mùi gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đuổi hết bọt khí ra ngoài tạo chỗ chứa tinh dịch, tránh áp lực gây rách bao",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để kéo giãn bao ra dài hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để tạo tiếng kêu vui nhộn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thời điểm chính xác cần đeo bao cao su là khi nào?",
+            "explanation": "Đeo ngay từ khi bắt đầu có sự tiếp xúc giữa hai cơ quan sinh dục, trước khi có bất kỳ sự thâm nhập nào.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đợi đến khi sắp xuất tinh mới đeo vội vào",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngay từ đầu khi có sự tiếp xúc thân thể, trước khi có bất kỳ sự thâm nhập nào",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau khi quan hệ xong mới đeo",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ đeo vào những ngày bạn gái đang rụng trứng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Thuốc tránh thai khẩn cấp: 'Cứu cánh' hay 'Con dao hai lưỡi'?",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=kYI4x40sOqw",
+      "duration_minutes": 15,
+      "content_body": "### Báo Động: Thói Quen Lạm Dụng Thuốc Khẩn Cấp Như 'Kẹo Ngậm'\nNhiều cặp đôi học sinh vì ngại ngùng không dám mua bao cao su, nên sau mỗi lần quan hệ lại bảo bạn gái mua viên thuốc tránh thai khẩn cấp uống. Có bạn nữ uống đến 3-4 lần trong một tháng...\n\n### 1. Thuốc Tránh Thai Khẩn Cấp Hoạt Động Thế Nào?\n- Chứa hàm lượng hormone nội tiết tố (Levonorgestrel) cực kỳ cao (gấp hàng chục lần viên uống hàng ngày).\n- Tác dụng: Ngăn chặn hoặc trì hoãn sự rụng trứng, làm biến đổi lớp niêm mạc tử cung khiến trứng thụ tinh không thể làm tổ.\n- **Chỉ có tác dụng trong 'cửa sổ vàng':** Uống càng sớm càng tốt trong vòng 72 giờ (hoặc 120 giờ tùy loại). Uống sau 24h hiệu quả giảm xuống 85%, sau 48h chỉ còn 58%.\n\n### 2. Cái Giá Quá Đắt Khi Lạm Dụng:\n- **Tác dụng phụ tức thì:** Buồn nôn, chóng mặt, đau đầu, căng tức ngực, rong huyết âm đạo bất thường.\n- **Hậu quả lâu dài:** Làm đảo lộn hoàn toàn chu kỳ kinh nguyệt, làm mỏng niêm mạc tử cung dẫn đến khó thụ thai và tăng nguy cơ **VÔ SINH** hoặc **MANG THAI NGOÀI TỬ CUNG** đe dọa tính mạng!\n- **Quy tắc vàng:** Thuốc chỉ dùng trong tình huống 'KHẨN CẤP' (bị cưỡng bức, rách bao cao su) và **TUYỆT ĐỐI KHÔNG QUÁ 2 LẦN/THÁNG**!",
+      "quiz": {
+        "title": "Củng cố Bài 3: Cảnh báo lạm dụng thuốc tránh thai khẩn cấp",
+        "description": "5 câu hỏi tìm hiểu về tác dụng phụ và giới hạn an toàn của thuốc khẩn cấp.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Bản chất y học của thuốc tránh thai khẩn cấp là gì?",
+            "explanation": "Chứa liều lượng hormone tổng hợp cực cao nhằm ức chế khẩn cấp việc rụng trứng hoặc làm tổ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Một loại vitamin bổ sung dưỡng chất",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Liều hormone tổng hợp cực cao để ức chế việc rụng trứng trong tình huống khẩn cấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thuốc kháng sinh trị nấm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nước tăng lực thảo dược",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Giới hạn tối đa sử dụng thuốc tránh thai khẩn cấp theo khuyến cáo của bác sĩ sản khoa là bao nhiêu?",
+            "explanation": "Tuyệt đối không dùng quá 2 lần trong một tháng vì nguy cơ rối loạn nội tiết và vô sinh rất cao.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống mỗi ngày một viên sau khi ăn cơm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tối đa không quá 2 lần trong một tháng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống thoải mái không giới hạn số lượng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mỗi tuần uống 3 viên",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hậu quả nghiêm trọng đối với sức khỏe sinh sản khi lạm dụng thuốc tránh thai khẩn cấp liên tục là gì?",
+            "explanation": "Rối loạn kinh nguyệt nặng nề, làm mỏng niêm mạc tử cung, tăng nguy cơ vô sinh và thai ngoài tử cung.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp da dẻ mịn màng hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rối loạn nội tiết, teo mỏng niêm mạc tử cung, nguy cơ vô sinh và thai ngoài tử cung",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm tăng chiều cao nhanh chóng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp điều hòa kinh nguyệt đều đặn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thuốc tránh thai khẩn cấp có khả năng bảo vệ người dùng khỏi các bệnh lây truyền qua đường tình dục (HIV, Lậu, Giang mai) không?",
+            "explanation": "Hoàn toàn KHÔNG, thuốc khẩn cấp chỉ tác động vào hormone ngừa thai, không có bất kỳ khả năng diệt virus/vi khuẩn nào.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, tiêu diệt được 100% các loại vi khuẩn lây bệnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG, thuốc không có tác dụng phòng ngừa các bệnh lây truyền tình dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ phòng ngừa được virus HIV",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tùy thuộc vào giá tiền của viên thuốc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tình huống nào sau đây được coi là chính đáng để sử dụng thuốc tránh thai khẩn cấp?",
+            "explanation": "Khi gặp sự cố rách bao cao su hoặc nạn nhân bị tấn công cưỡng bức tình dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Dùng làm biện pháp tránh thai định kỳ thay thế bao cao su",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khi gặp sự cố bất khả kháng như rách bao cao su hoặc bị tấn công cưỡng bức",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống để thử cảm giác xem có tác dụng phụ không",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Uống trước khi quan hệ 3 ngày để dự phòng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Bệnh lây truyền qua đường tình dục (STI): Lây âm thầm và nguy cơ vô sinh",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=2XkSZ7g60gQ",
+      "duration_minutes": 15,
+      "content_body": "### Cạm Bẫy 'Không Triệu Chứng' Của Các Bệnh STI:\nRất nhiều bạn trẻ nghĩ rằng: 'Trông người yêu sạch sẽ, không nổi mụn nhọt gì thì chắc chắn không có bệnh!'. Đây là sự ngộ nhận chết người:\n- **Chlamydia & Lậu:** Có tới 70-80% nữ giới và 50% nam giới nhiễm Chlamydia KHÔNG hề có bất kỳ triệu chứng đau rát hay biểu hiện nào ra ngoài! Vi khuẩn âm thầm tấn công vòi trứng, ống dẫn tinh gây tắc nghẽn, dẫn đến **vô sinh vĩnh viễn**.\n- **Giang mai (Syphilis):** Vết loét ban đầu (săng giang mai) không đau, tự biến mất sau vài tuần khiến người bệnh tưởng đã khỏi. Nhưng xoắn khuẩn đã ngấm vào máu, âm thầm phá hủy tim mạch và hệ thần kinh trung ương.\n- **Sùi mào gà (HPV):** Lây truyền qua tiếp xúc da kề da vùng sinh dục, tạo ra các u nhú dạng hoa súp lơ rất khó điều trị dứt điểm và dễ tái phát suốt đời.\n\n### Cách Phòng Ngừa Duy Nhất:\nChung thủy một bạn tình, luôn sử dụng bao cao su đúng cách và đi khám xét nghiệm định kỳ chuyên khoa da liễu/sản phụ khoa khi có quan hệ tình dục.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Nhận biết bệnh lây truyền qua đường tình dục",
+        "description": "5 câu hỏi y khoa về dấu hiệu và nguy cơ tiềm ẩn của bệnh STI.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Đặc điểm nguy hiểm nhất của nhiều bệnh lây truyền qua đường tình dục (như Chlamydia) ở giai đoạn đầu là gì?",
+            "explanation": "Bệnh thường không có triệu chứng rõ rệt khiến người bệnh không biết để điều trị, âm thầm gây vô sinh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gây đau đớn dữ dội ngất xỉu ngay lập tức",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Âm thầm không triệu chứng rõ rệt khiến người bệnh chủ quan lây lan và gây vô sinh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm thay đổi màu mắt sang màu đỏ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ lây nhiễm qua đường hít thở",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Có thể đánh giá một người có mắc bệnh lây truyền tình dục hay không chỉ qua vẻ bề ngoài sạch sẽ, xinh xắn không?",
+            "explanation": "Không thể, mầm bệnh là vi khuẩn/virus ẩn bên trong dịch cơ thể, vẻ ngoài hoàn toàn không phản ánh tình trạng nhiễm bệnh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có thể, người có học thức và ăn mặc đẹp thì không bao giờ mắc bệnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG, vẻ ngoài không thể hiện tình trạng mầm bệnh vi khuẩn/virus bên trong",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần nhìn vào móng tay là biết",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người tắm nhiều lần trong ngày thì không bao giờ có bệnh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Bệnh Sùi mào gà sinh dục do loại virus nào gây ra?",
+            "explanation": "Do virus Human Papillomavirus (HPV) lây truyền qua tiếp xúc da kề da vùng sinh dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Virus cúm mùa H5N1",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Virus HPV (Human Papillomavirus)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vi khuẩn tả E.coli",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Virus sốt xuất huyết Dengue",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hậu quả lâu dài phổ biến nhất của bệnh Lậu và Chlamydia nếu không được phát hiện chữa trị sớm là gì?",
+            "explanation": "Gây viêm vùng chậu mạn tính, tắc vòi trứng ở nữ và tắc ống dẫn tinh ở nam dẫn đến vô sinh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gây rụng hết lông mi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Viêm tắc đường dẫn trứng/tinh dẫn đến vô sinh vĩnh viễn và thai ngoài tử cung",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm tăng cân đột biến",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự khỏi hoàn toàn sau 1 tháng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi nghi ngờ bản thân có thể đã bị lây nhiễm bệnh STI sau quan hệ không an toàn, bạn cần làm gì?",
+            "explanation": "Đến cơ sở y tế / bệnh viện chuyên khoa da liễu khám xét nghiệm sớm, tuyệt đối không tự mua thuốc kháng sinh uống.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tự mua kháng sinh liều cao về uống bừa bãi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đến ngay bệnh viện chuyên khoa da liễu hoặc sản phụ khoa uy tín để xét nghiệm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Xông lá trầu không ở nhà thay cho khám bệnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Im lặng tiếp tục quan hệ với người khác",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Vắc xin HPV: Tấm lá chắn ung thư cho cả nam và nữ",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=07mXv2XFfLg",
+      "duration_minutes": 15,
+      "content_body": "### Đột Phá Y Khoa: Vắc Xin Ngừa Ung Thư Cổ Tử Cung & Sùi Mào Gà\nHPV (Human Papillomavirus) là thủ phạm gây ra hơn 95% các ca ung thư cổ tử cung ở nữ giới, đồng thời gây ung thư vòm họng, ung thư hậu môn, ung thư dương vật và bệnh sùi mào gà ở cả hai giới.\n\n### 2 Ngộ Nhận Phổ Biến Về Vắc Xin HPV:\n- **Ngộ nhận 1: 'Chỉ con gái mới cần tiêm HPV.'** -> **SAI LỆCH!** Nam giới là đối tượng mang virus và truyền bệnh rất cao, đồng thời nam giới mắc sùi mào gà, ung thư vòm họng và ung thư hậu môn do HPV ngày càng gia tăng. Tiêm vắc xin HPV cho nam giới giúp bảo vệ chính bản thân và bảo vệ bạn đời!\n- **Ngộ nhận 2: 'Đã có quan hệ tình dục rồi thì tiêm vô ích.'** -> **SAI!** Dù đã từng quan hệ tình dục, vắc xin vẫn phát huy hiệu quả bảo vệ trước các tuýp virus HPV nguy cơ cao mà bạn chưa từng phơi nhiễm.\n\n### Độ Tuổi Vàng Để Tiêm Vắc Xin HPV:\n- Độ tuổi tiêm chủng hiệu quả cao nhất là từ **9 đến 14 tuổi** (chỉ cần tiêm 2 mũi).\n- Khuyến cáo tiêm mở rộng cho cả nam và nữ từ **9 đến 26 tuổi** (và có thể lên đến 45 tuổi theo chỉ định bác sĩ).",
+      "quiz": {
+        "title": "Củng cố Bài 5: Hiểu biết về vắc xin phòng ngừa HPV",
+        "description": "5 câu hỏi tìm hiểu về vai trò của vắc xin HPV đối với cả hai giới.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Virus HPV (Human Papillomavirus) là nguyên nhân hàng đầu gây ra căn bệnh nguy hiểm nào ở phụ nữ?",
+            "explanation": "Chiếm hơn 95% nguyên nhân gây ung thư cổ tử cung ở nữ giới trên toàn cầu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bệnh tiểu đường tuýp 2",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ung thư cổ tử cung và bệnh sùi mào gà sinh dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Viêm dạ dày tá tràng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bệnh sốt rét",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Nam giới có cần thiết phải tiêm vắc xin HPV không và vì sao?",
+            "explanation": "Rất cần thiết, nam giới tiêm để ngừa ung thư vòm họng, ung thư dương vật, sùi mào gà và tránh lây cho bạn đời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không cần, nam giới có miễn dịch bẩm sinh với HPV",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rất cần thiết, giúp phòng ung thư vòm họng, dương vật, sùi mào gà và tránh truyền bệnh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ tiêm khi đã trên 50 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nam giới tiêm sẽ bị teo cơ bắp",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Độ tuổi vàng để tiêm vắc xin phòng HPV đạt hiệu quả miễn dịch tối ưu nhất là bao nhiêu?",
+            "explanation": "Từ 9 đến 14 tuổi khi chưa quan hệ tình dục, cơ thể đáp ứng kháng thể mạnh nhất.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Từ 1 đến 3 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Từ 9 đến 14 tuổi (trước khi có phơi nhiễm tình dục)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sau 60 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ tiêm vào ngày cưới",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Người đã từng có quan hệ tình dục có nên tiêm vắc xin HPV nữa không?",
+            "explanation": "Vẫn nên tiêm, vì vắc xin tiếp tục bảo vệ khỏi các chủng HPV nguy cơ cao khác mà cơ thể chưa từng nhiễm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không còn bất kỳ tác dụng nào nữa",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vẫn rất nên tiêm, vì vắc xin giúp phòng các chủng HPV nguy cơ cao khác chưa mắc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Gây phản ứng dị ứng nguy hiểm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bác sĩ cấm tiêm",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Đường lây truyền chính của virus HPV trong đời sống là gì?",
+            "explanation": "Tiếp xúc da kề da vùng sinh dục khi quan hệ tình dục hoặc cọ xát cơ thể.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Uống chung cốc nước lọc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tiếp xúc da kề da và niêm mạc vùng sinh dục trong quan hệ tình dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Muỗi vằn đốt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt tay chào hỏi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 6,
+      "title": "Bài 6 — Mang thai ngoài ý muốn: Hậu quả tâm lý & Giải pháp y tế nhân văn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=CJcg_q_wI_s",
+      "duration_minutes": 15,
+      "content_body": "### Khi Chậm Kinh Và Que Thử Hiện 2 Vạch...\nĐối với một bạn nữ học sinh, việc thấy que thử thai hiện 2 vạch màu đỏ là một cú sốc tinh thần khủng khiếp. Nỗi sợ hãi cha mẹ đánh đuổi, bạn bè dè bỉu, nhà trường kỷ luật khiến nhiều em rơi vào tuyệt vọng, tìm đến các phòng khám chui trên mạng hoặc tự mua thuốc phá thai không rõ nguồn gốc...\n\n### 3 Cảnh Báo Sống Còn:\n1. **TUYỆT ĐỐI KHÔNG TỰ MUA THUỐC PHÁ THAI TRÊN MẠNG:** Phá thai bằng thuốc chỉ được thực hiện dưới sự theo dõi nghiêm ngặt của bác sĩ chuyên khoa sau khi siêu âm vị trí túi thai. Tự uống thuốc ở nhà có thể gây băng huyết ồ ạt đe dọa tính mạng, sót thai, nhiễm trùng máu và vỡ tử cung nếu là thai ngoài tử cung!\n2. **TRÁNH XA CÁC PHÒNG KHÁM 'CHUI' KHÔNG PHÉP:** Các cơ sở phá thai chui thường dùng dụng cụ không tiệt trùng làm rách thủng tử cung, gây vô sinh vĩnh viễn hoặc tử vong do sốc nhiễm khuẩn.\n3. **CAN ĐẢM NÓI VỚI CHA MẸ HOẶC ĐẾN BỆNH VIỆN PHỤ SẢN TUYẾN TỈNH:** Tính mạng và tương lai lâu dài của bạn là điều quan trọng nhất. Cha mẹ có thể giận lúc đầu, nhưng gia đình sẽ là nơi bảo vệ bạn an toàn nhất trước sóng gió.",
+      "quiz": {
+        "title": "Củng cố Bài 6: Ứng phó an toàn trước khủng hoảng mang thai",
+        "description": "5 câu hỏi trang bị kiến thức ứng phó an toàn y tế và tâm lý khi gặp sự cố.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành vi tự mua thuốc phá thai trên mạng xã hội về uống tại phòng trọ dẫn đến nguy cơ chết người nào?",
+            "explanation": "Băng huyết dữ dội mất máu, nhiễm trùng máu và vỡ tử cung nếu là thai ngoài tử cung dẫn đến tử vong.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hoàn toàn an toàn và tiện lợi không ai biết",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nguy cơ băng huyết ồ ạt, sốc nhiễm trùng máu, thủng vỡ tử cung đe dọa trực tiếp tính mạng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp bồi bổ cơ thể",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có bất kỳ nguy hiểm nào",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành động đầu tiên sáng suốt nhất khi một bạn nữ học sinh phát hiện mình mang thai ngoài ý muốn là gì?",
+            "explanation": "Dũng cảm tâm sự với cha mẹ hoặc người thân lớn tuổi đáng tin cậy để cùng đến bệnh viện chuyên khoa thăm khám.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bỏ nhà đi bụi hoặc tìm cách tự hại bản thân",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dũng cảm chia sẻ với cha mẹ hoặc người thân đáng tin cậy để có giải pháp y tế an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nghe lời người yêu rủ nhau đến các phòng khám chui vỉa hè",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giấu kín một mình cho đến khi sinh nở",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Trách nhiệm của bạn nam khi bạn gái mang thai ngoài ý muốn là gì?",
+            "explanation": "Đồng hành, chịu trách nhiệm tinh thần và kinh tế, trao đổi cùng gia đình giải quyết nhân văn, không bỏ trốn hay trốn tránh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chặn số điện thoại, đổi nick mạng xã hội và phủi sạch trách nhiệm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chân thành nhận trách nhiệm, đồng hành bên bạn gái và cùng gia đình giải quyết an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đổ hết lỗi lầm cho bạn gái",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Xúi bạn gái tự đi phá thai chui một mình",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cơ sở y tế nào là nơi an toàn và có thẩm quyền thực hiện tư vấn, chăm sóc sức khỏe sinh sản chuẩn mực?",
+            "explanation": "Bệnh viện phụ sản công lập, khoa sản bệnh viện đa khoa tuyến huyện/tỉnh/trung ương.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Các phòng khám không biển hiệu trong ngõ hẻm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bệnh viện Phụ sản công lập hoặc khoa Sản bệnh viện tuyến huyện, tỉnh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhà riêng của một thầy lang bắt mạch dạo",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tiệm làm tóc spa",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thái độ của cộng đồng và gia đình cần có trước một trường hợp học sinh mang thai ngoài ý muốn là gì?",
+            "explanation": "Bảo bọc, hỗ trợ tâm lý và chăm sóc y tế nhân văn thay vì kỳ thị, sỉ nhục hay đẩy người trẻ vào đường cùng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tẩy chay, lăng mạ và đuổi học học sinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thấu cảm, làm chỗ dựa tinh thần và hỗ trợ y tế an toàn để bảo vệ tương lai người trẻ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đăng tải câu chuyện lên mạng xã hội để bêu rếu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Phạt tù cha mẹ học sinh",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Bài Thi Tốt Nghiệp: Sức Khỏe Sinh Sản & An Toàn Tình Dục Thực Tế",
+    "description": "10 câu hỏi kiểm tra toàn diện về cơ chế thụ thai, bao cao su, thuốc khẩn cấp, bệnh STI và vắc xin HPV.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Phương pháp ngừa thai tự nhiên 'Xuất tinh ngoài' có an toàn không?",
+        "explanation": "Không an toàn, tỷ lệ mang thai ngoài ý muốn lên tới hơn 20% do tinh trùng có sẵn trong tiền tinh dịch.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "An toàn tuyệt đối 100%",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Không an toàn, tiền tinh dịch tiết ra trước đó đã chứa sẵn tinh trùng sống",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ có tác dụng với người lớn trên 30 tuổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bảo vệ khỏi cả bệnh lây qua đường tình dục",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Biện pháp tránh thai DUY NHẤT có khả năng đồng thời phòng tránh thai và phòng bệnh lây truyền tình dục là gì?",
+        "explanation": "Bao cao su nam/nữ là biện pháp rào chắn duy nhất ngăn chặn trao đổi dịch cơ thể và vi khuẩn/virus.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Thuốc tránh thai khẩn cấp",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bao cao su",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tính vòng kinh theo lịch",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Uống nước chanh sau quan hệ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Tác hại lớn nhất khi để bao cao su trong ví tiền hoặc cốp xe máy là gì?",
+        "explanation": "Nhiệt độ nóng và ma sát làm cao su bị giòn, lão hóa và dễ rách thủng khi sử dụng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm mất chìa khóa xe",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Làm bao cao su bị thoái hóa chất lượng, giòn và rách toạc khi quan hệ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm hỏng ví tiền",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Làm xe chạy chậm hơn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Tần suất tối đa sử dụng thuốc tránh thai khẩn cấp an toàn trong 1 tháng là bao nhiêu?",
+        "explanation": "Không quá 2 lần/tháng để tránh rối loạn nội tiết tố nghiêm trọng và nguy cơ vô sinh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Uống thoải mái mỗi ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tối đa 2 lần trong một tháng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "10 lần trong một tháng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không được dùng quá 1 lần trong đời",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Bệnh lây truyền qua đường tình dục (STI) nào sau đây có tỷ lệ cao âm thầm không triệu chứng nhưng gây tắc vòi trứng vô sinh?",
+        "explanation": "Chlamydia và Lậu có tỷ lệ nhiễm không triệu chứng rất cao ở nữ giới.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bệnh quai bị",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chlamydia và vi khuẩn Lậu",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bệnh thủy đậu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Sốt virus thông thường",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Vắc xin HPV giúp ngăn ngừa hơn 95% căn bệnh ung thư nào ở phụ nữ?",
+        "explanation": "Ung thư cổ tử cung.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ung thư phổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ung thư cổ tử cung",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ung thư dạ dày",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Ung thư xương",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Nam giới có nên tiêm vắc xin ngừa HPV không?",
+        "explanation": "Có, tiêm phòng giúp nam giới ngừa ung thư vòm họng, dương vật, sùi mào gà và bảo vệ bạn đời.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tuyệt đối không nên",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Rất nên, giúp bảo vệ sức khỏe bản thân và ngăn ngừa lây truyền virus cho bạn đời",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ tiêm khi đã bị mắc sùi mào gà",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nam giới tiêm sẽ mất khả năng sinh sản",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Hành vi tự mua thuốc phá thai trên mạng về uống tiềm ẩn mối nguy hiểm chết người nào?",
+        "explanation": "Băng huyết ồ ạt mất máu cấp, vỡ thai ngoài tử cung và nhiễm trùng huyết dẫn đến tử vong.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hoàn toàn an toàn nếu uống kèm nước dừa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Băng huyết dữ dội, sốc mất máu, vỡ tử cung và nguy cơ tử vong rất cao",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm trắng da toàn thân",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có tác dụng phụ nào",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Thời điểm hiệu quả nhất để uống thuốc tránh thai khẩn cấp là khi nào?",
+        "explanation": "Càng sớm càng tốt trong vòng 24 giờ đầu sau quan hệ tình dục không an toàn.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Đợi 1 tuần sau xem có chậm kinh không mới uống",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Càng sớm càng tốt trong vòng 24 giờ đầu sau sự cố quan hệ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Uống sau 1 tháng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ uống vào ngày rằm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Lựa chọn sáng suốt và văn minh nhất của học sinh đối với quan hệ tình dục lứa tuổi học trò là gì?",
+        "explanation": "Trì hoãn quan hệ tình dục sớm, tập trung học tập, rèn luyện kỹ năng và chỉ quan hệ khi đã trưởng thành và biết tự bảo vệ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Quan hệ bừa bãi không dùng biện pháp bảo vệ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Trì hoãn quan hệ sớm, trang bị đầy đủ kiến thức khoa học và tôn trọng sự an toàn của nhau",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tin vào những lời đồn thổi trên mạng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Thử cảm giác mạnh để chứng tỏ bản thân",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

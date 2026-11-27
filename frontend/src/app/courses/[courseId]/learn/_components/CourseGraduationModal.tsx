@@ -127,7 +127,7 @@ export function CourseGraduationModal({
           {/* Main CTA: View Certificate */}
           <button
             onClick={() => router.push(`/courses/${courseId}/certificate`)}
-            className="w-full bg-gradient-to-r from-secondary-container to-secondary text-white py-3.5 px-6 rounded-full font-bold text-xs shadow-md hover:shadow-lg hover:opacity-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
+            className="btn-press w-full bg-gradient-to-r from-secondary-container to-secondary text-white py-3.5 px-6 rounded-none font-bold text-xs shadow-depth-2 hover:shadow-depth-3 hover:opacity-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
             <span>Nhận &amp; In Chứng Chỉ Điện Tử</span>
           </button>
@@ -136,14 +136,14 @@ export function CourseGraduationModal({
           <div className="grid grid-cols-2 gap-3">
             <button
               onClick={() => router.push("/game")}
-              className="w-full bg-primary/10 border border-primary/20 text-primary py-3 px-4 rounded-full font-bold text-xs hover:bg-primary/20 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+              className="btn-press w-full bg-primary/10 border border-primary/20 text-primary py-3 px-4 rounded-none font-bold text-xs hover:bg-primary/20 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
             >
               <Robot size={16} weight="duotone" />
               <span>AI Roleplay</span>
             </button>
             <button
               onClick={onClose}
-              className="w-full bg-surface-container text-on-surface-variant py-3 px-4 rounded-full font-bold text-xs hover:bg-surface-container-high transition-all flex items-center justify-center cursor-pointer"
+              className="btn-press w-full bg-surface-container text-on-surface-variant py-3 px-4 rounded-none font-bold text-xs hover:bg-surface-container-high transition-all flex items-center justify-center cursor-pointer"
             >
               <span>Xem lại bài học</span>
             </button>

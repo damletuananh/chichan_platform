@@ -1,5 +1,5 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, and_, text, update, delete, func
+from sqlalchemy import select, and_, text, update, delete, func, case
 from sqlalchemy.orm import selectinload, joinedload
 from models.ai_scenario import AIScenario
 from models.ai_session import AISession
@@ -106,11 +106,16 @@ async def abandon_active_sessions(db: AsyncSession, user_id: UUID, scenario_id: 
 async def update_session_score_atomic(db: AsyncSession, session_id: UUID, delta: int) -> int:
     """Cập nhật điểm số nguyên tử: cộng dồn + clip 0..100 ngay trong SQL rồi RETURNING giá trị mới.
     Tránh mất cập nhật (lost update) khi 2 lượt chat nhanh liên tiếp trên cùng phiên."""
+    next_score = AISession.current_score + delta
     result = await db.execute(
         update(AISession)
         .where(AISession.id == session_id)
         .values(
-            current_score=func.greatest(0, func.least(100, AISession.current_score + delta)),
+            current_score=case(
+                (next_score < 0, 0),
+                (next_score > 100, 100),
+                else_=next_score,
+            ),
             updated_at=func.now()
         )
         .returning(AISession.current_score)
@@ -177,14 +182,57 @@ async def get_evaluation_by_session_id(db: AsyncSession, session_id: UUID) -> Op
     )
     return result.scalars().first()
 
-# --- pgvector Cosine similarity RAG Search ---
+# --- pgvector / SQLite Cosine similarity RAG Search ---
 async def search_similar_knowledge(
     db: AsyncSession,
     embedding: List[float],
     category: str,
     limit: int = 2
 ) -> List[dict]:
-    """Tìm kiếm nội dung tương đồng ngữ nghĩa trong kho tri thức sử dụng pgvector"""
+    """Tìm kiếm nội dung tương đồng ngữ nghĩa trong kho tri thức (hỗ trợ cả pgvector và SQLite)"""
+    bind = db.bind
+    dialect_name = bind.dialect.name if bind else ""
+
+    if dialect_name == "sqlite":
+        from sqlalchemy import select
+        query = select(AIKnowledgeVector).where(AIKnowledgeVector.category == category)
+        result = await db.execute(query)
+        records = result.scalars().all()
+
+        import math
+        def cosine_distance(v1, v2):
+            dot = sum(a * b for a, b in zip(v1, v2))
+            norm1 = math.sqrt(sum(a * a for a in v1))
+            norm2 = math.sqrt(sum(b * b for b in v2))
+            if norm1 == 0 or norm2 == 0:
+                return 1.0
+            sim = dot / (norm1 * norm2)
+            return max(0.0, 1.0 - sim)
+
+        scored = []
+        for r in records:
+            emb = r.embedding
+            if isinstance(emb, str):
+                import json
+                try:
+                    emb = json.loads(emb)
+                except Exception:
+                    emb = [float(x) for x in emb.strip("[]").split(",") if x.strip()]
+            dist = cosine_distance(embedding, emb) if isinstance(emb, list) and emb else 1.0
+            scored.append((dist, r))
+
+        scored.sort(key=lambda x: x[0])
+        chunks = []
+        for dist, r in scored[:limit]:
+            chunks.append({
+                "id": str(r.id),
+                "category": r.category,
+                "topic": r.topic,
+                "content_chunk": r.content_chunk,
+                "distance": dist
+            })
+        return chunks
+
     embedding_str = str(embedding)
     
     # Sử dụng raw SQL với toán tử <=> của pgvector để tìm kiếm khoảng cách Cosine nhỏ nhất

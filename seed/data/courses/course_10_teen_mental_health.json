@@ -1,0 +1,1039 @@
+{
+  "title": "Sức Khỏe Tinh Thần Tuổi Dậy Thì: Đánh Bại Áp Lực & Lo Âu",
+  "slug": "suc-khoe-tinh-than-tuoi-day-thi-danh-bai-ap-luc-va-lo-au",
+  "short_description": "Giải mã cơ chế hormone Cortisol gây kiệt sức, nhận diện trầm cảm & tự hại, kỹ thuật chế ngự cơn hoảng sợ (Panic Attack), nhịp sinh học giấc ngủ vàng và phá bỏ mặc cảm tâm lý học đường.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (12 - 18 tuổi).\n\nÁp lực học tập, thi cử và những biến động tâm sinh lý tuổi dậy thì dễ khiến thanh thiếu niên rơi vào khủng hoảng tinh thần, kiệt sức và trầm cảm. Khóa học được thiết kế chuẩn y khoa tâm thần học, cung cấp các công cụ thực hành chánh niệm (thở 4-7-8, kỹ thuật nối đất), kiến thức trục Não - Ruột, nhận diện sớm dấu hiệu tự hại và kết nối mạng lưới trợ giúp tâm lý kịp thời.",
+  "learning_objectives": "- Nhận biết hội chứng kiệt sức học đường (Burnout) và cơ chế tác động của Cortisol lên trí nhớ.\n- Phân biệt nỗi buồn tạm thời và bệnh Trầm cảm lâm sàng, quy trình ngăn chặn tự hại (Self-harm).\n- Thành thạo các kỹ thuật cắt cơn hoảng loạn (thở 4-7-8, kỹ thuật nối đất 5-4-3-2-1).\n- Ứng dụng khoa học giấc ngủ và dinh dưỡng trục Não - Ruột để củng cố sức khỏe thần kinh.\n- Phá bỏ định kiến về sức khỏe tâm thần, tự tin tìm kiếm sự hỗ trợ chuyên môn.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Hội chứng kiệt sức học đường (Burnout) & Giải mã hormone Cortisol",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Áp lực thi cử, kỳ vọng 'con nhà người ta' và lịch học thêm dày đặc đang đẩy nhiều học sinh vào trạng thái kiệt quệ thần kinh. Bài học giải mã cơ chế khoa học của Cortisol và hướng dẫn cách cân bằng học tập bền vững.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Hội chứng kiệt sức học đường (Burnout) & Giải mã hormone Cortisol",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Áp lực học tập và kỳ vọng của gia đình kéo dài có thể gây ra phản ứng nào ở não bộ?",
+            "explanation": "Gia tăng nồng độ hormone căng thẳng Cortisol kéo dài, làm teo hồi hải mã và suy giảm trí nhớ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm não thông minh hơn gấp 10 lần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tăng tiết hormone Cortisol liên tục gây kiệt sức, suy giảm trí nhớ và rối loạn lo âu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không có phản ứng gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp ngủ ngon hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hội chứng 'Burnout' (Kiệt quệ tinh thần) có biểu hiện đặc trưng nào?",
+            "explanation": "Mệt mỏi mãn tính, mất hết động lực, cảm giác trống rỗng và hiệu suất học tập giảm sút.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cảm thấy cực kỳ hào hứng học tập",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mệt mỏi triền miên, mất động lực, cảm thấy bất lực và giảm sút kết quả học tập",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tăng cân nhanh chóng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thích đi du lịch",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi cảm thấy áp lực điểm số quá nặng nề từ cha mẹ, cách đối thoại nào là khôn ngoan?",
+            "explanation": "Chia sẻ chân thành về giới hạn sức khỏe của bản thân và cùng cha mẹ lập mục tiêu thực tế.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tuyệt thực để phản đối",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chủ động ngồi lại chia sẻ về cảm xúc kiệt sức và đề xuất điều chỉnh mục tiêu phù hợp sức khỏe",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bỏ nhà đi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đập vỡ sách vở",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tập thể dục nhịp điệu (chạy bộ, bơi lội) 30 phút mỗi ngày giúp giải phóng chất gì giúp tinh thần sảng khoái?",
+            "explanation": "Endorphin và Serotonin — hai hormone hạnh phúc tự nhiên của não bộ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Adrenaline độc hại",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Endorphin và Serotonin giúp xoa dịu căng thẳng và cải thiện tâm trạng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Axit uric",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Melanin",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thế nào là một lịch sinh hoạt khoa học bảo vệ não bộ tuổi dậy thì?",
+            "explanation": "Cân đối giữa học tập, vận động thể chất và đảm bảo ngủ đủ 7-8 tiếng mỗi đêm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Học 18 tiếng mỗi ngày chỉ ngủ 2 tiếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Học tập tập trung, có giờ nghỉ ngơi vận động và ngủ đủ 7-8 tiếng để não bộ phục hồi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chơi game thâu đêm rồi ngủ bù trong giờ học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ chơi không học",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Nhận diện Trầm cảm học đường & Ngăn chặn hành vi tự hại (Self-harm)",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Trầm cảm không phải là 'sự yếu đuối' hay 'làm màu', mà là một bệnh lý thần kinh cần được chăm sóc y tế. Bài học trang bị kỹ năng nhận diện tín hiệu cảnh báo đỏ và quy trình hỗ trợ người có ý định tự hại.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Nhận diện Trầm cảm học đường & Ngăn chặn hành vi tự hại (Self-harm)",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Sự khác biệt cốt lõi giữa 'Nỗi buồn thông thường' và 'Bệnh Trầm cảm' (Depression) là gì?",
+            "explanation": "Buồn thông thường qua nhanh theo sự kiện; trầm cảm kéo dài trên 2 tuần kèm mất hứng thú và ý nghĩ tiêu cực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giống hệt nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Buồn là cảm xúc tạm thời; Trầm cảm là rối loạn y khoa kéo dài trên 2 tuần kèm mất động lực sống",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trầm cảm chỉ là do lười biếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Buồn thì không bao giờ khóc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Dấu hiệu cảnh báo nguy hiểm của chứng Trầm cảm học đường bao gồm điều gì?",
+            "explanation": "Mất ngủ kéo dài, tự cô lập, chán ăn, cảm giác tuyệt vọng và có hành vi tự hại (Self-harm).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thích đọc sách khoa học",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mất ngủ, chán ăn, tự cô lập, cảm giác vô giá trị và xuất hiện ý nghĩ tự làm tổn thương bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thích chơi thể thao",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Uống nhiều nước",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi tự hại (Self-harm, rạch tay) xuất phát từ nguyên nhân tâm lý nào?",
+            "explanation": "Là tiếng kêu cứu tuyệt vọng khi cảm xúc đau đớn tâm lý quá tải, dùng nỗi đau thể xác để giải tỏa bế tắc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do muốn thể hiện phong cách sành điệu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do quá tải đau đớn tinh thần không giải tỏa được, là tín hiệu cảnh báo cần can thiệp y tế khẩn cấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do bắt chước phim ảnh cho vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do trời quá nóng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi phát hiện bạn mình có vết rạch tay hoặc tâm sự muốn kết thúc cuộc sống, bạn cần làm gì NGAY LẬP TỨC?",
+            "explanation": "Lắng nghe không phán xét, không hứa giữ bí mật nguy hiểm và báo ngay cho thầy cô/cha mẹ bạn để can thiệp y tế.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hứa sẽ giữ bí mật tuyệt đối không nói cho ai",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ở bên cạnh lắng nghe, trấn an và lập tức báo cho người lớn đáng tin cậy/chuyên gia tâm lý để cứu bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trêu chọc bạn là kẻ điên rồ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chụp ảnh vết thương đăng lên mạng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Đường dây nóng tham vấn tâm lý học đường và bảo vệ sự sống tại Việt Nam là gì?",
+            "explanation": "Tổng đài 111 hoặc Tổng đài Ngày Mai (hỗ trợ người trầm cảm).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tổng đài 111 và các tổ chức tham vấn tâm lý chuyên nghiệp (như Đường dây Ngày Mai)",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tổng đài dự báo thời tiết",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tổng đài taxi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tổng đài tra cứu danh bạ",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Chế ngự Cơn hoảng loạn (Panic Attack) & Kỹ thuật Chánh niệm (Mindfulness)",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Hướng dẫn thực hành các liệu pháp tâm lý được kiểm chứng khoa học: Kỹ thuật thở 4-7-8, phương pháp nối đất 5 giác quan (Grounding) và giải tỏa lo âu trước phòng thi.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Chế ngự Cơn hoảng loạn (Panic Attack) & Kỹ thuật Chánh niệm (Mindfulness)",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Rối loạn lo âu lan tỏa (GAD) có triệu chứng thể chất điển hình nào?",
+            "explanation": "Tim đập nhanh, hồi hộp, vã mồ hôi tay, căng cứng cơ bắp và khó thở dù không có nguy hiểm thực tế.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Răng mọc nhanh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hồi hộp, tim đập thình thịch, vã mồ hôi, nghẹn thở và luôn lo sợ điều tồi tệ sắp xảy ra",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tóc đổi màu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chân dài ra",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Kỹ thuật thở 4-7-8 giúp xoa dịu cơn hoảng loạn (Panic Attack) như thế nào?",
+            "explanation": "Hít vào 4 giây, giữ hơi 7 giây, thở ra từ từ trong 8 giây giúp kích hoạt hệ thần kinh phó giao cảm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thở nhanh nhất có thể",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kích hoạt hệ thần kinh phó giao cảm (Parasympathetic), làm chậm nhịp tim và ổn định huyết áp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm phổi to gấp đôi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gây chóng mặt ngất xỉu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Phương pháp 'Grounding 5-4-3-2-1' trong giảm lo âu giúp kéo tâm trí về hiện tại bằng cách nào?",
+            "explanation": "Nhìn 5 vật, sờ 4 vật, nghe 3 âm thanh, ngửi 2 mùi, nếm 1 vị giác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đếm từ 5 lùi về 1 rồi nhảy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kích hoạt 5 giác quan kết nối với môi trường xung quanh, cắt đứt vòng xoáy suy nghĩ tiêu cực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống 5 cốc nước liên tục",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chạy 5 vòng sân trường",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tập viết nhật ký giải tỏa cảm xúc (Brain Dump) mang lại lợi ích gì?",
+            "explanation": "Chuyển hóa những suy nghĩ hỗn độn trong đầu ra trang giấy giúp não bộ giải phóng tải trọng nhận thức.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm tốn mực bút",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giải phóng áp lực tinh thần, nhìn nhận vấn đề khách quan và giảm căng thẳng rõ rệt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp chữ viết đẹp hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có tác dụng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi cơn hoảng sợ ập đến trước phòng thi, bạn nên tự nhủ câu nói trấn an nào?",
+            "explanation": "'Mình đang an toàn, cảm xúc này chỉ là tạm thời và sẽ qua đi trong vài phút'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Mình chết chắc rồi, mình là kẻ thất bại'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Mình đang an toàn, cơ thể mình chỉ đang phản ứng với căng thẳng, mình sẽ bình tĩnh vượt qua'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Thôi bỏ thi đi về'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Chắc chắn mình sẽ bị điểm 0'",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Giấc ngủ, Dinh dưỡng & Trục Não - Ruột: Nền tảng của tinh thần thép",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khoa học chứng minh 90% hormone hạnh phúc Serotonin được sinh ra từ đường ruột. Bài học hướng dẫn xây dựng nhịp sinh học giấc ngủ vàng và chế độ ăn chống stress cho mùa thi.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Giấc ngủ, Dinh dưỡng & Trục Não - Ruột: Nền tảng của tinh thần thép",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thiếu ngủ mãn tính (ngủ dưới 6 tiếng mỗi ngày) tàn phá não bộ học sinh như thế nào?",
+            "explanation": "Làm giảm 40% khả năng ghi nhớ thông tin mới và tăng gấp 3 lần nguy cơ trầm cảm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp não bộ hoạt động bền bỉ hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm suy giảm nghiêm trọng trí nhớ, mất tập trung và tăng nguy cơ rối loạn cảm xúc trầm cảm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp mắt sáng hơn trong bóng tối",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ảnh hưởng gì đến học sinh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Ánh sáng xanh từ màn hình điện thoại vào ban đêm ức chế quá trình sản xuất hormone nào?",
+            "explanation": "Melatonin — hormone điều hòa chu kỳ ngủ tự nhiên của cơ thể.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Adrenaline",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Melatonin (hormone chỉ huy giấc ngủ tự nhiên)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Insulin",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Estrogen",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Quy tắc '30 phút trước khi ngủ' để có giấc ngủ sâu là gì?",
+            "explanation": "Tắt toàn bộ thiết bị điện tử, đọc sách giấy hoặc nghe nhạc không lời thư giãn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chơi game bắn súng tốc độ cao",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngừng sử dụng điện thoại/máy tính trước 30 phút, giữ phòng ngủ tối và thoáng mát",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống 1 cốc cà phê đặc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tập gym nặng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Mối liên hệ giữa dinh dưỡng và tâm trạng (Trục Não - Ruột: Gut-Brain Axis) là gì?",
+            "explanation": "Hơn 90% Serotonin (hormone vui vẻ) được sản xuất tại đường ruột; ăn uống lành mạnh giúp tinh thần thư thái.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đường ruột không liên quan gì đến não",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đường ruột sản sinh phần lớn Serotonin; chế độ ăn đủ chất, nhiều rau xanh giúp tâm trạng ổn định",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần uống nước ngọt là não vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhịn ăn giúp não thông minh hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thực phẩm nào sau đây là 'kẻ thù' gây gia tăng cảm giác bồn chồn, lo âu ở thanh thiếu niên?",
+            "explanation": "Đồ uống tăng lực chứa hàm lượng caffeine và đường hóa học quá cao.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rau bina và quả bơ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nước tăng lực, cà phê đậm đặc và đồ ăn nhanh chứa nhiều chất béo chuyển hóa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sữa hạt nguyên chất",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nước lọc",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Phá bỏ định kiến: Khi nào cần gặp chuyên gia tâm lý & Mạng lưới trợ giúp",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Xóa bỏ rào cản mặc cảm khi đi khám tâm lý. Hướng dẫn cách tiếp cận phòng tư vấn học đường, tổng đài hỗ trợ khủng hoảng và xây dựng mạng lưới an toàn nâng đỡ cảm xúc.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Phá bỏ định kiến: Khi nào cần gặp chuyên gia tâm lý & Mạng lưới trợ giúp",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi nào bạn cần tìm đến sự trợ giúp của Chuyên gia Tâm lý hoặc Bác sĩ Tâm thần?",
+            "explanation": "Khi cảm xúc tiêu cực, mất ngủ, tuyệt vọng kéo dài trên 2 tuần ảnh hưởng nghiêm trọng đến sinh hoạt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ khi bị điên loạn mất trí hoàn toàn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khi cảm thấy lo âu, buồn bã kéo dài trên 2 tuần, mất ngủ và không thể tự xoay xở một mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không bao giờ cần, tự khỏi là được",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ cần đi bói toán",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Gặp chuyên gia tâm lý học đường có phải là điều đáng xấu hổ không?",
+            "explanation": "Hoàn toàn KHÔNG; đó là hành động dũng cảm, thông minh và văn minh để chăm sóc sức khỏe.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rất xấu hổ vì bị coi là người có vấn đề thần kinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hoàn toàn KHÔNG; đó là hành vi văn minh, thông minh và chủ động bảo vệ sức khỏe của mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ dành cho học sinh cá biệt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Sẽ bị lưu vào học bạ kỷ luật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nguyên tắc bảo mật thông tin trong tham vấn tâm lý học đường quy định điều gì?",
+            "explanation": "Mọi chia sẻ của học sinh đều được giữ bí mật tuyệt đối, trừ trường hợp có nguy cơ đe dọa tính mạng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chuyên gia sẽ kể cho cả trường nghe",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mọi thông tin đều được bảo mật tuyệt đối, chỉ thông báo khẩn cấp khi có nguy cơ hại mình hoặc người khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt buộc phải công khai trên loa trường",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có nguyên tắc bảo mật nào",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thái độ đúng đắn của một người bạn khi lắng nghe bạn mình tâm sự về khủng hoảng tinh thần là gì?",
+            "explanation": "Lắng nghe đồng cảm, không phán xét, không đưa ra lời khuyên sáo rỗng và khuyến khích bạn gặp chuyên gia.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bảo bạn: 'Mày sướng thế còn trầm cảm cái gì'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lắng nghe chân thành, công nhận nỗi đau của bạn và đồng hành cùng bạn tìm chuyên gia trợ giúp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tranh thủ kể khổ chuyện của mình để so bì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cười cợt bảo bạn làm quá lên",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Chăm sóc sức khỏe tâm thần (Mental Health) cần được xem trọng ngang hàng với điều gì?",
+            "explanation": "Sức khỏe thể chất (Physical Health).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sức khỏe thể chất",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Điểm số trên lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Số lượng quần áo mới",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lượt like trên mạng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Quản trị Căng thẳng & Chăm sóc Tinh thần",
+    "description": "10 câu hỏi tổng hợp kiểm tra khả năng phục hồi tâm lý và ứng phó với khủng hoảng cuộc sống.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Hormone nào sau đây được gọi là hormone căng thẳng chính của cơ thể?",
+        "explanation": "Cortisol",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cortisol",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "Insulin",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "Melatonin",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Thyroxin",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Một đợt trầm cảm lâm sàng cần đáp ứng tiêu chuẩn thời gian tối thiểu là bao lâu?",
+        "explanation": "Kéo dài liên tục từ 2 tuần trở lên.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "2 tiếng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Kéo dài liên tục từ 2 tuần trở lên",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "1 ngày",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "10 phút",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Kỹ thuật thở 4-7-8 bao gồm các bước nào?",
+        "explanation": "Hít 4 giây, nín thở 7 giây, thở ra 8 giây.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hít 4 giây, nín thở 7 giây, thở ra từ từ trong 8 giây",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "Thở gấp trong 4 phút",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "Nín thở 40 giây",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ thở bằng miệng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Phần lớn hormone hạnh phúc Serotonin của cơ thể được tổng hợp ở đâu?",
+        "explanation": "Đường ruột (hệ vi sinh vật đường tiêu hóa).",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Móng chân",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Đường ruột (khoảng 90%)",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Xương bánh chè",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tóc",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Hành vi tự hại (Self-harm) phản ánh tình trạng tâm lý nào?",
+        "explanation": "Cảm xúc đau khổ quá tải, bế tắc tột cùng cần sự hỗ trợ y tế chuyên nghiệp khẩn cấp.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Muốn khoe khoang",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nỗi đau tinh thần bị quá tải, là tiếng kêu cứu cần được can thiệp y tế và tâm lý",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm đẹp cho da",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có ý nghĩa gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Ánh sáng xanh từ màn hình điện thoại gây hại trực tiếp đến quá trình nào?",
+        "explanation": "Ức chế tiết hormone Melatonin làm mất ngủ và phá vỡ nhịp sinh học.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm hỏng thính giác",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ức chế tiết Melatonin làm xáo trộn giấc ngủ sinh học",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm gãy xương",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Làm sâu răng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Khi bạn thân nói có ý định tự tử, hành động nào là SAI LẦM nghiêm trọng nhất?",
+        "explanation": "Hứa sẽ giữ bí mật tuyệt đối và không nói cho bất kỳ ai biết.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Báo ngay cho chuyên gia hoặc cha mẹ bạn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hứa sẽ giữ bí mật tuyệt đối và âm thầm để bạn tự giải quyết",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ở bên cạnh an ủi bạn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Lắng nghe bạn giãi bày",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Tập thể dục 30 phút mỗi ngày giúp não bộ sản sinh chất nào giúp giảm đau và tạo cảm giác lạc quan?",
+        "explanation": "Endorphin",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Endorphin",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chất béo",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "Caffeine",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nicotine",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Phương pháp nối đất 'Grounding 5-4-3-2-1' sử dụng yếu tố nào để cắt đứt cơn hoảng loạn?",
+        "explanation": "5 giác quan tương tác với thực tại xung quanh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "5 bài toán đại số",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "5 giác quan (thị giác, xúc giác, thính giác, khứu giác, vị giác)",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "5 cốc trà sữa",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "5 bộ phim kinh dị",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Chăm sóc sức khỏe tâm thần lành mạnh là biểu hiện của điều gì?",
+        "explanation": "Trí tuệ, sự dũng cảm và trách nhiệm cao nhất với cuộc đời chính mình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Sự yếu đuối bất tài",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bản lĩnh, trí tuệ và sự tự yêu thương bản thân một cách khoa học",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sự rảnh rỗi không có việc gì làm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ dành cho người giàu",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

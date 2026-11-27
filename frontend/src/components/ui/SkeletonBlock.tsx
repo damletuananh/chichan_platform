@@ -10,7 +10,7 @@ interface SkeletonBlockProps {
 
 const radiusMap: Record<NonNullable<SkeletonBlockProps["rounded"]>, string> = {
   none: "rounded-none",
-  sm: "rounded-sm",
+  sm: "rounded-none",
   md: "rounded-none", // enforce sharp corners per design tokens
   full: "rounded-none", // enforce sharp corners
   xl: "rounded-none",
