@@ -1,0 +1,1339 @@
+{
+  "title": "Tự Vệ Số — Nhận Diện & Đánh Bại Cạm Bẫy Trực Tuyến",
+  "slug": "tu-ve-so-nhan-dien-va-danh-bai-cam-bay-truc-tuyen",
+  "short_description": "Trang bị lá chắn số: vạch trần bẫy dụ dỗ game online, đối phó tống tiền ảnh nóng Sextortion, hóa giải hiểm họa Deepfake AI và quy trình cứu hộ khẩn cấp 111.",
+  "description": "**Đối tượng:** Học sinh vị thành niên (11 - 18 tuổi).\n\nKhông gian mạng mang lại nhiều cơ hội nhưng cũng ẩn chứa vô vàn cạm bẫy tinh vi. Khóa học được thiết kế dựa trên các case study nhức nhối nhất hiện nay tại Việt Nam: từ chiêu trò tặng quà game gạ video call nhạy cảm, bẫy tống tiền bằng ảnh nóng Sextortion, công nghệ AI lột đồ giả mạo, cho đến bạo lực mạng Doxxing. Học sinh sẽ nắm vững bản đồ cứu hộ 5 bước, công cụ Take It Down và vũ khí pháp luật vững chắc để tự tin bảo vệ bản thân trên thế giới số.",
+  "learning_objectives": "- Vạch trần quy trình 5 bước dụ dỗ trẻ em trên mạng (Online Grooming) qua game và mạng xã hội.\n- Nắm vững nguyên tắc sinh tử: 'Tuyệt đối không chuyển tiền' khi bị tống tiền Sextortion.\n- Hiểu rõ bản chất công nghệ Deepfake AI cắt ghép hình ảnh và cách chứng minh sự trong sạch.\n- Thành thạo quy trình 5 bước cứu hộ khẩn cấp, sử dụng công cụ Take It Down và Tổng đài Quốc gia 111.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Kẻ lạ ẩn danh & Chiêu trò 'Làm quen — Tặng quà game — Gạ video call'",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=CJcg_q_wI_s",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Bẫy Tặng Robux & Skin Súng Của Khang (13 tuổi)\nĐang chơi Roblox và Free Fire, Khang được một tài khoản mang avatar hotboy kết bạn. Người này liên tục nạp Robux, tặng skin súng đắt tiền cho Khang và tâm sự hàng đêm như anh em ruột thịt. Sau 1 tháng, người này rủ Khang gọi video call trên Zalo và dụ Khang: 'Em cởi áo cho anh xem cơ bắp để anh chuyển khoản 500k mua đồ tiếp nhé!'. Khang ngây thơ làm theo và ngay lập tức bị quay màn hình lại...\n\n### 1. Kịch bản dụ dỗ trẻ em trên mạng (Online Grooming)\nKẻ xấu trên mạng không bao giờ xuất hiện với bộ mặt độc ác ngay từ đầu. Chúng thường sử dụng quy trình 'nuôi con mồi' bài bản:\n1. **Tiếp cận sở thích:** Làm quen qua game online, nhóm thần tượng Kpop, anime, cosplay.\n2. **Tạo lòng tin & Tặng quà:** Nạp thẻ game, mua trà sữa, tặng quà đắt tiền, tỏ ra thấu hiểu mọi nỗi niềm gia đình.\n3. **Thăm dò thông tin riêng tư:** Hỏi tên trường lớp, địa chỉ nhà, số điện thoại, thời gian cha mẹ vắng nhà.\n4. **Cô lập nạn nhân:** Dặn 'Đây là bí mật riêng của hai anh em mình, đừng nói với bố mẹ nhé'.\n5. **Gợi mở tình dục & Tống tiền:** Dụ dỗ chat nhạy cảm, gọi video cởi đồ rồi quay lén màn hình.\n\n### 2. Nguyên tắc vàng: Không có bữa trưa nào miễn phí!\n- Người lạ trên mạng sẵn sàng chi tiền, nạp game cho bạn không vì lòng tốt mà vì họ đang nhắm tới cơ thể và sự kiểm soát của bạn.\n- Tuyệt đối không bật camera cởi đồ, không thực hiện các thử thách nhạy cảm trước màn hình máy tính hay điện thoại.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Nhận diện thủ đoạn dụ dỗ trong game online",
+        "description": "5 câu hỏi tình huống cảnh giác trước bẫy tặng quà của kẻ lạ mặt.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Kẻ xấu trên mạng thường tiếp cận học sinh qua các kênh nào phổ biến nhất hiện nay?",
+            "explanation": "Game online (Roblox, Free Fire, Liên Quân), các hội nhóm mê truyện tranh, cosplay và mạng xã hội.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gửi thư tay qua đường bưu điện",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Game online, hội nhóm sở thích, nhắn tin làm quen qua mạng xã hội",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đến gặp trực tiếp tại đồn công an",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Qua sóng phát thanh đài tiếng nói",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi người lạ trên mạng liên tục nạp thẻ game, tặng quà đắt tiền và bảo 'giữ bí mật với bố mẹ' cảnh báo điều gì?",
+            "explanation": "Dấu hiệu điển hình của bẫy 'nuôi con mồi' (online grooming) nhằm thao túng và xâm hại tình dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Một người anh trai tốt bụng hào phóng hiếm có",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dấu hiệu bẫy dụ dỗ nguy hiểm nhằm thao túng và kiểm soát nạn nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chương trình khuyến mãi ngẫu nhiên của nhà phát hành game",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "May mắn trúng số",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi người quen trên mạng rủ bạn gọi video call và đề nghị cởi đồ để xem cơ thể, bạn phải làm gì?",
+            "explanation": "Từ chối dứt khoát, ngắt cuộc gọi ngay, chụp ảnh màn hình làm chứng cứ, chặn tài khoản và báo cho cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm theo vì nghĩ chỉ có hai người xem, không ai biết",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dập máy ngay lập tức, chặn tài khoản và báo ngay với cha mẹ hoặc người lớn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đòi đối phương chuyển tiền trước rồi mới cởi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Rủ thêm bạn bè cùng gọi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thông tin nào sau đây TUYỆT ĐỐI KHÔNG BAO GIỜ được tiết lộ cho bạn bè quen qua game online?",
+            "explanation": "Địa chỉ nhà, tên trường lớp đang học, số CCCD/điện thoại và thời gian ở nhà một mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tên nhân vật trong game",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Địa chỉ nhà riêng, trường lớp cụ thể, số điện thoại và thời gian ở nhà một mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Màu sắc bạn yêu thích",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhân vật anime bạn hâm mộ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khái niệm 'Online Grooming' được hiểu là gì?",
+            "explanation": "Là quá trình kẻ xấu kết bạn, lấy lòng tin của trẻ em trên mạng nhằm mục đích lạm dụng hoặc bóc lột tình dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Một trò chơi chăm sóc thú cưng ảo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi kẻ xấu từng bước tiếp cận, xây dựng lòng tin để xâm hại tình dục trẻ em",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phương pháp học tiếng Anh trực tuyến",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thiết kế đồ họa mạng xã hội",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Sextortion: Bẫy tống tiền bằng ảnh nóng và tâm lý hoảng loạn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=F0Z8d5c8x0k",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Cơn Ác Mộng Của Phong (15 tuổi)\nSau khi bị kẻ xấu quay lén đoạn video nhạy cảm, chỉ 30 giây sau, kẻ tống tiền gửi lại video kèm danh sách chụp toàn bộ bạn bè trên Facebook và danh bạ phụ huynh của Phong. Kẻ xấu đe dọa: 'Mày có 30 phút để chuyển 2 triệu qua ví điện tử, nếu không video này sẽ được gửi vào tin nhắn của mẹ mày và nhóm chat lớp 10A1!'. Phong run rẩy, rút sạch tiền tiết kiệm chuyển đi. Nhưng chỉ 1 tiếng sau, kẻ xấu lại đòi thêm 5 triệu nữa...\n\n### 1. Bản chất của tội phạm tống tiền Sextortion\n- Kẻ tống tiền hoạt động chuyên nghiệp theo đường dây hoặc cá nhân có kịch bản bài bản.\n- **Sự thật số 1:** Kẻ tống tiền KHÔNG BAO GIỜ dừng lại sau khi bạn chuyển tiền! Mỗi lần bạn chuyển tiền là bạn tự chứng minh rằng 'mình rất sợ hãi và có tiền để vắt kiệt'.\n- **Sự thật số 2:** Nỗi sợ hãi và sự xấu hổ của bạn chính là thứ vũ khí duy nhất của kẻ tống tiền. Khi bạn dám đối diện và lên tiếng báo cơ quan chức năng, kẻ tống tiền sẽ lập tức mất quyền kiểm soát!\n\n### 2. Quy tắc sinh tử: TUYỆT ĐỐI KHÔNG CHUYỂN TIỀN!\n- Chuyển tiền không giải quyết được vấn đề mà chỉ làm kẻ xấu tống tiền nhiều hơn.\n- Không van xin kẻ xấu vì chúng không có lòng trắc ẩn, mọi lời van xin đều vô ích.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Nhận diện bản chất tội phạm Sextortion",
+        "description": "5 câu hỏi giúp nhận diện quy luật hoạt động của tội phạm tống tiền ảnh nóng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi bị kẻ xấu tống tiền bằng hình ảnh/video nhạy cảm, việc chuyển tiền theo yêu cầu có giúp chúng xóa ảnh không?",
+            "explanation": "Tuyệt đối không, kẻ tống tiền sẽ tiếp tục đòi thêm số tiền lớn hơn nhiều lần vì thấy nạn nhân dễ bị tống tiền.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, chúng rất giữ chữ tín và sẽ xóa ảnh ngay",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không bao giờ, chuyển tiền chỉ khiến chúng tiếp tục tống tiền với số tiền lớn hơn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần chuyển một nửa số tiền là an toàn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tùy thuộc vào việc bạn có năn nỉ hay không",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Vũ khí mạnh nhất mà kẻ tống tiền Sextortion sử dụng để thao túng bạn là gì?",
+            "explanation": "Nỗi sợ hãi bị lộ, sự xấu hổ và tâm lý giấu giếm không dám kể với cha mẹ của nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Súng đạn và vũ khí quân sự",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nỗi sợ hãi, xấu hổ và sự cô độc của nạn nhân khi không dám nói với ai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khả năng hack được hệ thống điện lưới quốc gia",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lời dọa nguyền rủa tâm linh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Thời điểm kẻ xấu đưa ra thời hạn gấp rút (ví dụ: 'chỉ có 15 phút để chuyển tiền') nhằm mục đích gì?",
+            "explanation": "Tạo áp lực tâm lý cực hạn khiến nạn nhân hoảng loạn không kịp suy nghĩ sáng suốt hay hỏi ý kiến người lớn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì kẻ xấu bận đi ngủ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tạo sự hoảng loạn tâm lý để nạn nhân không kịp tỉnh táo cầu cứu người lớn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quy định của ngân hàng chuyển khoản",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để kịp giờ chiếu phim",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hành vi van xin, khóc lóc và thề thốt với kẻ tống tiền có mang lại tác dụng gì không?",
+            "explanation": "Hoàn toàn vô ích, thậm chí còn khiến kẻ xấu thấy bạn quá yếu đuối để tiếp tục ép bức.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Khiến kẻ xấu mủi lòng thương cảm và xóa ảnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vô ích, chỉ bộc lộ sự hoảng sợ khiến kẻ tống tiền càng hung hăng hơn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp giảm giá số tiền tống tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khiến kẻ xấu tự động xin lỗi bạn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Ai là người có lỗi thực sự trong một vụ việc tống tiền Sextortion?",
+            "explanation": "Kẻ tống tiền là kẻ phạm tội 100%, nạn nhân bị thao túng không phải là người có lỗi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hoàn toàn do nạn nhân dại dột đáng đời",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kẻ tống tiền là tội phạm chịu trách nhiệm hình sự, nạn nhân là người bị lừa gạt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do nhà sản xuất điện thoại thông minh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do giáo viên chủ nhiệm không canh chừng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Hiểm họa Deepfake AI & Công nghệ cắt ghép ảnh nhạy cảm lừa đảo",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### Trào Lưu Nguy Hiểm Hiện Nay: Ứng Dụng 'Nudify' AI\nGần đây tại Việt Nam và trên thế giới rộ lên các bot Telegram hoặc ứng dụng AI cho phép tải ảnh đời thường (mặc áo dài, đồng phục, đồ bơi) của bất kỳ ai lên rồi tự động 'lột đồ', tạo ra bức ảnh khỏa thân giả mạo giống thật đến 90%. Kẻ xấu dùng chính những bức ảnh AI giả mạo này để tống tiền hoặc bêu riếu học sinh...\n\n### 1. Nhận diện hình ảnh Deepfake AI giả mạo\n- Quan sát kỹ các vùng tiếp giáp: Cổ, cằm, ngón tay (thường bị méo mó, thừa thiếu ngón), ánh sáng trên cơ thể không ăn khớp với hướng sáng của khuôn mặt.\n- Nước da trên cơ thể AI thường mịn bất thường hoặc nhòe ở vùng biên.\n\n### 2. Cách đối phó khi bị kẻ xấu đe dọa bằng ảnh ghép AI:\n1. **Không hoảng sợ:** Khẳng định ngay với bản thân và người thân: 'Đây là ảnh cắt ghép do công nghệ AI tạo ra, tôi chưa từng chụp bức ảnh này!'.\n2. **Thu thập bằng chứng:** Tìm lại bức ảnh gốc trên trang cá nhân của bạn (ảnh áo dài, ảnh du lịch) để làm bằng chứng đối chứng rõ ràng rằng khuôn mặt đã bị cắt ghép vào cơ thể người khác.\n3. **Báo cáo tài khoản và báo công an:** Hành vi tạo và phát tán văn hóa phẩm đồi trụy, vu khống làm nhục người khác bằng AI là tội phạm nghiêm trọng theo Bộ luật Hình sự Việt Nam.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Phòng chống hiểm họa Deepfake AI",
+        "description": "5 câu hỏi nhận diện và xử lý khi bị đe dọa bằng hình ảnh cắt ghép AI.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Công nghệ Deepfake AI trong các vụ việc tống tiền học sinh thường hoạt động như thế nào?",
+            "explanation": "Lấy ảnh chân dung đời thường ghép mặt vào cơ thể nhạy cảm của người khác để tạo ảnh giả tống tiền.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Quay lén từ vệ tinh không gian",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sử dụng AI cắt ghép khuôn mặt từ ảnh đời thường vào cơ thể khỏa thân của người khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tự động vẽ tranh biếm họa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tạo ra giọng nói robot",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Cách tốt nhất để chứng minh một bức ảnh nhạy cảm là do AI giả mạo cắt ghép là gì?",
+            "explanation": "Tìm lại bức ảnh gốc khuôn mặt bạn đã đăng trên mạng xã hội để đối chiếu từng góc độ, kiểu tóc, biểu cảm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thề thốt danh dự trước lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tìm lại bức ảnh chân dung gốc trên trang cá nhân để đối chứng sự cắt ghép khuôn mặt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Xóa toàn bộ tài khoản mạng xã hội để trốn tránh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chấp nhận nhận tội thay",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu khiếm khuyết thị giác thường thấy ở hình ảnh do AI cắt ghép giả mạo là gì?",
+            "explanation": "Các chi tiết ngón tay dị dạng, đường viền cổ/tóc nhòe mờ, ánh sáng khuôn mặt lệch với thân hình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đường nét hoàn hảo 100% không tì vết",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngón tay méo mó, vùng viền cổ bị nhòe và hướng ánh sáng không khớp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bức ảnh có màu đen trắng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Kích thước tệp tin quá nhỏ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hành vi sử dụng AI cắt ghép ảnh khỏa thân của người khác rồi đăng lên mạng bị xử lý thế nào theo pháp luật Việt Nam?",
+            "explanation": "Phạm tội Làm nhục người khác hoặc Truyền bá văn hóa phẩm đồi trụy theo Bộ luật Hình sự.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không bị xử lý vì coi là tác phẩm nghệ thuật tự do",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bị truy cứu trách nhiệm hình sự về tội Làm nhục người khác hoặc Tống tiền",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ bị phạt cảnh cáo nhắc nhở nhẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được coi là kỹ năng IT giỏi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Để giảm thiểu nguy cơ bị kẻ xấu lấy cắp hình ảnh làm Deepfake, biện pháp phòng ngừa trên mạng xã hội là gì?",
+            "explanation": "Đặt tài khoản ở chế độ bạn bè, hạn chế công khai ảnh cá nhân rõ nét góc thẳng và cẩn trọng khi kết bạn lạ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đăng hàng trăm bức ảnh selfie độ nét cao ở chế độ công khai",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khóa bảo vệ trang cá nhân, chỉ chia sẻ ảnh với bạn bè thân quen ngoài đời",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đồng ý kết bạn với mọi tài khoản lạ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gửi ảnh cho người lạ để nhờ kiểm tra",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Doxxing & Bạo lực mạng: Khi bạn là nạn nhân 'bóc phốt'",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=kYI4x40sOqw",
+      "duration_minutes": 15,
+      "content_body": "### Hiện Tượng 'Doxxing' & Lập Group Anti\nDoxxing là hành vi ác ý tìm kiếm và công khai toàn bộ thông tin cá nhân của một người (tên thật, số điện thoại, link Facebook người thân, địa chỉ nhà, trường lớp) lên mạng để kích động đám đông tấn công, quấy rối và bạo lực tinh thần.\n\n### Bạn cần làm gì nếu bất ngờ trở thành nạn nhân bạo lực mạng?\n1. **KHÔNG tranh cãi, KHÔNG thanh minh tay đôi với đám đông giấu mặt:** Thuật toán mạng xã hội càng kích hoạt tương tác khi có tranh cãi. Thanh minh trong lúc đám đông đang phẫn nộ chỉ làm bạn kiệt quệ tinh thần.\n2. **Khóa bảo vệ tài khoản ngay lập tức:** Tạm khóa Facebook, chuyển tài khoản sang chế độ riêng tư, tắt tính năng nhận tin nhắn từ người lạ.\n3. **Chụp màn hình đầy đủ bằng chứng:** Chụp toàn bộ link bài viết, bình luận xúc phạm, tin nhắn đe dọa (kèm ngày giờ và link trang cá nhân kẻ quấy rối).\n4. **Tìm điểm tựa:** Nói ngay với cha mẹ, thầy cô. Gia đình sẽ cùng bạn làm việc với nhà trường hoặc trình báo cơ quan công an để yêu cầu gỡ bài và xử lý đối tượng phát tán.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Kỹ năng ứng phó bạo lực mạng & Doxxing",
+        "description": "5 câu hỏi tình huống bảo vệ sức khỏe tâm thần trước bạo lực mạng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Doxxing' trên không gian mạng có nghĩa là gì?",
+            "explanation": "Là hành vi thu thập và công khai thông tin cá nhân của người khác nhằm kích động quấy rối, tấn công mạng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Học trực tuyến trên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi ác ý công khai thông tin cá nhân của người khác để đám đông tấn công, đe dọa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chơi game giải đố",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Một công nghệ bảo mật máy tính",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi bị một bài đăng 'bóc phốt' vu khống và hàng trăm bình luận chửi bới, phản ứng SAI LẦM nhất là gì?",
+            "explanation": "Lên mạng đôi co cãi vã thâu đêm chỉ khiến bản thân suy sụp tâm lý và đẩy bài viết lan truyền nhanh hơn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tạm thời khóa trang cá nhân và chia sẻ với cha mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lên mạng tranh cãi, chửi bới tay đôi thâu đêm với đám đông nặc danh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chụp màn hình bằng chứng vi phạm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Báo cáo bài viết cho ban quản trị nền tảng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao việc chụp ảnh màn hình lưu giữ bằng chứng (kèm link và ngày giờ) lại cực kỳ quan trọng?",
+            "explanation": "Để làm căn cứ pháp lý trình báo cơ quan công an và nhà trường xử lý kẻ vi phạm khi chúng xóa bài tẩu tán.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để ngắm lại cho vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm tài liệu chứng cứ pháp lý gửi cơ quan chức năng và nhà trường can thiệp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để gửi cho bạn bè cùng lớp xem",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để làm kỷ niệm",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hành vi lập group chat nói xấu, cô lập và tẩy chay một bạn học sinh bị nhà trường xử lý theo quy định nào?",
+            "explanation": "Được xếp vào hành vi bạo lực học đường (cyberbullying) và bị xử lý kỷ luật nghiêm khắc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Được coi là hoạt động ngoại khóa tự do",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Là hành vi bạo lực học đường trên mạng xã hội, bị xử lý kỷ luật theo quy định Bộ GD&ĐT",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không vi phạm gì nếu không đánh nhau ngoài đời",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ là trò chơi tập thể vô hại",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Điều gì là quan trọng nhất để bảo vệ sức khỏe tâm thần của bạn khi gặp khủng hoảng bạo lực mạng?",
+            "explanation": "Tạm rời xa màn hình điện thoại, kết nối với đời thực và ở cạnh những người thân yêu tin tưởng bạn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đọc từng bình luận chửi bới để dằn vặt bản thân",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tạm ngắt kết nối mạng xã hội, ở cạnh gia đình và tìm kiếm hỗ trợ tâm lý chuyên môn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nghĩ đến việc tự hại bản thân",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhịn ăn uống trong phòng tối",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Dấu chân kỹ thuật số (Digital Footprint): Đã lên mạng là không biến mất",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=2XkSZ7g60gQ",
+      "duration_minutes": 15,
+      "content_body": "### Bạn Có Biết: Internet Không Bao Giờ Quên?\nMỗi bức ảnh bạn đăng, mỗi bình luận bạn gõ trên Threads hay TikTok, mỗi tin nhắn bạn gửi đi trên Messenger/Telegram đều để lại một 'dấu chân số' (Digital Footprint). Ngay cả khi bạn bấm nút 'Xóa bài' hoặc dùng chế độ 'Tin nhắn tự xóa sau 24h':\n- Người nhận đã có thể chụp ảnh màn hình trong vòng 1 giây.\n- Dữ liệu vẫn được lưu lại trên máy chủ của các nền tảng và bộ nhớ đệm (cache) của bên thứ ba.\n\n### Bộ Lọc 3 Câu Hỏi Trước Khi Bấm Nút 'ĐĂNG' Hay 'GỬI':\n1. **Câu 1:** 'Nếu bức ảnh / dòng trạng thái này xuất hiện trên màn hình máy chiếu trước mặt toàn trường và bố mẹ, mình có xấu hổ không?'\n2. **Câu 2:** '5 năm hay 10 năm nữa khi mình đi phỏng vấn xin học bổng / xin việc làm, bức ảnh này có làm mình mất cơ hội không?'\n3. **Câu 3:** 'Nội dung này có thể bị kẻ xấu lợi dụng để chống lại chính mình hay bạn bè không?'\n\nNếu câu trả lời là CÓ bất kỳ lo ngại nào -> HÃY DỪNG LẠI VÀ KHÔNG GỬI!",
+      "quiz": {
+        "title": "Củng cố Bài 5: Quản lý dấu chân kỹ thuật số",
+        "description": "5 câu hỏi rèn luyện tư duy trách nhiệm trên không gian số.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Dấu chân kỹ thuật số' (Digital Footprint) được hiểu là gì?",
+            "explanation": "Toàn bộ dữ liệu, dấu vết thông tin mà bạn để lại trên internet qua các hoạt động đăng bài, bình luận, chia sẻ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Kích cỡ đôi giày bạn mua online",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Toàn bộ dấu vết thông tin và nội dung bạn để lại trên mạng internet",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hình nền trên màn hình điện thoại",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tốc độ đường truyền cáp quang",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi bạn sử dụng tính năng 'Tin nhắn tự biến mất sau 24 giờ' trên các ứng dụng, thông tin có thực sự biến mất vĩnh viễn không?",
+            "explanation": "Không, người nhận hoàn toàn có thể chụp ảnh màn hình hoặc dùng thiết bị khác quay lại trước khi tin nhắn biến mất.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Biến mất vĩnh viễn không ai có thể lưu lại được",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không, người nhận vẫn có thể chụp màn hình hoặc dùng máy khác quay lại dễ dàng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Điện thoại của người nhận sẽ tự hủy",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ có vệ tinh mới xem lại được",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Trước khi bấm gửi một bức ảnh có phần riêng tư cho bạn bè, câu hỏi tự vấn quan trọng nhất là gì?",
+            "explanation": "Nếu bức ảnh này bị rò rỉ ra ngoài cho cha mẹ, thầy cô xem thì hậu quả sẽ như thế nào?",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Ảnh này có được nhiều like không?'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Nếu bức ảnh này bị người ngoài hoặc cả trường nhìn thấy, mình có hối hận không?'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Người nhận có dùng điện thoại xịn không?'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Gửi vào ban đêm hay ban ngày thì đẹp?'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nhà tuyển dụng hoặc hội đồng xét duyệt học bổng đại học ngày nay thường có thói quen nào trước khi nhận hồ sơ?",
+            "explanation": "Họ tra cứu dấu vết mạng xã hội (Digital Footprint) để đánh giá phẩm chất, đạo đức và lối sống của ứng viên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Xem tử vi ngày sinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tra cứu mạng xã hội để kiểm tra phát ngôn và hành vi ứng xử trên mạng của ứng viên",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hỏi thăm bạn bè chơi game cùng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ nhìn vào điểm số trên học bạ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Cách xây dựng một dấu chân số văn minh, tích cực là gì?",
+            "explanation": "Chia sẻ những điều hữu ích, tôn trọng người khác, không tham gia bạo lực mạng và bảo vệ quyền riêng tư.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thường xuyên dùng tài khoản phụ đi chửi dạo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chia sẻ thông tin tích cực, tôn trọng bản thân và mọi người trong từng phát ngôn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đăng thông tin đời tư của bạn bè lên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tung tin đồn giả để câu view",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 6,
+      "title": "Bài 6 — Bản đồ cứu hộ khẩn cấp: 5 bước hành động ngay khi bị tống tiền",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=7_hE4xPz_x0",
+      "duration_minutes": 15,
+      "content_body": "### Cẩm Nang Sinh Tồn 5 Bước Khi Rơi Vào Bẫy Sextortion:\nNếu bạn hoặc bạn bè lỡ rơi vào cái bẫy tống tiền ảnh nóng, hãy hít thở thật sâu và thực hiện CHÍNH XÁC 5 bước sau đây:\n\n1. **BƯỚC 1: DỪNG LẠI & TUYỆT ĐỐI KHÔNG CHUYỂN TIỀN**\n   - Không chuyển dù chỉ 10.000 đồng! Không van xin hay đôi co.\n2. **BƯỚC 2: CHỤP MÀN HÌNH LƯU TRỮ TOÀN BỘ CHỨNG CỨ**\n   - Chụp rõ tin nhắn tống tiền, số tài khoản ngân hàng kẻ xấu cung cấp, link trang cá nhân, ID tài khoản, ngày giờ nhắn tin. Lưu ảnh vào một thư mục bảo mật.\n3. **BƯỚC 3: NGẮT LIÊN LẠC & CHẶN TÀI KHOẢN (BLOCK)**\n   - Chặn tài khoản kẻ tống tiền trên mọi nền tảng. Chuyển trang cá nhân về chế độ bạn bè hoặc tạm khóa tài khoản.\n4. **BƯỚC 4: KÍCH HOẠT CÔNG CỤ PHÒNG NGỪA TOÀN CẦU 'TAKE IT DOWN'**\n   - Truy cập trang web chính thức `takeitdown.ncmec.org` (hỗ trợ tiếng Việt): Nền tảng này giúp tạo mã băm (hash) kỹ thuật số cho bức ảnh nhạy cảm dưới 18 tuổi để Facebook, Instagram, TikTok, OnlyFans tự động quét và chặn đứng việc tải lên mạng!\n5. **BƯỚC 5: NÓI NGAY VỚI NGƯỜI LỚN ĐÁNG TIN CẬY / GỌI 111**\n   - Cha mẹ, thầy cô là chiếc phao cứu sinh vững chắc nhất của bạn. Nếu ngại nói trực tiếp, hãy gọi **Tổng đài Quốc gia Bảo vệ Trẻ em 111** (miễn phí 24/7).",
+      "quiz": {
+        "title": "Củng cố Bài 6: Phản xạ cứu hộ khẩn cấp",
+        "description": "5 câu hỏi kiểm tra thứ tự các bước hành động khi bị tống tiền trên mạng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành động ĐẦU TIÊN và QUAN TRỌNG NHẤT khi kẻ xấu gửi ảnh nhạy cảm đe dọa đòi tiền bạn là gì?",
+            "explanation": "Bình tĩnh, tuyệt đối không chuyển tiền và không làm theo bất kỳ yêu sách nào của kẻ xấu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vay tiền nóng trên mạng để chuyển ngay",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giữ bình tĩnh, tuyệt đối KHÔNG CHUYỂN TIỀN và không đáp ứng thêm yêu cầu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Xóa sạch toàn bộ tin nhắn để không ai thấy",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chạy trốn khỏi nhà",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tại sao việc chụp ảnh màn hình đầy đủ chứng cứ tống tiền trước khi chặn kẻ xấu là bắt buộc?",
+            "explanation": "Để cơ quan công an có căn cứ truy vết số tài khoản ngân hàng, địa chỉ IP và xử lý kẻ phạm tội.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để tự nhắc nhở bản thân",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cung cấp bằng chứng pháp lý truy tìm tài khoản kẻ phạm tội cho cơ quan công an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để gửi cho cả lớp xem chung",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Để đăng lên mạng câu tương tác",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nền tảng công nghệ toàn cầu miễn phí nào giúp ngăn chặn phát tán hình ảnh nhạy cảm của người dưới 18 tuổi?",
+            "explanation": "Nền tảng Take It Down (takeitdown.ncmec.org) tạo mã hash chặn ảnh tải lên Facebook, Instagram, TikTok.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Google Translate",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Take It Down (takeitdown.ncmec.org)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Zalo Pay",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "ChatGPT",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Số điện thoại đường dây nóng miễn phí 24/7 của Tổng đài Quốc gia Bảo vệ Trẻ em tại Việt Nam là gì?",
+            "explanation": "Số 111 — Tổng đài Quốc gia Bảo vệ Trẻ em tiếp nhận thông tin và hỗ trợ khẩn cấp 24/7.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "113",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "111",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "115",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "114",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi con chia sẻ với cha mẹ về việc bị tống tiền ảnh nóng, phản ứng hỗ trợ đúng đắn nhất từ gia đình là gì?",
+            "explanation": "Ôm con, khẳng định con là nạn nhân và cùng con trình báo cơ quan công an giải quyết an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đánh mắng, sỉ nhục và đuổi con ra khỏi nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh bảo vệ tâm lý cho con, làm chỗ dựa vững chắc và liên hệ cơ quan công an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Âm thầm đi vay tiền chuyển cho kẻ tống tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt con nghỉ học vĩnh viễn",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 7,
+      "title": "Bài 7 — Vũ khí pháp luật: Điều 170 Bộ luật Hình sự & Điểm tựa Tổng đài 111",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=07mXv2XFfLg",
+      "duration_minutes": 15,
+      "content_body": "### Pháp Luật Luôn Bảo Vệ Bạn!\nNhiều học sinh rơi vào bế tắc vì nghĩ rằng mình sẽ bị công an bắt hoặc nhà trường đuổi học nếu vụ việc bị phát hiện. Đây là suy nghĩ hoàn toàn sai lầm do kẻ xấu nhồi nhét!\n\n### 1. Kẻ tống tiền phạm những tội danh nghiêm trọng nào?\nTheo Bộ luật Hình sự Việt Nam 2015 (sửa đổi 2017):\n- **Điều 170 — Tội cưỡng đoạt tài sản:** Đe dọa dùng vũ lực hoặc thủ đoạn uy hiếp tinh thần (như dọa tung ảnh nóng) để chiếm đoạt tài sản có khung hình phạt từ **1 đến 20 năm tù giam**.\n- **Điều 155 — Tội làm nhục người khác:** Xúc phạm nghiêm trọng nhân phẩm, danh dự của người khác có khung hình phạt đến 5 năm tù.\n- **Điều 326 — Tội truyền bá văn hóa phẩm đồi trụy:** Phát tán hình ảnh/video khiêu dâm có khung hình phạt lên đến 15 năm tù.\n\n### 2. Trẻ em và học sinh là đối tượng được bảo vệ đặc biệt\n- Theo Luật Trẻ em 2016, mọi hành vi bóc lột, xâm hại tình dục và bạo lực trên môi trường mạng đối với người dưới 16 tuổi đều bị xử lý với tình tiết tăng nặng kịch khung.\n- Học sinh là NẠN NHÂN, không phải là tội phạm. Khi bạn báo cơ quan công an, danh tính và thông tin cá nhân của bạn được bảo mật tuyệt đối theo quy định của pháp luật.",
+      "quiz": {
+        "title": "Củng cố Bài 7: Kiến thức pháp luật tự vệ số",
+        "description": "5 câu hỏi tìm hiểu các quy định pháp luật xử lý tội phạm tống tiền trên mạng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Theo Điều 170 Bộ luật Hình sự Việt Nam, hành vi đe dọa tung ảnh riêng tư để ép buộc chuyển tiền cấu thành tội danh gì?",
+            "explanation": "Cấu thành Tội Cưỡng đoạt tài sản với mức án nghiêm khắc từ 1 đến 20 năm tù.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tranh chấp dân sự thông thường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tội Cưỡng đoạt tài sản, mức án lên tới 20 năm tù giam",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hành vi trêu đùa quá trớn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vi phạm luật giao thông đường bộ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi nạn nhân dưới 16 tuổi trình báo cơ quan công an về việc bị đe dọa phát tán ảnh nhạy cảm, thông tin danh tính của nạn nhân được xử lý thế nào?",
+            "explanation": "Được cơ quan chức năng giữ bí mật tuyệt đối theo Luật Trẻ em nhằm bảo vệ danh dự và tâm lý nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bị công khai lên loa phát thanh của xã phường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Được bảo mật danh tính tuyệt đối theo quy định bảo vệ trẻ em",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bị đăng lên báo chí truyền thông",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bị thông báo cho toàn trường vào giờ chào cờ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tổng đài 111 có chức năng và quyền hạn gì trong việc bảo vệ trẻ em trên môi trường mạng?",
+            "explanation": "Tiếp nhận tố giác, tư vấn tâm lý, kết nối can thiệp khẩn cấp với công an và cơ quan bảo trợ trẻ em.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ tiếp nhận phản ánh về tiền điện nước",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tiếp nhận tố giác, hỗ trợ tâm lý và kích hoạt can thiệp pháp lý khẩn cấp 24/7",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bán hàng trực tuyến",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thu tiền phạt người gọi đến",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nạn nhân có bị cơ quan công an bắt giam khi đi trình báo việc bị lừa chụp ảnh nhạy cảm không?",
+            "explanation": "Tuyệt đối không, nạn nhân là người bị hại được pháp luật bảo vệ quyền lợi hợp pháp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, bị bắt giam cùng kẻ tống tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không, nạn nhân là người bị hại được pháp luật bảo vệ và hỗ trợ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bị phạt tù 3 năm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bị thu hồi vĩnh viễn quyền đi học",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thông điệp mạnh mẽ nhất giúp người trẻ vượt qua nỗi sợ hãi trước tội phạm mạng là gì?",
+            "explanation": "Kẻ tống tiền sống bằng sự im lặng của bạn; khi bạn dũng cảm lên tiếng báo cơ quan chức năng, bóng tối sẽ bị đẩy lùi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chấp nhận làm nô lệ cho kẻ tống tiền để sống yên ổn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kẻ tống tiền mạnh nhờ sự im lặng của bạn; dũng cảm lên tiếng là cách duy nhất bảo vệ tương lai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tự cách ly vĩnh viễn khỏi xã hội loài người",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tin tưởng vào lời hứa của kẻ tống tiền",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Bài Thi Tốt Nghiệp: Tự Vệ Số & Đánh Bại Cạm Bẫy Không Gian Mạng",
+    "description": "10 câu hỏi tình huống thực chiến về tự vệ trước kẻ lạ, tống tiền Sextortion và phòng chống bạo lực mạng.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Một người bạn quen qua mạng liên tục nạp kim cương trong game và đề nghị bạn mở camera cởi áo, phản ứng an toàn là gì?",
+        "explanation": "Từ chối dứt khoát, ngắt cuộc gọi ngay, chụp màn hình chứng cứ, chặn tài khoản và báo ngay với cha mẹ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm theo vì người này đã chi rất nhiều tiền cho mình",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lập tức dập máy, chụp lại bằng chứng, chặn tài khoản và báo cho người lớn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ cởi áo ngoài rồi lấy tiền tiếp",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bảo bạn bè vào xem cùng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Hành động nào sau đây là NGUY HIỂM NHẤT khi bạn bị kẻ xấu đe dọa tống tiền bằng ảnh nhạy cảm?",
+        "explanation": "Chuyển tiền theo yêu cầu chỉ khiến kẻ xấu tiếp tục đòi thêm số tiền lớn hơn nhiều lần.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chụp màn hình tin nhắn tống tiền",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chuyển tiền vào tài khoản kẻ xấu với hy vọng được tha",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Gọi đến Tổng đài 111 xin tư vấn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tâm sự thẳng thắn với cha mẹ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Khi phát hiện một bức ảnh nhạy cảm có khuôn mặt của bạn đang lan truyền trên mạng nhưng do AI cắt ghép, bạn nên làm gì?",
+        "explanation": "Bình tĩnh khẳng định đây là ảnh AI ghép, tìm ảnh gốc đối chứng và làm việc với công an, nhà trường.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Nhận lỗi và trốn tránh không đi học",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bình tĩnh, tìm ảnh chân dung gốc đối chiếu chứng minh là ảnh AI và báo công an can thiệp",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lên mạng chửi bới thách thức tất cả mọi người",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chuyển tiền cho người đăng bài để xin gỡ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Hành vi ác ý công khai số điện thoại, địa chỉ nhà và tên trường học của bạn lên mạng (Doxxing) nhằm mục đích gì?",
+        "explanation": "Kích động bạo lực mạng, quấy rối và khủng bố tinh thần nạn nhân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp bạn nổi tiếng kết thêm nhiều bạn mới",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Kích động đám đông tấn công, quấy rối và bạo lực tinh thần nạn nhân",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Quảng cáo trường học",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cập nhật dữ liệu bưu điện",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Để bảo vệ 'Dấu chân kỹ thuật số' (Digital Footprint) của mình, nguyên tắc nào là đúng?",
+        "explanation": "Không chia sẻ thông tin nhạy cảm, suy nghĩ kỹ về hậu quả trước khi bấm đăng hay gửi bất kỳ nội dung nào.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cứ đăng thoải mái vì bấm xóa bài là hết",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Luôn suy nghĩ kỹ trước khi đăng và hiểu rằng nội dung trên mạng có thể tồn tại vĩnh viễn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Gửi ảnh riêng tư vào các nhóm kín là an toàn tuyệt đối",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Dùng tài khoản ẩn danh đi lăng mạ người khác sẽ không bị ai phát hiện",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Công cụ 'Take It Down' (takeitdown.ncmec.org) giúp ích gì cho học sinh dưới 18 tuổi?",
+        "explanation": "Tạo mã băm số hóa để các nền tảng mạng xã hội tự động quét và chặn đứng việc tải lên các ảnh nhạy cảm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tăng dung lượng pin điện thoại",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tạo mã băm chặn đứng việc phát tán hình ảnh nhạy cảm trên các nền tảng mạng xã hội lớn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tự động hack tài khoản của kẻ xấu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chuyển tiền tự động cho cảnh sát",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Theo Điều 170 Bộ luật Hình sự, tội Cưỡng đoạt tài sản bằng thủ đoạn uy hiếp tinh thần có mức phạt tù tối đa là bao nhiêu?",
+        "explanation": "Khung hình phạt cao nhất lên tới 20 năm tù giam.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "6 tháng cải tạo không giam giữ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lên tới 20 năm tù giam",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ bị phạt tiền 500 nghìn đồng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không bị phạt tù",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Số điện thoại miễn phí tiếp nhận thông tin bảo vệ trẻ em khẩn cấp tại Việt Nam là gì?",
+        "explanation": "Tổng đài 111 hoạt động 24/7 bảo vệ quyền lợi trẻ em.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "1080",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "111",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "19001000",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "911",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khi một học sinh bị rơi vào bẫy tống tiền trên mạng, ai là người nạn nhân NÊN tìm đến đầu tiên để được bảo vệ?",
+        "explanation": "Cha mẹ, thầy cô giáo hoặc người lớn đáng tin cậy trong gia đình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Người cho vay tiền nặng lãi trên mạng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cha mẹ, thầy cô giáo hoặc người lớn đáng tin cậy trong gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Người quen lạ mặt trên mạng xã hội",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nhóm bạn xấu rủ đi đánh nhau",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Điều gì là quan trọng nhất để làm chủ không gian mạng một cách thông minh và an toàn?",
+        "explanation": "Cảnh giác trước cạm bẫy, bảo vệ ranh giới số, biết cách thu thập bằng chứng và dũng cảm lên tiếng khi gặp nguy hiểm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Không dùng mạng xã hội suốt đời",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hiểu biết kỹ năng tự vệ số, cảnh giác trước kẻ xấu và biết cách tìm sự trợ giúp pháp lý",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sẵn sàng tin tưởng mọi người trên mạng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Dành 12 tiếng mỗi ngày trên mạng",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

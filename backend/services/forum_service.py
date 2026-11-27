@@ -32,9 +32,18 @@ def format_author_info(author, is_anonymous: bool, current_user_id: Optional[UUI
         "avatar_url": author.profile.avatar_url if author.profile else None
     }
 
+_categories_cache = None
+_categories_cache_time = 0.0
+CATEGORIES_CACHE_TTL = 60.0
+
 async def get_forum_categories(db: AsyncSession):
+    global _categories_cache, _categories_cache_time
+    now = datetime.now(timezone.utc).timestamp()
+    if _categories_cache is not None and (now - _categories_cache_time) < CATEGORIES_CACHE_TTL:
+        return _categories_cache
+
     categories = await forum_repository.get_categories(db)
-    return [
+    result = [
         {
             "id": c.id,
             "name": c.name,
@@ -43,6 +52,9 @@ async def get_forum_categories(db: AsyncSession):
         }
         for c in categories
     ]
+    _categories_cache = result
+    _categories_cache_time = now
+    return result
 
 def _serialize_feed_post(p, comment_count: int, liked_ids: set, current_user_id: Optional[UUID]) -> dict:
     return {
@@ -248,6 +260,11 @@ async def create_new_post(db: AsyncSession, author_id: UUID, post_data: PostCrea
         status="PUBLISHED"
     )
     created = await forum_repository.create_post(db, post)
+    try:
+        from services.settings_service import invalidate_settings_cache
+        invalidate_settings_cache()
+    except Exception:
+        pass
     return {
         "post_id": created.id,
         "title": created.title,

@@ -545,7 +545,7 @@ export default function DashboardOverviewPage() {
             </div>
             {courseDetails && (
               <span
-                className={`px-3 py-1 rounded-full text-xs font-bold bg-primary/10 text-primary`}
+                className={`px-3 py-1 rounded-none text-xs font-bold bg-primary/10 text-primary border border-primary/20 shadow-depth-1`}
               >
                 {courseDetails.syllabus.length} bài học
               </span>
@@ -571,7 +571,7 @@ export default function DashboardOverviewPage() {
               >
                 Thông tin cơ bản
                 {activeTab === "basic" && (
-                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full" />
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-none" />
                 )}
               </button>
               <button
@@ -584,7 +584,7 @@ export default function DashboardOverviewPage() {
               >
                 Đề cương bài giảng
                 {activeTab === "lessons" && (
-                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full" />
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-none" />
                 )}
               </button>
               <button
@@ -597,10 +597,10 @@ export default function DashboardOverviewPage() {
               >
                 <span>Quiz cuối khóa</span>
                 {courseQuizzes.some((q) => q.is_final) && (
-                  <span className="w-2 h-2 rounded-full bg-emerald-500" title="Đã cấu hình" />
+                  <span className="w-2 h-2 rounded-none bg-emerald-500" title="Đã cấu hình" />
                 )}
                 {activeTab === "final_quiz" && (
-                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full" />
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-none" />
                 )}
               </button>
             </div>
@@ -608,7 +608,7 @@ export default function DashboardOverviewPage() {
 
             {/* Basic Info Tab */}
             {activeTab === "basic" && (
-              <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-sm space-y-6">
+              <div className="bg-white p-8 rounded-none border border-outline-variant/30 shadow-depth-2 space-y-6 animate-page-appear">
                 <form onSubmit={handleUpdateCourse} className="space-y-5">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1.5">
@@ -622,7 +622,7 @@ export default function DashboardOverviewPage() {
                         id="editTitle"
                         type="text"
                         required
-                        className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                        className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                         value={editTitle}
                         onChange={(e) => setEditTitle(e.target.value)}
                       />
@@ -637,7 +637,7 @@ export default function DashboardOverviewPage() {
                       </label>
                       <select
                         id="editAudience"
-                        className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                        className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1 cursor-pointer"
                         value={editAudience}
                         onChange={(e) => setEditAudience(e.target.value as any)}
                       >
@@ -658,7 +658,7 @@ export default function DashboardOverviewPage() {
                     <input
                       id="editThumb"
                       type="text"
-                      className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                      className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                       value={editThumb}
                       onChange={(e) => setEditThumb(e.target.value)}
                     />
@@ -674,7 +674,7 @@ export default function DashboardOverviewPage() {
                     <input
                       id="editShort"
                       type="text"
-                      className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                      className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                       value={editShortDesc}
                       onChange={(e) => setEditShortDesc(e.target.value)}
                     />
@@ -691,7 +691,7 @@ export default function DashboardOverviewPage() {
                       ref={growOnMount}
                       id="editDesc"
                       rows={5}
-                      className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+                      className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
                       value={editDesc}
                       onChange={(e) => setEditDesc(e.target.value)}
                       onInput={autoGrow}
@@ -709,7 +709,7 @@ export default function DashboardOverviewPage() {
                       ref={growOnMount}
                       id="editObjectives"
                       rows={4}
-                      className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+                      className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
                       placeholder={"- Tiếp cận các kiến thức giáo dục giới tính chuẩn y khoa\n- Rèn luyện kỹ năng tự bảo vệ bản thân và phòng chống xâm hại\n- Nắm vững kiến thức sinh lý và tâm lý theo độ tuổi"}
                       value={editObjectives}
                       onChange={(e) => setEditObjectives(e.target.value)}
@@ -728,7 +728,7 @@ export default function DashboardOverviewPage() {
                       ref={growOnMount}
                       id="editOutro"
                       rows={3}
-                      className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+                      className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
                       placeholder="Nội dung sẽ hiện khi học viên tốt nghiệp khóa học (Lời nhắn nhủ, chúc mừng, hướng dẫn khảo sát...)"
                       value={editOutroContent}
                       onChange={(e) => setEditOutroContent(e.target.value)}
@@ -740,7 +740,7 @@ export default function DashboardOverviewPage() {
                     <button
                       type="button"
                       onClick={handleDeleteCourse}
-                      className="w-full sm:w-auto px-6 h-11 rounded-full border border-red-500 text-red-500 hover:bg-red-50 text-xs font-bold transition-all cursor-pointer"
+                      className="btn-press w-full sm:w-auto px-6 h-11 rounded-none border border-red-500 text-red-500 hover:bg-red-50 text-xs font-bold transition-all cursor-pointer shadow-depth-1"
                     >
                       Xóa khóa học này
                     </button>
@@ -760,7 +760,7 @@ export default function DashboardOverviewPage() {
 
             {/* Lessons Tab */}
             {activeTab === "lessons" && (
-              <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-sm space-y-6">
+              <div className="bg-white p-8 rounded-none border border-outline-variant/30 shadow-depth-2 space-y-6 animate-page-appear">
                 <div className="flex justify-between items-center">
                   <h3 className="text-sm font-extrabold text-on-surface">
                     Đề cương bài học
@@ -775,7 +775,7 @@ export default function DashboardOverviewPage() {
                         setQuizModalLessonOrderIndex((courseDetails?.syllabus.length || 0) + 1);
                         setQuizModalOpen(true);
                       }}
-                      className="bg-purple-600 text-white px-4 py-2.5 rounded-full text-xs font-bold flex items-center justify-center gap-1.5 hover:opacity-90 transition-opacity shadow-sm cursor-pointer"
+                      className="btn-press bg-purple-600 text-white px-4 py-2.5 rounded-none text-xs font-bold flex items-center justify-center gap-1.5 hover:bg-purple-700 transition-colors shadow-depth-1 cursor-pointer"
                       title="Thêm bài kiểm tra trắc nghiệm độc lập vào đề cương"
                     >
                       <Question size={16} weight="bold" />
@@ -783,7 +783,7 @@ export default function DashboardOverviewPage() {
                     </button>
                     <button
                       onClick={handleOpenAddLesson}
-                      className="bg-primary text-white px-4 py-2.5 rounded-full text-xs font-bold flex items-center justify-center gap-1.5 hover:opacity-90 transition-opacity shadow-sm cursor-pointer"
+                      className="btn-press bg-primary text-white px-4 py-2.5 rounded-none text-xs font-bold flex items-center justify-center gap-1.5 hover:bg-primary-hover transition-colors shadow-depth-1 cursor-pointer"
                     >
                       <Plus size={16} weight="bold" />
                       Thêm bài học
@@ -815,7 +815,7 @@ export default function DashboardOverviewPage() {
                           onDragEnd={handleDragEnd}
                           className={`flex justify-between items-center py-4 first:pt-0 last:pb-0 group transition-all select-none ${
                             draggedIndex === index
-                              ? "opacity-40 bg-primary/5 rounded-2xl px-2"
+                              ? "opacity-40 bg-primary/5 rounded-none px-2"
                               : ""
                           }`}
                         >
@@ -823,11 +823,11 @@ export default function DashboardOverviewPage() {
                             <div
                               onMouseEnter={() => setIsDraggingAllowed(true)}
                               onMouseLeave={() => setIsDraggingAllowed(false)}
-                              className="flex items-center gap-2 cursor-grab active:cursor-grabbing p-1 hover:bg-primary/5 rounded-2xl transition-all"
+                              className="flex items-center gap-2 cursor-grab active:cursor-grabbing p-1 hover:bg-primary/5 rounded-none transition-all"
                               title="Kéo thả để sắp xếp"
                             >
                               <DotsSixVertical size={18} weight="bold" className="text-on-surface-variant/35 group-hover:text-primary transition-colors" />
-                              <div className={`h-8 w-8 rounded-2xl flex items-center justify-center font-black text-xs ${
+                              <div className={`h-8 w-8 rounded-none flex items-center justify-center font-black text-xs ${
                                 isQuizLesson ? "bg-purple-100 text-purple-700" : "bg-primary/10 text-primary"
                               }`}>
                                 {lesson.order_index}
@@ -841,7 +841,7 @@ export default function DashboardOverviewPage() {
                                   {lesson.title}
                                 </h4>
                                 {isQuizLesson && (
-                                  <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-purple-100 text-purple-700">
+                                  <span className="px-2 py-0.5 rounded-none text-[9px] font-bold bg-purple-100 text-purple-700 border border-purple-200">
                                     Quiz
                                   </span>
                                 )}
@@ -864,7 +864,7 @@ export default function DashboardOverviewPage() {
                                   setQuizModalLessonOrderIndex(lesson.order_index);
                                   setQuizModalOpen(true);
                                 }}
-                                className="h-8 px-3 rounded-full bg-purple-100 text-purple-700 hover:bg-purple-200 text-[11px] font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
+                                className="btn-press h-8 px-3 rounded-none bg-purple-100 text-purple-700 hover:bg-purple-200 text-[11px] font-bold flex items-center gap-1.5 transition-colors cursor-pointer border border-purple-200 shadow-depth-1"
                                 title="Soạn câu hỏi Quiz"
                               >
                                 <Question size={14} weight="bold" />
@@ -873,7 +873,7 @@ export default function DashboardOverviewPage() {
                             ) : (
                               <button
                                 onClick={() => handleOpenEditLesson(lesson.id)}
-                                className="h-8 w-8 rounded-full hover:bg-surface-container flex items-center justify-center text-primary transition-colors cursor-pointer"
+                                className="btn-press h-8 w-8 rounded-none hover:bg-surface-container flex items-center justify-center text-primary transition-colors cursor-pointer border border-transparent hover:border-outline-variant/30"
                                 title="Sửa bài giảng"
                               >
                                 <PencilSimple size={18} weight="bold" />
@@ -881,7 +881,7 @@ export default function DashboardOverviewPage() {
                             )}
                             <button
                               onClick={() => handleDeleteLesson(lesson.id)}
-                              className="h-8 w-8 rounded-full hover:bg-red-50 flex items-center justify-center text-red-500 transition-colors cursor-pointer"
+                              className="btn-press h-8 w-8 rounded-none hover:bg-red-50 flex items-center justify-center text-red-500 transition-colors cursor-pointer border border-transparent hover:border-red-200"
                               title={isQuizLesson ? "Xóa bài Quiz" : "Xóa bài giảng"}
                             >
                               <Trash size={18} weight="bold" />
@@ -897,7 +897,7 @@ export default function DashboardOverviewPage() {
 
             {/* Final Quiz Tab */}
             {activeTab === "final_quiz" && (
-              <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-sm space-y-6">
+              <div className="bg-white p-8 rounded-none border border-outline-variant/30 shadow-depth-2 space-y-6 animate-page-appear">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                   <div>
                     <h3 className="text-sm font-extrabold text-on-surface">
@@ -914,7 +914,7 @@ export default function DashboardOverviewPage() {
                       setQuizModalIsFinal(true);
                       setQuizModalOpen(true);
                     }}
-                    className="bg-primary text-white px-5 py-2.5 rounded-full text-xs font-bold flex items-center justify-center gap-1.5 hover:opacity-90 transition-opacity shadow-sm cursor-pointer shrink-0"
+                    className="btn-press bg-primary text-white px-5 py-2.5 rounded-none text-xs font-bold flex items-center justify-center gap-1.5 hover:bg-primary-hover transition-colors shadow-depth-1 cursor-pointer shrink-0"
                   >
                     <Question size={16} weight="bold" />
                     <span>
@@ -930,10 +930,10 @@ export default function DashboardOverviewPage() {
                   (() => {
                     const fq = courseQuizzes.find((q) => q.is_final);
                     return (
-                      <div className="p-6 rounded-2xl bg-surface-container-lowest border border-outline-variant/30 space-y-4">
+                      <div className="p-6 rounded-none bg-surface-container-lowest border border-outline-variant/30 space-y-4 shadow-depth-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+                            <div className="w-10 h-10 rounded-none bg-primary/10 text-primary flex items-center justify-center border border-primary/20">
                               <ShieldCheck size={24} weight="duotone" />
                             </div>
                             <div>
@@ -945,13 +945,13 @@ export default function DashboardOverviewPage() {
                               </p>
                             </div>
                           </div>
-                          <span className="px-3.5 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
+                          <span className="px-3.5 py-1 rounded-none bg-emerald-100 text-emerald-800 text-xs font-bold border border-emerald-200">
                             Đang hoạt động
                           </span>
                         </div>
 
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2 text-xs">
-                          <div className="p-3 rounded-xl bg-white border border-outline-variant/20">
+                          <div className="p-3 rounded-none bg-white border border-outline-variant/30 shadow-depth-1">
                             <span className="text-on-surface-variant text-[11px]">
                               Điểm đạt yêu cầu:
                             </span>
@@ -959,7 +959,7 @@ export default function DashboardOverviewPage() {
                               {fq.passing_score}%
                             </p>
                           </div>
-                          <div className="p-3 rounded-xl bg-white border border-outline-variant/20">
+                          <div className="p-3 rounded-none bg-white border border-outline-variant/30 shadow-depth-1">
                             <span className="text-on-surface-variant text-[11px]">
                               Xem giải thích:
                             </span>
@@ -967,7 +967,7 @@ export default function DashboardOverviewPage() {
                               {fq.show_correct_answers ? "Cho phép" : "Ẩn đáp án"}
                             </p>
                           </div>
-                          <div className="p-3 rounded-xl bg-white border border-outline-variant/20">
+                          <div className="p-3 rounded-none bg-white border border-outline-variant/30 shadow-depth-1">
                             <span className="text-on-surface-variant text-[11px]">
                               Lượt thử tối đa:
                             </span>
@@ -975,7 +975,7 @@ export default function DashboardOverviewPage() {
                               {fq.max_attempts} lần
                             </p>
                           </div>
-                          <div className="p-3 rounded-xl bg-white border border-outline-variant/20">
+                          <div className="p-3 rounded-none bg-white border border-outline-variant/30 shadow-depth-1">
                             <span className="text-on-surface-variant text-[11px]">
                               Thời gian chờ:
                             </span>
@@ -988,7 +988,7 @@ export default function DashboardOverviewPage() {
                     );
                   })()
                 ) : (
-                  <div className="text-center py-12 rounded-2xl border border-dashed border-outline-variant/40 space-y-3">
+                  <div className="text-center py-12 rounded-none border border-dashed border-outline-variant/40 space-y-3">
                     <ShieldCheck
                       size={48}
                       weight="duotone"
@@ -1036,7 +1036,7 @@ export default function DashboardOverviewPage() {
                 id="lTitle"
                 type="text"
                 required
-                className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                 placeholder="Ví dụ: Cấu trúc cơ quan sinh dục"
                 value={lessonTitle}
                 onChange={(e) => setLessonTitle(e.target.value)}
@@ -1053,7 +1053,7 @@ export default function DashboardOverviewPage() {
                 </label>
                 <select
                   id="lType"
-                  className="w-full bg-white border border-outline-variant/30 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                  className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1 cursor-pointer"
                   value={lessonContentType}
                   onChange={(e) =>
                     setLessonContentType(e.target.value as any)
@@ -1078,7 +1078,7 @@ export default function DashboardOverviewPage() {
                   type="number"
                   min="1"
                   placeholder="Phút..."
-                  className="w-full bg-white border border-outline-variant/30 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                  className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                   value={lessonDuration}
                   onChange={(e) =>
                     setLessonDuration(
@@ -1110,7 +1110,7 @@ export default function DashboardOverviewPage() {
                       ? "Dán link Google Drive (Audio Overview), file .m4a/.mp3 hoặc link NotebookLM..."
                       : "Dán link YouTube, Google Drive (NotebookLM), hoặc file video/audio..."
                   }
-                  className="w-full bg-white border border-outline-variant/30 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+                  className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
                   value={lessonVideoUrl}
                   onChange={(e) => {
                     const val = e.target.value;
@@ -1142,7 +1142,7 @@ export default function DashboardOverviewPage() {
                   id="lBody"
                   rows={6}
                   placeholder="Nhập nội dung bài học bằng văn bản/định dạng văn bản..."
-                  className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+                  className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
                   value={lessonContentBody}
                   onChange={(e) => setLessonContentBody(e.target.value)}
                   onInput={autoGrow}
@@ -1183,7 +1183,7 @@ export default function DashboardOverviewPage() {
 
   // Main Dashboard Overview view
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 animate-page-appear">
       {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-b border-outline-variant/30 pb-6">
         <div>
@@ -1245,7 +1245,7 @@ export default function DashboardOverviewPage() {
       </div>
 
       {/* Courses Management Table Wrapper */}
-      <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-sm space-y-6">
+      <div className="bg-white p-8 rounded-none border border-outline-variant/30 shadow-depth-2 space-y-6">
         <h3 className="text-base font-extrabold text-on-surface">
           Khóa học do tôi quản lý
         </h3>
@@ -1455,7 +1455,7 @@ export default function DashboardOverviewPage() {
               id="cTitle"
               type="text"
               required
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
               placeholder="Ví dụ: Giáo dục giới tính tuổi dậy thì"
               value={newTitle}
               onChange={(e) => setNewTitle(e.target.value)}
@@ -1471,7 +1471,7 @@ export default function DashboardOverviewPage() {
             </label>
             <select
               id="cAudience"
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1 cursor-pointer"
               value={newAudience}
               onChange={(e) => setNewAudience(e.target.value as any)}
             >
@@ -1491,7 +1491,7 @@ export default function DashboardOverviewPage() {
             <input
               id="cThumb"
               type="text"
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
               placeholder="https://image-url.com/thumb.jpg"
               value={newThumb}
               onChange={(e) => setNewThumb(e.target.value)}
@@ -1508,7 +1508,7 @@ export default function DashboardOverviewPage() {
             <input
               id="cShort"
               type="text"
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all shadow-depth-1"
               placeholder="Nội dung chính tóm gọn trong 1 dòng..."
               value={newShortDesc}
               onChange={(e) => setNewShortDesc(e.target.value)}
@@ -1526,7 +1526,7 @@ export default function DashboardOverviewPage() {
               ref={growOnMount}
               id="cDesc"
               rows={4}
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
               placeholder="Nhập chi tiết về bài học, mục tiêu..."
               value={newDesc}
               onChange={(e) => setNewDesc(e.target.value)}
@@ -1545,7 +1545,7 @@ export default function DashboardOverviewPage() {
               ref={growOnMount}
               id="cObjectives"
               rows={3}
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
               placeholder={"- Tiếp cận các kiến thức giáo dục giới tính chuẩn y khoa\n- Rèn luyện kỹ năng tự bảo vệ bản thân và phòng chống xâm hại"}
               value={newObjectives}
               onChange={(e) => setNewObjectives(e.target.value)}
@@ -1564,7 +1564,7 @@ export default function DashboardOverviewPage() {
               ref={growOnMount}
               id="cOutro"
               rows={3}
-              className="w-full bg-white border border-outline-variant/30 rounded-2xl px-4 py-3 text-xs text-on-surface focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden"
+              className="w-full bg-white border border-outline-variant/40 rounded-none px-4 py-3 text-xs text-on-surface focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-all resize-none overflow-hidden shadow-depth-1"
               placeholder="Nội dung sẽ hiện khi học viên tốt nghiệp khóa học..."
               value={newOutroContent}
               onChange={(e) => setNewOutroContent(e.target.value)}

@@ -51,6 +51,17 @@ export default function CourseCertificatePage() {
         const res = await api.get(`/courses/${courseId}/outro`);
         if (res.success) {
           setCertData(res.data);
+          try {
+            import("canvas-confetti").then((mod) => {
+              const confetti = mod.default;
+              confetti({
+                particleCount: 100,
+                spread: 80,
+                origin: { y: 0.6 },
+                zIndex: 9999,
+              });
+            });
+          } catch {}
         }
       } catch (err: any) {
         setError(
@@ -137,10 +148,10 @@ export default function CourseCertificatePage() {
     return (
       <div className="min-h-[calc(100vh-80px)] flex items-center justify-center px-4">
         <Card
-          tone="glass"
+          tone="solid"
           p="8"
-          shadow="shadow-sm"
-          className="rounded-3xl w-full max-w-md"
+          shadow="shadow-depth-2"
+          className="rounded-none w-full max-w-md border border-outline-variant/30"
         >
           <EmptyState
             tone="error"
@@ -195,16 +206,16 @@ export default function CourseCertificatePage() {
       <div
         id="certificate-print-area"
         ref={certRef}
-        className="relative z-10 w-full max-w-4xl bg-white rounded-3xl shadow-xl border-8 border-double border-amber-600/30 p-8 sm:p-14 overflow-hidden text-center flex flex-col justify-between aspect-[1.414/1] max-h-[640px]"
+        className="relative z-10 w-full max-w-4xl bg-white rounded-none shadow-depth-4 border-8 border-double border-amber-600/30 p-8 sm:p-14 overflow-hidden text-center flex flex-col justify-between aspect-[1.414/1] max-h-[640px] animate-page-appear"
         style={{
           backgroundImage: `radial-gradient(circle at center, rgba(255,255,255,1) 0%, rgba(255,251,245,0.95) 100%)`,
         }}
       >
         {/* Decorative Certificate Corner Accents */}
-        <div className="absolute top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-amber-600/60 rounded-tl-xl pointer-events-none"></div>
-        <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-amber-600/60 rounded-tr-xl pointer-events-none"></div>
-        <div className="absolute bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-amber-600/60 rounded-bl-xl pointer-events-none"></div>
-        <div className="absolute bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-amber-600/60 rounded-br-xl pointer-events-none"></div>
+        <div className="absolute top-4 left-4 w-12 h-12 border-t-2 border-l-2 border-amber-600/60 rounded-none pointer-events-none"></div>
+        <div className="absolute top-4 right-4 w-12 h-12 border-t-2 border-r-2 border-amber-600/60 rounded-none pointer-events-none"></div>
+        <div className="absolute bottom-4 left-4 w-12 h-12 border-b-2 border-l-2 border-amber-600/60 rounded-none pointer-events-none"></div>
+        <div className="absolute bottom-4 right-4 w-12 h-12 border-b-2 border-r-2 border-amber-600/60 rounded-none pointer-events-none"></div>
 
         {/* Certificate Watermark Logo */}
         <div className="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none">
@@ -276,9 +287,9 @@ export default function CourseCertificatePage() {
       </div>
 
       {/* Survey Section (Bottom) */}
-      <div className="w-full max-w-4xl mt-8 z-10 print:hidden">
+      <div className="w-full max-w-4xl mt-8 z-10 print:hidden animate-page-appear">
         {/* Survey Feedback Box */}
-        <div className="bg-white/80 backdrop-blur-md rounded-3xl p-6 md:p-8 border border-white/60 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="bg-white rounded-none p-6 md:p-8 border border-outline-variant/30 shadow-depth-2 card-lift flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center sm:text-left">
             <div className="flex items-center justify-center sm:justify-start gap-2 text-primary font-bold text-xs">
               <ClipboardText size={18} weight="bold" />
@@ -296,7 +307,7 @@ export default function CourseCertificatePage() {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 inline-flex h-11 px-8 items-center justify-center gap-2 rounded-full bg-primary text-xs font-bold text-white shadow-sm hover:shadow-md hover:opacity-95 transition-all"
+            className="btn-press flex-shrink-0 inline-flex h-11 px-8 items-center justify-center gap-2 rounded-none bg-primary text-xs font-bold text-white shadow-depth-1 hover:bg-primary-container transition-all cursor-pointer"
           >
             <span>Làm khảo sát ẩn danh (2 phút)</span>
             <ArrowSquareOut size={16} weight="bold" />

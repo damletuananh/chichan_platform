@@ -70,8 +70,8 @@ export default function ForgotPasswordPage() {
       )}
 
       {submitted ? (
-        <div className="flex flex-col items-center text-center space-y-5 py-4">
-          <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+        <div className="flex flex-col items-center text-center space-y-5 py-4 animate-page-appear">
+          <div className="w-16 h-16 bg-primary/10 border border-primary/20 rounded-none flex items-center justify-center text-primary shadow-depth-1">
             <EnvelopeSimple size={36} weight="duotone" />
           </div>
 
@@ -104,7 +104,7 @@ export default function ForgotPasswordPage() {
               type="button"
               disabled={loading || countdown > 0}
               onClick={handleSubmit}
-              className="w-full py-3 bg-surface-container hover:bg-surface-container-high text-on-surface border border-outline-variant/40 rounded-none text-xs font-bold transition-all disabled:opacity-50 cursor-pointer"
+              className="btn-press w-full py-3 bg-surface-container hover:bg-surface-container-high text-on-surface border border-outline-variant/40 rounded-none text-xs font-bold transition-all disabled:opacity-50 cursor-pointer"
             >
               {countdown > 0
                 ? `Gửi lại email sau (${countdown}s)`
@@ -113,7 +113,7 @@ export default function ForgotPasswordPage() {
 
             <Link
               href="/login"
-              className="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-primary hover:underline transition-colors w-full py-2"
+              className="btn-press inline-flex items-center justify-center gap-1.5 text-xs font-bold text-primary hover:underline transition-colors w-full py-2"
             >
               <ArrowLeft size={16} />
               Quay lại trang Đăng nhập
@@ -125,7 +125,7 @@ export default function ForgotPasswordPage() {
           onSubmit={handleSubmit}
           method="POST"
           action="#"
-          className="flex flex-col gap-5"
+          className="flex flex-col gap-5 animate-page-appear"
         >
           <div className="text-xs text-on-surface-variant leading-relaxed">
             Nhập địa chỉ email liên kết với tài khoản của bạn. Hệ thống sẽ gửi
@@ -156,7 +156,7 @@ export default function ForgotPasswordPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full mt-2 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2"
+            className="btn-press w-full mt-2 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2"
           >
             {loading ? "Đang gửi liên kết..." : "Gửi liên kết khôi phục"}
           </button>

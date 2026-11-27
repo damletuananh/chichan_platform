@@ -1,9 +1,15 @@
+from typing import Union
+from uuid import UUID
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, or_, func
 from models.user import User
 from models.role import Role
 from models.profile import UserProfile
 from schemas.user_schema import UserProfileUpdate
+
+
+def _as_uuid(val: Union[UUID, str]) -> UUID:
+    return val if isinstance(val, UUID) else UUID(str(val))
 
 async def get_role_by_code(db: AsyncSession, role_code: str) -> Role:
     result = await db.execute(select(Role).where(Role.role_code == role_code))
@@ -23,8 +29,8 @@ async def get_user_by_email_or_username(db: AsyncSession, identifier: str) -> Us
     )
     return result.scalars().first()
 
-async def get_user_by_id(db: AsyncSession, user_id: str) -> User:
-    result = await db.execute(select(User).where(User.id == user_id))
+async def get_user_by_id(db: AsyncSession, user_id: Union[UUID, str]) -> User:
+    result = await db.execute(select(User).where(User.id == _as_uuid(user_id)))
     return result.scalars().first()
 
 async def create_user(db: AsyncSession, user: User) -> User:
@@ -39,16 +45,16 @@ async def create_user(db: AsyncSession, user: User) -> User:
     await db.refresh(user)
     return user
 
-async def get_user_with_profile(db: AsyncSession, user_id: str) -> User:
+async def get_user_with_profile(db: AsyncSession, user_id: Union[UUID, str]) -> User:
     from sqlalchemy.orm import selectinload
     result = await db.execute(
         select(User)
         .options(selectinload(User.profile), selectinload(User.role))
-        .where(User.id == user_id)
+        .where(User.id == _as_uuid(user_id))
     )
     return result.scalars().first()
 
-async def update_profile_data(db: AsyncSession, user_id: str, profile_data: UserProfileUpdate) -> User:
+async def update_profile_data(db: AsyncSession, user_id: Union[UUID, str], profile_data: UserProfileUpdate) -> User:
     user = await get_user_with_profile(db, user_id)
     if not user:
         return None

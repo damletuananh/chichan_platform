@@ -1,5 +1,5 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, and_, or_, func, update, delete
+from sqlalchemy import select, and_, or_, func, update, delete, case
 from sqlalchemy.orm import selectinload, joinedload, aliased
 from models.forum import ForumCategory, ForumPost, ForumComment, ForumPostLike
 from models.user import User
@@ -223,7 +223,7 @@ async def toggle_post_like(db: AsyncSession, post_id: UUID, user_id: UUID) -> tu
         await db.execute(
             update(ForumPost)
             .where(ForumPost.id == post_id)
-            .values(likes_count=func.greatest(0, ForumPost.likes_count - 1))
+            .values(likes_count=case((ForumPost.likes_count > 1, ForumPost.likes_count - 1), else_=0))
         )
         liked = False
     else:

@@ -367,7 +367,7 @@ export default function PostDetailPage() {
 
           <button
             onClick={handleShare}
-            className="p-1.5 rounded-lg hover:bg-surface-container-low text-on-surface-variant transition-colors cursor-pointer"
+            className="btn-press p-1.5 rounded-none hover:bg-surface-container-low text-on-surface-variant transition-colors cursor-pointer"
             title="Chia sẻ"
           >
             <ShareNetwork size={16} weight="duotone" />
@@ -377,14 +377,14 @@ export default function PostDetailPage() {
 
       {/* Main Single Continuous Card (Threads Style) */}
       <div className="max-w-2xl mx-auto px-4 pt-2">
-        <div className="bg-white rounded-2xl border border-outline-variant/30 shadow-xs overflow-hidden">
+        <div className="bg-white rounded-none border border-outline-variant/30 shadow-depth-2 overflow-hidden">
           {/* Top Section: Main Post */}
           <article className="p-5 sm:p-6 space-y-4 border-b border-outline-variant/20">
             {/* Author Header */}
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3">
                 {post.is_anonymous ? (
-                  <div className="w-10 h-10 rounded-full bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
+                  <div className="w-10 h-10 rounded-none bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
                     <UserCircle size={22} weight="duotone" />
                   </div>
                 ) : post.author.avatar_url ? (
@@ -392,10 +392,10 @@ export default function PostDetailPage() {
                     src={post.author.avatar_url}
                     alt={post.author.full_name}
                     loading="lazy"
-                    className="w-10 h-10 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+                    className="w-10 h-10 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
                   />
                 ) : (
-                  <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-base shadow-xs flex-shrink-0">
+                  <div className="w-10 h-10 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-base shadow-xs flex-shrink-0">
                     {post.author.full_name.charAt(0).toUpperCase()}
                   </div>
                 )}
@@ -442,11 +442,11 @@ export default function PostDetailPage() {
               </div>
 
               <div className="flex items-center gap-2">
-                <span className="px-2.5 py-0.5 rounded-md bg-surface-container-low text-[11px] font-semibold text-on-surface-variant border border-outline-variant/20">
+                <span className="px-2.5 py-0.5 rounded-none bg-surface-container-low text-[11px] font-semibold text-on-surface-variant border border-outline-variant/20">
                   {post.category_name}
                 </span>
                 {post.status === "HIDDEN" && (
-                  <span className="px-2.5 py-0.5 rounded-md bg-red-500/10 text-red-500 text-[10px] font-bold border border-red-500/25">
+                  <span className="px-2.5 py-0.5 rounded-none bg-red-500/10 text-red-500 text-[10px] font-bold border border-red-500/25">
                     Đã ẩn
                   </span>
                 )}
@@ -507,7 +507,7 @@ export default function PostDetailPage() {
                 {/* Likes button */}
                 <button
                   onClick={handleToggleLike}
-                  className={`flex items-center gap-1.5 font-semibold transition-all cursor-pointer ${
+                  className={`btn-press flex items-center gap-1.5 font-semibold transition-colors duration-200 cursor-pointer ${
                     isLiked ? "text-red-500" : "hover:text-red-500"
                   }`}
                   title={isLiked ? "Bỏ thích" : "Thích"}
@@ -515,7 +515,9 @@ export default function PostDetailPage() {
                   <Heart
                     size={16}
                     weight={isLiked ? "fill" : "regular"}
-                    className={`transition-transform active:scale-125 ${isLiked ? "text-red-500" : ""}`}
+                    className={`transition-transform duration-200 ${
+                      isLiked ? "text-red-500 scale-110 animate-like-burst" : "hover:scale-115 active:scale-90"
+                    }`}
                   />
                   <span className={isLiked ? "font-bold text-red-500" : ""}>
                     {formatCompactNumber(likesCount)}
@@ -564,7 +566,7 @@ export default function PostDetailPage() {
               >
                 <div className="flex-shrink-0">
                   {mainAnonymous ? (
-                    <div className="w-9 h-9 rounded-full bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs">
+                    <div className="w-9 h-9 rounded-none bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs">
                       <UserCircle size={18} weight="duotone" />
                     </div>
                   ) : (user as any).avatar_url ? (
@@ -572,10 +574,10 @@ export default function PostDetailPage() {
                       src={(user as any).avatar_url}
                       alt={user.full_name}
                       loading="lazy"
-                      className="w-9 h-9 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+                      className="w-9 h-9 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
                     />
                   ) : (
-                    <div className="w-9 h-9 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs">
+                    <div className="w-9 h-9 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs">
                       {user.full_name
                         ? user.full_name.charAt(0).toUpperCase()
                         : "U"}
@@ -600,7 +602,7 @@ export default function PostDetailPage() {
                     <button
                       type="button"
                       onClick={() => setMainAnonymous(!mainAnonymous)}
-                      className={`px-2.5 py-1 rounded-lg text-[10px] font-bold flex items-center gap-1 transition-all cursor-pointer ${
+                      className={`btn-press px-2.5 py-1 rounded-none text-[10px] font-bold flex items-center gap-1 transition-all cursor-pointer ${
                         mainAnonymous
                           ? "bg-primary text-white shadow-xs"
                           : "bg-surface-container-low hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"
@@ -800,7 +802,7 @@ const CommentItem = React.memo(function CommentItem({
       <div className="flex items-start justify-between gap-2">
         <div className="flex items-center gap-2.5">
           {comment.is_anonymous ? (
-            <div className="w-8 h-8 rounded-full bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
+            <div className="w-8 h-8 rounded-none bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
               <UserCircle size={16} weight="duotone" />
             </div>
           ) : comment.author.avatar_url ? (
@@ -808,10 +810,10 @@ const CommentItem = React.memo(function CommentItem({
               src={comment.author.avatar_url}
               alt={comment.author.full_name}
               loading="lazy"
-              className="w-8 h-8 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+              className="w-8 h-8 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
             />
           ) : (
-            <div className="w-8 h-8 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs flex-shrink-0">
+            <div className="w-8 h-8 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs flex-shrink-0">
               {comment.author.full_name.charAt(0).toUpperCase()}
             </div>
           )}
@@ -949,7 +951,7 @@ const CommentItem = React.memo(function CommentItem({
             <button
               type="button"
               onClick={() => setReplyAnonymous(!replyAnonymous)}
-              className={`px-2.5 py-1 rounded-lg text-[10px] font-bold flex items-center gap-1 transition-all cursor-pointer ${
+              className={`btn-press px-2.5 py-1 rounded-none text-[10px] font-bold flex items-center gap-1 transition-all cursor-pointer ${
                 replyAnonymous
                   ? "bg-primary text-white shadow-xs"
                   : "bg-surface-container-low hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"
@@ -966,21 +968,21 @@ const CommentItem = React.memo(function CommentItem({
             value={replyContent}
             onChange={(e) => setReplyContent(e.target.value)}
             placeholder="Viết phản hồi của bạn..."
-            className="w-full text-xs bg-surface-container-low/80 p-2.5 rounded-lg border border-outline-variant/30 focus:outline-none focus:border-primary text-on-surface resize-none"
+            className="w-full text-xs bg-surface-container-low/80 p-2.5 rounded-none border border-outline-variant/30 focus:outline-none focus:border-primary text-on-surface resize-none"
           />
 
           <div className="flex justify-end gap-2">
             <button
               type="button"
               onClick={() => setReplyToId(null)}
-              className="px-3 py-1 text-xs font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-lg transition-colors cursor-pointer"
+              className="btn-press px-3 py-1 text-xs font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-none transition-colors cursor-pointer"
             >
               Hủy
             </button>
             <button
               type="submit"
               disabled={!replyContent.trim()}
-              className="px-4 py-1 bg-primary text-white text-xs font-bold rounded-lg hover:bg-primary/90 transition-all shadow-xs disabled:opacity-40 cursor-pointer"
+              className="btn-press px-4 py-1 bg-primary text-white text-xs font-bold rounded-none hover:bg-primary/90 transition-all shadow-xs disabled:opacity-40 cursor-pointer"
             >
               Gửi
             </button>

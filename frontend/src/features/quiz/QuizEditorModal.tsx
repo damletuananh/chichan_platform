@@ -400,7 +400,7 @@ export function QuizEditorModal({
         {/* Header */}
         <div className="px-6 py-5 border-b border-outline-variant/30 flex items-center justify-between bg-surface-container-lowest shrink-0">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+            <div className="w-10 h-10 rounded-none bg-primary/10 text-primary flex items-center justify-center">
               <Question size={22} weight="duotone" />
             </div>
             <div>
@@ -418,7 +418,7 @@ export function QuizEditorModal({
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors cursor-pointer"
+            className="btn-press p-2 rounded-none text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors cursor-pointer"
           >
             <X size={20} weight="bold" />
           </button>
@@ -438,7 +438,7 @@ export function QuizEditorModal({
             className="flex-1 min-h-0 overflow-y-auto p-6 space-y-6 text-xs text-on-surface"
           >
             {/* General Settings Card */}
-            <div className="bg-surface-container-lowest p-5 rounded-2xl border border-outline-variant/30 space-y-4">
+            <div className="bg-surface-container-lowest p-5 rounded-none border border-outline-variant/30 space-y-4">
               <h3 className="font-bold text-sm text-on-surface flex items-center gap-2">
                 <ShieldCheck size={18} weight="duotone" className="text-primary" />
                 Cài đặt bài kiểm tra
@@ -455,7 +455,7 @@ export function QuizEditorModal({
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     placeholder="Ví dụ: Quiz ôn tập bài học..."
-                    className="w-full px-4 py-2.5 rounded-xl border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary text-xs"
+                    className="w-full px-4 py-2.5 rounded-none border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary text-xs"
                     required
                   />
                 </FormRow>
@@ -469,7 +469,7 @@ export function QuizEditorModal({
                     onChange={(e) => setDescription(e.target.value)}
                     placeholder="Nhập hướng dẫn làm bài cho học sinh..."
                     rows={2}
-                    className="w-full px-4 py-2.5 rounded-xl border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary text-xs resize-none"
+                    className="w-full px-4 py-2.5 rounded-none border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary text-xs resize-none"
                   />
                 </FormRow>
 
@@ -481,7 +481,7 @@ export function QuizEditorModal({
                       max={100}
                       value={passingScore}
                       onChange={(e) => setPassingScore(Number(e.target.value))}
-                      className="w-24 px-3 py-2 rounded-xl border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs font-bold"
+                      className="w-24 px-3 py-2 rounded-none border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs font-bold"
                     />
                     <span className="text-on-surface-variant text-xs font-medium">
                       % (Tối thiểu để tính hoàn thành)
@@ -490,7 +490,7 @@ export function QuizEditorModal({
                 </FormRow>
 
                 {/* Switch: Show Correct Answers */}
-                <div className="flex items-center justify-between p-3 rounded-xl bg-white border border-outline-variant/30">
+                <div className="flex items-center justify-between p-3 rounded-none bg-white border border-outline-variant/30">
                   <div className="space-y-0.5">
                     <p className="font-bold text-on-surface">Hiển thị đáp án &amp; giải thích</p>
                     <p className="text-[11px] text-on-surface-variant">
@@ -511,7 +511,7 @@ export function QuizEditorModal({
                 </div>
 
                 {/* Coursera-style Anti-Spam settings */}
-                <div className="p-4 rounded-xl bg-amber-50/70 border border-amber-200/60 md:col-span-2 space-y-3">
+                <div className="p-4 rounded-none bg-amber-50/70 border border-amber-200/60 md:col-span-2 space-y-3">
                   <div className="flex items-center gap-2 font-bold text-amber-900 text-xs">
                     <ClockCountdown size={18} weight="duotone" className="text-amber-700" />
                     Chính sách chống spam làm lại (Chuẩn Coursera)
@@ -528,7 +528,7 @@ export function QuizEditorModal({
                           max={10}
                           value={maxAttempts}
                           onChange={(e) => setMaxAttempts(Number(e.target.value))}
-                          className="w-20 px-3 py-1.5 rounded-lg border border-amber-300 bg-white font-bold text-xs"
+                          className="w-20 px-3 py-1.5 rounded-none border border-amber-300 bg-white font-bold text-xs"
                         />
                         <span className="text-amber-800 text-[11px]">lượt</span>
                       </div>
@@ -544,7 +544,7 @@ export function QuizEditorModal({
                           max={180}
                           value={cooldownMinutes}
                           onChange={(e) => setCooldownMinutes(Number(e.target.value))}
-                          className="w-20 px-3 py-1.5 rounded-lg border border-amber-300 bg-white font-bold text-xs"
+                          className="w-20 px-3 py-1.5 rounded-none border border-amber-300 bg-white font-bold text-xs"
                         />
                         <span className="text-amber-800 text-[11px]">phút</span>
                       </div>
@@ -566,7 +566,7 @@ export function QuizEditorModal({
                 <button
                   type="button"
                   onClick={handleAddQuestion}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 text-primary hover:bg-primary/20 font-bold text-xs transition-colors cursor-pointer"
+                  className="btn-press inline-flex items-center gap-1.5 px-3 py-1.5 rounded-none bg-primary/10 text-primary hover:bg-primary/20 font-bold text-xs transition-colors cursor-pointer"
                 >
                   <Plus size={14} weight="bold" />
                   <span>Thêm câu hỏi</span>
@@ -576,7 +576,7 @@ export function QuizEditorModal({
               {questions.map((q, qIdx) => (
                 <div
                   key={qIdx}
-                  className="p-5 rounded-2xl bg-white border border-outline-variant/40 shadow-xs space-y-4 relative"
+                  className="p-5 rounded-none bg-white border border-outline-variant/40 shadow-xs space-y-4 relative card-lift"
                 >
                   {/* Question Header */}
                   <div className="flex items-center justify-between border-b border-outline-variant/20 pb-2">
@@ -586,7 +586,7 @@ export function QuizEditorModal({
                     <button
                       type="button"
                       onClick={() => handleDeleteQuestion(qIdx)}
-                      className="p-1.5 rounded-lg text-red-500 hover:bg-red-50 transition-colors cursor-pointer"
+                      className="btn-press p-1.5 rounded-none text-red-500 hover:bg-red-50 transition-colors cursor-pointer"
                       title="Xóa câu hỏi này"
                     >
                       <Trash size={16} weight="bold" />
@@ -600,7 +600,7 @@ export function QuizEditorModal({
                       value={q.question_text}
                       onChange={(e) => handleQuestionTextChange(qIdx, e.target.value)}
                       placeholder="Ví dụ: Ranh giới vùng kín của cơ thể gồm những khu vực nào?"
-                      className="w-full px-3.5 py-2 rounded-xl border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs"
+                      className="w-full px-3.5 py-2 rounded-none border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs"
                       required
                     />
                   </FormRow>
@@ -626,7 +626,7 @@ export function QuizEditorModal({
                           <button
                             type="button"
                             onClick={() => handleSetCorrectOption(qIdx, optIdx)}
-                            className={`w-6 h-6 rounded-full flex items-center justify-center border-2 transition-all cursor-pointer ${
+                            className={`w-6 h-6 rounded-none flex items-center justify-center border-2 transition-all cursor-pointer ${
                               opt.is_correct
                                 ? "border-primary bg-primary text-white"
                                 : "border-outline-variant hover:border-primary"
@@ -642,7 +642,7 @@ export function QuizEditorModal({
                               handleOptionTextChange(qIdx, optIdx, e.target.value)
                             }
                             placeholder={`Phương án ${String.fromCharCode(65 + optIdx)}...`}
-                            className={`flex-1 px-3 py-1.5 rounded-lg border text-xs focus:outline-none ${
+                            className={`flex-1 px-3 py-1.5 rounded-none border text-xs focus:outline-none ${
                               opt.is_correct
                                 ? "border-primary/60 bg-primary/5 font-semibold text-primary"
                                 : "border-outline-variant/40"
@@ -653,7 +653,7 @@ export function QuizEditorModal({
                             <button
                               type="button"
                               onClick={() => handleDeleteOption(qIdx, optIdx)}
-                              className="p-1 rounded-md text-on-surface-variant hover:text-red-500 transition-colors"
+                              className="btn-press p-1 rounded-none text-on-surface-variant hover:text-red-500 transition-colors"
                               title="Xóa lựa chọn"
                             >
                               <X size={14} weight="bold" />
@@ -674,7 +674,7 @@ export function QuizEditorModal({
                       onChange={(e) => handleExplanationChange(qIdx, e.target.value)}
                       placeholder="Giải thích vì sao đáp án này đúng theo kiến thức y khoa..."
                       rows={2}
-                      className="w-full px-3.5 py-2 rounded-xl border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs resize-none"
+                      className="w-full px-3.5 py-2 rounded-none border border-outline-variant/40 focus:outline-none focus:ring-2 focus:ring-primary/20 text-xs resize-none"
                     />
                   </FormRow>
                 </div>
@@ -688,7 +688,7 @@ export function QuizEditorModal({
                   type="button"
                   onClick={handleDeleteQuiz}
                   disabled={submitting}
-                  className="px-4 py-2 rounded-full text-red-600 hover:bg-red-50 font-bold text-xs transition-colors cursor-pointer"
+                  className="btn-press px-4 py-2 rounded-none text-red-600 hover:bg-red-50 font-bold text-xs transition-colors cursor-pointer"
                 >
                   Xóa bài kiểm tra
                 </button>
@@ -700,7 +700,7 @@ export function QuizEditorModal({
                 <button
                   type="button"
                   onClick={onClose}
-                  className="px-5 py-2.5 rounded-full border border-outline-variant text-on-surface-variant font-bold text-xs hover:bg-surface-container transition-colors cursor-pointer"
+                  className="btn-press px-5 py-2.5 rounded-none border border-outline-variant text-on-surface-variant font-bold text-xs hover:bg-surface-container transition-colors cursor-pointer"
                 >
                   Hủy
                 </button>

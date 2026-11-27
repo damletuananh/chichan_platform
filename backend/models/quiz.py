@@ -1,5 +1,10 @@
-from sqlalchemy import Column, String, ForeignKey, DateTime, Integer, Boolean
-from sqlalchemy.dialects.postgresql import UUID, JSONB
+from sqlalchemy import Column, String, ForeignKey, DateTime, Integer, Boolean, JSON
+from sqlalchemy.dialects.postgresql import UUID
+try:
+    from sqlalchemy.dialects.postgresql import JSONB
+    JSON_COMPAT = JSON().with_variant(JSONB, "postgresql")
+except ImportError:
+    JSON_COMPAT = JSON
 from sqlalchemy.orm import relationship
 from core.database import Base
 from sqlalchemy.sql import func
@@ -72,7 +77,7 @@ class QuizSubmission(Base):
     quiz_id = Column(UUID(as_uuid=True), ForeignKey("quizzes.id", ondelete="CASCADE"), nullable=False)
     score = Column(Integer, nullable=False)
     passed = Column(Boolean, nullable=False, default=False)
-    answers = Column(JSONB, nullable=True)
+    answers = Column(JSON_COMPAT, nullable=True)
     submitted_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     user = relationship("User")

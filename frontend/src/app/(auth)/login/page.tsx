@@ -167,7 +167,7 @@ export default function LoginPage() {
         <button
           type="submit"
           disabled={loading}
-          className="w-full mt-4 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2"
+          className="w-full mt-4 bg-primary text-white py-3.5 rounded-none font-bold text-xs transition-all duration-200 hover:bg-primary-hover disabled:opacity-50 cursor-pointer shadow-depth-1 hover:shadow-depth-2 btn-press"
         >
           {loading ? "Đang đăng nhập..." : "Đăng nhập"}
         </button>

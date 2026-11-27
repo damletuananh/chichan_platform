@@ -1,0 +1,1039 @@
+{
+  "title": "Kỹ Năng Tự Vệ & Ứng Phó Khẩn Cấp Nơi Công Cộng",
+  "slug": "ky-nang-tu-ve-va-ung-pho-khan-cap-noi-cong-cong",
+  "short_description": "Trang bị phản xạ sinh tồn thực chiến: Đi xe công nghệ ban đêm, thoát hiểm khi bị bám đuôi, xử lý sự cố trong thang máy, phá bẫy dàn cảnh bắt cóc và cài đặt phím SOS trên smartphone.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (11 - 18 tuổi).\n\nKhông gian công cộng tiềm ẩn nhiều nguy cơ mất an toàn nếu thanh thiếu niên thiếu kỹ năng quan sát và phản xạ tự vệ. Khóa học huấn luyện các kỹ năng thực tế: Đi xe ôm/taxi công nghệ an toàn, nhận diện và cắt đuôi kẻ theo dõi, kỹ thuật thoát hiểm trong thang máy, phá vỡ bẫy dàn cảnh bắt cóc đám đông và tận dụng công nghệ smartphone (tính năng ICE, SOS 5 lần nút nguồn) để bảo vệ tính mạng trong gang tấc.",
+  "learning_objectives": "- Nắm vững quy tắc an toàn khi đi xe công nghệ ban đêm và sử dụng tính năng Share Ride.\n- Thành thạo kỹ thuật cắt đuôi (Stalking) và xác định địa điểm trú ẩn an toàn tức thì.\n- Phản xạ thoát hiểm khi bị tấn công trong thang máy và nhắm trúng các điểm yếu tự vệ.\n- Kỹ năng phá vỡ bẫy dàn cảnh bắt cóc và nguyên tắc phá bỏ Hiệu ứng bàng quan.\n- Thiết lập danh bạ khẩn cấp ICE và phím tắt gọi cứu hộ SOS trên điện thoại.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Đi xe công nghệ (Grab, Be, XanhSM) an toàn ban đêm",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Di chuyển bằng xe ôm hoặc taxi công nghệ đã trở thành thói quen hàng ngày của học sinh. Tuy nhiên, ban đêm tiềm ẩn rủi ro bị tài xế đi sai lộ trình hoặc có hành vi quấy rối. Nguyên tắc an toàn: Kiểm tra đúng biển số xe trước khi lên, chia sẻ hành trình trực tiếp (Share Ride) cho cha mẹ, ngồi ghế sau đối diện tài xế và luôn cầm điện thoại trên tay.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Đi xe công nghệ (Grab, Be, XanhSM) an toàn ban đêm",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Trước khi bước lên xe công nghệ, hành động nào là BẮT BUỘC để đảm bảo an toàn?",
+            "explanation": "Đối chiếu biển số xe, khuôn mặt tài xế và tên hiển thị trên ứng dụng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lên xe ngay không cần nhìn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đối chiếu chính xác biển số xe, tên và hình ảnh tài xế trên ứng dụng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hỏi tài xế xem có kẹo không",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngủ một giấc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tính năng nào trên ứng dụng đặt xe giúp người thân theo dõi vị trí xe di chuyển theo thời gian thực?",
+            "explanation": "Tính năng Chia sẻ lộ trình chuyến đi (Share trip/ride).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tính năng đổi hình nền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tính năng chia sẻ lộ trình chuyến đi (Share trip/ride) cho người thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tính năng đánh giá 1 sao",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tính năng nghe nhạc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi đi xe ô tô taxi hoặc xe công nghệ một mình, vị trí ngồi an toàn nhất là ở đâu?",
+            "explanation": "Ghế sau phía sau lưng ghế phụ (chéo góc với tài xế) giúp quan sát và thoát hiểm nhanh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ngồi ghế phụ ngay cạnh tài xế",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngồi hàng ghế sau, chéo góc với tài xế để dễ quan sát và thoát ra ngoài khi cần",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ngồi trong cốp xe",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nằm dài ở ghế sau",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nếu phát hiện tài xế cố tình rẽ vào đường vắng tối bất thường, bạn nên làm gì?",
+            "explanation": "Hỏi to dứt khoát: 'Bác đi đâu đấy?', gọi điện giả định cho cha mẹ 'Con đang ở đường X, 3 phút nữa con tới đón con nhé' và bật định vị.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ngồi im không dám nói gì vì sợ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lên tiếng dứt khoát hỏi lộ trình, gọi điện thoại to cho người thân thông báo vị trí và chuẩn bị nút SOS",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mở cửa nhảy xuống khi xe đang chạy 60km/h",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đưa hết ví tiền cho tài xế",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Nút khẩn cấp SOS trên các ứng dụng đặt xe có chức năng gì?",
+            "explanation": "Gửi cảnh báo và vị trí GPS tức thời tới tổng đài hỗ trợ và cơ quan công an 113.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gọi xe cứu hỏa",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gửi tín hiệu báo động khẩn cấp kèm định vị xe tới tổng đài và cơ quan công an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hủy chuyến miễn phí",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tặng mã giảm giá",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Xử lý khi bị bám đuôi (Stalking) trên đường vắng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Bị bám đuôi khi đi học về là nỗi ám ảnh của nhiều học sinh, đặc biệt là các bạn nữ. Dấu hiệu nhận biết: Người đi sau liên tục rẽ cùng hướng qua 3 ngã rẽ. Kỹ thuật thoát hiểm: Không đi về nhà riêng (tránh lộ địa chỉ), tấp ngay vào cửa hàng tiện lợi 24/7 (Circle K, FamilyMart), trạm xăng hoặc đồn công an gần nhất.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Xử lý khi bị bám đuôi (Stalking) trên đường vắng",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Cách xác định chính xác bạn có đang bị một người lạ bám đuôi hay không là gì?",
+            "explanation": "Thử rẽ liên tiếp 3-4 lần vào các hướng khác nhau; nếu họ vẫn bám theo thì chắc chắn bạn đang bị theo dõi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Quay lại hỏi: 'Anh có theo dõi em không?'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thử rẽ qua 3-4 khúc cua; nếu kẻ đó vẫn tiếp tục bám theo lộ trình bất thường thì bạn đang bị theo dõi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đứng lại đợi kẻ đó đi qua",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tắt hết đèn xe",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi biết chắc mình đang bị bám đuôi, hành động nào sau đây là NGUY HIỂM TUYỆT ĐỐI KHÔNG NÊN LÀM?",
+            "explanation": "Chạy thẳng về nhà riêng khi nhà đang vắng người.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tấp vào cửa hàng tiện lợi đông người",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chạy thẳng về nhà riêng khi xung quanh vắng vẻ (kẻ xấu sẽ biết địa chỉ nhà của bạn)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chạy vào đồn công an",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gọi điện cho người thân ra đón",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Địa điểm nào sau đây là 'Nơi trú ẩn an toàn tức thì' khi bị bám đuôi?",
+            "explanation": "Cửa hàng tiện lợi 24/7, trạm xăng lớn, ngân hàng có bảo vệ hoặc trụ sở cơ quan nhà nước.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ngõ cụt không có đèn đường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cửa hàng tiện lợi 24/7, trạm xăng, ngân hàng hoặc đồn công an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khu công trường xây dựng bỏ hoang",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhà vệ sinh công cộng vắng vẻ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi phải hét to để thu hút sự chú ý và cầu cứu người xung quanh, từ nào có sức lay động mạnh nhất?",
+            "explanation": "Hét to: 'CHÁY! CỨU TÔI VỚI!' hoặc 'CƯỚP! BẮT CÓC!' để kích thích phản xạ tò mò giúp đỡ của đám đông.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hét thì thào 'xin lỗi'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hét to rõ ràng 'CHÁY!' hoặc 'CƯỚP! CỨU CON VỚI!' hướng thẳng vào một người cụ thể",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Im lặng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đọc bảng cửu chương",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Số điện thoại khẩn cấp của Cảnh sát phản ứng nhanh tại Việt Nam là gì?",
+            "explanation": "113",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "113",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "114",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "115",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "111",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Kỹ năng thoát hiểm trong thang máy & Không gian kín",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Thang máy chung cư, trung tâm thương mại hoặc bãi đỗ xe hầm là những điểm mù an toàn. Quy tắc vàng trong thang máy: Đứng quay lưng vào vách cạnh bảng điều khiển, quan sát hành vi người cùng đi. Nếu bị quấy rối hoặc tấn công: Bấm toàn bộ các tầng để cửa mở liên tục và dùng cùi chỏ, gót chân tấn công vào các điểm yếu.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Kỹ năng thoát hiểm trong thang máy & Không gian kín",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Vị trí đứng an toàn nhất khi đi thang máy chung với người lạ có biểu hiện khả nghi là ở đâu?",
+            "explanation": "Đứng quay lưng vào vách thang máy, ngay sát bảng điều khiển các tầng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đứng quay mặt vào góc tường",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đứng sát bảng điều khiển, lưng tựa vách để vừa quan sát được thang máy vừa với tay bấm nút",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đứng chính giữa nhắm mắt nghe nhạc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngồi xổm xuống sàn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi bị tấn công hoặc quấy rối trong thang máy, thao tác bấm nút nào giúp bạn thoát hiểm nhanh nhất?",
+            "explanation": "Bấm nút mở cửa và bấm liên tục tất cả các tầng kế tiếp để thang dừng mở cửa ngay.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bấm nút tắt đèn thang máy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bấm chuông báo động khẩn cấp và bấm hàng loạt tất cả các tầng để thang liên tục mở cửa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không bấm gì cả",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bấm nút đóng cửa thật nhanh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Điểm yếu trên cơ thể kẻ tấn công mà bạn có thể nhắm vào để tự vệ thoát thân là gì?",
+            "explanation": "Mắt, mũi, yết hầu, hạ bộ (vùng kín) và ống đồng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bả vai và cánh tay",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hạ bộ (vùng kín), mắt, mũi và yết hầu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lưng và mông",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắp chân",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Vật dụng cá nhân thông dụng nào có thể biến thành công cụ tự vệ hiệu quả khi bị tấn công?",
+            "explanation": "Chìa khóa nhà, bút viết, bình xịt cồn/nước hoa, ô dù.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tờ tiền giấy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chùm chìa khóa kẹp giữa các ngón tay, bút bi nhọn hoặc bình xịt cồn xịt vào mắt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khăn giấy ướt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cục tẩy bút chì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Sau khi thoát được ra khỏi thang máy, hành động tiếp theo cần làm ngay là gì?",
+            "explanation": "Chạy ra khu vực sảnh có nhân viên bảo vệ, lễ tân và hô hoán để bắt giữ kẻ xấu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lại bước vào thang máy đi tiếp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chạy ra quầy lễ tân, bảo vệ hoặc nơi đông người để báo động và nhờ kiểm tra camera an ninh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đi về nhà tắm rửa coi như không có gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đăng bài ẩn ý lên TikTok",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Phòng ngừa bắt cóc, lừa đảo xin đi nhờ xe & Bẫy 'giàn cảnh'",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Các thủ đoạn dàn cảnh đánh ghen giả mạo hoặc lừa đảo 'chú là bạn bố mẹ đến đón con' diễn ra ngày càng tinh vi trước cổng trường học. Bài học trang bị nguyên tắc 'Không tin người lạ', quy tắc mật mã gia đình và cách phá vỡ bẫy dàn cảnh đám đông.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Phòng ngừa bắt cóc, lừa đảo xin đi nhờ xe & Bẫy 'giàn cảnh'",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi một người lạ đến cổng trường nói: 'Bố mẹ cháu bị tai nạn đang cấp cứu, chú đến chở cháu đi ngay', bạn nên làm gì?",
+            "explanation": "Tuyệt đối không lên xe; chạy ngay vào phòng bảo vệ hoặc văn phòng trường để nhờ thầy cô gọi điện xác minh với bố mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lên xe đi ngay vì quá hoảng sợ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tuyệt đối không đi theo; lập tức vào phòng bảo vệ nhờ thầy cô gọi điện thoại trực tiếp cho bố mẹ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đi theo nửa đoạn đường rồi tính",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cho người lạ số tài khoản ngân hàng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Quy ước 'Mật khẩu gia đình' (Family Password) phát huy tác dụng gì trong tình huống này?",
+            "explanation": "Chỉ người nào được bố mẹ nhờ đón và đọc đúng mật khẩu bí mật thì con mới được đi cùng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để mở khóa mạng wifi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Xác minh người được ủy quyền đón thật sự; nếu người lạ không đọc đúng mật mã thì dứt khoát từ chối",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để nhận quà khuyến mãi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có tác dụng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nếu bị kẻ xấu dàn cảnh giả làm người nhà lôi kéo: 'Về nhà đi con, sao hư đốn thế này', bạn cần phá vỡ màn kịch thế nào?",
+            "explanation": "Hét thật to hướng vào người đi đường: 'BÁC ƠI CHÁU KHÔNG QUEN NGƯỜI NÀY! CỨU CHÁU VỚI, CHÁU BỊ BẮT CÓC!'",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đứng im khóc lóc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chỉ đích danh một người xung quanh và hét to: 'Bác áo xanh ơi, người này là kẻ bắt cóc, cháu không quen!'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đi theo kẻ đó về nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Xin lỗi kẻ đó",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tại sao việc chỉ đích danh một người cụ thể trong đám đông (ví dụ 'Chú mặc áo sơ mi trắng ơi!') lại hiệu quả hơn hét 'Cứu tôi với' chung chung?",
+            "explanation": "Phá vỡ 'Hiệu ứng bàng quan' (Bystander Effect), giao trách nhiệm tâm lý trực tiếp cho một cá nhân giúp họ hành động ngay.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì gọi như thế cho vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phá vỡ hiệu ứng bàng quan, khiến người được gọi cảm thấy có trách nhiệm can thiệp ngay lập tức",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì người đó có nhiều tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì người đó chạy nhanh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Số điện thoại đường dây nóng bảo vệ trẻ em có chức năng can thiệp bảo vệ khẩn cấp là gì?",
+            "explanation": "111",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "111",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "1080",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "19001000",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "114",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng mạng lưới an toàn cá nhân & Trang bị công nghệ tự vệ",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Tận dụng công nghệ thông minh để bảo vệ bản thân: Cài đặt tính năng khẩn cấp SOS trên iPhone (bấm 5 lần nút nguồn) hoặc Android, chia sẻ vị trí Find My / Google Maps cho gia đình, và thiết lập danh bạ liên hệ khẩn cấp (ICE - In Case of Emergency).",
+      "quiz": {
+        "title": "Củng cố Bài 5: Xây dựng mạng lưới an toàn cá nhân & Trang bị công nghệ tự vệ",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức khoa học.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Ký hiệu 'ICE' trong danh bạ điện thoại của bạn có nghĩa là gì?",
+            "explanation": "In Case of Emergency — Người liên hệ khẩn cấp khi bạn gặp sự cố (công an, bác sĩ sẽ gọi số này đầu tiên).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tôi thích ăn kem",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "In Case of Emergency (Số điện thoại liên hệ khẩn cấp của cha mẹ/người thân khi gặp nạn)",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tên một trò chơi điện tử",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Dịch vụ sửa chữa tủ lạnh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tính năng kích hoạt SOS khẩn cấp trên điện thoại thông minh (iPhone/Android) thường hoạt động như thế nào?",
+            "explanation": "Nhấn nhanh phím nguồn 5 lần liên tiếp để tự động gọi cứu hộ và gửi định vị GPS cho người thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nhấn phím nguồn 5 lần liên tiếp để tự kích hoạt còi báo động, gọi 113 và gửi tọa độ GPS",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ném điện thoại xuống đất",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tắt nguồn điện thoại",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mở camera chụp ảnh tự sướng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao bạn nên bật tính năng 'Chia sẻ vị trí vĩnh viễn' với cha mẹ trên Google Maps hoặc Find My?",
+            "explanation": "Giúp gia đình luôn biết vị trí an toàn của bạn trong trường hợp mất liên lạc hoặc gặp sự cố bất ngờ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Để cha mẹ kiểm soát việc đi chơi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giúp người thân nhanh chóng xác định vị trí cứu hộ kịp thời khi xảy ra rủi ro mất liên lạc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để khoe điểm số",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có lợi ích gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Vật dụng công nghệ nhỏ gọn nào có thể phát ra âm thanh báo động 120-130dB để xua đuổi kẻ xấu?",
+            "explanation": "Móc khóa báo động cá nhân (Personal Alarm) kéo chốt kêu to.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tai nghe Bluetooth",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Móc khóa báo động cá nhân kéo chốt phát còi báo động cực lớn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đồng hồ đeo tay hết pin",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Thẻ căn cước công dân",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Sự tự tin và cảnh giác cao độ có vai trò gì trong việc phòng ngừa tội phạm?",
+            "explanation": "Tội phạm thường nhắm vào người mất tập trung (vừa đi vừa dán mắt vào điện thoại); người đi đứng tự tin, quan sát xung quanh ít bị tấn công hơn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Không có vai trò gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tư thế tự tin, cảnh giác quan sát xung quanh khiến kẻ xấu chùn bước và giảm nguy cơ bị chọn làm mục tiêu",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm kẻ xấu nổi giận hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ cần giỏi võ là đủ",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Tự vệ & Xử lý Tình huống Khẩn cấp Công cộng",
+    "description": "10 câu hỏi kiểm tra kỹ năng sinh tồn, thoát hiểm và tự vệ nơi công cộng.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Khi phát hiện người lạ bám theo xe mình qua nhiều ngã rẽ, bạn tuyệt đối KHÔNG NÊN làm gì?",
+        "explanation": "Không chạy thẳng về nhà riêng khi nhà vắng vẻ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tấp vào cây xăng đông người",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chạy thẳng về nhà riêng khi xung quanh vắng người",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Gọi điện thoại cho bố mẹ",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bật định vị chia sẻ hành trình",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Trong thang máy, nếu kẻ lạ có hành vi sàm sỡ, bạn nên bấm những nút nào?",
+        "explanation": "Bấm chuông báo động và bấm hàng loạt tất cả các tầng kế tiếp.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bấm nút đóng cửa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bấm chuông báo động và bấm tất cả các tầng để cửa liên tục mở ra thoát hiểm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bấm tắt đèn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không bấm gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Số điện thoại khẩn cấp của lực lượng Cảnh sát phản ứng nhanh Việt Nam là gì?",
+        "explanation": "113",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "113",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "114",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "115",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "111",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Khi đi taxi/xe công nghệ một mình, vị trí ghế ngồi được khuyến nghị an toàn nhất là?",
+        "explanation": "Hàng ghế sau, chéo góc với tài xế.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ghế phụ cạnh tài xế",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hàng ghế sau, chéo góc với tài xế",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ngồi sát tài xế",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Ngồi ghế giữa",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Thao tác kích hoạt cuộc gọi SOS khẩn cấp trên phần lớn điện thoại thông minh là gì?",
+        "explanation": "Bấm nút nguồn liên tục 5 lần.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bấm nút nguồn 5 lần liên tiếp",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bấm nút tăng âm lượng 20 lần",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lắc điện thoại 3 cái",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tháo sim ra",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Hiệu ứng bàng quan (Bystander Effect) có thể được phá vỡ bằng cách nào khi bạn cầu cứu?",
+        "explanation": "Chỉ đích danh một người cụ thể trong đám đông nhờ giúp đỡ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hét to mơ hồ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chỉ đích danh một cá nhân cụ thể và giao nhiệm vụ cầu cứu rõ ràng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đứng im",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Khóc thầm",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Vùng cơ thể nhạy cảm nhất của kẻ tấn công mà bạn nên nhắm vào để thoát thân khi bị bóp cổ?",
+        "explanation": "Hạ bộ, mắt hoặc yết hầu.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cẳng tay",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hạ bộ, mắt, mũi hoặc yết hầu",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lưng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đầu gối",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Móc khóa còi báo động cá nhân có tác dụng gì?",
+        "explanation": "Phát ra âm thanh đinh tai nhức óc làm kẻ xấu giật mình hoảng sợ và thu hút đám đông.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Phát sáng làm đèn ngủ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Phát âm thanh còi báo động cực lớn xua đuổi kẻ xấu và báo động xung quanh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Dùng để nghe nhạc",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Để đo nhiệt độ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Người liên hệ khẩn cấp lưu trong điện thoại nên được đặt tên theo quy chuẩn quốc tế nào?",
+        "explanation": "ICE (In Case of Emergency).",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "SOS",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "ICE (In Case of Emergency)",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "AAA",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "HELP",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Nguyên tắc cốt lõi của kỹ năng tự vệ hiện đại là gì?",
+        "explanation": "Phòng ngừa từ sớm, thoát hiểm nhanh nhất đến nơi an toàn chứ không phải ăn thua tay đôi với tội phạm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Lao vào đánh nhau sống chết với kẻ xấu",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cảnh giác phòng ngừa từ xa, thoát hiểm nhanh nhất đến nơi an toàn để bảo toàn tính mạng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đứng im chịu trận",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Giao hết mọi thứ rồi đi theo kẻ xấu",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

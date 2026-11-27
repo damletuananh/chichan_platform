@@ -41,7 +41,11 @@ CLAUDE.md
 # Ad-hoc debug scripts (untracked theo convention — xem README.md)
 scratch/
 
+# SQLite temporary files
+*.db-journal
+*.db-wal
+*.db-shm
+
 # dev zone
 tasks/
-backend/seeds/
 backend/tests/

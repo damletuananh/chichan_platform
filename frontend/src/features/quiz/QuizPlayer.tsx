@@ -186,6 +186,17 @@ export function QuizPlayer({
 
         if (res.data.passed) {
           showToast(`Xuất sắc! Bạn đạt ${res.data.score}% và đã vượt qua bài kiểm tra!`, "success");
+          try {
+            import("canvas-confetti").then((mod) => {
+              const confetti = mod.default;
+              confetti({
+                particleCount: 80,
+                spread: 70,
+                origin: { y: 0.65 },
+                zIndex: 9999,
+              });
+            });
+          } catch {}
           if (onPassed) onPassed();
         } else {
           showToast(`Bạn đạt ${res.data.score}%. Cần đạt tối thiểu ${res.data.passing_score}% để qua bài.`, "error");
@@ -246,12 +257,12 @@ export function QuizPlayer({
   const isLocked = countdownSeconds > 0 || (quiz.is_locked && !quiz.has_passed);
 
   return (
-    <div className="w-full max-w-3xl mx-auto my-3 sm:my-8 bg-white/90 backdrop-blur-md rounded-2xl sm:rounded-3xl border border-white shadow-md p-4 sm:p-8 md:p-10 space-y-6 sm:space-y-8 animate-fade-in">
+    <div className="w-full max-w-3xl mx-auto my-3 sm:my-8 bg-white rounded-none border border-outline-variant/40 shadow-depth-2 p-4 sm:p-8 md:p-10 space-y-6 sm:space-y-8 animate-page-appear">
       {/* Quiz Header & Coursera Anti-Spam Policy Bar */}
       <div className="space-y-3 sm:space-y-4 border-b border-outline-variant/30 pb-4 sm:pb-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+            <div className="w-10 h-10 rounded-none bg-primary/10 text-primary flex items-center justify-center">
               <ShieldCheck size={24} weight="duotone" />
             </div>
             <div>
@@ -265,11 +276,11 @@ export function QuizPlayer({
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-bold text-xs border border-white">
+            <span className="px-3.5 py-1.5 rounded-none bg-surface-container-high text-on-surface font-bold text-xs border border-white">
               Điểm đạt: {quiz.passing_score}%
             </span>
             {quiz.has_passed && (
-              <span className="px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 font-extrabold text-xs flex items-center gap-1.5">
+              <span className="px-3.5 py-1.5 rounded-none bg-emerald-100 text-emerald-800 font-extrabold text-xs flex items-center gap-1.5">
                 <SealCheck size={16} weight="fill" />
                 Đã đạt
               </span>
@@ -284,7 +295,7 @@ export function QuizPlayer({
         )}
 
         {/* Anti-spam Attempt Badge Bar */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 p-3 rounded-xl sm:rounded-2xl bg-surface-container-lowest border border-outline-variant/20 text-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 p-3 rounded-none bg-surface-container-lowest border border-outline-variant/20 text-xs">
           <div className="flex items-center gap-2 text-on-surface-variant">
             <ClockCountdown size={16} weight="duotone" className="text-amber-600 shrink-0" />
             <span>
@@ -308,8 +319,8 @@ export function QuizPlayer({
 
       {/* Coursera-style Lockout State Screen */}
       {isLocked && !submissionResult && (
-        <div className="p-8 rounded-3xl bg-amber-50/80 border border-amber-300 text-center space-y-4 animate-scale-up">
-          <div className="w-14 h-14 mx-auto bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center shadow-xs">
+        <div className="p-8 rounded-none bg-amber-50/80 border border-amber-300 text-center space-y-4 animate-scale-up">
+          <div className="w-14 h-14 mx-auto bg-amber-100 text-amber-700 rounded-none flex items-center justify-center shadow-xs">
             <ClockCountdown size={32} weight="duotone" className="animate-pulse" />
           </div>
           <div className="space-y-1">
@@ -321,7 +332,7 @@ export function QuizPlayer({
             </p>
           </div>
 
-          <div className="inline-block px-6 py-2.5 rounded-2xl bg-white border border-amber-300 shadow-sm">
+          <div className="inline-block px-6 py-2.5 rounded-none bg-white border border-amber-300 shadow-sm">
             <span className="font-mono text-2xl font-black text-amber-900 tracking-wider">
               {formatTime(countdownSeconds)}
             </span>
@@ -349,7 +360,7 @@ export function QuizPlayer({
             return (
               <div
                 key={question.id}
-                className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-surface-container-lowest border border-outline-variant/30 shadow-xs space-y-3 sm:space-y-4 transition-all"
+                className="p-4 sm:p-6 rounded-none bg-surface-container-lowest border border-outline-variant/30 shadow-xs space-y-3 sm:space-y-4 transition-all card-lift"
               >
                 {/* Question Label & Text */}
                 <div className="space-y-1.5">
@@ -361,7 +372,7 @@ export function QuizPlayer({
                     {/* Submission status badge per question */}
                     {submissionResult && submissionResult.show_correct_answers && (
                       <span
-                        className={`text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1 ${
+                        className={`text-xs font-bold px-3 py-1 rounded-none flex items-center gap-1 ${
                           questionResult?.is_correct
                             ? "bg-emerald-100 text-emerald-800"
                             : "bg-red-100 text-red-800"
@@ -422,10 +433,10 @@ export function QuizPlayer({
                         type="button"
                         onClick={() => handleSelectOption(question.id, option.id)}
                         disabled={!!submissionResult}
-                        className={`w-full p-3.5 sm:p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 text-xs sm:text-sm cursor-pointer disabled:cursor-default ${optClasses}`}
+                        className={`btn-press w-full p-3.5 sm:p-4 rounded-none border text-left transition-all flex items-center justify-between gap-3 text-xs sm:text-sm cursor-pointer disabled:cursor-default ${optClasses}`}
                       >
                         <div className="flex items-center gap-3">
-                          <span className="w-6 h-6 rounded-full border border-current/30 flex items-center justify-center text-[11px] font-bold shrink-0">
+                          <span className="w-6 h-6 rounded-none border border-current/30 flex items-center justify-center text-[11px] font-bold shrink-0">
                             {String.fromCharCode(65 + optIdx)}
                           </span>
                           <span className="leading-relaxed">{option.option_text}</span>
@@ -451,7 +462,7 @@ export function QuizPlayer({
                 {submissionResult &&
                   submissionResult.show_correct_answers &&
                   questionResult?.explanation && (
-                    <div className="p-4 rounded-2xl bg-amber-50/80 border border-amber-200/70 text-xs text-amber-950 space-y-1.5 animate-fade-in">
+                    <div className="p-4 rounded-none bg-amber-50/80 border border-amber-200/70 text-xs text-amber-950 space-y-1.5 animate-fade-in">
                       <div className="font-bold flex items-center gap-1.5 text-amber-800 text-[11px] uppercase tracking-wider">
                         <Lightbulb size={16} weight="duotone" className="text-amber-600" />
                         Lời giải thích y khoa:
@@ -468,13 +479,13 @@ export function QuizPlayer({
           {/* Submission Result Summary Card */}
           {submissionResult && (
             <div
-              className={`p-6 sm:p-8 rounded-3xl border text-center space-y-4 animate-scale-up ${
+              className={`p-6 sm:p-8 rounded-none border text-center space-y-4 animate-scale-up ${
                 submissionResult.passed
                   ? "bg-emerald-50/90 border-emerald-300 text-emerald-950"
                   : "bg-amber-50/90 border-amber-300 text-amber-950"
               }`}
             >
-              <div className="w-16 h-16 mx-auto rounded-3xl flex items-center justify-center shadow-xs bg-white">
+              <div className="w-16 h-16 mx-auto rounded-none flex items-center justify-center shadow-xs bg-white">
                 {submissionResult.passed ? (
                   <SealCheck size={36} weight="duotone" className="text-emerald-600" />
                 ) : (
@@ -497,7 +508,7 @@ export function QuizPlayer({
               </div>
 
               {!submissionResult.show_correct_answers && (
-                <div className="p-3 rounded-xl bg-white/80 border border-black/5 text-[11px] text-on-surface-variant font-light max-w-lg mx-auto">
+                <div className="p-3 rounded-none bg-white/80 border border-black/5 text-[11px] text-on-surface-variant font-light max-w-lg mx-auto">
                   * Giáo viên đã ẩn đáp án chi tiết và giải thích cho bài kiểm tra này nhằm bảo mật nội dung học thuật.
                 </div>
               )}
@@ -507,7 +518,7 @@ export function QuizPlayer({
                 {!submissionResult.passed && !submissionResult.is_locked && (
                   <button
                     onClick={handleRetry}
-                    className="px-6 py-3 rounded-full bg-amber-600 text-white font-bold text-xs hover:bg-amber-700 transition-all flex items-center gap-2 cursor-pointer shadow-sm"
+                    className="btn-press px-6 py-3 rounded-none bg-amber-600 text-white font-bold text-xs hover:bg-amber-700 transition-all flex items-center gap-2 cursor-pointer shadow-sm"
                   >
                     <ArrowClockwise size={16} weight="bold" />
                     <span>Làm lại bài kiểm tra (Còn {submissionResult.attempts_left} lượt)</span>

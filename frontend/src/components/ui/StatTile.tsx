@@ -32,10 +32,10 @@ export function StatTile({
 }: StatTileProps) {
   return (
     <div
-      className={`bg-white/80 backdrop-blur-md p-6 rounded-2xl text-center border border-white/60 shadow-sm space-y-2 ${className}`}
+      className={`card-lift bg-white/80 backdrop-blur-md p-6 rounded-none text-center border border-white/60 shadow-depth-1 space-y-2 ${className}`}
     >
       <div
-        className={`mx-auto flex h-12 w-12 items-center justify-center rounded-2xl ${chipToneMap[chipTone]}`}
+        className={`mx-auto flex h-12 w-12 items-center justify-center rounded-none ${chipToneMap[chipTone]}`}
       >
         {icon}
       </div>

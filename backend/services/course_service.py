@@ -27,7 +27,29 @@ def normalize_video_identifier(url: str | None) -> str | None:
         
     return trimmed
 
+import time
+
+_courses_cache = {}
+_courses_cache_time = {}
+COURSES_CACHE_TTL = 30.0
+
+def invalidate_courses_cache():
+    global _courses_cache, _courses_cache_time
+    _courses_cache.clear()
+    _courses_cache_time.clear()
+    try:
+        from services.settings_service import invalidate_settings_cache
+        invalidate_settings_cache()
+    except Exception:
+        pass
+
 async def get_public_courses(db: AsyncSession, target_audience: str = None):
+    global _courses_cache, _courses_cache_time
+    cache_key = target_audience or "ALL"
+    now = time.time()
+    if cache_key in _courses_cache and (now - _courses_cache_time.get(cache_key, 0)) < COURSES_CACHE_TTL:
+        return _courses_cache[cache_key]
+
     courses = await course_repository.get_courses(db, target_audience)
     
     results = []
@@ -42,6 +64,8 @@ async def get_public_courses(db: AsyncSession, target_audience: str = None):
             "total_lessons": len(c.lessons) if c.lessons else 0,
             "instructor_name": c.instructor.full_name if c.instructor else "Unknown"
         })
+    _courses_cache[cache_key] = results
+    _courses_cache_time[cache_key] = now
     return results
 
 async def get_course_intro(db: AsyncSession, course_id: UUID, current_user = None):
@@ -172,7 +196,7 @@ async def get_course_outro(db: AsyncSession, user_id: UUID, course_id: UUID):
         raise HTTPException(status_code=403, detail="Bạn chưa hoàn thành tất cả các bài học trong khóa học này.")
         
     course = await course_repository.get_course_by_id(db, course_id)
-    student = await user_repository.get_user_by_id(db, str(user_id))
+    student = await user_repository.get_user_by_id(db, user_id)
 
     # Format unique certificate code: e.g. CHICHAN-ABC123XY
     cert_hash = str(enrollment.id).replace("-", "")[:8].upper()
@@ -204,6 +228,7 @@ async def create_new_course(db: AsyncSession, instructor_id: UUID, course_data: 
         is_published=False
     )
     created = await course_repository.create_course(db, course)
+    invalidate_courses_cache()
     return {
         "course_id": created.id,
         "slug": created.slug
@@ -227,6 +252,7 @@ async def update_existing_course(db: AsyncSession, instructor_id: UUID, course_i
     course.outro_content = course_data.outro_content
     
     updated = await course_repository.update_course(db, course)
+    invalidate_courses_cache()
     return {
         "course_id": updated.id,
         "slug": updated.slug
@@ -241,6 +267,7 @@ async def delete_existing_course(db: AsyncSession, instructor_id: UUID, course_i
         raise HTTPException(status_code=403, detail="Bạn không sở hữu khóa học này.")
         
     await course_repository.delete_course(db, course)
+    invalidate_courses_cache()
 
 # Lessons
 async def add_lesson_to_course(db: AsyncSession, instructor_id: UUID, course_id: UUID, lesson_data: LessonCreate, is_admin: bool = False):
@@ -262,6 +289,7 @@ async def add_lesson_to_course(db: AsyncSession, instructor_id: UUID, course_id:
     )
     
     created = await course_repository.create_lesson(db, lesson)
+    invalidate_courses_cache()
     return {
         "lesson_id": created.id,
         "title": created.title
@@ -287,6 +315,7 @@ async def update_lesson_in_course(db: AsyncSession, instructor_id: UUID, course_
     lesson.duration_minutes = lesson_data.duration_minutes
     
     await course_repository.update_lesson(db, lesson)
+    invalidate_courses_cache()
     return {
         "lesson_id": lesson.id,
         "title": lesson.title
@@ -305,6 +334,7 @@ async def delete_lesson_from_course(db: AsyncSession, instructor_id: UUID, cours
         raise HTTPException(status_code=404, detail="Không tìm thấy bài học.")
         
     await course_repository.delete_lesson(db, lesson)
+    invalidate_courses_cache()
 
 async def reorder_lessons_in_course(db: AsyncSession, instructor_id: UUID, course_id: UUID, lesson_ids: list[UUID], is_admin: bool = False):
     course = await course_repository.get_course_by_id(db, course_id)
@@ -316,4 +346,5 @@ async def reorder_lessons_in_course(db: AsyncSession, instructor_id: UUID, cours
 
     # 1 executemany UPDATE + 1 commit duy nhất thay vì SELECT/UPDATE/commit cho từng bài học
     await course_repository.reorder_lessons(db, course_id, lesson_ids)
+    invalidate_courses_cache()
     return True

@@ -11,6 +11,7 @@ import { ThreeStepJourney } from "@/app/(public)/_home/ThreeStepJourney";
 import { FeaturedRoleplaySection } from "@/app/(public)/_home/FeaturedRoleplaySection";
 import { CourseCardSkeleton, ForumPostSkeleton } from "@/components/Skeleton";
 import { EmptyState } from "@/components/ui";
+import { ScrollReveal, ScrollRevealGroup } from "@/components/common/ScrollReveal";
 import {
   ArrowRight,
   Lightning,
@@ -38,7 +39,7 @@ const HeroVisualShowcase = dynamic(
         className="w-full flex items-center justify-center py-4 md:py-6"
         aria-hidden="true"
       >
-        <div className="w-full h-[340px] sm:h-[420px] md:h-[490px] rounded-3xl bg-surface-container animate-pulse" />
+        <div className="w-full h-[340px] sm:h-[420px] md:h-[490px] rounded-none bg-surface-container animate-pulse" />
       </div>
     ),
   },
@@ -111,7 +112,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative pt-16 pb-16 md:pt-24 md:pb-24 px-4 md:px-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="flex flex-col gap-6 md:gap-8">
+          <ScrollReveal animation="fade-right" className="flex flex-col gap-6 md:gap-8">
             <HeroTypingTitle />
             <p className="text-base md:text-lg text-on-surface-variant font-normal leading-relaxed max-w-lg">
               Nền tảng hỗ trợ giáo viên trong công tác Giáo dục giới tính tại THPT Giồng Ông Tố — Tiện lợi, khoa học, thú vị — đồng hành cùng Học sinh, Phụ huynh và Nhà trường. Môi trường học tập số tiện lợi, an toàn, hỗ trợ giảm thiểu rào cản trong việc GDGT ở nhà trường và gia đình.
@@ -119,26 +120,30 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Link
                 href="/courses"
-                className="px-6 py-3.5 bg-primary text-white rounded-full text-sm font-bold hover:opacity-90 shadow-md flex items-center justify-center gap-2 transition-all"
+                className="btn-press px-6 py-3.5 bg-primary text-white rounded-none text-sm font-bold shadow-depth-2 hover:shadow-depth-3 hover:bg-primary-hover flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
-                Khám phá Góc Học Tập
+                <span>Khám phá Góc Học Tập</span>
                 <ArrowRight size={18} weight="bold" />
               </Link>
               <Link
                 href="/about"
-                className="px-6 py-3.5 border border-outline/30 text-primary hover:bg-surface-container rounded-full text-sm font-bold flex items-center justify-center transition-all"
+                className="btn-press px-6 py-3.5 border border-outline-variant/60 text-primary bg-white hover:bg-surface-container rounded-none text-sm font-bold shadow-depth-1 flex items-center justify-center transition-all cursor-pointer"
               >
-                Về Chúng Tôi
+                <span>Về Chúng Tôi</span>
               </Link>
             </div>
-          </div>
+          </ScrollReveal>
           <HeroVisualShowcase />
         </div>
       </section>
 
       {/* NCKH THPT Giồng Ông Tố Intro Banner */}
       <section className="px-4 md:px-16 -mt-4 mb-4">
-        <div className="max-w-7xl mx-auto p-6 md:p-8 rounded-none bg-white border border-outline-variant/40 shadow-depth-2 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <ScrollReveal
+          animation="fade-up"
+          delay={80}
+          className="max-w-7xl mx-auto p-6 md:p-8 rounded-none bg-white border border-outline-variant/40 shadow-depth-2 card-lift flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
+        >
           <div className="space-y-2">
             <span className="text-xs font-black uppercase tracking-wider text-primary">Về chúng tôi</span>
             <h3 className="text-lg md:text-xl font-extrabold text-on-surface">
@@ -150,11 +155,11 @@ export default function HomePage() {
           </div>
           <Link
             href="/about"
-            className="shrink-0 px-5 py-2.5 rounded-none bg-white border border-outline-variant/40 text-xs font-bold text-primary hover:bg-surface-container transition-all shadow-depth-1"
+            className="btn-press shrink-0 px-5 py-2.5 rounded-none bg-white border border-outline-variant/40 text-xs font-bold text-primary hover:bg-surface-container transition-all shadow-depth-1"
           >
             Tìm hiểu đề tài
           </Link>
-        </div>
+        </ScrollReveal>
       </section>
 
       {/* 3-Step Interactive Learning Journey */}
@@ -166,7 +171,7 @@ export default function HomePage() {
       {/* Course Switcher Section */}
       <section className="py-24 px-4 md:px-16">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
-          <div className="text-center mb-12">
+          <ScrollReveal animation="fade-up" className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-extrabold text-on-surface mb-4">
               Khám phá Góc Học Tập
             </h2>
@@ -177,14 +182,14 @@ export default function HomePage() {
                   ? "Hệ thống bài giảng do giáo viên phụ trách, học sinh hoàn thành như bài giảng trên lớp."
                   : "Lựa chọn chương trình học tập phù hợp để đồng hành hiệu quả giữa Nhà trường, Học sinh và Phụ huynh."}
             </p>
-          </div>
+          </ScrollReveal>
 
           {/* Switcher Tabs - Only visible for Guests / Admin / Instructors */}
           {!isParent && !isChild && (
-            <div className="w-full max-w-md flex p-1 bg-surface-container-low rounded-xl mb-10 sm:mb-16 border border-outline-variant/30">
+            <ScrollReveal animation="fade-up" delay={80} className="w-full max-w-md flex p-1 bg-surface-container-low rounded-none mb-10 sm:mb-16 border border-outline-variant/40 shadow-depth-1">
               <button
                 onClick={() => setActiveTab("PARENT")}
-                className={`flex-1 px-3 sm:px-8 py-2.5 sm:py-3 rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer text-center ${
+                className={`flex-1 px-3 sm:px-8 py-2.5 sm:py-3 rounded-none text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer text-center ${
                   activeTab === "PARENT"
                     ? "bg-white text-primary font-bold shadow-depth-1 border border-outline-variant/20"
                     : "text-on-surface-variant hover:text-on-surface hover:bg-white/50"
@@ -194,7 +199,7 @@ export default function HomePage() {
               </button>
               <button
                 onClick={() => setActiveTab("CHILD")}
-                className={`flex-1 px-3 sm:px-8 py-2.5 sm:py-3 rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer text-center ${
+                className={`flex-1 px-3 sm:px-8 py-2.5 sm:py-3 rounded-none text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer text-center ${
                   activeTab === "CHILD"
                     ? "bg-white text-primary font-bold shadow-depth-1 border border-outline-variant/20"
                     : "text-on-surface-variant hover:text-on-surface hover:bg-white/50"
@@ -202,42 +207,46 @@ export default function HomePage() {
               >
                 Dành cho Học sinh
               </button>
-            </div>
+            </ScrollReveal>
           )}
 
           {/* Course Grid */}
-          {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-              {Array.from({ length: 3 }).map((_, i) => (
-                <CourseCardSkeleton key={i} />
-              ))}
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-              {coursesToRender.length === 0 ? (
-                <EmptyState
-                  icon={<BookOpen size={48} weight="duotone" />}
-                  title="Chưa có khóa học nổi bật nào."
-                  className="col-span-full"
-                />
-              ) : (
-                coursesToRender.map((course: Course) => (
-                  <CourseCard
+          <ScrollReveal animation="fade-up" delay={60} className="w-full">
+            {loading ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <CourseCardSkeleton key={i} />
+                ))}
+              </div>
+            ) : coursesToRender.length === 0 ? (
+              <EmptyState
+                icon={<BookOpen size={48} weight="duotone" />}
+                title="Chưa có khóa học nổi bật nào."
+                className="col-span-full"
+              />
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+                {coursesToRender.map((course: Course, idx: number) => (
+                  <div
                     key={course.id}
-                    course={course}
-                    forcedAudience={activeTab}
-                  />
-                ))
-              )}
-            </div>
-          )}
+                    className={`h-full animate-page-appear stagger-${Math.min(idx + 1, 6)}`}
+                  >
+                    <CourseCard
+                      course={course}
+                      forcedAudience={activeTab}
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+          </ScrollReveal>
         </div>
       </section>
 
       {/* Recent Forum Feed */}
       <section className="py-24 bg-surface-container-low/30 px-4 md:px-16 relative border-t border-outline-variant/10">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between items-end mb-12">
+          <ScrollReveal animation="fade-up" className="flex justify-between items-end mb-12">
             <div>
               <h2 className="text-2xl md:text-3xl font-extrabold text-on-surface mb-2">
                 Góc Trò Chuyện &amp; Thảo Luận
@@ -253,33 +262,34 @@ export default function HomePage() {
               Xem tất cả
               <ArrowRight size={16} weight="bold" />
             </Link>
-          </div>
+          </ScrollReveal>
 
-          {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {Array.from({ length: 3 }).map((_, i) => (
-                <ForumPostSkeleton key={i} />
-              ))}
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {!homeData?.recent_forum_posts ||
+          {/* Forum Grid Container */}
+          <ScrollReveal animation="fade-up" delay={60} className="w-full">
+            {loading ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <ForumPostSkeleton key={i} />
+                ))}
+              </div>
+            ) : !homeData?.recent_forum_posts ||
               homeData.recent_forum_posts.length === 0 ? (
-                <div className="col-span-full text-center py-12 text-on-surface-variant/75 text-sm">
-                  Chưa có chủ đề thảo luận nào.
-                </div>
-              ) : (
-                homeData.recent_forum_posts.map((post: ForumPost) => (
+              <div className="col-span-full text-center py-12 text-on-surface-variant/75 text-sm">
+                Chưa có chủ đề thảo luận nào.
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {homeData.recent_forum_posts.map((post: ForumPost, idx: number) => (
                   <Link
                     key={post.id}
                     href={`/forum/${post.id}`}
-                    className="p-8 bg-white rounded-none border border-outline-variant/40 shadow-depth-1 hover:shadow-depth-3 hover:-translate-y-0.5 transition-all duration-200 flex flex-col justify-between group"
+                    className={`p-8 bg-white rounded-none border border-outline-variant/40 shadow-depth-1 card-lift flex flex-col justify-between group cursor-pointer h-full animate-page-appear stagger-${Math.min(idx + 1, 6)}`}
                   >
                     <div>
                       <div className="flex items-center justify-between gap-3 mb-5">
                         <div className="flex items-center gap-3">
                           {post.is_anonymous ? (
-                            <div className="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant flex-shrink-0">
+                            <div className="w-10 h-10 rounded-none bg-surface-container flex items-center justify-center text-on-surface-variant flex-shrink-0 border border-outline-variant/30">
                               <UserCircle size={24} weight="duotone" />
                             </div>
                           ) : post.author_avatar ? (
@@ -288,10 +298,10 @@ export default function HomePage() {
                               alt={post.author_name}
                               loading="lazy"
                               decoding="async"
-                              className="w-10 h-10 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+                              className="w-10 h-10 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
                             />
                           ) : (
-                            <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold text-sm flex-shrink-0">
+                            <div className="w-10 h-10 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center text-primary font-bold text-sm flex-shrink-0">
                               {post.author_name
                                 ? post.author_name.charAt(0).toUpperCase()
                                 : "U"}
@@ -309,12 +319,12 @@ export default function HomePage() {
                           </div>
                         </div>
 
-                        <span className="px-2.5 py-0.5 rounded-full bg-surface-container-low text-[10px] font-semibold text-on-surface-variant border border-outline-variant/20 flex-shrink-0">
+                        <span className="px-2.5 py-0.5 rounded-none bg-surface-container-low text-[10px] font-semibold text-on-surface-variant border border-outline-variant/20 flex-shrink-0">
                           {post.category_name}
                         </span>
                       </div>
 
-                      <h4 className="text-sm font-bold text-on-surface mb-2.5 line-clamp-2 group-hover:text-primary transition-colors leading-snug">
+                      <h4 className="text-sm font-bold text-on-surface mb-2.5 line-clamp-2 group-hover:text-primary transition-colors duration-200 leading-snug">
                         {post.title}
                       </h4>
                       <p className="text-xs text-on-surface-variant leading-relaxed mb-6 line-clamp-3">
@@ -344,19 +354,19 @@ export default function HomePage() {
                       </span>
                     </div>
                   </Link>
-                ))
-              )}
-            </div>
-          )}
+                ))}
+              </div>
+            )}
+          </ScrollReveal>
 
-          <div className="mt-10 text-center md:hidden">
+          <ScrollReveal animation="fade-up" delay={150} className="mt-10 text-center md:hidden">
             <Link
               href="/forum"
               className="inline-flex px-8 py-3 border border-outline/30 text-on-surface rounded-none text-sm font-bold bg-white shadow-depth-1 hover:bg-surface-container transition-colors"
             >
               Xem tất cả thảo luận
             </Link>
-          </div>
+          </ScrollReveal>
         </div>
       </section>
     </div>

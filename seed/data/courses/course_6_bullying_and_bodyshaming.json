@@ -1,0 +1,1039 @@
+{
+  "title": "Phòng Chống Bạo Lực Học Đường & Bản Lĩnh Trước Body Shaming",
+  "slug": "phong-chong-bao-luc-hoc-duong-va-ban-linh-truoc-body-shaming",
+  "short_description": "Trang bị kỹ năng nhận diện bạo lực tinh thần, xử lý bêu rếu trên mạng, vượt qua bẫy miệt thị ngoại hình và xây dựng sự tự tin bản lĩnh tuổi học trò.",
+  "description": "**Đối tượng:** Học sinh THCS & THPT (11 - 18 tuổi).\n\nBạo lực học đường ngày nay không chỉ dừng lại ở những vụ xô xát thể xác, mà đã biến tướng tinh vi thành các đòn tấn công tinh thần, tẩy chay nhóm kín, bêu rếu ngoại hình (Body Shaming) và bạo lực mạng tàn khốc. Khóa học giúp học sinh xây dựng lớp 'áo giáp tâm lý', trang bị kỹ thuật ứng phó điềm tĩnh, thu thập bằng chứng tự vệ và trở thành những người can thiệp tích cực xây dựng môi trường học đường nhân văn.",
+  "learning_objectives": "- Nhận diện các hình thức bạo lực học đường tinh vi: cô lập, Body Shaming, lan truyền tin đồn độc hại.\n- Nắm vững kỹ thuật phản ứng trung tính (Grey Rock Method) và quy trình thu thập bằng chứng pháp lý.\n- Đập tan bẫy so sánh ngoại hình ảo trên mạng xã hội và xây dựng lòng tự tôn (Self-Esteem) bền vững.\n- Rèn luyện kỹ năng từ chối áp lực đồng trang lứa (Peer Pressure) và văn hóa tương trợ bạn bè.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Nhận diện bạo lực học đường tinh vi: Từ lời chế giễu đến cô lập xã hội",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Căn phòng chat kín của nhóm bạn lớp 10\nHà My (15 tuổi) bất ngờ nhận thấy các bạn trong lớp thì thầm mỗi khi mình bước vào. Em chỉ phát hiện ra sự thật khi một người bạn gửi ảnh chụp màn hình một nhóm chat Messenger tên 'Hội thanh trừng' do lớp trưởng lập ra, chuyên chụp lén các góc mặt bị mụn và dáng đi của My kèm theo những lời bình phẩm thô tục: 'mặt như tổ ong', 'đi như vịt bầu'. My cảm thấy sụp đổ, sợ đến trường và bắt đầu có dấu hiệu bỏ ăn...\n\n### 1. Bạo lực học đường không chỉ là đánh đấm chân tay\nNhiều bạn trẻ lầm tưởng chỉ khi có xô xát, đánh nhau mới là bạo lực. Thực tế, bạo lực tinh thần (Relational & Psychological Bullying) để lại di chứng tâm lý nặng nề hơn rất nhiều:\n- **Tẩy chay & Cô lập:** Cố tình không cho bạn tham gia nhóm học tập, tiệc sinh nhật hoặc ngồi cùng bàn ăn.\n- **Body Shaming (Miệt thị ngoại hình):** Đặt biệt danh gắn liền với khuyết điểm cơ thể (béo, lùn, đen, mụn, ngực lép).\n- **Lan truyền tin đồn thất thiệt:** Đồn thổi về đời tư, sự trong trắng hay đạo đức của bạn nhằm phá hủy uy tín.\n\n### 2. Kỹ thuật \"Phản xạ mỏ neo\" trước lời chê bai\n- **Không tự dằn vặt bản thân:** Kẻ bắt nạt thường tấn công người khác để che giấu sự tự ti và bất an của chính họ. Lời miệt thị phản ánh nhân cách của kẻ nói, không phản ánh giá trị của bạn.\n- **Phản ứng trung tính (Grey Rock Method):** Kẻ bắt nạt khao khát thấy bạn khóc lóc hoặc tức giận. Khi bạn trả lời bình thản: *'Đó là ý kiến của bạn, còn mình thấy mình ổn'* rồi rời đi, kẻ bắt nạt sẽ mất hứng thú khiêu khích.",
+      "quiz": {
+        "title": "Kiểm tra Bài 1: Nhận diện bạo lực tinh thần",
+        "description": "5 câu hỏi kiểm tra kỹ năng phân biệt và ứng phó với bắt nạt tâm lý.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành vi nào sau đây được xem là bạo lực học đường dạng tinh thần?",
+            "explanation": "Lập nhóm chat nói xấu, cô lập và miệt thị ngoại hình là hình thức bạo lực tinh thần gây tổn thương tâm lý sâu sắc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Góp ý bạn trong giờ ôn tập để cùng làm bài tốt hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lập nhóm kín chụp lén ảnh bạn để bêu rếu và tẩy chay bạn trong lớp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không đồng ý với quan điểm của bạn trong buổi tranh biện",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhắc bạn đến phiên trực nhật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi bị bạn bè trong lớp miệt thị ngoại hình (Body Shaming), phản ứng nào sau đây là KHÔN NGOAN nhất?",
+            "explanation": "Giữ thái độ điềm tĩnh, khẳng định ranh giới và tìm người trợ giúp thay vì tự căm ghét bản thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lao vào đánh nhau ngay tại lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình thản khẳng định ranh giới, không để kẻ bắt nạt thao túng cảm xúc và báo với thầy cô, gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhịn ăn uống để giảm cân cấp tốc theo lời chế giễu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ học vĩnh viễn và nhốt mình trong phòng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Bản chất tâm lý học của kẻ thường xuyên đi bắt nạt người khác là gì?",
+            "explanation": "Nhiều kẻ bắt nạt dùng việc hạ thấp người khác để che đậy nỗi sợ hãi, tự ti hoặc sự thiếu thốn tình cảm của chính mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Họ là những người hoàn hảo và có quyền phán xét tất cả",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Họ thường che giấu sự bất an, tự ti và muốn tìm kiếm cảm giác quyền lực ảo bằng cách chèn ép người yếu thế",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Họ luôn có ý tốt muốn giúp nạn nhân tiến bộ hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do họ quá thông minh so với các bạn cùng trang lứa",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Phương pháp 'Khối đá xám' (Grey Rock Method) trong ứng phó bắt nạt có nghĩa là gì?",
+            "explanation": "Thể hiện thái độ vô cảm, trung tính, không phản ứng bộc phát khiến kẻ bắt nạt nản lòng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ném đá vào kẻ bắt nạt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phản hồi ngắn gọn, trung tính, không bộc lộ cảm xúc tức giận hay sợ hãi trước sự khiêu khích",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sơn phòng ngủ thành màu xám",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đứng im chịu trận để người khác muốn làm gì thì làm",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Người chứng kiến bạn mình bị bắt nạt (Bystander) nên hành động như thế nào là văn minh?",
+            "explanation": "Lên tiếng phản đối hoặc âm thầm báo với giáo viên, đồng thời hỗ trợ và kết nối với nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cầm điện thoại quay clip rồi đăng lên mạng xã hội câu like",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lên tiếng can ngăn nếu an toàn, báo cho thầy cô và ở bên cạnh động viên nạn nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hùa theo cười đùa để không bị coi là 'lập dị'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giả vờ không thấy và tránh xa bạn đó",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Thu thập bằng chứng & Kích hoạt quy trình bảo vệ học đường",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Nguyên tắc 'Nhật ký sự cố'\nKhi bị bắt nạt hoặc quấy rối, việc nói suông thường khiến người lớn khó can thiệp xử lý. Hãy ghi nhớ:\n- **Lưu ảnh chụp màn hình:** Đầy đủ ngày giờ, tên tài khoản, nội dung tin nhắn đe dọa hoặc lăng mạ.\n- **Ghi chép cụ thể:** Thời gian, địa điểm, những người có mặt chứng kiến.\n- **Không tự ý xóa cuộc trò chuyện** ngay cả khi nó làm bạn khó chịu, vì đó là bằng chứng pháp lý quan trọng nhất.\n\n### 2. Ba cấp độ tìm kiếm sự hỗ trợ\n1. **Cấp độ 1 — Thầy cô & Phòng Tư vấn Tâm lý trường học:** Gặp riêng giáo viên chủ nhiệm hoặc cán bộ tâm lý học đường để đề xuất can thiệp kín, tránh bị trả thù.\n2. **Cấp độ 2 — Gia đình & Ban Giám hiệu:** Yêu cầu một buổi làm việc chính thức giữa phụ huynh hai bên có sự giám sát của nhà trường.\n3. **Cấp độ 3 — Pháp lý & Tổng đài 111:** Nếu có hành vi đánh hội đồng, cưỡng đoạt tài sản hoặc phát tán clip riêng tư, gọi ngay Tổng đài Quốc gia 111 hoặc cơ quan công an phường.",
+      "quiz": {
+        "title": "Kiểm tra Bài 2: Thu thập bằng chứng và tìm kiếm trợ giúp",
+        "description": "5 câu hỏi kiểm tra kỹ năng tự vệ pháp lý và xử lý sự cố.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành động nào quan trọng nhất cần làm ngay khi nhận được tin nhắn đe dọa hoặc bêu rếu trên mạng?",
+            "explanation": "Chụp màn hình đầy đủ thông tin để giữ chứng cứ trước khi kẻ xấu kịp thu hồi hoặc xóa tin nhắn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Xóa ngay lập tức vì sợ người khác nhìn thấy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chụp ảnh màn hình lưu giữ bằng chứng kèm mốc thời gian và tài khoản của kẻ gửi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chửi bới lại bằng những từ ngữ thô tục",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chuyển tiếp cho tất cả mọi người trong danh bạ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi chia sẻ với thầy cô giáo về việc bị bắt nạt, bạn nên làm gì để đảm bảo sự việc được giải quyết hiệu quả?",
+            "explanation": "Cung cấp chứng cứ rõ ràng, trình bày trung thực và đề nghị giữ kín danh tính để đảm bảo an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm ầm ĩ trước toàn trường giữa giờ chào cờ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gặp riêng thầy cô/chuyên viên tâm lý, cung cấp chứng cứ cụ thể và đề nghị bảo mật danh tính",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhờ giang hồ ngoài trường đến dằn mặt bạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đợi đến khi bị đánh chảy máu mới báo cáo",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Theo quy định pháp luật Việt Nam, hành vi quay lén và đăng tải video bạo lực học đường lên mạng sẽ bị xử lý như thế nào?",
+            "explanation": "Vi phạm Luật An ninh mạng và Điều 155 BLHS, có thể bị xử phạt hành chính tiền triệu hoặc truy cứu trách nhiệm hình sự.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Được khen thưởng vì có công đưa tin",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bị xử phạt vi phạm hành chính nặng hoặc truy cứu trách nhiệm hình sự về tội làm nhục người khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ bị cô giáo phạt trực nhật 1 buổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Pháp luật không quan tâm đến mạng xã hội",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Tại sao việc 'giữ im lặng vì sợ bị trả thù' lại là cái bẫy nguy hiểm nhất của nạn nhân bạo lực?",
+            "explanation": "Sự im lặng của nạn nhân khiến kẻ bắt nạt tin rằng mình có quyền lực tuyệt đối và sẽ gia tăng mức độ bạo lực ngày càng tàn nhẫn hơn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì im lặng sẽ khiến kẻ bắt nạt cảm thấy chán và tự bỏ cuộc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì sự im lặng dung túng cho kẻ bắt nạt leo thang mức độ tấn công và tước đi cơ hội được người lớn bảo vệ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì im lặng giúp bạn trở nên mạnh mẽ hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vì thầy cô không bao giờ tin lời học sinh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tổng đài hỗ trợ bảo vệ trẻ em và thanh thiếu niên miễn phí tại Việt Nam là gì?",
+            "explanation": "Tổng đài 111 tiếp nhận thông tin bảo vệ trẻ em 24/7 hoàn toàn miễn cước.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "111",
+                "is_correct": true
+              },
+              {
+                "order_index": 2,
+                "option_text": "115",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "1080",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "19001000",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Xây dựng lòng tự tôn (Self-Esteem) & Đập tan chiếc bẫy so sánh xã hội",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Ảo ảnh 'Cuộc sống hoàn hảo' trên mạng xã hội\nTrên TikTok, Instagram, Threads, người ta chỉ khoe những khoảnh khắc đẹp nhất: lớp filter mịn màng không tỳ vết, vòng eo con kiến, đồ hiệu sang chảnh. \n- Bộ não thanh thiếu niên rất dễ rơi vào bẫy so sánh ngầm (Social Comparison Theory), tự kết luận: *'Sao ai cũng đẹp, cũng giàu, chỉ có mình là xấu xí và thất bại'*.\n- **Sự thật y khoa:** 99% hình ảnh trên mạng đã qua các lớp lọc kỹ thuật số (AI enhancement, facetune, góc chụp ánh sáng studio). So sánh phiên bản đời thực của mình với phiên bản 'kỹ xảo' của người khác là điều vô lý và tự ngược đãi bản thân.\n\n### 2. Ba trụ cột xây dựng sự tự tin bền vững\n1. **Chăm sóc cơ thể bằng tình yêu thương:** Ăn đủ chất, ngủ đủ 8 tiếng, vận động thể thao để khỏe mạnh từ bên trong chứ không phải để làm vừa mắt người khác.\n2. **Phát triển tài năng & Đam mê:** Giá trị của bạn nằm ở trí tuệ, lòng tốt, sự sáng tạo và kỹ năng, không nằm ở số đo vòng eo hay kích thước mũi.\n3. **Thanh lọc mạng xã hội (Digital Detox):** Hủy theo dõi (Unfollow) những tài khoản khiến bạn cảm thấy tự ti và bất an về ngoại hình.",
+      "quiz": {
+        "title": "Kiểm tra Bài 3: Xây dựng lòng tự tôn cá nhân",
+        "description": "5 câu hỏi giúp củng cố nhận thức về giá trị bản thân.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Điều gì là nguyên nhân chính khiến nhiều bạn trẻ tự ti về ngoại hình khi lướt mạng xã hội?",
+            "explanation": "Bẫy so sánh đời thực với những hình ảnh đã qua chỉnh sửa kỹ xảo tinh vi trên mạng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do mạng xã hội phản ánh 100% đời thực không qua chỉnh sửa",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do so sánh bản thân ngoài đời với các hình ảnh lung linh đã qua filter, chỉnh sửa kỹ thuật số",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do bạn bè trên mạng ai cũng giỏi hơn mình",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do điện thoại chụp ảnh quá nét",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành động 'Digital Detox' có ý nghĩa gì đối với sức khỏe tinh thần của học sinh?",
+            "explanation": "Thanh lọc mạng xã hội giúp giải tỏa lo âu và tái kết nối với đời sống thực tế.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bán điện thoại lấy tiền tiêu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giảm thời gian dùng màn hình, bỏ theo dõi các tài khoản gây áp lực tiêu cực để tâm trí bình an",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tải thêm 10 ứng dụng chỉnh sửa ảnh mới",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cài mật khẩu dài 30 ký tự",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Yếu tố nào quyết định giá trị thực sự của một con người?",
+            "explanation": "Nhân cách, trí tuệ, lòng nhân ái và kỹ năng sống là giá trị cốt lõi bền vững.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Số lượng like trên Facebook và số đo ngoại hình",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhân cách, sự hiểu biết, kỹ năng sống và cách đối nhân xử thế văn minh",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chiếc điện thoại và bộ quần áo đắt tiền đang mặc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gia đình có nhiều tiền hay ít tiền",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi bạn của mình cảm thấy tự ti vì bị người khác chê xấu, bạn nên làm gì?",
+            "explanation": "Lắng nghe, công nhận điểm mạnh và động viên bạn trân trọng sự độc bản của chính mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Khuyên bạn đi phẫu thuật thẩm mỹ ngay lập tức",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ở bên cạnh lắng nghe, nhắc nhở về những phẩm chất tốt đẹp và khẳng định bạn luôn có giá trị riêng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bảo bạn 'Kệ người ta nói, có gì đâu mà buồn'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ ra thêm vài khuyết điểm nữa để bạn quen dần",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Lòng tự tôn (Self-Esteem) lành mạnh khác với sự tự kiêu ngạo ở điểm nào?",
+            "explanation": "Tự tôn là trân trọng bản thân đồng thời tôn trọng người khác, không hạ bệ ai để nâng mình lên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tự tôn là coi mình là số 1 và khinh thường mọi người",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tự tôn là hiểu rõ và yêu quý bản thân nhưng vẫn luôn khiêm tốn, biết lắng nghe và tôn trọng người khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hai khái niệm này hoàn toàn giống hệt nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự kiêu ngạo thì tốt cho sự nghiệp hơn",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Kỹ năng thiết lập ranh giới giao tiếp & Từ chối hòa nhập độc hại",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Bẫy 'Peer Pressure' — Áp lực đồng trang lứa\nTrong môi trường học đường, nhu cầu được thuộc về một nhóm (Need to Belong) rất mạnh mẽ. Nhiều bạn sẵn sàng:\n- Hùa theo bắt nạt một bạn khác chỉ để được nhóm bạn 'cool ngầu' chấp nhận.\n- Tham gia các trào lưu nguy hiểm, nói bậy, hút vape, trốn học để chứng tỏ mình 'chịu chơi'.\n- **Nhận định sai lầm:** Bạn nghĩ rằng làm vậy là để có bạn bè, nhưng một tình bạn được xây dựng trên sự ép buộc và vi phạm đạo đức sẽ phản bội bạn ngay khi có biến cố.\n\n### 2. Kỹ thuật từ chối dứt khoát không gây xung đột (Clear & Calm)\n- **Công thức 3 bước:**\n  1. *Lắng nghe & Thừa nhận:* 'Mình hiểu nhóm đang muốn làm việc đó...'\n  2. *Đưa ra quyết định cá nhân rõ ràng:* '...nhưng việc đó không phù hợp với nguyên tắc của mình, nên mình sẽ không tham gia.'\n  3. *Đề xuất phương án thay thế hoặc rời đi:* 'Nếu các bạn đi ăn kem thì gọi mình, còn vụ kia mình xin phép rút nhé.'\n- Nếu nhóm bạn bắt đầu cô lập hoặc gây áp lực, hãy dũng cảm tìm cho mình những người bạn mới thực sự tôn trọng giá trị của bạn.",
+      "quiz": {
+        "title": "Kiểm tra Bài 4: Bản lĩnh trước áp lực đồng trang lứa",
+        "description": "5 câu hỏi rèn luyện kỹ năng từ chối trào lưu xấu.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thế nào là 'Áp lực đồng trang lứa' (Peer Pressure)?",
+            "explanation": "Cảm giác bị thôi thúc phải thay đổi hành vi, suy nghĩ để hòa nhập hoặc không bị nhóm bạn tẩy chay.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Áp lực học tập do thầy cô giao bài tập về nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự thôi thúc phải làm theo hành vi của nhóm bạn bè để không bị xa lánh, dù biết hành vi đó sai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Áp lực phải đi ngủ sớm của bố mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Áp lực khi tham gia giải thi đấu thể thao trường",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi nhóm bạn rủ rê tham gia bắt nạt hoặc bêu rếu một bạn khác, hành động nào thể hiện BẢN LĨNH?",
+            "explanation": "Từ chối tham gia và thẳng thắn bày tỏ quan điểm phản đối bạo lực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hùa theo tham gia để được cả nhóm khen là 'dũng cảm'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kiên quyết từ chối tham gia và khuyên nhóm bạn dừng lại hành vi sai trái đó",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đứng ngoài quay video để đăng lên mạng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ like bài viết chứ không bình luận",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Một tình bạn thực sự lành mạnh được xây dựng dựa trên nền tảng nào?",
+            "explanation": "Sự tôn trọng ranh giới cá nhân, hỗ trợ nhau tiến bộ và chấp nhận sự khác biệt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt đối phương phải nghe theo 100% ý muốn của mình",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng ranh giới, quan điểm riêng của nhau và giúp nhau cùng trở nên tốt đẹp hơn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cùng nhau trốn học và nói xấu người khác",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ai có nhiều tiền hơn thì làm thủ lĩnh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nếu bạn bị nhóm bạn tẩy chay chỉ vì bạn không chịu tham gia hút thuốc lá điện tử, bạn nên suy nghĩ như thế nào?",
+            "explanation": "Hiểu rằng đó là sự chọn lọc tự nhiên để loại bỏ những mối quan hệ độc hại bảo vệ tương lai của mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cảm thấy mình là kẻ thất bại và nên xin lỗi nhóm đó",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hiểu rằng mình đã đưa ra quyết định đúng đắn bảo vệ sức khỏe và đó không phải nhóm bạn phù hợp với mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lén mua thuốc lá về hút để chuộc lỗi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ học luôn để không phải gặp nhóm bạn đó",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Kỹ thuật từ chối văn minh đòi hỏi bạn phải có thái độ như thế nào?",
+            "explanation": "Điềm tĩnh, rõ ràng, dứt khoát và tôn trọng đối phương mà không hạ thấp nguyên tắc của bản thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Quát tháo ầm ĩ và chỉ trích bạn bè thậm tệ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Điềm tĩnh, dứt khoát khẳng định lập trường mà không cần phải tranh cãi hay lăng mạ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nói dối quanh co rồi lén làm sau lưng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khóc lóc van xin bạn đừng rủ nữa",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng văn hóa học đường văn minh & Tương trợ bạn bè",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### 1. Sức mạnh của 'Người can thiệp tích cực' (Active Upstander)\nThống kê chỉ ra rằng: Hơn 57% các vụ bạo lực học đường sẽ dừng lại trong vòng 10 giây nếu có người cùng trang lứa lên tiếng can thiệp!\n- Khi bạn thấy bạn mình bị trêu chọc hay xô đẩy, chỉ một câu nói: *'Thôi dừng lại đi, có gì hay đâu'*, hoặc đơn giản là bước đến dắt bạn rời khỏi hiện trường, bạn đã trở thành vị cứu tinh ngăn chặn một vụ việc leo thang.\n\n### 2. Các hành động cụ thể để xây dựng tập thể lớp an toàn\n- **Chào đón bạn mới & Bạn trầm tính:** Mở lời rủ bạn cùng tham gia ăn trưa hoặc thảo luận nhóm.\n- **Không chia sẻ tin đồn:** Khi nghe ai đó nói xấu bạn cùng lớp, hãy là người ngắt mạch câu chuyện: *'Chuyện riêng của bạn ấy, mình không nên bàn tán'*.\n- **Ủng hộ và kết nối các CLB Kỹ năng sống:** Tham gia các hoạt động thiện nguyện, văn nghệ, thể thao để tạo môi trường gắn kết tích cực.",
+      "quiz": {
+        "title": "Kiểm tra Bài 5: Xây dựng văn hóa tương trợ học đường",
+        "description": "5 câu hỏi kiểm tra kỹ năng trở thành người can thiệp tích cực.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Upstander' (Người can thiệp tích cực) trong bạo lực học đường là ai?",
+            "explanation": "Người chứng kiến nhưng không đứng ngoài bàng quan mà chủ động hành động an toàn để bảo vệ nạn nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Người đứng nhìn và vỗ tay cổ vũ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Người có mặt chứng kiến và dũng cảm lên tiếng hoặc tìm cách hỗ trợ bảo vệ nạn nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người quản lý bãi giữ xe của trường",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người đi rêu rao câu chuyện cho các lớp khác",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành động nào sau đây giúp dập tắt tin đồn xấu trong trường học nhanh nhất?",
+            "explanation": "Từ chối tham gia bàn tán và từ chối chuyển tiếp thông tin độc hại.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đăng tin đồn đó lên trang confession của trường để mọi người cùng mổ xẻ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không chia sẻ, không bàn tán và thẳng thắn đề nghị người nói dừng việc lan truyền",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thêm mắm dặm muối cho câu chuyện thêm phần hấp dẫn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhắn tin riêng hỏi nạn nhân để thỏa mãn tính tò mò",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi muốn hỗ trợ một bạn cùng lớp đang bị cô lập, việc làm nào là THIẾT THỰC nhất?",
+            "explanation": "Chủ động bắt chuyện, mời bạn cùng tham gia hoạt động nhóm và đối xử chân thành.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đến gặp bạn và hỏi: 'Tại sao ai cũng ghét bạn thế?'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chủ động rủ bạn cùng làm việc nhóm, chia sẻ đồ ăn và lắng nghe bạn chia sẻ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mua quà đắt tiền tặng bạn trước mặt cả lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Công khai đăng bài thương hại bạn lên mạng xã hội",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nếu bạn can thiệp trực tiếp có thể gây nguy hiểm cho bản thân, cách hỗ trợ thông minh nhất là gì?",
+            "explanation": "Nhanh chóng báo cho thầy cô giám thị hoặc bảo vệ trường để có người lớn xử lý chuyên nghiệp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lao vào đánh nhau tay đôi với nhóm bắt nạt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhanh chóng chạy đi báo ngay cho thầy cô, bảo vệ hoặc gọi đường dây nóng hỗ trợ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đứng quay phim trực tiếp trên Facebook",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ chạy về nhà không nói với ai",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Một môi trường học đường hạnh phúc và an toàn cần có sự chung tay của những ai?",
+            "explanation": "Cần sự đồng lòng của học sinh, gia đình, nhà trường và toàn xã hội.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ là trách nhiệm của riêng thầy cô hiệu trưởng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự chung tay, thấu hiểu và tôn trọng lẫn nhau của học sinh, phụ huynh và toàn thể nhà trường",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ phụ thuộc vào các bạn học sinh giỏi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ là việc của công an địa phương",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Phòng chống Bạo lực & Tự tôn Cá nhân",
+    "description": "10 câu hỏi tổng hợp tình huống kiểm tra kỹ năng phòng chống bắt nạt và bảo vệ bản thân.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Bạo lực tinh thần bao gồm những hành vi nào sau đây?",
+        "explanation": "Bao gồm cô lập, tẩy chay, chế giễu ngoại hình và lan truyền tin đồn độc hại.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Khen ngợi bạn khi bạn làm tốt",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tẩy chay có chủ đích, miệt thị ngoại hình và bịa đặt chuyện riêng tư bêu rếu",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tranh luận khoa học trong giờ sinh học",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bầu bạn làm lớp trưởng",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Khi bị đối phương cố tình khiêu khích để bạn mất bình tĩnh, hành động nào là tốt nhất?",
+        "explanation": "Áp dụng phương pháp khối đá xám: điềm tĩnh, không phản ứng bộc phát và rời khỏi tình huống.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Lao vào ăn thua đủ bằng bạo lực",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giữ thái độ điềm tĩnh trung tính, không để đối phương kích động và rời đến nơi an toàn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ngồi thụp xuống khóc lóc van xin",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Gọi hội anh chị xã hội đến xử lý",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Tại sao việc chụp ảnh màn hình bằng chứng lại có giá trị sống còn khi bị bắt nạt trực tuyến?",
+        "explanation": "Bằng chứng điện tử giúp nhà trường và công an có căn cứ pháp lý để xử lý kỷ luật hoặc truy cứu trách nhiệm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Để có tư liệu đi tống tiền lại kẻ bắt nạt",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Làm căn cứ xác thực bảo vệ bạn trước nhà trường và cơ quan pháp luật",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để in ra dán khắp sân trường",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ để làm kỷ niệm tuổi học trò",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Số điện thoại bảo vệ trẻ em và thanh thiếu niên toàn quốc tại Việt Nam là gì?",
+        "explanation": "Tổng đài 111 trực 24/7 bảo vệ quyền lợi trẻ vị thành niên.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "111",
+            "is_correct": true
+          },
+          {
+            "order_index": 2,
+            "option_text": "113",
+            "is_correct": false
+          },
+          {
+            "order_index": 3,
+            "option_text": "114",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "115",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Ảnh hưởng tâm lý nghiêm trọng nhất của việc thường xuyên so sánh mình với 'hot face' trên mạng là gì?",
+        "explanation": "Hủy hoại lòng tự tôn, gây trầm cảm, rối loạn lo âu và mặc cảm ngoại hình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm điện thoại nhanh hết pin hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Xói mòn lòng tự tôn, hình thành cảm giác tự ghét bỏ cơ thể và gia tăng nguy cơ trầm cảm",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Giúp học tập giỏi hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có ảnh hưởng gì đáng kể",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Kỹ năng từ chối áp lực đồng trang lứa (Peer Pressure) đòi hỏi bạn cần nhớ nguyên tắc nào?",
+        "explanation": "Hiểu rõ giá trị của mình, không đánh đổi đạo đức và sức khỏe để lấy sự chấp nhận giả tạo.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Luôn đồng ý mọi yêu cầu của bạn để giữ tình bạn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Một tình bạn chân chính luôn tôn trọng sự từ chối và ranh giới cá nhân của bạn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Ai rủ gì cũng làm để không bị coi là 'nhát gan'",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đánh bạn nếu bạn không làm theo ý mình",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Hành vi nào bị nghiêm cấm theo Luật An ninh mạng và Điều 155 Bộ luật Hình sự?",
+        "explanation": "Sử dụng mạng máy tính để xúc phạm nghiêm trọng nhân phẩm, danh dự của người khác.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Đăng bài chúc mừng sinh nhật bạn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cắt ghép hình ảnh nhạy cảm, đăng bài lăng mạ vu khống làm nhục người khác",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chia sẻ video bài giảng của thầy cô",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tham gia nhóm học tập trực tuyến",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Khi một người bạn trong lớp bị người khác quay lén clip bạo lực đăng lên mạng, bạn nên hỗ trợ như thế nào?",
+        "explanation": "Đồng hành tâm lý, hỗ trợ lưu link báo cáo gỡ clip và cùng bạn báo cáo Ban giám hiệu.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tải clip về và gửi cho các nhóm chat khác để câu view",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Báo cáo bài viết vi phạm, ở cạnh an ủi bạn và hỗ trợ báo ngay cho nhà trường",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bảo bạn nên bỏ học đi làm công nhân cho đỡ xấu hổ",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bình luận chê bai bạn yếu thế",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Làm thế nào để xây dựng một tinh thần thép trước những lời chê bai ngoại hình?",
+        "explanation": "Hiểu rằng mỗi người là một bản thể độc nhất vô nhị, tập trung phát triển tri thức và lòng nhân ái.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Uống thuốc giảm cân không rõ nguồn gốc",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nhận thức sâu sắc rằng giá trị con người nằm ở phẩm hạnh và năng lực, trân trọng nét riêng biệt của bản thân",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chê lại người khác thậm tệ hơn để trả đũa",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đeo khẩu trang cả ngày kể cả khi đi ngủ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Trở thành người can thiệp tích cực (Upstander) mang lại lợi ích gì cho cộng đồng học đường?",
+        "explanation": "Chấm dứt nạn bạo lực, tạo ra môi trường an toàn, gắn kết và nhân văn cho mọi học sinh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp bản thân trở nên nổi tiếng trên mạng xã hội",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ngăn chặn các tổn thương tinh thần và xây dựng một tập thể lớp tôn trọng, yêu thương nhau",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Được miễn thi tốt nghiệp môn GDCD",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Được nhà trường thưởng tiền mặt",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

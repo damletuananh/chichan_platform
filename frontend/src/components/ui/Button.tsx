@@ -49,7 +49,7 @@ export function Button({
   className = "",
   children,
 }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center gap-2 rounded-none font-bold text-xs transition disabled:opacity-50 ${
+  const classes = `btn-press inline-flex items-center justify-center gap-2 rounded-none font-bold text-xs transition cursor-pointer disabled:cursor-not-allowed disabled:opacity-50 ${
     variantMap[variant]
   } ${sizeMap[size]} ${full ? "w-full" : ""} ${className}`;
 

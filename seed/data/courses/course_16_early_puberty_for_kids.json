@@ -1,0 +1,1039 @@
+{
+  "title": "Giáo Dục Giới Tính Cho Trẻ Tiền Dậy Thì (6-10 Tuổi)",
+  "slug": "giao-duc-gioi-tinh-cho-tre-tien-day-thi-6-10-tuoi",
+  "short_description": "Hướng dẫn cha mẹ trả lời khoa học câu hỏi 'Con sinh ra từ đâu?', dạy con Quy tắc Đồ bơi (Swimsuit Rule), nhận diện và can thiệp dậy thì sớm, trao quyền tự chủ thân thể và xây dựng gắn kết gia đình.",
+  "description": "**Đối tượng:** Phụ huynh có con trong độ tuổi tiểu học (6 - 10 tuổi).\n\nGiai đoạn 6-10 tuổi là thời điểm vàng để đặt nền móng giáo dục giới tính trước khi cơn lốc dậy thì ập đến. Khóa học giúp cha mẹ xóa bỏ ngượng ngùng để trả lời tự nhiên câu hỏi 'Con sinh ra từ đâu?', hướng dẫn con Quy tắc Đồ bơi và phản xạ tự vệ 'NO - GO - TELL', nhận diện sớm dấu hiệu dậy thì sớm (trước 8 tuổi ở nữ, 9 tuổi ở nam) và tôn trọng quyền tự chủ thân thể của con.",
+  "learning_objectives": "- Trả lời khoa học, phù hợp lứa tuổi câu hỏi về nguồn gốc sinh sản của trẻ nhỏ.\n- Dạy trẻ thành thạo Quy tắc Đồ bơi (Swimsuit Rule) và phân biệt đụng chạm an toàn vs không an toàn.\n- Nhận biết sớm các triệu chứng dậy thì sớm để đưa con can thiệp y tế nội tiết kịp thời.\n- Trao cho con quyền tự chủ thân thể (Bodily Autonomy) và kỹ năng từ chối đụng chạm khó chịu.\n- Xây dựng không khí gia đình cởi mở, không cấm kỵ và đồng hành yêu thương cùng con.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "PARENT",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Trả lời câu hỏi 'Con sinh ra từ đâu?' tự nhiên và khoa học",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Khi trẻ 6-8 tuổi tò mò hỏi về nguồn gốc bản thân, nhiều cha mẹ vẫn nói dối: 'Nhặt từ thùng rác', 'Cò tha về' hay 'Bác sĩ rạch nách gắp ra'. Những câu nói đùa này gieo vào tâm trí trẻ cảm giác bất an và bị bỏ rơi. Cha mẹ cần giải thích khoa học, phù hợp lứa tuổi: Trứng của mẹ gặp tinh trùng của bố tạo thành em bé lớn lên trong tử cung mẹ.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Trả lời câu hỏi 'Con sinh ra từ đâu?' tự nhiên và khoa học",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Tại sao cha mẹ KHÔNG NÊN nói dối trẻ: 'Con được nhặt từ bãi rác'?",
+            "explanation": "Gieo vào lòng trẻ cảm giác tự ti, bất an, sợ bị bỏ rơi và tước đi cơ hội tiếp cận tri thức khoa học đúng đắn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì làm con thích đi nhặt rác",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Làm tổn thương tâm lý trẻ, gieo rắc nỗi sợ bị bỏ rơi và tạo cảm giác cơ thể là điều dơ bẩn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì bãi rác không có trẻ con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có lý do gì, nói đùa rất vui",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Cách giải thích khoa học và phù hợp lứa tuổi cho trẻ 6-8 tuổi về sự thụ thai là gì?",
+            "explanation": "Em bé hình thành từ hạt trứng của mẹ kết hợp với hạt giống tinh trùng của bố, lớn lên trong bụng mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nói con nghe về giải phẫu học chi tiết của người lớn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giải thích nhẹ nhàng: Em bé lớn lên từ sự kết hợp yêu thương giữa tế bào trứng của mẹ và tinh trùng của bố",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bảo con lên mạng tự tìm hiểu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mắng con là trẻ con không được tò mò",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tử cung của người mẹ được ví như hình ảnh gì gần gũi với trẻ nhỏ?",
+            "explanation": "Như một 'chiếc tổ êm ái' bảo vệ và nuôi dưỡng em bé lớn lên khỏe mạnh trước khi chào đời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Như một chiếc tủ lạnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Như một chiếc nôi êm ấm, kỳ diệu bảo vệ em bé trong suốt 9 tháng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Như một cái ba lô",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Như một quả bóng bay",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi trẻ hỏi tiếp: 'Làm thế nào em bé chui ra ngoài?', câu trả lời đúng mực là gì?",
+            "explanation": "'Mẹ có một đường dẫn đặc biệt gọi là ngả sinh (âm đạo) mở ra khi em bé đủ ngày, hoặc bác sĩ phẫu thuật đón bé ra'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Con chui ra từ nách mẹ'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Bác sĩ đón em bé ra qua một đường dẫn tự nhiên của mẹ hoặc mổ bắt con nhẹ nhàng an toàn'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Con chui ra từ lỗ rốn'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Hỏi linh tinh mẹ đánh đòn'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thái độ chuẩn mực của cha mẹ khi đối diện với các câu hỏi về giới tính của trẻ là gì?",
+            "explanation": "Thản nhiên, vui vẻ, công nhận tính tò mò thông minh của con và dùng thuật ngữ chuẩn mực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đỏ mặt ngượng ngùng và bỏ chạy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình thản, ấm áp, sử dụng từ ngữ khoa học chính xác và khuyến khích con hỏi khi băn khoăn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quát mắng con là đồ hư hỏng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm con không bao giờ được nhắc lại",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Quy tắc Đồ bơi (Swimsuit Rule) & Vùng riêng tư bất khả xâm phạm",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Quy tắc đồ bơi là bài học tự vệ kinh điển: Những bộ phận cơ thể được che kín bởi bộ đồ bơi (ngực, mông, vùng giữa hai đùi) và miệng là VÙNG BÍ MẬT. Không ai được phép nhìn, chạm vào hoặc yêu cầu con chạm vào vùng kín của họ, ngoại trừ bác sĩ khi khám bệnh có cha mẹ ở cạnh.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Quy tắc Đồ bơi (Swimsuit Rule) & Vùng riêng tư bất khả xâm phạm",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Quy tắc Đồ bơi (Swimsuit Rule) định nghĩa những khu vực nào là 'Vùng riêng tư' của trẻ?",
+            "explanation": "Những vùng cơ thể được che bởi bộ đồ bơi (vùng ngực, giữa hai đùi, mông) và miệng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ có bàn tay và bàn chân",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Các vùng được che bởi đồ bơi (ngực, vùng kín, mông) và miệng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khuỷu tay và đầu gối",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tóc và tai",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Ai là người DUY NHẤT được phép chạm vào vùng riêng tư của trẻ và trong điều kiện nào?",
+            "explanation": "Bác sĩ khi khám bệnh có sự chứng kiến của cha mẹ, hoặc cha mẹ khi hỗ trợ vệ sinh cho trẻ nhỏ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bất kỳ người lớn nào cho kẹo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bác sĩ khám bệnh khi có sự đồng ý và hiện diện của cha mẹ, hoặc cha mẹ hỗ trợ khi tắm rửa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bảo vệ trường học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bạn bè cùng lớp trong giờ ra chơi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi có ai đó cố tình chạm vào vùng đồ bơi của con, 3 bước phản xạ 'NO - GO - TELL' là gì?",
+            "explanation": "1. Nói KHÔNG thật to -> 2. Bỏ CHẠY đến nơi an toàn -> 3. KỂ NGAY cho cha mẹ biết.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đứng im nhận quà",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nói KHÔNG dứt khoát -> Chạy thoát thân -> Kể ngay cho người lớn tin cậy",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đánh nhau với người đó",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hứa giữ bí mật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Thế nào là một 'Bí mật xấu' (Bad Secret) mà trẻ cần phải nói ra ngay lập tức?",
+            "explanation": "Bí mật khiến con cảm thấy sợ hãi, bồn chồn, lo lắng hoặc có ai đó yêu cầu giữ kín chuyện đụng chạm cơ thể.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bí mật chuẩn bị quà sinh nhật bất ngờ cho mẹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bí mật làm con lo sợ, bất an hoặc ai đó đe dọa con không được kể về việc đụng chạm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bí mật giải được bài toán khó",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bí mật điểm 10",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Quy tắc 5 ngón tay giúp trẻ nhận diện điều gì?",
+            "explanation": "Phân loại 5 nhóm người và ranh giới đụng chạm tương ứng (từ người thân nhất ôm ấp đến người lạ phải lùi xa).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cách đếm ngón tay trong toán học",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhận diện các mức độ quan hệ và giới hạn tiếp xúc cơ thể an toàn cho từng đối tượng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cách bấm huyệt bàn tay",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bài hát thiếu nhi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Dậy thì sớm (Precocious Puberty): Nhận biết & Can thiệp y khoa kịp thời",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Dậy thì sớm là hiện tượng trẻ xuất hiện các đặc tính sinh dục phụ trước 8 tuổi ở bé gái (phát triển ngực, lông mu, có kinh) và trước 9 tuổi ở bé trai (tinh hoàn to, vỡ giọng, mọc râu). Dậy thì sớm làm đóng sớm đầu xương khiến trẻ bị lùn khi trưởng thành và đối mặt với rủi ro bị xâm hại tình dục.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Dậy thì sớm (Precocious Puberty): Nhận biết & Can thiệp y khoa kịp thời",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Độ tuổi được xác định là Dậy thì sớm ở bé gái và bé trai là trước bao nhiêu tuổi?",
+            "explanation": "Trước 8 tuổi ở bé gái và trước 9 tuổi ở bé trai.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trước 15 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trước 8 tuổi ở bé gái và trước 9 tuổi ở bé trai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trước 12 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Trước 18 tuổi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hậu quả thể chất nghiêm trọng nhất của hiện tượng dậy thì sớm nếu không được can thiệp là gì?",
+            "explanation": "Đầu xương dài đóng sớm khiến trẻ ngừng phát triển chiều cao và bị thấp lùn khi trưởng thành.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm trẻ cao trên 2 mét",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Các đĩa sụn đầu xương đóng sớm khiến trẻ bị hạn chế chiều cao khi trưởng thành",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm mắt cận thị nặng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Làm rụng răng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu ban đầu phổ biến nhất cảnh báo dậy thì sớm ở bé gái là gì?",
+            "explanation": "Tuyến vú nhú lên, xuất hiện chồi ngực đau nhẹ ở một hoặc hai bên trước 8 tuổi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rụng tóc nhiều",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tuyến vú phát triển, có khối nhú đau nhẹ dưới quầng vú trước 8 tuổi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Móng tay mọc dài",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đau đầu gối",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Chế độ dinh dưỡng nào góp phần làm tăng nguy cơ dậy thì sớm ở trẻ em thành thị?",
+            "explanation": "Ăn quá nhiều thức ăn nhanh, đồ chiên rán, nước ngọt đóng chai dẫn đến béo phì thừa cân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ăn nhiều rau xanh và củ quả tươi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ăn nhiều đồ chiên rán dầu mỡ, đồ ngọt, thực phẩm chế biến sẵn gây béo phì",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống nước lọc đều đặn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tập bơi lội thường xuyên",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi nghi ngờ con có dấu hiệu dậy thì sớm, cha mẹ cần đưa con đến chuyên khoa nào?",
+            "explanation": "Chuyên khoa Nội tiết Nhi tại các Bệnh viện Nhi đồng / Bệnh viện Nhi Trung ương.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phòng khám răng hàm mặt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chuyên khoa Nội tiết Nhi tại các bệnh viện nhi tuyến đầu để chụp X-quang tuổi xương và xét nghiệm hormone",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trung tâm phẫu thuật thẩm mỹ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tiệm thuốc đông y",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Dạy con kỹ năng tự vệ cá nhân & Nói KHÔNG với đụng chạm không mong muốn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nhiều gia đình Việt Nam có thói quen ép con phải cho họ hàng ôm hôn, véo má hoặc ngồi vào lòng người lớn dù con không thích. Điều này vô tình dạy trẻ rằng 'người lớn có quyền đụng chạm cơ thể mình'. Cha mẹ cần trao cho con quyền tự chủ thân thể (Bodily Autonomy): Con có quyền từ chối những cái ôm con không thoải mái.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Dạy con kỹ năng tự vệ cá nhân & Nói KHÔNG với đụng chạm không mong muốn",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khái niệm 'Quyền tự chủ thân thể' (Bodily Autonomy) của trẻ em có nghĩa là gì?",
+            "explanation": "Cơ thể thuộc về riêng con; con có quyền quyết định ai được phép chạm vào mình và từ chối điều mình khó chịu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trẻ em thích làm gì thì làm không cần nghe lời ai",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cơ thể thuộc về quyền sở hữu của con; con có quyền từ chối những hành vi đụng chạm làm con không thoải mái",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trẻ em phải phục tùng mọi yêu cầu của người lớn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ áp dụng khi con đủ 18 tuổi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi họ hàng đến chơi và đòi ôm hôn ép buộc con, cha mẹ nên hành xử như thế nào?",
+            "explanation": "Tôn trọng cảm xúc của con, gợi ý hình thức chào hỏi lịch sự khác như bắt tay, vẫy tay hoặc cúi chào.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Quát mắng con là đồ mất dạy rồi ép con phải cho ôm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bảo vệ ranh giới của con và gợi ý con chào bằng cách khoanh tay, bắt tay hoặc vẫy tay lịch sự",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con đứng phạt góc tường",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ mặc con tự xoay xở",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Tại sao việc ép con phải chịu đựng những cái ôm hôn không mong muốn lại làm giảm khả năng tự vệ của con?",
+            "explanation": "Vì khiến con lầm tưởng mình không có quyền phản kháng khi bị người lớn đụng chạm xâm hại.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì làm con bị cảm cúm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vì xóa nhòa ranh giới an toàn, khiến trẻ mất đi phản xạ từ chối và cảnh giác trước kẻ xâm hại",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì làm con lười học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ảnh hưởng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cách dạy trẻ từ chối dứt khoát khi có người làm con khó chịu là gì?",
+            "explanation": "Dạy con nhìn thẳng vào mắt, lùi lại một bước và nói rõ ràng: 'Cháu không thích, xin bác dừng lại!'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đứng im cúi đầu khóc",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lùi lại giữ khoảng cách an toàn, nhìn thẳng và nói to dứt khoát lời từ chối",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cắn vào tay người đó",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chạy đi tìm kẹo ăn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Cha mẹ nên xây dựng thói quen nào khi chăm sóc thân thể cho trẻ từ 6 tuổi trở lên?",
+            "explanation": "Gõ cửa trước khi vào phòng, dạy con tự tắm rửa vệ sinh vùng kín và tôn trọng sự riêng tư của con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tắm chung với con đến năm 15 tuổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dạy con tự chăm sóc vệ sinh vùng kín, tôn trọng không gian riêng khi con thay quần áo",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vào phòng con không cần gõ cửa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt con cởi trần chạy nhảy ngoài sân",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Xây dựng sự gắn kết gia đình: Trở thành chiếc phao cứu sinh của con",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Giáo dục giới tính cho trẻ 6-10 tuổi không phải là một bài học một lần rồi thôi, mà là một cuộc trò chuyện liên tục trong đời sống hàng ngày. Hãy tạo dựng không khí gia đình cởi mở, không cấm kỵ, nơi mọi thắc mắc ngây thơ của con đều được tôn trọng và giải đáp bằng tình yêu thương.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Xây dựng sự gắn kết gia đình: Trở thành chiếc phao cứu sinh của con",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Phương pháp nào giúp duy trì sự kết nối cởi mở về giới tính với con hàng ngày?",
+            "explanation": "Tận dụng các tình huống thực tế khi xem phim, đọc sách tranh để trò chuyện tự nhiên cùng con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt con học thuộc lòng cuốn sách giáo khoa sinh học",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tận dụng khoảnh khắc đời thường, đọc sách tranh giáo dục giới tính phù hợp lứa tuổi và kiên nhẫn giải đáp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ nói chuyện khi con bị điểm kém",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mỗi năm tổ chức họp gia đình 1 lần",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi con tò mò chỉ vào vùng kín và hỏi những câu hỏi ngây thơ, cha mẹ NÊN làm gì?",
+            "explanation": "Dùng tên gọi giải phẫu chính xác (dương vật, âm đạo) với thái độ bình thản, trung tính.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mắng con là đồ bậy bạ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sử dụng tên gọi y khoa chuẩn xác, giải thích chức năng tự nhiên và dạy con cách giữ gìn vệ sinh sạch sẽ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Dùng từ lóng tục tĩu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lờ đi không trả lời",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Điều gì tạo cho đứa trẻ cảm giác an toàn tuyệt đối khi ở trong gia đình?",
+            "explanation": "Biết rằng cha mẹ luôn lắng nghe, không trừng phạt khi con mắc lỗi và luôn tin tưởng con.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Gia đình có ngôi nhà thật to",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự lắng nghe không phán xét, sự tin tưởng và tình yêu thương vô điều kiện của cha mẹ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cha mẹ không bao giờ nói chuyện với con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được mua cho thật nhiều đồ chơi đắt tiền",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cuốn sách giáo dục giới tính phù hợp cho trẻ 6-10 tuổi nên có đặc điểm gì?",
+            "explanation": "Hình vẽ minh họa trong sáng, khoa học, ngôn ngữ gần gũi và tập trung vào nhận biết cơ thể, tự vệ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Toàn chữ không có hình ảnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tranh minh họa sinh động, trong sáng, giải thích khoa học chuẩn xác và giáo dục ranh giới an toàn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sách y khoa của sinh viên đại học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Truyện tranh kinh dị",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Món quà vô giá nhất cha mẹ trang bị cho con khi bước vào lứa tuổi dậy thì là gì?",
+            "explanation": "Sự hiểu biết khoa học về cơ thể, kỹ năng tự vệ vững vàng và sự tin cậy tuyệt đối vào cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Một chiếc điện thoại thông minh xịn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tri thức chuẩn y khoa, kỹ năng tự chủ thân thể và sợi dây gắn kết yêu thương bền chặt với gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Một tài khoản ngân hàng nhiều tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bộ quần áo hàng hiệu",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Giáo dục Giới tính Trẻ Tiền Dậy thì (6-10 tuổi)",
+    "description": "10 câu hỏi tổng hợp tình huống giúp phụ huynh nuôi dạy con tự tin, an toàn trước ngưỡng cửa dậy thì.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Quy tắc Đồ bơi (Swimsuit Rule) bao gồm những vùng cơ thể nào?",
+        "explanation": "Vùng được che bởi đồ bơi (ngực, mông, vùng kín giữa hai đùi) và miệng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Khuỷu tay và mắt cá chân",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Vùng ngực, vùng kín giữa hai đùi, mông và miệng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lưng và bàn chân",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bàn tay",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Quy tắc phản xạ tự vệ 'NO - GO - TELL' khi bị đụng chạm xấu gồm các bước nào?",
+        "explanation": "Nói KHÔNG dứt khoát -> Chạy thật nhanh -> Kể ngay cho cha mẹ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Đứng im chịu trận",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nói KHÔNG -> Chạy thoát thân -> Kể ngay cho người lớn tin cậy",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cắn người đó",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Hứa giữ bí mật",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Dậy thì sớm được xác định khi xuất hiện đặc tính sinh dục phụ trước bao nhiêu tuổi?",
+        "explanation": "Trước 8 tuổi ở bé gái và trước 9 tuổi ở bé trai.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Trước 12 tuổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Trước 8 tuổi ở bé gái và trước 9 tuổi ở bé trai",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Trước 15 tuổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Trước 6 tuổi",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Hậu quả lâu dài của dậy thì sớm không được điều trị là gì?",
+        "explanation": "Đóng sớm các đĩa sụn đầu xương khiến trẻ bị thấp lùn khi trưởng thành.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm răng mọc lệch",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Làm ngừng phát triển chiều cao sớm và hạn chế tầm vóc khi trưởng thành",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm mắt cận thị",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Làm mất trí nhớ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Tại sao cha mẹ không nên ép con phải cho họ hàng ôm hôn khi con không thích?",
+        "explanation": "Tôn trọng quyền tự chủ thân thể của con và rèn luyện phản xạ từ chối đụng chạm xấu.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Vì làm con bị ốm",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tôn trọng ranh giới thân thể của con và giữ vững bản năng tự vệ trước kẻ xấu",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Vì tốn thời gian",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có lý do gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Khi trẻ hỏi 'Con sinh ra từ đâu?', cách trả lời đúng đắn là gì?",
+        "explanation": "Giải thích khoa học em bé lớn lên từ tế bào trứng của mẹ và tinh trùng của bố.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bảo con sinh ra từ bãi rác",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giải thích khoa học, trong sáng về sự thụ thai và em bé lớn lên trong tử cung mẹ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Mắng con là hư đốn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bảo bác sĩ nhặt ở bệnh viện",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Vùng riêng tư của trẻ chỉ được phép chạm vào bởi ai trong điều kiện nào?",
+        "explanation": "Bác sĩ khi khám có cha mẹ ở cạnh, hoặc cha mẹ khi hỗ trợ tắm rửa vệ sinh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bất kỳ người lớn nào",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bác sĩ khi khám bệnh có sự hiện diện của cha mẹ, hoặc cha mẹ hỗ trợ vệ sinh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Người lạ ngoài công viên",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bạn bè cùng trang lứa",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Bí mật xấu (Bad Secret) là bí mật như thế nào?",
+        "explanation": "Bí mật làm con lo sợ, bất an hoặc có ai đó yêu cầu giấu chuyện đụng chạm cơ thể.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bí mật điểm 10",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Bí mật khiến con sợ hãi, khó chịu hoặc ai đó dọa nạt ép con không được kể",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bí mật quà sinh nhật tặng mẹ",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bí mật bài thơ mới học",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Dấu hiệu nhận biết dậy thì sớm ban đầu ở bé gái là gì?",
+        "explanation": "Xuất hiện chồi ngực phát triển dưới quầng vú trước 8 tuổi.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Rụng răng sữa",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tuyến vú nhú lên, có khối nhú đau nhẹ ở một hoặc hai bên trước 8 tuổi",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tăng chiều cao 1cm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Mọc tóc dài",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Mục tiêu cốt lõi của giáo dục giới tính cho trẻ 6-10 tuổi là gì?",
+        "explanation": "Giúp trẻ yêu quý cơ thể, biết bảo vệ bản thân và xây dựng niềm tin vững chắc vào cha mẹ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Ép trẻ phải trưởng thành như người lớn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Giúp trẻ hiểu đúng về cơ thể, tự tin bảo vệ vùng riêng tư và gắn kết yêu thương với gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Để trẻ đi dạy lại bạn bè",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có mục tiêu nào",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

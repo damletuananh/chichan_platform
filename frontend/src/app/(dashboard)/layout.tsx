@@ -55,7 +55,7 @@ export default function DashboardLayout({
                         <Link href="/" className="text-lg font-extrabold text-primary">
                             {BRAND_CONFIG.name}
                         </Link>
-                        <span className="text-[9px] font-bold px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant uppercase">
+                        <span className="text-[9px] font-bold px-2 py-0.5 rounded-none bg-primary-fixed text-on-primary-fixed-variant uppercase border border-primary/20">
                             Admin
                         </span>
                     </div>
@@ -67,9 +67,9 @@ export default function DashboardLayout({
                         
                         <Link
                             href="/dashboard"
-                            className={`flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
+                            className={`btn-press flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
                                 isLinkActive('/dashboard') 
-                                    ? 'bg-primary text-white shadow-sm' 
+                                    ? 'bg-primary text-white shadow-depth-1' 
                                     : 'text-on-surface-variant hover:text-on-surface hover:bg-white/50'
                             }`}
                         >
@@ -80,9 +80,9 @@ export default function DashboardLayout({
                         {user?.role === 'ADMIN' && (
                             <Link
                                 href="/dashboard/users"
-                                className={`flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
+                                className={`btn-press flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
                                     isLinkActive('/dashboard/users') 
-                                        ? 'bg-primary text-white shadow-sm' 
+                                        ? 'bg-primary text-white shadow-depth-1' 
                                         : 'text-on-surface-variant hover:text-on-surface hover:bg-white/50'
                                 }`}
                             >
@@ -93,9 +93,9 @@ export default function DashboardLayout({
 
                         <Link
                             href="/dashboard/students"
-                            className={`flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
+                            className={`btn-press flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold transition-all ${
                                 isLinkActive('/dashboard/students') 
-                                    ? 'bg-primary text-white shadow-sm' 
+                                    ? 'bg-primary text-white shadow-depth-1' 
                                     : 'text-on-surface-variant hover:text-on-surface hover:bg-white/50'
                             }`}
                         >
@@ -107,7 +107,7 @@ export default function DashboardLayout({
 
                 {/* Sidebar footer */}
                 <div className="p-4 border-t border-outline-variant/20 space-y-2">
-                    <div className="flex items-center gap-3 p-3 rounded-none bg-white/60 border border-white/80 shadow-sm">
+                    <div className="flex items-center gap-3 p-3 rounded-none bg-white border border-outline-variant/30 shadow-depth-1">
                         <div className="h-9 w-9 rounded-none bg-primary/15 text-primary flex items-center justify-center text-xs font-bold uppercase">
                             {user?.full_name?.charAt(0) || 'G'}
                         </div>
@@ -119,7 +119,7 @@ export default function DashboardLayout({
 
                     <button
                         onClick={() => router.push('/')}
-                        className="w-full flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold text-on-surface-variant hover:text-on-surface hover:bg-white/50 transition-all cursor-pointer"
+                        className="btn-press w-full flex items-center gap-3 px-4 py-3 rounded-none text-xs font-semibold text-on-surface-variant hover:text-on-surface hover:bg-white/50 transition-all cursor-pointer"
                     >
                         <ArrowLeft size={18} weight="bold" />
                         Về trang chủ
@@ -128,7 +128,7 @@ export default function DashboardLayout({
             </aside>
 
             {/* Main content page area */}
-            <main className="flex-grow p-8 md:p-10 overflow-y-auto max-w-7xl mx-auto w-full">
+            <main className="flex-grow p-8 md:p-10 overflow-y-auto max-w-7xl mx-auto w-full animate-page-appear">
                 {children}
             </main>
         </div>

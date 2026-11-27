@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { api } from "@/lib/api";
 import { useToast } from "@/context/ToastContext";
 import { WarningCircle, CheckCircle, Check, Eye, EyeSlash, ArrowLeft, LockKey } from "@phosphor-icons/react";
+import { Spinner } from "@/components/ui";
 
 function ResetPasswordContent() {
   const router = useRouter();
@@ -150,7 +151,7 @@ function ResetPasswordContent() {
   if (verifying) {
     return (
       <div className="flex flex-col items-center justify-center py-12 space-y-3">
-        <div className="w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin" />
+        <Spinner size="md" />
         <p className="text-xs text-on-surface-variant font-medium">Đang kiểm tra mã bảo mật...</p>
       </div>
     );
@@ -159,8 +160,8 @@ function ResetPasswordContent() {
   // Trạng thái token không hợp lệ hoặc đã hết hạn
   if (!tokenValid) {
     return (
-      <div className="flex flex-col items-center text-center space-y-4 py-4">
-        <div className="w-14 h-14 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+      <div className="flex flex-col items-center text-center space-y-4 py-4 animate-page-appear">
+        <div className="w-14 h-14 bg-red-100 border border-red-200 rounded-none flex items-center justify-center text-red-600 shadow-depth-1">
           <WarningCircle size={32} weight="fill" />
         </div>
         <div className="space-y-1.5">
@@ -172,13 +173,13 @@ function ResetPasswordContent() {
         <div className="w-full space-y-2 pt-2">
           <Link
             href="/forgot-password"
-            className="w-full inline-block py-3 bg-primary text-white rounded-none text-xs font-bold transition-all hover:bg-primary-hover shadow-depth-1"
+            className="btn-press w-full inline-block py-3 bg-primary text-white rounded-none text-xs font-bold transition-all hover:bg-primary-hover shadow-depth-1 text-center"
           >
             Yêu cầu liên kết mới
           </Link>
           <Link
             href="/login"
-            className="inline-flex items-center justify-center gap-1.5 text-xs font-bold text-on-surface-variant hover:text-primary transition-colors py-2"
+            className="btn-press inline-flex items-center justify-center gap-1.5 text-xs font-bold text-on-surface-variant hover:text-primary transition-colors py-2"
           >
             <ArrowLeft size={16} />
             Quay lại Đăng nhập
@@ -191,8 +192,8 @@ function ResetPasswordContent() {
   // Trạng thái thành công
   if (success) {
     return (
-      <div className="flex flex-col items-center text-center space-y-4 py-6">
-        <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">
+      <div className="flex flex-col items-center text-center space-y-4 py-6 animate-page-appear">
+        <div className="w-16 h-16 bg-emerald-100 border border-emerald-200 rounded-none flex items-center justify-center text-emerald-600 shadow-depth-1">
           <CheckCircle size={36} weight="fill" />
         </div>
         <div className="space-y-1.5">
@@ -203,7 +204,7 @@ function ResetPasswordContent() {
         </div>
         <Link
           href="/login"
-          className="w-full mt-2 py-3 bg-primary text-white rounded-none text-xs font-bold transition-all hover:bg-primary-hover"
+          className="btn-press w-full mt-2 py-3 bg-primary text-white rounded-none text-xs font-bold transition-all hover:bg-primary-hover shadow-depth-1 text-center"
         >
           Đăng nhập ngay
         </Link>
@@ -404,7 +405,7 @@ export default function ResetPasswordPage() {
     <Suspense
       fallback={
         <div className="flex flex-col items-center justify-center py-12 space-y-3">
-          <div className="w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin" />
+          <Spinner size="md" />
           <p className="text-xs text-on-surface-variant font-medium">Đang tải...</p>
         </div>
       }

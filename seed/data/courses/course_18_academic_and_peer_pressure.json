@@ -1,0 +1,1039 @@
+{
+  "title": "Tháo Gỡ Áp Lực Học Tập & Hiệu Ứng Đám Đông Cùng Con",
+  "slug": "thao-go-ap-luc-hoc-tap-va-hieu-ung-dam-dong-cung-con",
+  "short_description": "Vượt qua hội chứng 'Con nhà người ta', nhận diện kiệt quệ học đường (Academic Burnout), chiến lược chọn trường thi chuyển cấp vừa sức, giải mã bẫy đua đòi đồ hiệu và kiến tạo gia đình chữa lành.",
+  "description": "**Đối tượng:** Phụ huynh có con đang học THCS & THPT (11 - 18 tuổi).\n\nÁp lực điểm số, thi chuyển cấp khốc liệt và trào lưu đua đòi vật chất trên mạng xã hội đang biến tuổi học trò thành một cuộc đua mệt mỏi. Khóa học giúp cha mẹ tháo gỡ chiếc vòng kim cô kỳ vọng, nhận diện các biểu hiện suy nhược thần kinh ở con, áp dụng thuyết Đa trí tuệ để đồng hành chọn nghề thực tế, dạy con bản lĩnh trước áp lực đồng trang lứa và biến tổ ấm thành bến đỗ bình yên nâng đỡ con trưởng thành.",
+  "learning_objectives": "- Nhận thức tác hại của việc so sánh con và áp dụng thuyết Đa trí tuệ tôn trọng nét riêng biệt của con.\n- Nhận diện sớm các dấu hiệu quá tải thần kinh (Burnout) và đau dạ dày/mất ngủ do thi cử.\n- Chiến lược đồng hành cùng con vượt qua kỳ thi chuyển cấp vào lớp 10 và thi tốt nghiệp THPT.\n- Dạy con kỹ năng tài chính thông minh, phân biệt Needs vs Wants trước trào lưu đồ hiệu.\n- Kiến tạo văn hóa gia đình chữa lành, duy trì bữa cơm ấm áp và giải tỏa áp lực bền vững.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "PARENT",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Đập tan hội chứng 'Con nhà người ta': Kỳ vọng độc hại và cái giá phải trả",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nhiều bậc cha mẹ vô tình dùng thành tích của 'con nhà người ta' để so sánh với con mình mỗi ngày với hy vọng tạo động lực. Thực tế tâm lý học chứng minh: So sánh tiêu cực không tạo ra động lực tiến bộ, mà chỉ gieo rắc sự tự ti, cảm giác vô dụng, oán hận cha mẹ và hủy hoại mối quan hệ gia đình.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Đập tan hội chứng 'Con nhà người ta': Kỳ vọng độc hại và cái giá phải trả",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hành vi thường xuyên so sánh con với 'con nhà người ta' để lại hậu quả tâm lý nào?",
+            "explanation": "Hủy hoại lòng tự trọng của con, gieo rắc mặc cảm bất tài và tạo khoảng cách thù hằn với cha mẹ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con tiến bộ vượt bậc thành thủ khoa",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Xói mòn lòng tự tôn, gieo rắc mặc cảm tự ti và phá hủy sợi dây tình cảm giữa cha mẹ và con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp con yêu quý bạn bè hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có hậu quả gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Động lực nội tại (Intrinsic Motivation) khác động lực từ sự sợ hãi ở điểm nào?",
+            "explanation": "Động lực nội tại xuất phát từ niềm đam mê, tò mò muốn hiểu biết; sự sợ hãi chỉ tạo ra đối phó tạm thời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giống hệt nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Động lực nội tại bền vững từ sự say mê khám phá; sự sợ hãi chỉ tạo ra phản ứng đối phó và kiệt sức",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Sợ hãi giúp não bộ thông minh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Động lực nội tại làm con lười biếng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Thuyết 'Đa trí tuệ' (Multiple Intelligences) của Howard Gardner khẳng định điều gì?",
+            "explanation": "Con người có 8 loại trí thông minh khác nhau (nghệ thuật, vận động, ngôn ngữ, nội tâm...); điểm số toán văn không phải thước đo duy nhất.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ có ai giỏi toán mới là người thông minh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mỗi đứa trẻ sở hữu các loại trí thông minh đa dạng khác nhau, điểm số trường học chỉ là một phần nhỏ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trí thông minh phụ thuộc vào độ giàu có",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tất cả mọi người đều giống hệt nhau",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi con nhận kết quả thi không như mong đợi, câu nói khôn ngoan của cha mẹ là gì?",
+            "explanation": "'Bố mẹ thấy con đã rất nỗ lực. Điểm số này không định nghĩa con; chúng ta cùng xem lại chỗ nào chưa hiểu nhé'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Mày chỉ làm bôi tro trát trấu vào mặt tao!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Bố mẹ ghi nhận sự cố gắng của con; điểm số này là cơ hội để cùng tìm ra phương pháp học tốt hơn'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Nhìn con nhà cô Lan mà học tập kìa!'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "'Từ nay cắt hết tiền ăn không cho học nữa'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Mục tiêu thực sự của việc học tập là gì?",
+            "explanation": "Phát triển tư duy, hoàn thiện nhân cách, học cách giải quyết vấn đề và tìm thấy ý nghĩa cuộc sống.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ để lấy tấm bằng khoe với họ hàng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phát triển năng lực tư duy, rèn luyện nhân cách và trang bị kỹ năng sống để tự lập hạnh phúc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Để kiếm thật nhiều tiền đè bẹp người khác",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Học vẹt để qua kỳ thi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Nhận biết dấu hiệu con bị 'Quá tải thần kinh' (Academic Burnout)",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Học thêm từ sáng đến đêm, lịch trình không một ngày nghỉ đang khiến nhiều học sinh THPT rơi vào hội chứng Kiệt quệ học đường. Cha mẹ cần nhận biết các triệu chứng báo động: Đau đầu, đau dạ dày không rõ nguyên nhân y thể chất, mất ngủ, hay cáu gắt vô cớ, đãng trí và ánh mắt đờ đẫn vô hồn.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Nhận biết dấu hiệu con bị 'Quá tải thần kinh' (Academic Burnout)",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Biểu hiện cơ thể học (Somatization) phổ biến khi học sinh bị stress học tập quá tải là gì?",
+            "explanation": "Đau đầu mãn tính, đau dạ dày co thắt, rối loạn tiêu hóa và chóng mặt trước giờ thi.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tăng chiều cao 10cm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đau đầu dai dẳng, đau bụng co thắt dạ dày, buồn nôn và mất ngủ trước các áp lực học tập",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mắt sáng hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Răng trắng hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi cáu gắt, đập vỡ đồ đạc hoặc đóng sầm cửa của con tuổi dậy thì thường phản ánh điều gì?",
+            "explanation": "Hệ thống thần kinh bị quá tải áp lực, không biết cách điều hòa cảm xúc bế tắc bên trong.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Con bị ma nhập",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hệ thần kinh bị quá tải căng thẳng cùng cực, là tín hiệu kêu cứu cần được giải tỏa áp lực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Con muốn làm giang hồ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Con muốn đòi tiền tiêu vặt",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Lịch học tập dày đặc từ 7h sáng đến 23h đêm không có ngày nghỉ sẽ dẫn đến nguy cơ nào?",
+            "explanation": "Rối loạn lo âu, trầm cảm kiệt sức, suy giảm khả năng tập trung và ý nghĩ tự sát.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con trở thành thiên tài",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Kiệt quệ thần kinh (Burnout), suy giảm trí nhớ, trầm cảm và tăng nguy cơ bộc phát hành vi tiêu cực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp con khỏe mạnh hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có nguy cơ gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cha mẹ nên làm gì khi nhận thấy con có dấu hiệu kiệt sức vì ôn thi?",
+            "explanation": "Chủ động cho con nghỉ ngơi 1-2 ngày, đưa con đi dã ngoại thiên nhiên và rà soát cắt giảm các lớp học thêm không cần thiết.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thuê thêm 3 gia sư về dạy kèm ban đêm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cho con nghỉ ngơi hồi phục, giảm tải lịch học thêm và ưu tiên giấc ngủ cùng dinh dưỡng cho con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con uống 5 lon nước tăng lực để học tiếp",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mắng con là lười biếng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Giấc ngủ có vai trò gì trong quá trình ghi nhớ kiến thức của não bộ?",
+            "explanation": "Trong giấc ngủ sâu, hồi hải mã sẽ củng cố và chuyển đổi trí nhớ ngắn hạn thành trí nhớ dài hạn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giấc ngủ chỉ làm lãng phí thời gian học bài",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Giấc ngủ giúp não bộ đào thải độc tố và củng cố kiến thức vào bộ nhớ dài hạn của hồi hải mã",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ngủ làm mất hết kiến thức đã học",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ cần ngủ 1 tiếng mỗi ngày là đủ",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Đồng hành cùng con trước kỳ thi chuyển cấp & Hướng nghiệp thực tế",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Kỳ thi vào lớp 10 và thi tốt nghiệp THPT là những kỳ thi có tính cạnh tranh khốc liệt. Cha mẹ cần trở thành hậu phương vững chắc: Cung cấp dinh dưỡng đầy đủ, xây dựng không gian học tập yên tĩnh, cùng con chọn trường vừa sức theo năng lực thực tế chứ không chọn trường vì 'sĩ diện của gia đình'.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Đồng hành cùng con trước kỳ thi chuyển cấp & Hướng nghiệp thực tế",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Nguyên tắc vàng khi cùng con chọn nguyện vọng thi chuyển cấp (vào lớp 10 hoặc Đại học) là gì?",
+            "explanation": "Căn cứ vào năng lực học tập thực tế, sở thích đam mê của con và điều kiện kinh tế gia đình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chọn trường có điểm chuẩn cao nhất để bố mẹ nở mày nở mặt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Căn cứ vào năng lực thực tế, nguyện vọng sở trường của con và điều kiện gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con học ngành bố mẹ thích ngày xưa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhờ hàng xóm chọn hộ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi ép con thi vào trường chuyên/lớp chọn vượt quá xa năng lực thực tế của con sẽ dẫn đến điều gì?",
+            "explanation": "Tạo áp lực tâm lý khủng khiếp, nguy cơ trượt toàn bộ nguyện vọng và gãy đổ sự tự tin đầu đời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp con đột phá thành thiên tài",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gây áp lực quá tải tinh thần, nguy cơ trượt nguyện vọng và hủy hoại lòng tự tin của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp con có nhiều bạn giàu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không ảnh hưởng gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Vai trò quan trọng nhất của cha mẹ trong mùa thi cử căng thẳng là gì?",
+            "explanation": "Là hậu phương tinh thần bình yên, chăm sóc dinh dưỡng và khích lệ con giữ vững tinh thần thoải mái.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Ngồi kè kè giám sát từng phút học của con",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chăm lo sức khỏe dinh dưỡng, tạo không khí gia đình ấm áp, động viên con tự tin làm bài hết mình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tuyên bố sẽ cắt tiền học nếu con thi trượt",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nhắc lại bài học mỗi 5 phút một lần",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi con thi trượt nguyện vọng 1, thái độ nào của cha mẹ thể hiện ĐẲNG CẤP VÀ TÌNH YÊU THƯƠNG?",
+            "explanation": "Ôm con, khẳng định cánh cửa này khép lại sẽ có cánh cửa khác mở ra, tương lai vẫn rộng mở phía trước.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chửi mắng con là đồ vô tích sự",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ở bên cạnh an ủi, khẳng định điểm số thi cử không quyết định toàn bộ cuộc đời và cùng con tìm hướng đi mới",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đuổi con ra khỏi nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đóng cửa nhốt con không cho ai gặp",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Xu hướng nghề nghiệp trong kỷ nguyên AI và tự động hóa đòi hỏi điều gì ở thanh thiếu niên?",
+            "explanation": "Kỹ năng thích ứng, tư duy phản biện, trí tuệ cảm xúc (EQ) và khả năng tự học suốt đời.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ cần học vẹt để thi lấy bằng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khả năng thích ứng linh hoạt, tư duy sáng tạo phản biện, trí tuệ cảm xúc và tinh thần tự học",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ cần làm theo mệnh lệnh của máy móc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không cần học bất kỳ kỹ năng nào",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Dạy con bản lĩnh trước trào lưu 'Đua đòi vật chất' & Hiệu ứng đám đông",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Nhiều học sinh rơi vào khủng hoảng hoặc ăn cắp tiền vì áp lực phải có iPhone đời mới nhất, giày hiệu đắt tiền để không bị nhóm bạn nhà giàu tẩy chay. Cha mẹ cần dạy con: Giá trị con người nằm ở phẩm cách và tri thức, không nằm ở món đồ hiệu trên người; hướng dẫn con kỹ năng quản lý tài chính cá nhân thông minh.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Dạy con bản lĩnh trước trào lưu 'Đua đòi vật chất' & Hiệu ứng đám đông",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Nguyên nhân tâm lý khiến học sinh đòi cha mẹ mua đồ hiệu đắt tiền (iPhone, giày hiệu) là gì?",
+            "explanation": "Nhu cầu muốn được công nhận, sợ bị coi thường và áp lực phải hòa nhập với nhóm bạn bè.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vì con muốn sưu tầm đồ cổ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhu cầu khẳng định bản thân, sợ bị bạn bè tẩy chay hoặc chê cười là 'kém sang'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Vì con muốn mở cửa hàng kinh doanh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do thầy cô yêu cầu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Cách ứng xử khôn ngoan của cha mẹ khi con đòi mua đồ xa xỉ vượt quá khả năng tài chính là gì?",
+            "explanation": "Thẳng thắn trò chuyện về ngân sách gia đình, dạy con giá trị của sức lao động và phân biệt 'Nhu cầu' vs 'Mong muốn'.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đi vay nặng lãi để mua ngay cho con bằng bạn bằng bè",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chân thành chia sẻ về tình hình tài chính gia đình, dạy con phân biệt 'Needs' và 'Wants' và quý trọng đồng tiền",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mắng chửi con thậm tệ là đồ đua đòi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hứa lèo rồi lờ đi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khái niệm 'Needs' (Nhu cầu thiết yếu) và 'Wants' (Mong muốn sở thích) khác nhau như thế nào?",
+            "explanation": "Nhu cầu là thứ cần thiết để sống và học tập (sách vở, đồ ăn); Mong muốn là thứ xa xỉ giúp thỏa mãn sở thích.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giống hệt nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhu cầu là những thứ thiết yếu phục vụ sinh hoạt, học tập; Mong muốn là những thứ thỏa mãn ý thích cá nhân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mong muốn quan trọng hơn nhu cầu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ có người lớn mới có nhu cầu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Làm thế nào để giúp con tự tin vào bản thân mà không phụ thuộc vào bộ quần áo đắt tiền?",
+            "explanation": "Khen ngợi năng lực, sự tử tế, nỗ lực và tính cách độc bản của con thay vì khen ngợi đồ đạc bên ngoài.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mua thêm nhiều vàng cho con đeo",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Công nhận và khen ngợi những giá trị nội tại: Trí tuệ, lòng tốt, sự kiên trì và tài năng riêng của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bắt con mặc đồ rách rưới để rèn luyện",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm con không được chơi với bạn giàu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Dạy con kỹ năng quản lý tài chính cá nhân từ tuổi học trò mang lại lợi ích gì?",
+            "explanation": "Hình thành thói quen chi tiêu thông minh, biết tiết kiệm, đầu tư và độc lập tài chính khi trưởng thành.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm con trở nên keo kiệt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rèn luyện ý thức trân trọng sức lao động, chi tiêu có kế hoạch và xây dựng sự tự chủ tài chính vững chắc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm con thích chơi cờ bạc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có lợi ích gì",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Kiến tạo 'Môi trường chữa lành' trong gia đình: Bình yên sau cánh cửa",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "Gia đình phải là bến đỗ bình yên nhất nơi con được trút bỏ mọi mặt nạ và áp lực ngoài xã hội. Cha mẹ thực hành: Không mang áp lực công việc về nhà trút lên con, thiết lập những bữa cơm đầm ấm đầy tiếng cười, cùng con chơi thể thao cuối tuần và trở thành những người bạn tâm giao tin cậy nhất.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Kiến tạo 'Môi trường chữa lành' trong gia đình: Bình yên sau cánh cửa",
+        "description": "5 câu hỏi kiểm tra kỹ năng và nhận thức phụ huynh.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Thế nào là một 'Gia đình chữa lành' (Healing Family) đối với con tuổi dậy thì?",
+            "explanation": "Nơi con cảm thấy an toàn tuyệt đối, được lắng nghe không phán xét và được tiếp thêm năng lượng tích cực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nơi có bác sĩ túc trực 24/7",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nơi có không gian bình yên, tràn ngập tình yêu thương, sự thấu cảm và không có bạo lực tinh thần",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nơi chỉ toàn thảo luận về điểm số và tiền bạc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Nơi không ai nói chuyện với ai",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Thói quen xấu nào của cha mẹ thường biến ngôi nhà thành 'chiến trường áp lực' cho con?",
+            "explanation": "Mang những bực dọc, căng thẳng từ công việc ngoài xã hội về trút giận, quát tháo lên con cái.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cùng con nấu ăn vào buổi tối",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trút bỏ những áp lực, cáu gắt từ công việc lên con cái và soi mói chỉ trích mọi hành vi của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đọc sách cùng con",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hỏi thăm bạn bè của con",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hoạt động gắn kết gia đình nào sau đây giúp giải tỏa căng thẳng học tập hiệu quả nhất?",
+            "explanation": "Cùng nhau tham gia các hoạt động thể thao ngoài trời (chạy bộ, đạp xe, cắm trại cuối tuần).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cả nhà cùng ngồi học bài thi 10 tiếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cùng nhau vận động thể chất ngoài thiên nhiên, đi dạo, cắm trại và trò chuyện thoải mái không áp lực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mỗi người ngồi một góc lướt điện thoại",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tổ chức kiểm tra miệng đột xuất",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nghi thức 'Bữa cơm gia đình ấm áp' có giá trị tâm lý như thế nào đối với thanh thiếu niên?",
+            "explanation": "Gia tăng cảm giác gắn kết thuộc về, giảm 40% nguy cơ trầm cảm và tệ nạn xã hội ở trẻ vị thành niên.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ để cung cấp calo cho cơ thể",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nuôi dưỡng cảm xúc an toàn, gắn kết tình thân và giảm thiểu đáng kể các rối loạn tâm lý học đường",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Là dịp để cha mẹ mắng mỏ con công khai",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có giá trị gì",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Món quà lớn nhất mà một đứa trẻ tuổi dậy thì mong muốn nhận được từ cha mẹ là gì?",
+            "explanation": "Sự công nhận, tôn trọng và tin tưởng rằng con có giá trị riêng biệt.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Một chiếc xe máy đắt tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự thấu hiểu, công nhận nỗ lực bản thân và niềm tin tưởng vững chắc vào tương lai của con",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Một xấp tiền đô la",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Một căn biệt thự",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Đánh giá Năng lực Giảm tải Áp lực Học đường & Đồng hành Thi cử",
+    "description": "10 câu hỏi tổng hợp tình huống giúp phụ huynh tháo gỡ áp lực thi cử và nuôi dạy con hạnh phúc.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Hậu quả nghiêm trọng của việc thường xuyên so sánh con với người khác là gì?",
+        "explanation": "Hủy hoại lòng tự tôn của con và đẩy con vào trạng thái tự ghét bỏ bản thân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp con thông minh hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Xói mòn lòng tự tôn, hủy hoại niềm tin và tạo khoảng cách rạn nứt trong gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Giúp con đạt giải nhất",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có hậu quả gì",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Hội chứng kiệt quệ học đường (Academic Burnout) thường có biểu hiện nào?",
+        "explanation": "Mệt mỏi mãn tính, mất ngủ, đau đầu dạ dày và cảm giác bất lực tuyệt vọng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hăng hái học bài 24/7",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Mệt mỏi kiệt quệ, mất động lực, rối loạn giấc ngủ và suy giảm trí nhớ nghiêm trọng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cảm thấy yêu đời",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Ăn khỏe ngủ ngon",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Thuyết Đa trí tuệ của Howard Gardner chứng minh điều gì?",
+        "explanation": "Con người có nhiều loại trí thông minh đa dạng, điểm số toán văn không phải thước đo duy nhất.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chỉ có môn toán mới quan trọng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Mỗi cá nhân sở hữu những loại hình thông minh độc đáo khác nhau cần được tôn trọng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ có con nhà giàu mới thông minh",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Trí tuệ không thể phát triển",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Nguyên tắc cốt lõi khi chọn trường thi chuyển cấp cùng con là gì?",
+        "explanation": "Phù hợp với năng lực thực tế, sở thích của con và điều kiện kinh tế gia đình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chọn trường để bố mẹ tự hào với bạn bè",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Dựa trên năng lực thực tế, nguyện vọng sở trường của con và khả năng gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chọn trường có học phí đắt nhất",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Nhờ bói toán chọn hộ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Khi con thi trượt nguyện vọng mong muốn, phản ứng đúng đắn của cha mẹ là gì?",
+        "explanation": "Ôm con, khích lệ và cùng con tìm kiếm những con đường phát triển mới.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Mắng con là đồ vô tích sự",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Ở bên cạnh an ủi, công nhận sự nỗ lực của con và khẳng định tương lai vẫn luôn rộng mở",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cắt đứt liên lạc với con",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đuổi con ra khỏi nhà",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Trào lưu đòi mua đồ hiệu đắt tiền ở học sinh bắt nguồn từ nguyên nhân tâm lý nào?",
+        "explanation": "Áp lực muốn được bạn bè công nhận và nỗi sợ bị cô lập tẩy chay.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Vì con muốn nghiên cứu thị trường",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nhu cầu khẳng định giá trị bản thân, áp lực đồng trang lứa và sợ bị xa lánh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Do con quá giàu có",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Do thầy cô yêu cầu",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Cách phân biệt giữa 'Nhu cầu thiết yếu' (Needs) và 'Mong muốn sở thích' (Wants) là gì?",
+        "explanation": "Nhu cầu là thứ cần để sống và học tập; Mong muốn là thứ sở thích không có vẫn sống tốt.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Hai khái niệm này giống nhau",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nhu cầu là những thứ thiết yếu cho sinh hoạt học tập; Mong muốn là thứ thỏa mãn ý thích cá nhân",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Mong muốn quan trọng hơn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ có tiền mới là nhu cầu",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Hoạt động nào giúp giải tỏa căng thẳng học tập và gắn kết gia đình hiệu quả nhất?",
+        "explanation": "Cùng nhau vận động thể thao ngoài trời và cắm trại cuối tuần.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cùng nhau làm bài thi 12 tiếng liên tục",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cùng nhau tham gia thể thao dã ngoại thiên nhiên và chia sẻ vui vẻ không áp lực",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cùng nhau lướt TikTok",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Kiểm tra bài tập đột xuất",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Bữa cơm gia đình ấm áp mang lại lợi ích tâm lý nào cho thanh thiếu niên?",
+        "explanation": "Giảm 40% nguy cơ trầm cảm và nuôi dưỡng cảm giác an toàn thuộc về.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Làm con tăng cân béo phì",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tạo cảm giác an toàn gắn kết, giảm thiểu nguy cơ trầm cảm và tệ nạn học đường",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ để ăn cho no",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có lợi ích tâm lý",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Món quà tuyệt vời nhất cha mẹ có thể dành tặng cho con tuổi dậy thì là gì?",
+        "explanation": "Tình yêu thương vô điều kiện, sự thấu hiểu và niềm tin vững chắc vào tương lai của con.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Một chiếc xe máy phân khối lớn",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Sự lắng nghe không phán xét, sự tin tưởng và tình yêu thương vô điều kiện của gia đình",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bắt con học 24/24 giờ",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "So sánh con với bạn bè",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1339 @@
+{
+  "title": "Thấu Hiểu Cơ Thể — Dậy Thì Tự Tin & Khoa Học",
+  "slug": "thau-hieu-co-the-day-thi-tu-tin-khoa-hoc",
+  "short_description": "Khóa học nền tảng toàn diện về dậy thì, hormone, sinh lý nam nữ, chăm sóc da mụn khoa học và đập tan chiếc bẫy so sánh ngoại hình.",
+  "description": "**Đối tượng:** Học sinh vị thành niên (11 - 16 tuổi).\n\nTuổi dậy thì là giai đoạn cơ thể bạn biến đổi mạnh mẽ nhất cả về thể chất lẫn tâm lý. Khóa học giúp học sinh tiếp cận kiến thức khoa học chuẩn y khoa, tháo gỡ hoàn toàn tâm lý xấu hổ khi đối mặt với kinh nguyệt, mộng tinh, mụn trứng cá và mùi cơ thể; đồng thời trang bị tư duy phản biện trước các trào lưu độc hại và mỹ phẩm trôi nổi trên mạng xã hội.",
+  "learning_objectives": "- Thấu hiểu cơ chế hormone và sự khác biệt về nhịp điệu dậy thì của mỗi cá nhân.\n- Nhận thức khoa học, văn minh về hiện tượng kinh nguyệt và mộng tinh.\n- Thực hành chăm sóc da mụn, vệ sinh thân thể đúng chuẩn y khoa, tránh bẫy kem trộn corticoid.\n- Xây dựng bản lĩnh tự tin, vượt qua vấn nạn miệt thị ngoại hình (Body Shaming) trên mạng xã hội.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Cơn lốc hormone & Biến đổi thể chất: Tại sao cơ thể khác bạn bè?",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=00BYyDr8Xdg",
+      "duration_minutes": 15,
+      "content_body": "### Case Study Mở Đầu: Nỗi Lo Của Hoàng (14 tuổi)\nHoàng nhận thấy các bạn cùng lớp nam đã cao vọt và vỡ giọng ồm ồm, trong khi giọng cậu vẫn the thé và chiều cao dậm chân tại chỗ. Hoàng bắt đầu tự ti, tìm mua các loại thuốc tăng chiều cao trôi nổi trên mạng xã hội với giá tiền triệu...\n\n### 1. Cơ chế dậy thì & Sự bùng nổ hormone\nTuổi dậy thì thường bắt đầu từ 9-14 tuổi ở nữ và 10-15 tuổi ở nam. Vùng dưới đồi và tuyến yên phát tín hiệu kích thích sản xuất hormone sinh dục:\n- **Estrogen & Progesterone** ở nữ giới: Kích thích phát triển ngực, xương chậu mở rộng, lông mu và bắt đầu chu kỳ kinh nguyệt.\n- **Testosterone** ở nam giới: Phát triển tinh hoàn, dương vật, cơ bắp, mọc râu, lông cơ thể và làm dày dây thanh quản (vỡ giọng).\n\n### 2. Mỗi cơ thể có một đồng hồ sinh học riêng\nKhông hề có một \"phiên bản chuẩn\" nào cho sự phát triển. Có bạn dậy thì sớm (10 tuổi), có bạn dậy thì muộn (15 tuổi), nhưng cuối cùng đều sẽ phát triển hoàn thiện. \n**Lời khuyên:** Tuyệt đối không dùng các loại thuốc tăng trưởng, thực phẩm chức năng không rõ nguồn gốc trên mạng vì có thể gây hại cho gan, thận và đóng sớm đầu xương dài.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Biến đổi thể chất tuổi dậy thì",
+        "description": "5 câu hỏi trắc nghiệm kiểm tra nhận thức khoa học về dậy thì.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Điều gì quyết định thời điểm và tốc độ dậy thì của mỗi cá nhân?",
+            "explanation": "Đồng hồ sinh học, di truyền và dinh dưỡng của mỗi người là khác nhau, không có mốc chuẩn cố định cho tất cả.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do dùng thuốc tăng chiều cao sớm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do yếu tố di truyền, hormone và thể trạng riêng biệt của từng người",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ai dậy thì sau 13 tuổi đều là bị bệnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do thói quen ngủ nhiều vào ban ngày",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi thấy bạn bè phát triển nhanh hơn mình, hành động nào sau đây là ĐÚNG ĐẮN nhất?",
+            "explanation": "Kiên nhẫn theo dõi, giữ lối sống khoa học và tham vấn nhân viên y tế nếu sau 16 tuổi chưa có dấu hiệu dậy thì.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mua thuốc kích thích hormone trên TikTok để uống",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Nhịn ăn để ức chế cơ thể không phát triển lệch",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giữ chế độ dinh dưỡng lành mạnh, tập thể thao và hiểu rằng cơ thể cần thời gian riêng",
+                "is_correct": true
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giấu gia đình tự đi phẫu thuật kéo dài xương",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hormone sinh dục chính chịu trách nhiệm cho các biến đổi cơ thể ở nam giới là gì?",
+            "explanation": "Testosterone kích thích cơ bắp, râu tóc, giọng nói trầm và sự phát triển của cơ quan sinh dục nam.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Estrogen",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Insulin",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Testosterone",
+                "is_correct": true
+              },
+              {
+                "order_index": 4,
+                "option_text": "Adrenaline",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hiện tượng 'vỡ giọng' ở bạn nam tuổi dậy thì do nguyên nhân sinh học nào?",
+            "explanation": "Testosterone làm sụn thanh quản nở rộng và dây thanh âm dài, dày hơn khiến giọng trầm xuống.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do viêm họng hạt kéo dài",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do dây thanh âm dài và dày ra dưới tác động của Testosterone",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do nói quá nhiều khi học bài",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do uống nước đá thường xuyên",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thái độ đúng đắn khi thấy một bạn trong lớp có giọng nói the thé hoặc dáng người thấp bé hơn chuẩn chung là gì?",
+            "explanation": "Tôn trọng sự đa dạng sinh học, tuyệt đối không trêu chọc hay đặt biệt danh miệt thị bạn bè.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đặt biệt danh chế giễu bạn để tạo tiếng cười trong lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng nhịp điệu phát triển tự nhiên của bạn, kiên quyết phản đối hành vi bắt nạt bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tránh tiếp xúc vì sợ bị 'lây' dậy thì muộn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chụp ảnh bạn đăng lên mạng xã hội để bình luận",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Kinh nguyệt: Tín hiệu sinh học tự nhiên, đừng xấu hổ hay giấu giếm",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=CJcg_q_wI_s",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Tình Huống Của Linh Trong Giờ Học Thể Dục\nLinh (lớp 8) bỗng thấy máu thấm ra sau quần thể dục màu trắng. Một nhóm bạn nam nhìn thấy và chỉ trỏ cười khúc khích. Linh hoảng sợ, xấu hổ òa khóc và xin nghỉ học suốt một tuần...\n\n### 1. Kinh nguyệt là gì dưới góc nhìn sinh học?\nMỗi tháng, một quả trứng rụng khỏi buồng trứng và lớp niêm mạc tử cung dày lên chứa nhiều mạch máu sẵn sàng đón trứng thụ tinh. Nếu không có hiện tượng thụ tinh, lớp niêm mạc này sẽ bong tróc và chảy ra ngoài qua âm đạo — đó chính là máu kinh.\n- Lượng máu mất trung bình chỉ khoảng 30-80ml trong cả kỳ (kéo dài 3-7 ngày).\n- Kinh nguyệt là minh chứng cho một cơ thể phát triển khỏe mạnh và có khả năng sinh sản trong tương lai.\n\n### 2. Vệ sinh khoa học & Chăm sóc kỳ kinh\n- Thay băng vệ sinh mỗi 3-4 tiếng/lần, không đợi đến khi băng đầy mới thay (tránh vi khuẩn sinh sôi).\n- Rửa vùng kín bằng nước sạch từ trước ra sau (tránh đưa vi khuẩn từ hậu môn vào âm đạo).\n- Hiện tượng đau bụng kinh nhẹ là do tử cung co bóp để đẩy máu ra ngoài. Chườm ấm, nghỉ ngơi và uống nhiều nước ấm sẽ giúp giảm đau đáng kể.\n\n### 3. Thông điệp văn minh cho cả nam và nữ\nKinh nguyệt là quá trình sinh học tự nhiên như hít thở hay tuần hoàn máu. Trêu chọc bạn gái vì kỳ kinh là hành vi thiếu hiểu biết và kém văn minh. Nam giới thấu hiểu về kinh nguyệt thể hiện sự trưởng thành và tinh tế.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Nhận thức khoa học về Kinh nguyệt",
+        "description": "5 câu hỏi tình huống về kinh nguyệt và vệ sinh an toàn.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Về mặt bản chất sinh học, máu kinh nguyệt là gì?",
+            "explanation": "Kinh nguyệt là lớp niêm mạc tử cung bong ra kèm máu khi trứng không được thụ tinh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Máu độc của cơ thể tích tụ lâu ngày thải ra",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lớp niêm mạc giàu mạch máu của tử cung bong ra khi không xảy ra thụ thai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Dấu hiệu của vết thương nhiễm trùng trong bụng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hậu quả do vận động mạnh trong thể thao",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Tần suất thay băng vệ sinh hợp lý nhất trong những ngày hành kinh là bao lâu?",
+            "explanation": "Nên thay mỗi 3-4 giờ để tránh ẩm ướt và vi khuẩn yếm khí gây viêm nhiễm phụ khoa.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ thay 1 lần duy nhất vào cuối ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Khoảng 3-4 giờ một lần, hoặc ngay khi thấy băng ướt nhiều",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đợi 12 tiếng để tiết kiệm băng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ thay khi bắt đầu có mùi hôi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi thấy bạn gái cùng lớp bất ngờ gặp sự cố bị tràn máu kinh ra quần, bạn nam văn minh nên làm gì?",
+            "explanation": "Ứng xử tinh tế, nhường áo khoác che chắn hoặc báo nhẹ cho bạn nữ / cô giáo hỗ trợ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ trỏ và gọi cả lớp lại xem để trêu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tế nhị cho bạn mượn áo khoác buộc ngang hông hoặc báo riêng để bạn biết",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Lấy điện thoại chụp ảnh gửi vào nhóm chat",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hét to để cô giáo gọi y tế trường",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cách vệ sinh vùng kín đúng chuẩn y khoa khi tắm rửa là gì?",
+            "explanation": "Rửa từ trước ra sau bằng nước sạch, lau khô bằng khăn mềm sạch, không thụt rửa sâu.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rửa từ sau hậu môn kéo ngược ra trước",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dùng vòi xịt nước mạnh sâu vào trong âm đạo",
+                "is_correct": false
+              },
+              {
+                "order_index": 3,
+                "option_text": "Rửa nhẹ nhàng từ trước ra sau và lau khô bằng khăn sạch",
+                "is_correct": true
+              },
+              {
+                "order_index": 4,
+                "option_text": "Dùng xà phòng thơm sát khuẩn mạnh chà xát kỹ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Biện pháp an toàn giúp giảm đau bụng kinh tại nhà được bác sĩ khuyên dùng là gì?",
+            "explanation": "Chườm ấm vùng bụng dưới, uống nước ấm và nghỉ ngơi hợp lý giúp giãn cơ tử cung.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chườm đá lạnh trực tiếp lên bụng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chườm túi ấm lên bụng dưới, uống nước ấm và nghỉ ngơi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tập các bài thể lực nặng để phân tán cơn đau",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự ý uống 5-6 viên thuốc giảm đau liều cao cùng lúc",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Mộng tinh & Hiện tượng sinh lý ở nam: Đừng để lời đồn dọa bạn",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=F0Z8d5c8x0k",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Nỗi Hoang Mang Sáng Sớm Của Tuấn (15 tuổi)\nSáng ngủ dậy, Tuấn phát hiện quần lót và ga giường có vệt dịch dính nhớp ráp ráp. Tuấn nhớ đêm qua mình đã có giấc mơ lãng mạn. Cậu lên Google tìm kiếm và đọc được bài viết trên diễn đàn bảo rằng 'xuất tinh đêm làm hao mòn tủy sống, yếu thận và gây vô sinh'. Tuấn sợ hãi không dám kể với ai...\n\n### 1. Hiện tượng Mộng tinh ('Giấc mơ ướt' — Wet Dream)\n- **Bản chất:** Ở tuổi dậy thì, tinh hoàn bắt đầu sản xuất hàng triệu tinh trùng mỗi ngày. Khi tinh dịch tích tụ đầy trong túi tinh mà không được giải phóng, cơ thể sẽ có cơ chế xả tràn tự nhiên vào ban đêm khi ngủ — thường đi kèm với những giấc mơ.\n- **Hoàn toàn vô hại:** Mộng tinh không làm yếu cơ thể, không làm teo thận và càng không gây vô sinh. Đó là bằng chứng chứng minh cơ quan sinh sản của bạn nam đang hoạt động bình thường!\n\n### 2. Hiện tượng Cương cứng bất chợt\nNhiều bạn nam bối rối vì 'cậu nhỏ' bất ngờ ngẩng cao đầu trong lớp học hoặc khi đứng dậy trả lời bài, dù trong đầu không hề nghĩ đến chuyện nhạy cảm:\n- Đây là phản xạ thần kinh và lưu lượng máu tự nhiên do biến động nồng độ testosterone trong ngày.\n- **Cách xử lý:** Đừng hoảng sợ, hít thở sâu, tập trung vào bài học hoặc đổi tư thế ngồi bấm ngón chân để điều hướng tuần hoàn máu, tình trạng sẽ tự lắng xuống sau vài phút.",
+      "quiz": {
+        "title": "Củng cố Bài 3: Giải mã hiện tượng sinh lý nam giới",
+        "description": "5 câu hỏi khoa học về mộng tinh và phản xạ cương cứng tự nhiên.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Hiện tượng mộng tinh (xuất tinh ban đêm khi ngủ) ở nam giới phản ánh điều gì?",
+            "explanation": "Đây là cơ chế xả tràn tự nhiên của túi tinh khi tinh dịch sản xuất đầy, thể hiện cơ thể phát triển khỏe mạnh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Dấu hiệu của bệnh thận yếu cần uống thuốc bổ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cơ chế xả tràn tự nhiên bình thường khi cơ thể sản xuất tinh dịch",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nguy cơ cao bị vô sinh sau này",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hậu quả do xem phim nhiều vào ban ngày",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Lời đồn 'Mộng tinh làm hao tổn tủy sống và giảm tuổi thọ' có căn cứ khoa học không?",
+            "explanation": "Hoàn toàn là lời đồn mê tín sai lệch, tinh dịch do tinh hoàn và các tuyến phụ sinh dục sản xuất, không liên quan đến tủy sống.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đúng, mỗi lần xuất tinh là mất một phần tủy xương",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sai hoàn toàn, đây là lời đồn vô căn cứ gây hoang mang tâm lý",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ đúng nếu mộng tinh xảy ra quá 2 lần/tháng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đúng với người dưới 18 tuổi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi 'cậu nhỏ' bất ngờ cương cứng không chủ ý trong giờ học, giải pháp bình tĩnh nhất là gì?",
+            "explanation": "Giữ bình tĩnh, hít thở sâu và gập bàn chân hoặc tập trung suy nghĩ vào việc khác để máu lưu thông đều.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hét toáng lên và chạy ra khỏi lớp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh hít thở sâu, tập trung vào việc học hoặc đổi tư thế ngồi",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Dùng tay đập mạnh vào cơ thể để ép xẹp xuống",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Uống nước đá thật nhiều ngay tại chỗ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Học sinh nam cần làm gì sau khi gặp hiện tượng mộng tinh lúc thức dậy?",
+            "explanation": "Tắm rửa vệ sinh cơ thể sạch sẽ, thay quần áo và giặt ga giường nếu dính dịch.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giấu quần lót dưới gầm giường không giặt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Vệ sinh vùng kín bằng nước sạch, thay quần áo sạch sẽ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nằm im trên giường không dám cử động cả ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tự mua thuốc ức chế sinh dục về uống",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Tần suất mộng tinh như thế nào là bình thường ở tuổi dậy thì?",
+            "explanation": "Có bạn vài lần/tuần, có bạn vài tháng một lần hoặc thậm chí không có, tất cả đều trong phạm vi bình thường.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bắt buộc phải đúng 1 lần mỗi tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dao động tùy cơ địa mỗi người, không có con số bắt buộc",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quá 1 lần trong đời là bất thường",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ xảy ra vào những đêm trăng tròn",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Da dầu, mụn trứng cá và mùi cơ thể: Tránh bẫy mỹ phẩm trôi nổi",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=0k5G5W8x4gY",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Bẫy 'Kem Trộn Lột Trắng Cấp Tốc' Của Hà (16 tuổi)\nMặt nổi nhiều mụn viêm do tuyến bã nhờn hoạt động mạnh, Hà bị bạn bè trêu là 'mặt rỗ'. Nghe theo quảng cáo trên TikTok về loại 'Cao thảo dược đông y tái tạo da' cam kết sạch mụn sau 3 ngày, Hà mua về bôi. Sau 1 tuần, da Hà bị teo rát, nổi mụn mủ chi chít do nhiễm độc corticoid nặng, phải nhập viện da liễu điều trị hàng tháng trời...\n\n### 1. Nguyên nhân thực sự của mụn tuổi dậy thì\nDưới tác động của hormone Androgen, tuyến bã nhờn tiết ra nhiều dầu. Dầu nhờn kết hợp với tế bào chết gây bít tắc lỗ chân lông, tạo môi trường cho vi khuẩn *C. acnes* phát triển gây viêm mụn.\n- **Không phải do máu bẩn:** Mụn là bệnh lý về nang lông tuyến bã, không liên quan đến việc 'nhiễm độc máu'.\n- **Tuyệt đối không dùng tay cạy nặn mụn:** Bàn tay chứa hàng triệu vi khuẩn, nặn mụn sai cách làm rách nang lông dưới da, lây lan ổ viêm và để lại sẹo lõm vĩnh viễn.\n\n### 2. Chăm sóc da khoa học đúng chuẩn\n- Rửa mặt ngày 2 lần bằng sữa rửa mặt dịu nhẹ độ pH 5.5.\n- Không sờ tay lên mặt, giặt sạch vỏ gối mỗi tuần.\n- Uống đủ 2 lít nước, ngủ trước 23h và hạn chế trà sữa, đồ ăn nhanh nhiều dầu mỡ đường ngọt.\n- Nếu mụn viêm mủ nặng, hãy đến bác sĩ chuyên khoa da liễu tại bệnh viện uy tín khám, không nghe lời mời mào của các spa cỏ hay người bán hàng online.",
+      "quiz": {
+        "title": "Củng cố Bài 4: Chăm sóc da & Phòng tránh độc hại mỹ phẩm",
+        "description": "5 câu hỏi về thói quen chăm sóc da mụn và nhận diện kem trộn độc hại.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Nguyên nhân chính gây ra mụn trứng cá ở tuổi dậy thì là gì?",
+            "explanation": "Tuyến bã nhờn tăng tiết dầu do hormone kết hợp với tế bào chết gây bít tắc lỗ chân lông và vi khuẩn phát triển.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do máu bị nhiễm độc tố từ thức ăn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Do tuyến dầu hoạt động mạnh gây bít tắc lỗ chân lông và vi khuẩn viêm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do tiếp xúc với người bị mụn nên bị lây",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do không uống thuốc giải độc gan",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi nào sau đây khiến tình trạng mụn viêm trở nên tồi tệ và để lại sẹo rỗ?",
+            "explanation": "Dùng tay bẩn tự nặn mụn làm vỡ nang lông, đưa vi khuẩn sâu vào da và tạo sẹo vĩnh viễn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Rửa mặt nhẹ nhàng với nước sạch",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tự ý dùng tay bẩn cạy, nặn mụn khi còn sưng viêm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Uống nhiều nước lọc mỗi ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Ngủ sớm trước 23 giờ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Dấu hiệu nhận biết sản phẩm mỹ phẩm chứa chất cấm Corticoid ('kem trộn') trên mạng xã hội là gì?",
+            "explanation": "Quảng cáo trị sạch mụn trắng da thần tốc trong 2-3 ngày, không rõ thành phần và thương hiệu được cấp phép.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bao bì có ghi rõ nguồn gốc xuất xứ và giấy phép Bộ Y tế",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Quảng cáo cam kết 'hết mụn, trắng bóc sau 2-3 ngày', chất kem vàng đặc mùi nồng",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Được bán tại quầy thuốc của bệnh viện da liễu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Có hạn sử dụng và bảng thành phần hóa học minh bạch",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Để hạn chế mùi mồ hôi cơ thể tuổi dậy thì, thói quen vệ sinh nào là hiệu quả nhất?",
+            "explanation": "Tắm giặt mỗi ngày, mặc quần áo cotton thoáng khí và có thể dùng lăn/xịt khử mùi phù hợp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Xịt thật nhiều nước hoa nồng lên người mà không cần tắm",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tắm rửa hàng ngày, mặc đồ thoáng khí và dùng sản phẩm khử mùi nếu cần",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nhịn uống nước để cơ thể không tiết mồ hôi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Mặc quần áo bó sát bằng chất liệu nilon kín mít",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi da mặt nổi mụn viêm bọc mủ lan rộng khắp mặt, bạn nên làm gì?",
+            "explanation": "Đến cơ sở y tế / bệnh viện chuyên khoa da liễu để được bác sĩ kê đơn thuốc và phác đồ chuẩn y khoa.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Mua thuốc bôi gia truyền không nhãn mác về dùng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Đến khám tại chuyên khoa da liễu ở bệnh viện uy tín",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nghe bạn bè mách đắp lá cây lạ lên vết mụn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ mặc không vệ sinh vì nghĩ lớn lên tự hết",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Thủ dâm & Tò mò giới tính: Sự thật khoa học và gỡ bỏ mặc cảm",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=GU3JqoUDkjA",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Cảm Giác Tội Lỗi Của Minh\nSau khi tò mò tự khám phá cơ thể và thủ dâm, Minh cảm thấy vô cùng tội lỗi, dằn vặt bản thân là kẻ 'bệnh hoạn'. Minh đọc được trên một trang web nói rằng thủ dâm sẽ làm mù mắt, teo não và vô sinh...\n\n### 1. Quan điểm y khoa chính thức về thủ dâm\nTổ chức Y tế Thế giới (WHO) và Hiệp hội Y khoa Quốc tế khẳng định:\n- Thủ dâm (ở cả nam và nữ) là một hành vi sinh lý tự nhiên nhằm giải tỏa ham muốn tình dục trong quá trình cơ thể trưởng thành.\n- **Thủ dâm KHÔNG gây:** Mù mắt, mụn trứng cá, rụng tóc, suy nhược thần kinh hay vô sinh như các quan niệm sai lầm cổ hủ thêu dệt.\n\n### 2. Khi nào thủ dâm trở thành vấn đề?\n- **Khi lạm dụng quá đà:** Làm việc đó liên tục khiến bạn mệt mỏi, bỏ bê học tập, xa lánh bạn bè và lệ thuộc vào phim ảnh khiêu dâm.\n- **Tổn thương cơ học:** Sử dụng các dụng cụ nguy hiểm, móng tay sắc nhọn hoặc chà xát quá mạnh gây trầy xước, viêm nhiễm cơ quan sinh dục.\n\n### 3. Nguyên tắc an toàn & Lành mạnh\n- Rửa tay sạch sẽ bằng xà phòng trước và sau khi chạm vào cơ thể.\n- Đảm bảo không gian riêng tư, tuyệt đối không làm nơi công cộng.\n- Cân bằng cuộc sống: Tích cực tham gia thể thao (chạy bộ, bóng rổ, bơi lội), đọc sách và giao lưu xã hội để giải phóng năng lượng thừa một cách lành mạnh.",
+      "quiz": {
+        "title": "Củng cố Bài 5: Nhận thức khoa học về Khám phá cơ thể",
+        "description": "5 câu hỏi làm rõ các ngộ nhận về hành vi thủ dâm.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Dưới góc nhìn của y học hiện đại, hành vi thủ dâm ở tuổi thanh thiếu niên được nhìn nhận như thế nào?",
+            "explanation": "Y học xem thủ dâm là hành vi tự nhiên của sự phát triển sinh dục, không phải bệnh lý nếu giữ chừng mực và an toàn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Là một bệnh tâm thần nguy hiểm cần chữa trị khẩn cấp",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Là một hành vi sinh lý tự nhiên trong quá trình phát triển tình dục",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Là hành vi vi phạm pháp luật hình sự",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ xảy ra ở những người có suy nghĩ đồi trụy",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Lời đồn nào sau đây về thủ dâm là HOÀN TOÀN SAI LỆCH?",
+            "explanation": "Thủ dâm không gây mù mắt hay vô sinh, đó là những lời đồn dọa dẫm phản khoa học.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thủ dâm quá nhiều có thể gây mệt mỏi và mất tập trung",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Thủ dâm sẽ làm mù mắt, teo não và vô sinh vĩnh viễn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cần vệ sinh tay sạch sẽ để tránh nhiễm trùng cơ quan sinh dục",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hành vi này cần được thực hiện trong không gian riêng tư",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nguy cơ lớn nhất khi học sinh sa đà xem phim ảnh khiêu dâm trên mạng là gì?",
+            "explanation": "Phim khiêu dâm tạo ra ảo tưởng sai lệch về cơ thể và tình dục thực tế, dễ gây nghiện và lệch lạc nhận thức.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Học được các kỹ năng sống chuẩn mực",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tạo ra nhận thức sai lệch, ảo tưởng méo mó về cơ thể và tình dục thực tế",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Giúp tăng điểm số các môn tự nhiên",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có bất kỳ tác hại nào",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cách tốt nhất để giải phóng năng lượng thể chất và không bị ám ảnh quá mức bởi suy nghĩ tình dục là gì?",
+            "explanation": "Tập luyện thể thao, theo đuổi đam mê nghệ thuật và kết nối bạn bè ngoài đời thực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nhốt mình trong phòng kín cả ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tích cực rèn luyện thể thao, học kỹ năng mới và tham gia hoạt động xã hội",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cố tình thức trắng đêm để cơ thể kiệt sức",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Xem phim bạo lực để giải tỏa",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Quy tắc an toàn vệ sinh tối thiểu cần nhớ khi chạm vào vùng kín là gì?",
+            "explanation": "Bàn tay phải sạch sẽ, không dùng vật dụng nguy hiểm lạ và giữ vệ sinh cá nhân cẩn thận.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Dùng vật thể lạ bằng nhựa hoặc kim loại sắc nhọn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Rửa tay sạch bằng xà phòng và tuyệt đối không đưa dị vật vào sâu trong cơ thể",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm ở nơi đông người để thử cảm giác mạnh",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không cần quan tâm đến móng tay hay vệ sinh",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 6,
+      "title": "Bài 6 — Bẫy so sánh ngoại hình (Body Shaming) & Tiêu chuẩn ảo mạng xã hội",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=kYI4x40sOqw",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Áp Lực 'Vòng Eo Con Kiến' Của Vy Trên TikTok\nMỗi ngày lướt mạng xã hội, Vy (15 tuổi) thấy hàng loạt video các hotgirl với vóc dáng mảnh mai không chút mỡ thừa, làn da phát sáng. Nhìn lại mình với bắp chân to và vòng hai đẫy đà, Vy chán ghét bản thân, bắt đầu nhịn ăn uống cực đoan, chỉ uống nước lọc và móc họng nôn sau mỗi bữa ăn...\n\n### 1. Sự thật đằng sau những bức ảnh 'hoàn hảo' trên mạng\n- 99% hình ảnh trên mạng xã hội đã qua filter chỉnh sửa, bóp eo, kéo dài chân, góc chụp có chủ đích và ánh sáng chuyên nghiệp.\n- Những tiêu chuẩn như 'eo con kiến', 'xương quai xanh đựng nước', 'chân thẳng tắp' là những trào lưu độc hại do thuật toán mạng xã hội khuếch đại để bán thực phẩm chức năng giảm cân.\n\n### 2. Hậu quả của việc nhịn ăn cực đoan\n- Rối loạn ăn uống (Anorexia/Bulimia) gây rụng tóc, mất kinh nguyệt nhiều tháng, loãng xương và suy tim.\n- Cơ thể tuổi dậy thì đang cần năng lượng để phát triển trí não và hệ xương khớp. Nhịn ăn khiến não thiếu năng lượng, suy giảm trí nhớ trầm trọng.\n\n### 3. Học cách yêu thương cơ thể mình\n- Cơ thể bạn là ngôi nhà duy nhất bạn sống suốt cuộc đời. Một cơ thể khỏe mạnh, linh hoạt và tràn đầy sức sống đáng quý hơn hàng vạn bức ảnh ảo nghìn like.\n- Tập trung vào cảm giác của cơ thể: Bạn có chạy nhảy khỏe khoắn không? Bạn có ngủ ngon không? Đừng định giá bản thân qua số đo hay ánh mắt phán xét của người khác.",
+      "quiz": {
+        "title": "Củng cố Bài 6: Vượt qua bẫy so sánh và miệt thị ngoại hình",
+        "description": "5 câu hỏi giúp xây dựng tư duy phản biện trước trào lưu ảo trên mạng.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Điều gì là ĐÚNG khi nói về hình ảnh cơ thể 'hoàn hảo' của các idol trên mạng xã hội?",
+            "explanation": "Phần lớn hình ảnh đã qua can thiệp kỹ thuật số, góc máy, ánh sáng và không đại diện cho đời thực.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đó là hình ảnh thực tế 100% của mọi người ngoài đời",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Phần lớn là sản phẩm của góc chụp, ánh sáng và phần mềm chỉnh sửa",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ những ai có ngoại hình như vậy mới thành công trong cuộc sống",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bất kỳ ai không giống như vậy đều là lười biếng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi nhịn ăn bỏ bữa cực đoan và móc họng nôn sau khi ăn dẫn đến hậu quả gì?",
+            "explanation": "Dẫn đến bệnh lý rối loạn ăn uống, mất kinh nguyệt ở nữ, loãng xương và suy giảm sức khỏe nghiêm trọng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giúp cơ thể thông minh và tỉnh táo hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Gây hội chứng rối loạn ăn uống, suy kiệt cơ thể và mất kinh nguyệt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Là phương pháp giảm cân an toàn được bác sĩ khuyên dùng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giúp hệ tiêu hóa khỏe mạnh hơn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khái niệm 'Body Shaming' (Miệt thị ngoại hình) được hiểu là gì?",
+            "explanation": "Là hành vi dùng lời nói, thái độ hoặc mạng xã hội để chế giễu, chỉ trích, phán xét hình thể của người khác hoặc bản thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Khen ngợi vẻ đẹp tự nhiên của người khác",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi dùng lời lẽ chê bai, giễu cợt hay phán xét khiếm khuyết ngoại hình người khác",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đi tập thể dục thể thao nâng cao sức khỏe",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tư vấn dinh dưỡng chuẩn y khoa",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khi bị người khác chê bai 'Chân to như cột đình' hoặc 'Gầy trơ xương', phản ứng tự bảo vệ bản thân văn minh là gì?",
+            "explanation": "Bình thản khẳng định giá trị bản thân, từ chối nhận sự phán xét độc hại và không để lời chê định nghĩa con người mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Nhịn ăn ngay lập tức và khóc lóc nhiều ngày",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình tĩnh nhắc nhở đối phương tôn trọng người khác và hiểu rằng giá trị của mình không nằm ở lời chê",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chửi bới và dùng bạo lực trả đũa đối phương",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tìm cách tẩy chay bạn bè",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Thế nào là một lối sống tích cực hướng tới 'Body Positivity' (Tôn trọng cơ thể)?",
+            "explanation": "Yêu quý sự khác biệt của cơ thể mình, chăm sóc sức khỏe từ bên trong bằng ăn uống đủ chất và vận động vui vẻ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bỏ mặc sức khỏe, ăn uống thả ga đồ độc hại",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Yêu thương cơ thể, chăm sóc sức khỏe bằng dinh dưỡng cân bằng và tập luyện đều đặn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Ép bản thân phải phẫu thuật thẩm mỹ giống hệt người nổi tiếng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cấm bạn bè không được nói về cân nặng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 7,
+      "title": "Bài 7 — Tôn trọng cơ thể: Tự tin bước vào tuổi trưởng thành",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=2XkSZ7g60gQ",
+      "duration_minutes": 15,
+      "content_body": "### Tổng Kết Hành Trình Thấu Hiểu Cơ Thể\nChúng ta đã cùng nhau đi qua những biến đổi thể chất kỳ diệu, giải mã kinh nguyệt, mộng tinh, chăm sóc da mụn và đập tan những ảo tưởng về ngoại hình hoàn hảo trên mạng xã hội.\n\n### 3 Chìa Khóa Vàng Cho Tuổi Dậy Thì Bản Lĩnh:\n1. **Kiến thức là áo giáp:** Khi bạn hiểu rõ cơ chế sinh học, không ai có thể dùng sự thiếu hiểu biết để dọa dẫm hay thao túng tâm lý bạn.\n2. **Cơ thể là của bạn:** Bạn là người chủ duy nhất của cơ thể mình. Mọi hành vi chạm vào hay nhận xét về cơ thể bạn đều phải có sự cho phép và tôn trọng.\n3. **Mở lòng khi cần giúp đỡ:** Nếu có bất kỳ dấu hiệu sức khỏe bất thường nào (đau đớn dữ dội, ngứa rát, nổi u cục lạ...), hãy trao đổi ngay với cha mẹ hoặc đến bệnh viện khám sớm.",
+      "quiz": {
+        "title": "Củng cố Bài 7: Tổng kết hành trình thấu hiểu bản thân",
+        "description": "5 câu hỏi kiểm tra năng lực tự chăm sóc và bảo vệ sức khỏe.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi phát hiện cơ quan sinh dục có dấu hiệu sưng đau, ngứa rát hoặc tiết dịch có mùi lạ bất thường, bạn nên làm gì?",
+            "explanation": "Báo ngay với phụ huynh hoặc nhân viên y tế trường học để đi khám chuyên khoa, tuyệt đối không tự mua thuốc bôi lạ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Âm thầm chịu đựng vì quá xấu hổ không dám nói với ai",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tâm sự thẳng thắn với cha mẹ hoặc nhân viên y tế để đi khám bác sĩ kịp thời",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tự mua thuốc kháng sinh mạnh uống liều cao",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lên mạng hỏi người lạ không quen biết",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Điều gì là quan trọng nhất để xây dựng sự tự tin về ngoại hình ở tuổi dậy thì?",
+            "explanation": "Tập trung rèn luyện sức khỏe, bồi dưỡng tri thức và nhân cách thay vì chạy theo các tiêu chuẩn ảo.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sở hữu lượng like thật nhiều trên TikTok",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hiểu và yêu thương cơ thể mình, bồi dưỡng trí tuệ và lối sống tích cực",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mua sắm quần áo hàng hiệu đắt tiền",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt chước phong cách của các idol mạng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Ai là người có quyền tối thượng đưa ra quyết định đối với cơ thể của bạn?",
+            "explanation": "Chính bản thân bạn là chủ nhân duy nhất của cơ thể mình.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bạn bè cùng nhóm chơi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Chính bản thân bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người yêu của bạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Những người bình luận trên mạng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Khái niệm 'Giáo dục giới tính toàn diện' nhằm mục đích gì?",
+            "explanation": "Cung cấp kiến thức khoa học, kỹ năng sống và phản xạ tự bảo vệ bản thân an toàn, lành mạnh.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Vẽ đường cho hươu chạy linh tinh",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Trang bị kiến thức khoa học đúng đắn để học sinh tự bảo vệ và tôn trọng bản thân",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Khuyến khích quan hệ tình dục sớm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Gây hoang mang sợ hãi cho học sinh",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Hành động nào thể hiện sự tôn trọng bạn bè khác giới trong lớp?",
+            "explanation": "Tôn trọng không gian riêng tư, không đụng chạm tùy tiện và không trêu chọc về đặc điểm sinh học.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Giật dây áo lót hoặc tốc váy bạn gái để đùa vui",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Cư xử lịch thiệp, tôn trọng ranh giới cơ thể và giúp đỡ nhau trong học tập",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bàn tán sôi nổi về kích thước cơ thể của bạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chụp lén hình ảnh bạn đang ngủ gật trong lớp",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Bài Thi Tốt Nghiệp: Thấu Hiểu Cơ Thể & Dậy Thì Bản Lĩnh",
+    "description": "10 câu hỏi tình huống thực tế tổng hợp. Đạt từ 80% trở lên để nhận Chứng chỉ Tốt nghiệp.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Học sinh 13 tuổi chưa thấy cơ thể có dấu hiệu dậy thì rõ rệt như các bạn cùng lớp, điều này có đồng nghĩa với bị bệnh không?",
+        "explanation": "Không, tuổi dậy thì ở nam và nữ kéo dài trong khoảng 9-15 tuổi, mỗi người có nhịp độ phát triển riêng biệt.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chắc chắn bị bệnh vô sinh",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hoàn toàn bình thường, mỗi cá nhân có đồng hồ sinh học riêng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Cần đi tiêm hormone tăng trưởng khẩn cấp",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cần nhịn ăn để cơ thể bắt kịp",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Máu kinh nguyệt ở bạn nữ thực chất là gì?",
+        "explanation": "Là lớp niêm mạc giàu mạch máu của tử cung bong ra khi không xảy ra hiện tượng thụ tinh.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Máu độc cơ thể thải trừ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lớp niêm mạc tử cung bong ra hàng tháng khi trứng không thụ tinh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Hậu quả của một vết rách nội tạng",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Dấu hiệu của bệnh nhiễm trùng máu",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Hiện tượng mộng tinh ở nam giới có làm ảnh hưởng đến tủy sống hay khả năng sinh con sau này không?",
+        "explanation": "Không, mộng tinh là cơ chế giải phóng tinh dịch tự nhiên bình thường của cơ thể khi ngủ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Có, gây khô tủy sống và vô sinh",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Không hề, đây là cơ chế sinh lý tự nhiên chứng minh cơ thể phát triển khỏe mạnh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chỉ làm suy giảm tuổi thọ ở người dưới 18 tuổi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Làm teo cơ bắp và giảm trí thông minh",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Hành vi nào sau đây khi chăm sóc da mụn trứng cá là NGUY HIỂM NHẤT?",
+        "explanation": "Dùng kem trộn trôi nổi trên mạng chứa corticoid phá hủy hàng rào bảo vệ da gây teo da nhiễm trùng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Rửa mặt ngày 2 lần với sữa rửa mặt dịu nhẹ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Mua kem trộn đông y tái tạo da cấp tốc không rõ nguồn gốc trên mạng",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Uống nhiều nước và ngủ đủ giấc",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Giặt vỏ gối thường xuyên",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Thủ dâm ở tuổi dậy thì dưới góc nhìn y học hiện đại có đặc điểm nào?",
+        "explanation": "Là hành vi sinh lý tự nhiên giải tỏa ham muốn, không gây mù mắt hay suy nhược nếu không bị lạm dụng quá đà.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Là bệnh lý tâm thần cần điều trị",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Là hành vi sinh lý bình thường nếu giữ chừng mực và an toàn vệ sinh",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Chắc chắn dẫn đến vô sinh sau này",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Làm rụng tóc và mù mắt",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Tác hại nguy hiểm của việc nhịn ăn cực đoan để chạy theo tiêu chuẩn 'eo con kiến' trên mạng là gì?",
+        "explanation": "Gây rối loạn ăn uống, teo cơ, mất kinh nguyệt nhiều tháng và suy giảm chức năng các cơ quan nội tạng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Giúp cơ thể thải độc toàn diện",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Gây hội chứng rối loạn ăn uống, suy tim, mất kinh nguyệt và tổn hại thể chất",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Giúp tăng cường trí nhớ cho các kỳ thi",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Không có tác hại nào đáng kể",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Khi bạn cùng lớp bị lộ vết máu kinh ra quần thể dục, cách ứng xử văn minh và trưởng thành nhất là gì?",
+        "explanation": "Tế nhị cho bạn mượn áo khoác buộc ngang hông che chắn, không trêu chọc và báo nhẹ cho bạn biết.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cười nhạo và quay clip đăng lên mạng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tế nhị cho bạn mượn áo khoác che chắn hoặc báo riêng để bạn xử lý",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Tránh xa vì sợ bị xui xẻo",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Đứng chỉ trỏ gây chú ý cho cả sân trường",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Nguyên tắc vệ sinh vùng kín hàng ngày đúng cách đối với cả nam và nữ là gì?",
+        "explanation": "Vệ sinh nhẹ nhàng bằng nước sạch, lau khô bằng khăn mềm sạch, rửa từ trước ra sau đối với nữ.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Thụt rửa sâu bằng hóa chất tẩy rửa mạnh",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Vệ sinh nhẹ nhàng bên ngoài bằng nước sạch, lau khô và mặc đồ lót thoáng khí",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Rửa từ sau hậu môn kéo ngược ra phía trước",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ tắm rửa một lần vào cuối tuần",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khi gặp bất kỳ thắc mắc hay bất thường nào về cơ thể tuổi dậy thì, bạn nên tìm kiếm sự hỗ trợ từ ai?",
+        "explanation": "Cha mẹ, thầy cô, nhân viên y tế trường học hoặc bác sĩ chuyên khoa có uy tín.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Các tài khoản ẩn danh lạ trên các hội nhóm mạng xã hội",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cha mẹ, nhân viên y tế trường học hoặc bác sĩ chuyên khoa",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Người bán hàng mỹ phẩm online không có chuyên môn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tự âm thầm chịu đựng không chia sẻ với ai",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Thế nào là một người trẻ có nhận thức đúng đắn và tự tin về cơ thể?",
+        "explanation": "Hiểu rằng mỗi cơ thể là độc bản quý giá, trân trọng bản thân và kiên quyết phản đối miệt thị ngoại hình.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Luôn so sánh mình với người nổi tiếng và tự ti",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Hiểu sự đa dạng sinh học, biết chăm sóc sức khỏe và tôn trọng cơ thể của mình cũng như người khác",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Sẵn sàng làm mọi cách kể cả phẫu thuật chui để theo kịp trào lưu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chỉ chơi với những bạn có ngoại hình đẹp",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,7 +10,7 @@ export default function Footer() {
                 {/* Brand Column */}
                 <div className="flex flex-col gap-4">
                     <Link href="/" className="flex items-center gap-2.5 group hover:opacity-80 transition-all duration-300 w-fit">
-                        <div className="relative flex items-center justify-center w-8 h-8 bg-gradient-to-tr from-primary to-emerald-600 rounded-xl shadow-sm">
+                        <div className="relative flex items-center justify-center w-8 h-8 bg-primary text-white rounded-none shadow-xs">
                             <ShieldCheck size={18} weight="fill" className="text-white" />
                         </div>
                         <span className="text-md font-bold text-primary">{BRAND_CONFIG.fullName}</span>
@@ -42,7 +42,7 @@ export default function Footer() {
                     </Link>
                     <Link className="text-on-surface-variant hover:text-primary transition-colors text-xs w-fit flex items-center gap-1.5" href="/game">
                         <span>Góc giải trí (Trò chơi AI)</span>
-                        <span className="px-1 py-0.2 rounded bg-primary/10 text-primary text-[8px] font-bold">MỚI</span>
+                        <span className="px-1 py-0.2 rounded-none bg-primary/10 text-primary text-[8px] font-bold">MỚI</span>
                     </Link>
                     <Link className="text-on-surface-variant hover:text-primary transition-colors text-xs w-fit" href="/forum">
                         Góc trò chuyện

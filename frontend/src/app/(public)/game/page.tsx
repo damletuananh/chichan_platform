@@ -304,13 +304,13 @@ export default function GameLandingPage() {
           <div className="flex flex-col sm:flex-row justify-center gap-3 pt-2">
             <button
               onClick={() => router.push("/login")}
-              className="h-11 px-8 rounded-full bg-primary hover:opacity-90 text-white font-bold text-xs shadow-md hover:shadow-lg transition-all cursor-pointer"
+              className="h-11 px-8 rounded-none bg-primary hover:opacity-90 text-white font-bold text-xs shadow-depth-1 hover:shadow-depth-2 transition-all cursor-pointer btn-press"
             >
               Đăng nhập ngay
             </button>
             <button
               onClick={() => router.push("/register")}
-              className="h-11 px-8 rounded-full border border-outline/30 bg-white/70 hover:bg-white font-bold text-xs text-on-surface transition-all cursor-pointer"
+              className="h-11 px-8 rounded-none border border-outline/30 bg-white/70 hover:bg-white font-bold text-xs text-on-surface transition-all cursor-pointer btn-press"
             >
               Đăng ký tài khoản
             </button>
@@ -378,15 +378,15 @@ export default function GameLandingPage() {
                 <button
                   key={tab.key}
                   onClick={() => setActiveFilter(tab.key as FilterCategory)}
-                  className={`px-4 py-2 rounded-full text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
+                  className={`px-4 py-2 rounded-none text-xs font-bold transition-all cursor-pointer flex items-center gap-2 btn-press ${
                     active
-                      ? "bg-primary text-white shadow-md shadow-primary/25 scale-[1.02]"
-                      : "bg-white/80 hover:bg-white text-on-surface-variant border border-outline-variant/30"
+                      ? "bg-primary text-white shadow-depth-1"
+                      : "bg-white hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"
                   }`}
                 >
                   <span>{tab.label}</span>
                   <span
-                    className={`px-1.5 py-0.2 rounded-full text-[10px] font-extrabold ${
+                    className={`px-1.5 py-0.2 rounded-none text-[10px] font-extrabold ${
                       active
                         ? "bg-white/20 text-white"
                         : "bg-surface-container text-on-surface-variant"
@@ -414,7 +414,7 @@ export default function GameLandingPage() {
             </p>
           </div>
         ) : error ? (
-          <div className="bg-white/85 backdrop-blur-md border border-red-200 p-8 rounded-3xl text-center max-w-md mx-auto shadow-sm space-y-4">
+          <div className="bg-white border border-red-200 p-8 rounded-none text-center max-w-md mx-auto shadow-xs space-y-4">
             <Warning
               size={40}
               weight="duotone"
@@ -423,14 +423,14 @@ export default function GameLandingPage() {
             <p className="text-sm text-error font-semibold">{error}</p>
             <button
               onClick={() => window.location.reload()}
-              className="bg-primary text-white px-6 py-2.5 rounded-full text-xs font-bold shadow-sm cursor-pointer hover:opacity-90"
+              className="bg-primary text-white px-6 py-2.5 rounded-none text-xs font-bold shadow-xs cursor-pointer hover:opacity-90 btn-press"
             >
               Tải lại trang
             </button>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredScenarios.map((sc) => {
+            {filteredScenarios.map((sc, index) => {
               const theme = scenarioThemeMap[sc.room_code] || {
                 categoryKey: "SAFETY",
                 bgGradient: "from-white via-surface-container/20 to-white",
@@ -461,7 +461,8 @@ export default function GameLandingPage() {
               return (
                 <div
                   key={sc.id}
-                  className="group relative bg-white rounded-none border border-outline-variant/40 hover:border-primary shadow-depth-1 hover:shadow-depth-3 transition-all duration-200 flex flex-col justify-between overflow-hidden hover:-translate-y-1"
+                  style={{ animationDelay: `${(index % 6) * 60}ms` }}
+                  className="card-lift group relative bg-white rounded-none border border-outline-variant/40 hover:border-primary shadow-depth-1 hover:shadow-depth-3 flex flex-col justify-between overflow-hidden animate-page-appear"
                 >
                   {/* 1. KHỐI ẢNH MINH HOẠ SVG RIÊNG BIỆT CHO TỪNG GAME */}
                   <div className="relative w-full h-44 sm:h-48 overflow-hidden bg-slate-50/70 border-b border-outline-variant/20 flex items-center justify-center p-2">
@@ -541,7 +542,7 @@ export default function GameLandingPage() {
                               }}
                               className="w-9 h-9 rounded-none object-cover border border-outline-variant/40 shadow-2xs group-hover:scale-105 transition-transform"
                             />
-                            <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-500 border border-white rounded-full" />
+                            <span className="absolute -bottom-0.5 -right-0.5 w-2 h-2 bg-emerald-500 border border-white rounded-none" />
                           </div>
                           <div className="min-w-0">
                             <p className="text-[10px] text-on-surface-variant font-medium truncate">
@@ -558,7 +559,7 @@ export default function GameLandingPage() {
                         <button
                           type="button"
                           onClick={() => setSelectedGuideScenario(sc)}
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-none text-[11px] font-black text-amber-800 bg-amber-100/90 hover:bg-amber-200 border border-amber-300/80 transition-all cursor-pointer shadow-2xs shrink-0"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-none text-[11px] font-black text-amber-800 bg-amber-100/90 hover:bg-amber-200 border border-amber-300/80 transition-all cursor-pointer shadow-2xs shrink-0 btn-press"
                         >
                           <Lightning
                             size={14}
@@ -580,7 +581,7 @@ export default function GameLandingPage() {
                           creatingSessionId !== null
                         }
                         onClick={() => handleStartSession(sc)}
-                        className="h-11 font-black! rounded-none shadow-md! hover:shadow-lg! shadow-primary/20 group/btn cursor-pointer"
+                        className="h-11 font-black! rounded-none shadow-depth-1! hover:shadow-depth-2! group/btn cursor-pointer btn-press"
                       >
                         {creatingSessionId === sc.id ? (
                           "Đang vào phòng..."
@@ -642,7 +643,7 @@ export default function GameLandingPage() {
               <button
                 type="button"
                 onClick={() => setSelectedGuideScenario(null)}
-                className="h-11 px-6 rounded-none border border-outline/30 bg-white hover:bg-surface-container text-on-surface font-bold text-xs transition-all cursor-pointer"
+                className="h-11 px-6 rounded-none border border-outline/30 bg-white hover:bg-surface-container text-on-surface font-bold text-xs transition-all cursor-pointer btn-press"
               >
                 Đóng lại
               </button>
@@ -655,7 +656,7 @@ export default function GameLandingPage() {
                   setSelectedGuideScenario(null);
                   handleStartSession(sc);
                 }}
-                className="h-11 px-7 rounded-none bg-primary hover:opacity-90 text-white font-black text-xs shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center gap-2"
+                className="h-11 px-7 rounded-none bg-primary hover:opacity-90 text-white font-black text-xs shadow-depth-1 hover:shadow-depth-2 transition-all cursor-pointer flex items-center gap-2 btn-press"
               >
                 <span>Vào phòng chơi ngay</span>
                 <ArrowRight size={16} weight="bold" />
@@ -689,7 +690,7 @@ export default function GameLandingPage() {
                 onClick={() =>
                   handleStartNewOverridingOld(pendingActiveSession.scenario.id)
                 }
-                className="w-full sm:w-auto h-10 px-5 rounded-none border border-rose-200 bg-rose-50/50 hover:bg-rose-100/60 text-rose-700 font-bold text-xs transition-all cursor-pointer flex items-center justify-center gap-1.5"
+                className="w-full sm:w-auto h-10 px-5 rounded-none border border-rose-200 bg-rose-50/50 hover:bg-rose-100/60 text-rose-700 font-bold text-xs transition-all cursor-pointer flex items-center justify-center gap-1.5 btn-press"
               >
                 <ArrowCounterClockwise size={15} weight="bold" />
                 <span>Chơi lại từ đầu</span>
@@ -699,7 +700,7 @@ export default function GameLandingPage() {
                 onClick={() =>
                   handleResumeSession(pendingActiveSession.session.id)
                 }
-                className="w-full sm:w-auto h-10 px-6 rounded-none bg-primary hover:opacity-90 text-white font-black text-xs shadow-md hover:shadow-lg transition-all cursor-pointer flex items-center justify-center gap-1.5"
+                className="w-full sm:w-auto h-10 px-6 rounded-none bg-primary hover:opacity-90 text-white font-black text-xs shadow-depth-1 hover:shadow-depth-2 transition-all cursor-pointer flex items-center justify-center gap-1.5 btn-press"
               >
                 <Play size={15} weight="fill" />
                 <span>Tiếp tục chơi</span>

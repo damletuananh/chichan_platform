@@ -138,7 +138,7 @@ const ForumPostRow = React.memo(function ForumPostRow({
         {/* Avatar Column */}
         <div className="flex flex-col items-center">
           {post.is_anonymous ? (
-            <div className="w-9 h-9 rounded-full bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
+            <div className="w-9 h-9 rounded-none bg-surface-container border border-outline-variant/30 flex items-center justify-center text-primary shadow-xs flex-shrink-0">
               <UserCircle size={18} weight="duotone" />
             </div>
           ) : post.author.avatar_url ? (
@@ -146,10 +146,10 @@ const ForumPostRow = React.memo(function ForumPostRow({
               src={post.author.avatar_url}
               alt={post.author.full_name}
               loading="lazy"
-              className="w-9 h-9 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+              className="w-9 h-9 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
             />
           ) : (
-            <div className="w-9 h-9 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs flex-shrink-0">
+            <div className="w-9 h-9 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs flex-shrink-0">
               {post.author.full_name.charAt(0).toUpperCase()}
             </div>
           )}
@@ -199,11 +199,11 @@ const ForumPostRow = React.memo(function ForumPostRow({
             </div>
 
             <div className="flex items-center gap-1.5">
-              <span className="px-2 py-0.5 rounded-md bg-surface-container-low text-[10px] font-semibold text-on-surface-variant border border-outline-variant/20">
+              <span className="px-2 py-0.5 rounded-none bg-surface-container-low text-[10px] font-semibold text-on-surface-variant border border-outline-variant/20">
                 {post.category_name}
               </span>
               {post.status === "HIDDEN" && (
-                <span className="px-2 py-0.5 rounded-md bg-red-500/10 text-red-500 border border-red-500/25 text-[10px] font-bold">
+                <span className="px-2 py-0.5 rounded-none bg-red-500/10 text-red-500 border border-red-500/25 text-[10px] font-bold">
                   Đã ẩn
                 </span>
               )}
@@ -239,7 +239,7 @@ const ForumPostRow = React.memo(function ForumPostRow({
               {/* Like Toggle */}
               <button
                 onClick={(e) => onToggleLike(post.id, e)}
-                className={`flex items-center gap-1.5 transition-all cursor-pointer ${
+                className={`btn-press flex items-center gap-1.5 transition-colors duration-200 cursor-pointer ${
                   isLiked ? "text-red-500" : "hover:text-red-500"
                 }`}
                 title={isLiked ? "Bỏ thích" : "Thích"}
@@ -247,7 +247,9 @@ const ForumPostRow = React.memo(function ForumPostRow({
                 <Heart
                   size={16}
                   weight={isLiked ? "fill" : "regular"}
-                  className={`transition-transform active:scale-125 ${isLiked ? "text-red-500" : ""}`}
+                  className={`transition-transform duration-200 ${
+                    isLiked ? "text-red-500 scale-110 animate-like-burst" : "hover:scale-115 active:scale-90"
+                  }`}
                 />
                 <span className={isLiked ? "font-bold text-red-500" : ""}>
                   {formatCompactNumber(post.likes_count)}
@@ -345,12 +347,12 @@ const SearchBox = React.memo(function SearchBox({
         value={raw}
         onChange={handleChange}
         placeholder="Tìm kiếm trong Góc trò chuyện..."
-        className="w-full pl-9 pr-8 py-1.5 text-xs bg-white border border-outline-variant/30 rounded-lg focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-on-surface-variant/50 text-on-surface shadow-xs"
+        className="w-full pl-9 pr-8 py-1.5 text-xs bg-white border border-outline-variant/30 rounded-none focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-on-surface-variant/50 text-on-surface shadow-xs"
       />
       {raw && (
         <button
           onClick={handleClear}
-          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface cursor-pointer"
+          className="btn-press absolute right-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface cursor-pointer"
         >
           <X size={14} />
         </button>
@@ -680,7 +682,7 @@ export default function ForumPage() {
               <button
                 type="button"
                 onClick={() => setSortDropdownOpen((prev) => !prev)}
-                className="relative h-8 w-8 rounded-lg border border-outline-variant/30 bg-white text-on-surface-variant hover:text-on-surface hover:bg-slate-50 shadow-xs transition-all cursor-pointer flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/20 select-none"
+                className="btn-press relative h-8 w-8 rounded-none border border-outline-variant/30 bg-white text-on-surface-variant hover:text-on-surface hover:bg-slate-50 shadow-xs transition-all cursor-pointer flex items-center justify-center focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/20 select-none"
                 title="Bộ lọc bài viết (Phổ biến, Yêu thích, Hot, Mới nhất)"
                 aria-label="Bộ lọc bài viết"
               >
@@ -689,7 +691,7 @@ export default function ForumPage() {
 
               {/* Dropdown Menu */}
               {sortDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-64 bg-white rounded-[14px] shadow-xl border border-outline-variant/30 p-1.5 z-50 animate-in fade-in zoom-in-95">
+                <div className="absolute right-0 mt-2 w-64 bg-white rounded-none shadow-depth-3 border border-outline-variant/30 p-1.5 z-50 animate-in fade-in zoom-in-95">
                   <div className="space-y-0.5">
                     {SORT_OPTIONS.map((opt) => {
                       const Icon = opt.icon;
@@ -702,7 +704,7 @@ export default function ForumPage() {
                             setSortBy(opt.id);
                             setSortDropdownOpen(false);
                           }}
-                          className={`w-full flex items-center justify-between px-3 py-2 rounded-[8px] text-left text-xs transition-colors cursor-pointer focus:outline-none ${
+                          className={`btn-press w-full flex items-center justify-between px-3 py-2 rounded-none text-left text-xs transition-colors cursor-pointer focus:outline-none ${
                             isSelected
                               ? "bg-primary/10 text-primary font-bold"
                               : "text-on-surface hover:bg-slate-50 font-medium"
@@ -710,7 +712,7 @@ export default function ForumPage() {
                         >
                           <div className="flex items-center gap-2.5">
                             <div
-                              className={`p-1.5 rounded-[6px] ${isSelected ? "bg-primary/20 text-primary" : "bg-slate-100 text-on-surface-variant"}`}
+                              className={`p-1.5 rounded-none ${isSelected ? "bg-primary/20 text-primary" : "bg-slate-100 text-on-surface-variant"}`}
                             >
                               {" "}
                               <Icon
@@ -752,7 +754,7 @@ export default function ForumPage() {
 
       {/* Main Single Feed Container (Threads Style) */}
       <div className="max-w-2xl mx-auto px-4 pt-2">
-        <div className="bg-white rounded-2xl border border-outline-variant/30 shadow-xs overflow-hidden">
+        <div className="bg-white rounded-none border border-outline-variant/30 shadow-depth-2 overflow-hidden">
           {/* Top Section: Integrated Inline Composer */}
           {user ? (
             <div
@@ -767,7 +769,7 @@ export default function ForumPage() {
                 {/* Author Avatar or Anonymous Indicator */}
                 <div className="flex-shrink-0">
                   {isAnonymous ? (
-                    <div className="w-9 h-9 rounded-full bg-surface-container border border-outline-variant/40 flex items-center justify-center text-primary shadow-xs">
+                    <div className="w-9 h-9 rounded-none bg-surface-container border border-outline-variant/40 flex items-center justify-center text-primary shadow-xs">
                       <UserCircle size={18} weight="duotone" />
                     </div>
                   ) : (user as any).avatar_url ? (
@@ -775,10 +777,10 @@ export default function ForumPage() {
                       src={(user as any).avatar_url}
                       alt={user.full_name}
                       loading="lazy"
-                      className="w-9 h-9 rounded-full object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
+                      className="w-9 h-9 rounded-none object-cover border border-outline-variant/30 shadow-xs flex-shrink-0"
                     />
                   ) : (
-                    <div className="w-9 h-9 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs">
+                    <div className="w-9 h-9 rounded-none bg-primary/10 border border-primary/20 flex items-center justify-center font-bold text-primary text-xs shadow-xs">
                       {user.full_name
                         ? user.full_name.charAt(0).toUpperCase()
                         : "U"}
@@ -804,7 +806,7 @@ export default function ForumPage() {
                     <button
                       type="button"
                       onClick={() => setIsAnonymous(!isAnonymous)}
-                      className={`px-2.5 py-1 rounded-lg text-[11px] font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
+                      className={`btn-press px-2.5 py-1 rounded-none text-[11px] font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
                         isAnonymous
                           ? "bg-primary text-white shadow-xs"
                           : "bg-surface-container-low hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"
@@ -852,7 +854,7 @@ export default function ForumPage() {
                           <button
                             type="button"
                             onClick={() => setCatDropdownOpen(!catDropdownOpen)}
-                            className="px-2.5 py-1 bg-surface-container-low hover:bg-surface-container text-on-surface rounded-lg text-xs font-semibold border border-outline-variant/30 inline-flex items-center gap-1.5 transition-all cursor-pointer shadow-2xs"
+                            className="btn-press px-2.5 py-1 bg-surface-container-low hover:bg-surface-container text-on-surface rounded-none text-xs font-semibold border border-outline-variant/30 inline-flex items-center gap-1.5 transition-all cursor-pointer shadow-2xs"
                           >
                             <span className="truncate max-w-[150px] sm:max-w-[200px]">
                               {selectedCatObject
@@ -869,7 +871,7 @@ export default function ForumPage() {
 
                         {/* Floating Dropdown Menu */}
                         {catDropdownOpen && (
-                          <div className="absolute left-0 mt-1.5 w-64 bg-white rounded-lg shadow-lg border border-outline-variant/30 py-1 z-50 animate-in fade-in zoom-in-95 duration-100">
+                          <div className="absolute left-0 mt-1.5 w-64 bg-white rounded-none shadow-depth-3 border border-outline-variant/30 py-1 z-50 animate-in fade-in zoom-in-95 duration-100">
                             <div className="px-3 py-1.5 text-[10px] font-bold uppercase text-on-surface-variant/60 tracking-wider border-b border-outline-variant/10">
                               Chọn chuyên mục bài đăng
                             </div>
@@ -922,7 +924,7 @@ export default function ForumPage() {
                             setIsAnonymous(false);
                             setCatDropdownOpen(false);
                           }}
-                          className="px-3 py-1.5 text-xs font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-lg transition-colors cursor-pointer"
+                          className="btn-press px-3 py-1.5 text-xs font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-none transition-colors cursor-pointer"
                         >
                           Hủy
                         </button>
@@ -965,7 +967,7 @@ export default function ForumPage() {
               <button
                 type="button"
                 onClick={() => handleCategorySelect(null)}
-                className={`px-3 py-1 rounded-lg text-xs font-bold whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                className={`btn-press px-3 py-1 rounded-none text-xs font-bold whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
                   selectedCat === null
                     ? "bg-primary text-white shadow-xs"
                     : "bg-white hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"
@@ -978,7 +980,7 @@ export default function ForumPage() {
                   key={cat.id}
                   type="button"
                   onClick={() => handleCategorySelect(cat.id)}
-                  className={`px-3 py-1 rounded-lg text-xs font-bold whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
+                  className={`btn-press px-3 py-1 rounded-none text-xs font-bold whitespace-nowrap transition-all flex-shrink-0 cursor-pointer ${
                     selectedCat === cat.id
                       ? "bg-primary text-white shadow-xs"
                       : "bg-white hover:bg-surface-container text-on-surface-variant border border-outline-variant/30"

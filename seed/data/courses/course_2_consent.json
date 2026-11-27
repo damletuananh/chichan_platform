@@ -1,0 +1,1189 @@
+{
+  "title": "Ranh Giới Cá Nhân & Văn Hóa Đồng Thuận (Consent)",
+  "slug": "ranh-gioi-ca-nhan-va-van-hoa-dong-thuan-consent",
+  "short_description": "Trang bị quy tắc 5 ngón tay, phân biệt đùa vui và quấy rối học đường, mô hình đồng thuận FRIES và bản lĩnh hóa giải áp lực tình cảm lứa đôi.",
+  "description": "**Đối tượng:** Học sinh vị thành niên (12 - 18 tuổi).\n\nTrong các mối quan hệ bạn bè và rung động đầu đời, lằn ranh giữa 'đùa giỡn' và 'quấy rối', giữa 'tình yêu' và 'sự thao túng ép buộc' thường rất mong manh. Khóa học giúp học sinh thiết lập pháo đài ranh giới cá nhân vững chắc, nắm vững nguyên tắc đồng thuận FRIES chuẩn quốc tế, trang bị nghệ thuật nói 'KHÔNG' đanh thép và kỹ năng nhận diện, dứt bỏ các mối quan hệ độc hại.",
+  "learning_objectives": "- Nắm vững Quy tắc 5 ngón tay và nhận diện vùng an toàn bất khả xâm phạm của cơ thể.\n- Phân biệt rạch ròi giữa trò đùa vui vẻ và hành vi quấy rối tình dục thể xác/lời nói.\n- Thực hành mô hình Đồng thuận F.R.I.E.S trong mọi mối quan hệ giao tiếp.\n- Bản lĩnh từ chối các đòi hỏi nhạy cảm và nhận diện các dấu hiệu Red Flag thao túng tâm lý.",
+  "thumbnail_url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80",
+  "target_audience": "CHILD",
+  "is_published": true,
+  "lessons": [
+    {
+      "order_index": 1,
+      "title": "Bài 1 — Vùng an toàn của cơ thể: Quy tắc 5 ngón tay & Vòng tròn ranh giới",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=7_hE4xPz_x0",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Cảm Giác Khó Chịu Của Mai Trong Buổi Họp Lớp\nMột người anh họ xa trong bữa tiệc gia đình liên tục ôm eo, véo má và xoa đùi Mai (14 tuổi) với lý do 'lâu ngày không gặp em gái lớn xinh quá'. Mai thấy rất bức bối nhưng mẹ lại bảo: 'Anh em trong nhà quý nhau mới thế, đừng có nhạy cảm làm mất vui!'...\n\n### 1. Quy tắc 5 ngón tay & Vòng tròn bảo vệ\nMỗi người đều có một vòng tròn ranh giới cơ thể mà bất kỳ ai xâm phạm mà chưa được phép đều là hành vi sai trái:\n1. **Ngón cái (Người thân ruột thịt: Cha mẹ, con cái):** Được ôm hôn, yêu thương thể hiện tình cảm.\n2. **Ngón trỏ (Họ hàng, thầy cô, bạn bè thân):** Khoác tay, nắm tay, bắt tay.\n3. **Ngón giữa (Người quen biết ít gặp: Hàng xóm, bạn bè xã giao):** Bắt tay, chào hỏi lịch sự.\n4. **Ngón áp út (Người mới gặp lần đầu):** Vẫy tay chào, giữ khoảng cách an toàn.\n5. **Ngón út (Người lạ hoặc người có hành vi đụng chạm mờ ám):** Xua tay từ chối, lùi lại, dứt khoát rời đi và kêu cứu nếu bị đe dọa.\n\n### 2. Vùng đồ bơi (Vùng riêng tư tuyệt đối)\nBất kỳ ai (kể cả người thân, họ hàng, thầy cô hay bạn bè) đều KHÔNG CÓ QUYỀN nhìn, chạm vào hoặc ép bạn chạm vào vùng đồ bơi (ngực, mông, bộ phận sinh dục) trừ khi bác sĩ thăm khám có sự giám hộ của cha mẹ.",
+      "quiz": {
+        "title": "Củng cố Bài 1: Ranh giới cá nhân & Quy tắc an toàn",
+        "description": "5 câu hỏi tình huống về nhận diện hành vi đụng chạm an toàn.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Theo Quy tắc 5 ngón tay, 'Vùng đồ bơi' của bạn gồm những bộ phận nào?",
+            "explanation": "Ngực, vùng kín (bộ phận sinh dục) và mông là những khu vực riêng tư bất khả xâm phạm.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bàn tay và cánh tay",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Ngực, vùng kín và mông",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Mái tóc và gót chân",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Vùng đầu gối và bàn chân",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi người quen hoặc họ hàng có hành vi đụng chạm khiến bạn thấy sợ hãi và khó chịu, bạn nên làm gì?",
+            "explanation": "Dứt khoát từ chối, lùi lại tạo khoảng cách và kể ngay cho cha mẹ hoặc người lớn đáng tin cậy.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cố gắng nín nhịn vì sợ mất lòng người lớn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dứt khoát lùi lại, yêu cầu dừng ngay và báo với người bảo hộ đáng tin cậy",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nghĩ rằng do bản thân ăn mặc không đúng nên bị vậy",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Giữ bí mật tuyệt đối trong lòng",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Trường hợp duy nhất nào người khác được phép thăm khám vùng riêng tư của bạn?",
+            "explanation": "Bác sĩ hoặc nhân viên y tế thăm khám khi có bệnh lý và bắt buộc có sự giám hộ của cha mẹ/người giám hộ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bạn bè thách đố nhau trong giờ chơi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bác sĩ thăm khám điều trị bệnh với sự có mặt của cha mẹ hoặc người giám hộ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Người quen dụ dỗ cho tiền để xem",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Người tự xưng là đạo diễn tìm diễn viên nhí",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Cảm giác 'khó chịu hoặc linh cảm bất an' bên trong cơ thể bạn khi có ai đó tiếp cận thể hiện điều gì?",
+            "explanation": "Đó là chuông báo động sinh học tự nhiên cảnh báo ranh giới an toàn của bạn đang bị đe dọa.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Bạn đang mắc bệnh tâm lý hoang tưởng",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tín hiệu cảnh báo tự nhiên của trực giác rằng ranh giới an toàn đang bị xâm phạm",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do bạn bị thiếu ngủ",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bạn là người ích kỷ khó tính",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Hành vi người lớn yêu cầu học sinh giữ 'bí mật ngọt ngào giữa hai người' sau khi có những va chạm đụng chạm vào cơ thể là dấu hiệu của điều gì?",
+            "explanation": "Đây là dấu hiệu điển hình của hành vi dụ dỗ, thao túng và xâm hại tình dục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sự yêu quý đặc biệt và ưu ái đáng tự hào",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dấu hiệu thao túng, xâm hại nguy hiểm cần lập tức báo ngay cho cha mẹ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Trò chơi kết nối bạn bè thông thường",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Một phần thưởng xứng đáng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 2,
+      "title": "Bài 2 — Đùa giỡn hay Quấy rối? Lằn ranh mong manh tại trường học",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=07mXv2XFfLg",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: Trò Đùa 'Giật Dây Áo Lót' Trong Giờ Ra Chơi\nTrong giờ ra chơi, một nhóm nam sinh lớp 9 thường xuyên đi sau lưng các bạn nữ và bật dây áo lót tanh tách, hoặc vỗ mông bạn gái rồi cười hô hố: 'Đùa tí làm gì căng thế! Đồ khó tính!'. Nhiều bạn nữ cảm thấy nhục nhã, ấm ức nhưng không dám phản kháng vì sợ bị cả lớp cô lập...\n\n### 1. Phân biệt: Đùa vui vs Quấy rối tình dục học đường\n- **Đùa vui (Fun/Joke):** CẢ HAI BÊN đều thấy thoải mái, vui vẻ và có thể cùng cười.\n- **Quấy rối tình dục (Sexual Harassment):** Hành vi mang tính chất tình dục gây khó chịu, xúc phạm, sợ hãi hoặc xấu hổ cho đối phương, dù người thực hiện có bao biện là 'chỉ đùa'.\n- **Các hành vi quấy rối phổ biến:** Giật dây áo lót, tốc váy, vỗ mông, chụp ảnh lén dưới gầm bàn, huýt sáo cợt nhả về vòng 1/vòng 3, bình phẩm khiếm nhã về cơ thể bạn bè.\n\n### 2. Sự thật pháp lý: Quấy rối không phải là trò đùa!\nTheo Luật Trẻ em 2016 và Bộ luật Lao động, Bộ GD&ĐT: Mọi hành vi quấy rối, xúc phạm thân thể người học đều bị nghiêm cấm và có thể bị xử phạt kỷ luật đình chỉ học tập, xử phạt hành chính hoặc truy cứu trách nhiệm hình sự.\n\n### 3. Cách phản kháng bản lĩnh\n1. **Lên tiếng trực diện ngay tại chỗ:** 'Dừng lại ngay! Hành động này của bạn rất vô duyên và đang quấy rối tôi!'\n2. **Kêu gọi đồng minh:** Chia sẻ với bạn bè thân hoặc ban cán sự lớp.\n3. **Báo cáo giáo viên/Giám thị:** Không bao giờ im lặng chịu đựng.",
+      "quiz": {
+        "title": "Củng cố Bài 2: Nhận diện quấy rối tình dục học đường",
+        "description": "5 câu hỏi phân biệt giữa đùa vui và hành vi quấy rối thân thể.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Điểm khác biệt cốt lõi giữa một 'trò đùa vui' và hành vi 'quấy rối' là gì?",
+            "explanation": "Đùa vui phải mang lại sự thoải mái cho cả hai bên, nếu một bên thấy khó chịu, bị xúc phạm thì đó là quấy rối.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Do người làm trò có cười hay không",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sự đồng thuận và cảm xúc: nếu đối phương thấy khó chịu, bị xúc phạm thì đó là quấy rối",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Do trò đùa diễn ra ở trường hay ở nhà",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Do người làm trò là nam hay nữ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hành vi bật dây áo lót hoặc vỗ mông bạn nữ rồi nói 'chỉ đùa thôi mà' được xác định là gì?",
+            "explanation": "Đó là hành vi quấy rối tình dục học đường bằng thể xác, vi phạm nghiêm trọng nội quy và ranh giới thân thể.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Trò chơi nghịch ngợm đáng yêu của tuổi học trò",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi quấy rối tình dục thể xác, vi phạm ranh giới thân thể bạn bè",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cách bày tỏ tình cảm lãng mạn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bài tập thể dục phản xạ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi bạn chứng kiến một bạn nữ trong lớp bị một nhóm nam sinh trêu chọc khiếm nhã về vòng 1, bạn nên làm gì?",
+            "explanation": "Lên tiếng can ngăn bênh vực bạn, từ chối hùa theo và báo cho giáo viên/giám thị giải quyết.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cười theo và lấy điện thoại quay clip đăng TikTok",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lên tiếng nhắc nhở nhóm bạn dừng lại và giúp bạn nữ báo cáo giáo viên",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bỏ đi coi như không thấy gì vì sợ liên lụy",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Đổ lỗi cho bạn nữ vì mặc áo quá chật",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Hành vi chụp lén dưới váy hoặc dưới gầm bàn của bạn nữ trong lớp học có thể bị xử lý như thế nào theo pháp luật?",
+            "explanation": "Bị xử lý kỷ luật nặng của nhà trường và xử phạt vi phạm hành chính về hành vi xúc phạm danh dự nhân phẩm người khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ bị cô giáo phạt quét lớp một buổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bị kỷ luật đình chỉ học và bị xử phạt vi phạm hành chính theo quy định pháp luật",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Không bị xử lý gì vì chưa gây thương tích",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Được khen ngợi vì biết dùng công nghệ",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Câu nói phản kháng hiệu quả nhất khi bị đụng chạm tùy tiện nơi đông người là gì?",
+            "explanation": "Nói to, rõ ràng, dứt khoát chỉ rõ hành vi sai trái để đối phương chùn bước và mọi người chú ý giúp đỡ.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Dạ em xin lỗi anh ạ",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Dừng tay lại ngay! Bạn đang quấy rối tôi đấy!'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cười trừ và giả vờ như không có gì",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Khóc thút thít không nói thành lời",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 3,
+      "title": "Bài 3 — Nguyên tắc Đồng thuận (Consent): 'Im lặng' không phải là đồng ý",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=pZwvrxVavnQ",
+      "duration_minutes": 15,
+      "content_body": "### Video 'Consent as Tea' (Đồng thuận như một tách trà)\nHãy tưởng tượng bạn mời ai đó một tách trà:\n- Nếu họ nói 'Có, mình rất thích uống trà!' -> Bạn hãy pha trà cho họ.\n- Nếu họ ngập ngừng 'Ờ... mình không chắc lắm' -> Đừng ép họ uống!\n- Nếu họ bất tỉnh hoặc đang ngủ say -> Tuyệt đối không nhét tách trà vào miệng họ!\n- Nếu họ từng uống trà của bạn hôm qua -> Không có nghĩa họ bắt buộc phải uống trà hôm nay!\n- Nếu họ đã uống một ngụm rồi nói 'Thôi mình không muốn uống nữa' -> Hãy để họ dừng lại!\n\n### Mô Hình F.R.I.E.S Chuẩn Quốc Tế Về Đồng Thuận:\n1. **Freely given (Tự nguyện hoàn toàn):** Không bị ép buộc, đe dọa, thao túng hay năn nỉ đến khi mệt mỏi phải chấp nhận.\n2. **Reversible (Có thể rút lại bất kỳ lúc nào):** Ngay cả khi đang ôm, hôn hay đang làm gì, bất kỳ lúc nào một trong hai nói 'Dừng lại', đối phương bắt buộc phải dừng ngay lập tức.\n3. **Informed (Hiểu rõ điều gì sắp xảy ra):** Cả hai phải biết rõ hành vi đó là gì và các hậu quả kèm theo.\n4. **Enthusiastic (Hào hứng, nhiệt tình):** Chỉ khi đối phương thực sự muốn làm điều đó, không phải là sự cam chịu.\n5. **Specific (Cụ thể cho từng hành động):** Đồng ý ôm không có nghĩa là đồng ý hôn; đồng ý hôn không có nghĩa là đồng ý đi xa hơn!\n\n### Ghi nhớ sắt đá:\nSự im lặng, đóng băng vì sợ hãi, hoặc không phản kháng KHÔNG BAO GIỜ là sự đồng thuận!",
+      "quiz": {
+        "title": "Củng cố Bài 3: Nguyên tắc Đồng thuận FRIES",
+        "description": "5 câu hỏi kiểm tra sự thấu hiểu về nguyên tắc đồng thuận trong quan hệ.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Trong mô hình F.R.I.E.S, chữ 'R' (Reversible) có nghĩa là gì?",
+            "explanation": "Sự đồng thuận có thể được rút lại bất kỳ thời điểm nào, khi một bên nói dừng thì phải dừng ngay.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đã đồng ý một lần là vĩnh viễn không được từ chối",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Có thể rút lại sự đồng ý bất kỳ lúc nào, khi nói dừng lại thì phải dừng ngay",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phải có hợp đồng viết tay có công chứng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chỉ người lớn mới có quyền rút lại",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Khi bạn gái im lặng và ngồi đờ người ra vì sợ hãi, đối phương nên hiểu tình huống này như thế nào?",
+            "explanation": "Im lặng không phải là đồng ý, đây là phản xạ đóng băng (freeze) vì sợ hãi, bắt buộc phải dừng lại.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Im lặng tức là ngầm đồng ý, cứ tiếp tục'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Im lặng KHÔNG phải là đồng ý, phải dừng ngay và tôn trọng bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Bạn gái đang giả vờ để làm nũng",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cứ làm tới vì bạn gái không nói chữ 'không'",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Trường hợp nào sau đây KHÔNG THỂ cấu thành sự đồng thuận hợp pháp?",
+            "explanation": "Khi một người đang say rượu, ngủ say, mất ý thức hoặc bị ép buộc, đe dọa thì không thể có sự đồng thuận.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Hai người tỉnh táo, tự nguyện nói lời đồng ý",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Một bên say rượu mất kiểm soát hoặc đang ngủ say",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Cả hai đều hào hứng muốn tham gia",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Hai người bàn bạc cởi mở trước khi hành động",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Nếu bạn đã đồng ý nắm tay bạn trai, điều đó có đồng nghĩa bạn trai có quyền sờ soạng cơ thể bạn không?",
+            "explanation": "Đồng thuận là Cụ thể (Specific) cho từng hành vi, đồng ý điều này không đồng nghĩa đồng ý điều khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, đã yêu nhau thì cơ thể thuộc về nhau",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không, đồng ý nắm tay chỉ là nắm tay, muốn đi xa hơn phải có sự đồng ý riêng biệt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Tùy thuộc vào việc bạn trai đã mua quà hay chưa",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Có, nếu đang ở chỗ vắng người",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Hành vi năn nỉ, dỗi hờn, dọa chia tay liên tục hàng giờ cho đến khi đối phương kiệt sức phải gật đầu có phải là đồng thuận tự nguyện không?",
+            "explanation": "Không, đó là sự ép buộc và thao túng tâm lý, không phải là sự tự nguyện (Freely given).",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Đúng, miễn cuối cùng gật đầu là được",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Sai, đó là sự thao túng và ép buộc tâm lý, không phải đồng thuận tự nguyện",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thể hiện sự kiên trì trong tình yêu",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Là chuyện bình thường trong mọi cặp đôi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 4,
+      "title": "Bài 4 — Áp lực tình cảm: Khi đối phương đòi 'chứng minh tình yêu'",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=2v8M9q6F0q4",
+      "duration_minutes": 15,
+      "content_body": "### Case Study: 'Nếu Em Yêu Anh Thật Lòng Thì...'\nNam và An yêu nhau được 3 tháng. Nam liên tục đòi hỏi An phải cho mình 'đi quá giới hạn' hoặc ít nhất là gửi ảnh gợi cảm qua tin nhắn. Nam nói: 'Yêu nhau mà cứ giữ kẽ thế thì chứng tỏ em không yêu anh thật lòng, hay em có thằng khác rồi? Tụi bạn anh ai cũng được bạn gái cho hết rồi kìa!'. An vô cùng lo lắng, sợ Nam giận và chia tay...\n\n### 1. Bẫy thao túng: 'Chứng minh tình yêu'\n- Tình yêu chân chính được xây dựng trên sự **tôn trọng, tin tưởng và bảo bọc lẫn nhau**, chứ không phải là sự đánh đổi thể xác hay phục vụ ham muốn ích kỷ của một người.\n- Kẻ dùng chiêu bài 'đòi chia tay' để ép bạn làm điều bạn chưa sẵn sàng là kẻ ích kỷ, chỉ quan tâm đến ham muốn cá nhân chứ không hề yêu thương hay tôn trọng bạn.\n\n### 2. Sự thật về những tấm ảnh nhạy cảm (Nudes)\n- **Lời hứa 'Anh thề chỉ mình anh xem' là lời hứa mong manh nhất hành tinh:** Khi chia tay, khi tức giận, hoặc khi điện thoại bị hack/mất, những tấm ảnh đó sẽ trở thành hung khí hủy hoại cuộc đời bạn.\n- Tuyệt đối KHÔNG BAO GIỜ chụp hay gửi ảnh nhạy cảm của bản thân cho bất kỳ ai, dù là người yêu thề non hẹn biển.\n\n### 3. Lời đáp trả đanh thép:\nKhi đối phương nói: *'Nếu em yêu anh thì em phải cho anh...'*  \nHãy trả lời: *'Nếu anh thực sự yêu và tôn trọng em, anh sẽ không bao giờ ép em làm điều em chưa sẵn sàng!'*",
+      "quiz": {
+        "title": "Củng cố Bài 4: Bản lĩnh trước áp lực đòi hỏi tình cảm",
+        "description": "5 câu hỏi nhận diện và hóa giải thao túng tình cảm lứa đôi.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi người yêu dùng lý do 'Nếu yêu anh thật lòng thì phải cho anh quan hệ / gửi ảnh nhạy cảm', bạn nên nhận diện đây là hành vi gì?",
+            "explanation": "Đây là hành vi thao túng tâm lý và ép buộc ích kỷ, vi phạm ranh giới cá nhân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Minh chứng cho một tình yêu nồng cháy",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Hành vi thao túng tâm lý ích kỷ, thiếu tôn trọng sự an toàn và cảm xúc của bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Quy luật tất yếu của tuổi học trò",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bài kiểm tra lòng chung thủy cần vượt qua",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Nếu người yêu đe dọa 'Nếu không chiều anh thì chia tay ngay', quyết định sáng suốt nhất là gì?",
+            "explanation": "Sẵn sàng chia tay mối quan hệ độc hại này, vì một người yêu thương thật lòng sẽ không bao giờ tống tiền tình cảm bạn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Lập tức chiều theo để giữ chân người yêu",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Dứt khoát chia tay vì người này không hề tôn trọng và trân trọng bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Gửi ảnh tạm thời rồi bảo người yêu xóa đi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Van xin người yêu đừng giận",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Hành vi gửi ảnh nhạy cảm (nudes) cho người yêu tiềm ẩn rủi ro lớn nhất nào sau đây?",
+            "explanation": "Ảnh có thể bị phát tán khi chia tay, bị hack máy, bị tống tiền và hủy hoại tương lai tâm lý của bạn.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Chỉ làm tốn dung lượng bộ nhớ điện thoại",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bị phát tán lên mạng khi chia tay, bị tống tiền và để lại vết thương tâm lý nặng nề",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Làm mạng wifi chập chờn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Không có bất kỳ rủi ro nào vì tin tưởng nhau",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Định nghĩa nào đúng nhất về một tình yêu tuổi học trò lành mạnh?",
+            "explanation": "Tôn trọng ranh giới, cùng nhau tiến bộ trong học tập, lắng nghe và chia sẻ chân thành.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Phải gắn liền với thỏa mãn tình dục càng sớm càng tốt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng ranh giới cá nhân của nhau, cùng giúp nhau tiến bộ và sống vui vẻ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Phải kiểm soát mật khẩu mạng xã hội và tin nhắn của nhau 24/7",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cách ly bản thân khỏi gia đình và bạn bè khác",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Câu trả lời đúng đắn nhất khi đối phương nói 'Bạn bè anh đứa nào cũng được bạn gái cho quan hệ rồi' là gì?",
+            "explanation": "Khẳng định giá trị và ranh giới riêng của bản thân: cơ thể mình không phải đồ chơi để so đo với người khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "'Thế à, vậy em cũng phải cho anh để không thua kém'",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "'Đó là chuyện của họ, còn cơ thể và ranh giới của em thì em tự quyết định'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "'Anh đi tìm người khác mà xin'",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Im lặng gật đầu miễn cưỡng",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 5,
+      "title": "Bài 5 — Nghệ thuật nói 'KHÔNG' dứt khoát: Từ chối văn minh không sợ mất lòng",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=0k5G5W8x4gY",
+      "duration_minutes": 15,
+      "content_body": "### Vì sao chúng ta thường sợ nói 'KHÔNG'?\nNhiều bạn trẻ sợ nói 'Không' vì:\n- Sợ bị chê là quê mùa, khó tính, mất vui.\n- Sợ bị bạn bè tẩy chay hoặc người yêu giận dỗi.\n- Chưa biết cách diễn đạt từ chối một cách khéo léo nhưng cương quyết.\n\n### Công thức 4 bước từ chối 'Bàn tay sắt bọc nhung':\n1. **Bước 1: Khẳng định rõ ràng:** 'Không, mình không muốn làm việc đó.' (Nói ngắn gọn, mắt nhìn thẳng, giọng chắc nịch, không cười trừ).\n2. **Bước 2: Nêu ranh giới của bản thân:** 'Nguyên tắc của mình là không đi chơi riêng ở khách sạn / không gửi ảnh riêng tư.'\n3. **Bước 3: Đưa ra lựa chọn thay thế (nếu muốn giữ mối quan hệ):** 'Nếu bạn muốn nói chuyện, chúng ta có thể ra quán trà sữa ngồi học bài.'\n4. **Bước 4: Rời khỏi tình huống nếu đối phương cố tình lấn tới:** 'Mình đã nói rõ quan điểm rồi, nếu bạn tiếp tục ép thì mình xin phép về trước.'\n\n### Ghi nhớ:\nBạn không cần phải xin lỗi vì đã bảo vệ sự an toàn và cơ thể của chính mình!",
+      "quiz": {
+        "title": "Củng cố Bài 5: Kỹ năng từ chối kiên định",
+        "description": "5 câu hỏi rèn luyện phản xạ từ chối thông minh trước áp lực.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Khi bạn muốn từ chối một lời đề nghị đụng chạm nhạy cảm, ngôn ngữ cơ thể nào là hiệu quả nhất?",
+            "explanation": "Đứng thẳng, ánh mắt kiên định, giọng nói rõ ràng dứt khoát, không cười trừ ngượng ngùng.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cúi gằm mặt xuống đất và cười trừ e thẹn",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Mắt nhìn thẳng, tư thế kiên định, giọng nói rõ ràng và dứt khoát",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nói giọng the thé đùa giỡn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Lấy tay che mặt khóc",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Bạn có cần phải cảm thấy có lỗi hay xin lỗi khi từ chối người khác đụng chạm vào cơ thể mình không?",
+            "explanation": "Không bao giờ, bảo vệ ranh giới thân thể là quyền cơ bản và chính đáng của mỗi con người.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Có, phải xin lỗi rối rít vì đã làm mất hứng đối phương",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Không, bảo vệ sự an toàn và ranh giới thân thể là quyền bất khả xâm phạm của bạn",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Chỉ xin lỗi nếu đối phương là người lớn tuổi hơn",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tùy theo tâm trạng của đối phương",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Nếu sau khi bạn đã từ chối rõ ràng nhưng đối phương vẫn tiếp tục lấn tới và đụng chạm, bạn nên làm gì?",
+            "explanation": "Lập tức tạo khoảng cách, rời khỏi không gian đó ngay và tìm kiếm sự trợ giúp của người khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Thôi đành chấp nhận cho xong chuyện",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lập tức lùi lại, rời khỏi nơi đó ngay và gọi người lớn/bạn bè hỗ trợ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Đứng im đợi xem đối phương làm gì tiếp",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bật khóc và van xin đối phương tha cho",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Điều gì chứng minh một người bạn/người yêu thực sự tôn trọng bạn khi bạn nói lời từ chối?",
+            "explanation": "Họ lập tức dừng lại, lắng nghe và tôn trọng quyết định của bạn mà không hề hờn dỗi hay ép buộc.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Họ giận dỗi không thèm nói chuyện suốt một tuần",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Họ lập tức tôn trọng ranh giới của bạn và chuyển sang chủ đề khác thoải mái",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Họ đi kể xấu bạn với bạn bè khác",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Họ dọa sẽ tự tử nếu không được đồng ý",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Khi bị bạn bè cùng lớp khích bác: 'Đồ nhát gan, có thế cũng không dám thử', phản xạ tự bảo vệ bản thân tốt nhất là gì?",
+            "explanation": "Bản lĩnh làm chủ chính mình, từ chối làm những việc nguy hiểm chỉ để chứng tỏ với người khác.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Làm liều ngay để chứng minh mình không nhát gan",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bình thản trả lời: 'Mình biết điều gì an toàn cho bản thân, mình không cần chứng tỏ điều đó'",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Về nhà tức giận đập phá đồ đạc",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bỏ học để trốn tránh",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order_index": 6,
+      "title": "Bài 6 — Mối quan hệ độc hại (Toxic) & Nhận diện thao túng tâm lý",
+      "content_type": "HYBRID",
+      "video_url": "https://www.youtube.com/watch?v=kYI4x40sOqw",
+      "duration_minutes": 15,
+      "content_body": "### Thế nào là một mối quan hệ độc hại (Toxic Relationship)?\nNhiều học sinh lầm tưởng việc người yêu kiểm soát, ghen tuông bệnh hoạn là 'vì quá yêu'. Sự thật hoàn toàn ngược lại!\n\n### 5 'Cờ Đỏ' (Red Flags) Báo Hiệu Mối Quan Hệ Độc Hại:\n1. **Kiểm soát quá mức:** Bắt cung cấp mật khẩu mạng xã hội, kiểm tra định vị GPS liên tục, cấm chơi với bạn bè khác.\n2. **Thao túng tâm lý (Gaslighting):** Luôn biến bạn thành người có lỗi trong mọi chuyện ('Tất cả là do em làm anh nổi điên!', 'Em nhạy cảm quá mức rồi đấy!').\n3. **Cô lập bạn khỏi thế giới:** Tìm cách chia rẽ bạn với gia đình, bạn thân để bạn chỉ còn biết dựa dẫm vào một mình họ.\n4. **Bạo lực ngôn từ & Đe dọa:** Xúc phạm danh dự, dọa chia tay, dọa tự tử hoặc dọa tung bí mật riêng tư nếu bạn không nghe lời.\n5. **Đòi hỏi thể xác:** Coi tình dục hoặc đụng chạm là điều kiện bắt buộc để duy trì tình cảm.\n\n### Làm thế nào để dứt bỏ an toàn?\n- Nhận ra rằng bạn không có trách nhiệm phải 'cứu rỗi' hay 'chịu đựng' sự độc hại của người khác.\n- Dứt khoát cắt đứt liên lạc, chặn mọi nền tảng mạng xã hội.\n- Chia sẻ ngay với cha mẹ hoặc bạn thân để họ trở thành chỗ dựa bảo vệ bạn nếu đối phương có dấu hiệu theo dõi, đe dọa.",
+      "quiz": {
+        "title": "Củng cố Bài 6: Nhận diện và thoát khỏi quan hệ độc hại",
+        "description": "5 câu hỏi nhận diện các dấu hiệu Red Flag trong tình cảm.",
+        "passing_score": 80,
+        "questions": [
+          {
+            "order_index": 1,
+            "question_text": "Dấu hiệu nào sau đây là 'Cờ đỏ' (Red Flag) cảnh báo một mối quan hệ đang kiểm soát độc hại?",
+            "explanation": "Bắt giao nộp mật khẩu tài khoản cá nhân, cấm giao tiếp với bạn bè và kiểm tra định vị liên tục.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cùng nhau học nhóm và chúc nhau thi tốt",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Bắt giao mật khẩu Facebook/Zalo, cấm chơi với bạn bè và ghen tuông vô cớ",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hỏi thăm khi bạn bị ốm",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Tôn trọng sở thích riêng của bạn",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 2,
+            "question_text": "Hiện tượng 'Thao túng tâm lý' (Gaslighting) trong tình yêu tuổi học trò biểu hiện như thế nào?",
+            "explanation": "Người kia luôn lật ngược vấn đề, khiến bạn tự nghi ngờ trí nhớ và biến bạn thành kẻ có lỗi trong mọi chuyện.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tặng quà bất ngờ vào ngày sinh nhật",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Luôn đổ lỗi cho bạn: 'Tại em nên anh mới thế', khiến bạn thấy mình luôn sai",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Thẳng thắn xin lỗi khi bản thân làm sai",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Cùng bạn giải bài toán khó",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 3,
+            "question_text": "Khi người yêu dọa: 'Nếu em dám chia tay, anh sẽ tự tử hoặc tung tin đồn xấu về em', hành động ĐÚNG ĐẮN nhất là gì?",
+            "explanation": "Đây là hành vi tống tiền cảm xúc nguy hiểm, cần báo ngay cho cha mẹ/thầy cô và gia đình đối phương can thiệp.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Sợ hãi chấp nhận quay lại để phục tùng suốt đời",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Lập tức báo ngay cho cha mẹ, thầy cô hoặc gia đình đối phương để hỗ trợ tâm lý khẩn cấp",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Hẹn gặp riêng ở nơi vắng vẻ để nói chuyện",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Âm thầm chịu đựng sự đe dọa một mình",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 4,
+            "question_text": "Một người thực sự yêu thương bạn sẽ có thái độ như thế nào đối với các mối quan hệ gia đình và bạn bè của bạn?",
+            "explanation": "Họ tôn trọng và khuyến khích bạn duy trì các mối quan hệ lành mạnh với gia đình, người thân và bạn bè.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Tìm cách cô lập bạn, bắt bạn phải bỏ hết bạn bè",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Tôn trọng và ủng hộ bạn có thời gian riêng bên gia đình và bạn bè tốt",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Nói xấu cha mẹ bạn để bạn ghét gia đình",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Bắt bạn chọn giữa người yêu hoặc gia đình",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "order_index": 5,
+            "question_text": "Bước đầu tiên để thoát khỏi một mối quan hệ độc hại làm bạn kiệt quệ tinh thần là gì?",
+            "explanation": "Nhận diện sự thật độc hại, quyết định dứt khoát chấm dứt và tìm kiếm mạng lưới hỗ trợ từ người thân.",
+            "options": [
+              {
+                "order_index": 1,
+                "option_text": "Cố gắng hy sinh bản thân nhiều hơn nữa để người kia thay đổi",
+                "is_correct": false
+              },
+              {
+                "order_index": 2,
+                "option_text": "Can đảm thừa nhận mối quan hệ không lành mạnh, dứt khoát chia tay và tìm điểm tựa gia đình",
+                "is_correct": true
+              },
+              {
+                "order_index": 3,
+                "option_text": "Rủ đối phương cùng bỏ nhà đi bụi",
+                "is_correct": false
+              },
+              {
+                "order_index": 4,
+                "option_text": "Chấp nhận số phận đau khổ",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "final_quiz": {
+    "title": "Bài Thi Tốt Nghiệp: Ranh Giới Cá Nhân & Văn Hóa Đồng Thuận",
+    "description": "10 câu hỏi tình huống thực tế về sự đồng thuận, ranh giới thân thể và phòng chống quấy rối.",
+    "passing_score": 80,
+    "questions": [
+      {
+        "order_index": 1,
+        "question_text": "Theo quy tắc an toàn thân thể, khu vực nào trên cơ thể được coi là vùng riêng tư tuyệt đối?",
+        "explanation": "Khu vực đồ bơi: ngực, mông và bộ phận sinh dục là vùng riêng tư tuyệt đối không ai được phép xâm phạm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bàn tay và cẳng chân",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Vùng đồ bơi: ngực, mông và vùng kín sinh dục",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Mái tóc và đôi mắt",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Khuỷu tay và bả vai",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 2,
+        "question_text": "Một trò đùa chỉ được coi là vui vẻ lành mạnh khi nào?",
+        "explanation": "Khi cả hai bên đều cảm thấy thoải mái, tôn trọng và cùng cười vui.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chỉ người khởi xướng cảm thấy vui",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Cả hai bên đều cảm thấy thoải mái, được tôn trọng và cùng vui vẻ",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Làm cho đối phương khóc và xấu hổ trước lớp",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Khiến cả lớp hò reo cổ vũ",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 3,
+        "question_text": "Trong nguyên tắc đồng thuận FRIES, yếu tố 'Freely given' có nghĩa là gì?",
+        "explanation": "Sự đồng thuận phải hoàn toàn tự nguyện, không bị ép buộc, đe dọa, năn nỉ hay thao túng.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Được miễn phí không mất tiền",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Được đưa ra hoàn toàn tự nguyện không bị ép buộc hay thao túng tâm lý",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Được cho phép bởi bạn bè",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Được quyết định bởi người lớn tuổi hơn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 4,
+        "question_text": "Khi bạn gái im lặng và ngồi bất động trước hành vi đụng chạm của bạn nam, điều đó có nghĩa là gì?",
+        "explanation": "Im lặng không phải là đồng ý; đó là trạng thái sợ hãi hoặc phản xạ đóng băng, bắt buộc phải dừng lại ngay.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Bạn gái đã đồng ý ngầm",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Không phải là đồng ý, đây là phản xạ sợ hãi và phải dừng hành vi ngay",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Bạn gái muốn tiến xa hơn nữa",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Bạn gái đang thử thách lòng kiên nhẫn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 5,
+        "question_text": "Bạn trai nói: 'Nếu em yêu anh thì em phải gửi ảnh nhạy cảm cho anh xem', bạn nên phản hồi thế nào?",
+        "explanation": "Khẳng định rõ ràng: Nếu anh thực sự tôn trọng em, anh sẽ không bao giờ ép em làm điều nguy hiểm này.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Gửi ngay ảnh che mặt",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "'Nếu anh thực sự yêu và tôn trọng em, anh sẽ không ép em làm việc này'",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Xin lỗi vì chưa đủ dũng cảm",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Chụp ảnh bạn khác gửi thay",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 6,
+        "question_text": "Hành vi nào sau đây vi phạm pháp luật về quấy rối tình dục tại trường học?",
+        "explanation": "Chụp lén dưới váy bạn nữ, giật dây áo lót hoặc bình phẩm thô tục về cơ thể bạn bè.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Chào hỏi bạn bè khi vào lớp",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Chụp lén hình ảnh nhạy cảm dưới gầm bàn hoặc đụng chạm sàm sỡ bạn bè",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Nhường ghế cho bạn nữ",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Mượn bút bạn cùng bàn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 7,
+        "question_text": "Khi muốn từ chối một lời đề nghị vượt quá ranh giới, thái độ chuẩn mực nhất là gì?",
+        "explanation": "Nói chữ 'KHÔNG' rõ ràng, dứt khoát, ánh mắt kiên định và không cần phải xin lỗi vì bảo vệ bản thân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cười trừ và ngập ngừng không rõ ràng",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Nói 'KHÔNG' rõ ràng, dứt khoát, thái độ kiên định và giữ khoảng cách an toàn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Đồng ý miễn cưỡng để đối phương vui",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Hứa hẹn sẽ làm vào lần sau",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 8,
+        "question_text": "Dấu hiệu rõ nhất của một mối quan hệ độc hại (Toxic) là gì?",
+        "explanation": "Đối phương liên tục kiểm soát, ghen tuông bệnh hoạn, thao túng tâm lý và cô lập bạn khỏi người thân.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Cả hai cùng nhau học tập tiến bộ",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Đối phương kiểm soát tài khoản mạng xã hội, ghen tuông vô cớ và luôn đổ lỗi cho bạn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lắng nghe tâm sự của bạn",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Tôn trọng quyết định của gia đình bạn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 9,
+        "question_text": "Khi ai đó đòi hỏi tình dục và dọa chia tay nếu không đáp ứng, bản chất của hành vi đó là gì?",
+        "explanation": "Đó là sự tống tiền cảm xúc và ép buộc ích kỷ, hoàn toàn không phải là tình yêu chân thành.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tình cảm quá mãnh liệt không kiềm chế được",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Tống tiền tình cảm ích kỷ, không tôn trọng ranh giới và nhân phẩm của bạn",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Lời nói đùa vui không có ý xấu",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Cách để cả hai gắn kết bền chặt hơn",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "order_index": 10,
+        "question_text": "Một người trẻ có văn hóa tôn trọng ranh giới sẽ hành xử thế nào khi người khác nói 'DỪNG LẠI'?",
+        "explanation": "Họ lập tức dừng lại ngay, tôn trọng lời từ chối mà không hờn dỗi, trách móc hay ép buộc thêm.",
+        "options": [
+          {
+            "order_index": 1,
+            "option_text": "Tiếp tục lấn tới xem đối phương có kiên quyết thật không",
+            "is_correct": false
+          },
+          {
+            "order_index": 2,
+            "option_text": "Lập tức dừng lại ngay, tôn trọng tuyệt đối ranh giới của đối phương",
+            "is_correct": true
+          },
+          {
+            "order_index": 3,
+            "option_text": "Nổi giận đùng đùng và bỏ về",
+            "is_correct": false
+          },
+          {
+            "order_index": 4,
+            "option_text": "Năn nỉ thêm 5 phút nữa",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}
