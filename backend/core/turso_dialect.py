@@ -21,7 +21,11 @@ from sqlalchemy.dialects.sqlite.aiosqlite import SQLiteDialect_aiosqlite
 from sqlalchemy.engine import AdaptedConnection
 from sqlalchemy.engine.interfaces import DBAPIConnection, IsolationLevel
 from sqlalchemy.engine.url import URL
-from sqlalchemy.util.concurrency import await_fallback, await_only
+
+try:
+    from sqlalchemy.util.concurrency import await_ as _sa_await
+except ImportError:
+    from sqlalchemy.util.concurrency import await_only as _sa_await
 
 
 def _encode_arg(value: Any) -> dict[str, Any]:
@@ -417,7 +421,7 @@ class AsyncAdapt_tursohttp_cursor:
 
 
 class AsyncAdapt_tursohttp_connection(AdaptedConnection):
-    await_ = staticmethod(await_only)
+    await_ = staticmethod(_sa_await)
     __slots__ = ("dbapi",)
 
     def __init__(self, dbapi: AsyncAdapt_tursohttp_dbapi, connection: AsyncTursoHttpConnection) -> None:
@@ -463,15 +467,12 @@ class AsyncAdapt_tursohttp_connection(AdaptedConnection):
         raise error
 
 
-class AsyncAdaptFallback_tursohttp_connection(AsyncAdapt_tursohttp_connection):
-    __slots__ = ()
-    await_ = staticmethod(await_fallback)
-
-
 class AsyncAdapt_tursohttp_dbapi(AsyncAdapt_dbapi_module):
     """Module DBAPI giả lập chuẩn PEP 249 tương thích sqlite3 cho SQLAlchemy."""
 
     def __init__(self) -> None:
+        self.driver = sqlite3
+        self.dbapi_module = sqlite3
         self.paramstyle = "qmark"
         self.apilevel = "2.0"
         self.threadsafety = 1
@@ -501,12 +502,9 @@ class AsyncAdapt_tursohttp_dbapi(AsyncAdapt_dbapi_module):
         pipeline_url: str,
         auth_token: str = "",
         timeout: float = 30.0,
-        async_fallback: bool = False,
         **_: Any,
     ) -> AsyncAdapt_tursohttp_connection:
         conn = AsyncTursoHttpConnection(pipeline_url, auth_token=auth_token, timeout=timeout)
-        if async_fallback:
-            return AsyncAdaptFallback_tursohttp_connection(self, conn)
         return AsyncAdapt_tursohttp_connection(self, conn)
 
 
@@ -523,6 +521,9 @@ class SQLiteDialect_tursohttp(SQLiteDialect_aiosqlite):
     @classmethod
     def import_dbapi(cls) -> AsyncAdapt_tursohttp_dbapi:
         return AsyncAdapt_tursohttp_dbapi()
+
+    def retrieve_dbapi_version(self, dbapi: Any) -> tuple[int, ...]:
+        return (3, 47, 0)
 
     def on_connect(self) -> None:
         # Turso HTTP không hỗ trợ sqlite3.create_function (REGEXP/floor UDFs)
